@@ -7,4 +7,6 @@
 
 #### SimpleFactoryTest 简单工厂
 
-#### 
+#### FactoryMethodTest  工厂方法
+
+#### AbstractFactory 抽象工厂
