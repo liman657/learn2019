@@ -5,6 +5,6 @@
 
 ###Factory      工厂模式
 
-###
+#### SimpleFactoryTest 简单工厂
 
-###
+#### 
