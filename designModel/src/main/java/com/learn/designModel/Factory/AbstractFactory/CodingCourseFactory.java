@@ -18,6 +18,7 @@ public class CodingCourseFactory implements CourseFactory {
 
     @Override
     public IExam createExam() {
-        return new CodingExam();
+//        return new CodingExam();
+        return null;
     }
 }

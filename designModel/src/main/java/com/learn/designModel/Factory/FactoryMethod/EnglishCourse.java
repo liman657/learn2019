@@ -2,8 +2,6 @@ package com.learn.designModel.Factory.FactoryMethod;
 
 /**
  * autor:liman
- * mobilNo:15528212893
- * mail:657271181@qq.com
  * comment:
  */
 public class EnglishCourse implements ICourse {
