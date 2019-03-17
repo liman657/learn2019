@@ -10,3 +10,5 @@
 #### FactoryMethodTest  工厂方法
 
 #### AbstractFactory 抽象工厂
+
+###SingletonPattern 单例模式
