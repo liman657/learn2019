@@ -15,7 +15,11 @@ package com.learn.designModel.SingletonPattern.LazyInnerClassSingleton;
 public class LazyInnerClassSingleton {
 
     //问题：构造方法私有了，但是反射可以破坏这个访问权限
-    private LazyInnerClassSingleton(){}
+    private LazyInnerClassSingleton(){
+        if(LazyHolder.lazyInnerClassSingleton!=null){
+            throw new RuntimeException("该类已经实例化");
+        }
+    }
 
     public static final LazyInnerClassSingleton getInstance(){
 
@@ -26,5 +30,4 @@ public class LazyInnerClassSingleton {
     private static class LazyHolder{
         private static final LazyInnerClassSingleton lazyInnerClassSingleton= new LazyInnerClassSingleton();
     }
-
 }

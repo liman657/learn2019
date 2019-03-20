@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/ReflectBrokenSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/learn/threadFund/chapter01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/learn/threadFund/chapter01/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/learn/threadFund/chapter01/RandomMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/com/learn/threadFund/chapter01/RandomThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyReflectSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonBroken/LazyReflectSingleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -20,38 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LazyInnerClassSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
+      <file leaf-file-name="SerializableProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LazySimpleSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designModel/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LazyReflectSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyReflectSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="96">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -72,10 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/ICourse.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/MathCourse.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/SimpleFactoryTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/CourseFactory.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/CodingCourse.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/CourseFactory.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/MathCourseFactory.java" />
@@ -113,16 +90,20 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazySingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazySingletonTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazySimpleSingleton.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazyDubboCheckSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazyDubleCheckSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyDoubleCheck/LazyDoubleCheckTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyDoubleCheck/LazyDubleCheckSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyReflectSingleton.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/pom.xml" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonBroken/LazyReflectSingleton.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/ReflectBrokenSingleton.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java" />
       </list>
     </option>
   </component>
@@ -147,7 +128,9 @@
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,7 +209,7 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
               <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Lazy" type="462c0819:PsiDirectoryNode" />
+              <item name="SerializableProblem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -238,19 +221,7 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
               <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyDoubleCheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyInnerClassSingleton" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonBroken" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,25 +265,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LazySingletonTest">
-    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.Factory.AbstractFactory.AbstractFactoryTest" />
+  <component name="RunManager" selected="Application.ReflectBrokenSingleton">
+    <configuration name="LazyInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.LazyInnerClassTest" />
       <module name="designModel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.designModel.Factory.AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.Factory.FactoryMethod.FactoryMethodTest" />
-      <module name="designModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.designModel.Factory.FactoryMethod.*" />
+          <option name="PATTERN" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,6 +306,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.threadFund.chapter01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ReflectBrokenSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.ReflectBrokenSingleton" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +373,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryMethodTest" />
-      <item itemvalue="Application.AbstractFactoryTest" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RandomMain" />
       <item itemvalue="Application.LazySingletonTest" />
+      <item itemvalue="Application.LazyInnerClassTest" />
+      <item itemvalue="Application.ReflectBrokenSingleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectBrokenSingleton" />
+        <item itemvalue="Application.LazyInnerClassTest" />
         <item itemvalue="Application.LazySingletonTest" />
         <item itemvalue="Application.RandomMain" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryMethodTest" />
       </list>
     </recent_temporary>
   </component>
@@ -429,12 +400,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552049053014</updated>
       <workItem from="1552049059565" duration="25289000" />
-      <workItem from="1552790964207" duration="1033000" />
+      <workItem from="1552790964207" duration="11115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26322000" />
+    <option name="totallyTimeSpent" value="36404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -442,6 +413,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -449,7 +421,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32849163" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3277405" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -460,14 +432,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932886" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,99 +458,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java</url>
-          <line>25</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/com.learn.designModel.Factory.FactoryMethod.CourseFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.learn.designModel.Factory.FactoryMethod.CourseFactory</OriginalElement>
-          <nodes>
-            <node x="385.0" y="80.0">com.learn.designModel.Factory.FactoryMethod.MathCourseFactory</node>
-            <node x="213.0" y="0.0">com.learn.designModel.Factory.FactoryMethod.CourseFactory</node>
-            <node x="192.0" y="80.0">com.learn.designModel.Factory.FactoryMethod.CodingCourseFactory</node>
-            <node x="0.0" y="80.0">com.learn.designModel.Factory.FactoryMethod.EnglishCourseFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.learn.designModel.Factory.FactoryMethod.MathCourseFactory" target="com.learn.designModel.Factory.FactoryMethod.CourseFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="465.5" y="55.0" />
-              <point x="322.16666666666663" y="55.0" />
-              <point x="43.66666666666663" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.Factory.FactoryMethod.EnglishCourseFactory" target="com.learn.designModel.Factory.FactoryMethod.CourseFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="86.0" y="55.0" />
-              <point x="234.83333333333334" y="55.0" />
-              <point x="-43.66666666666666" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.Factory.FactoryMethod.CodingCourseFactory" target="com.learn.designModel.Factory.FactoryMethod.CourseFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-242.0" y="22.0" />
-          <SelectedNodes>
-            <node>com.learn.designModel.Factory.FactoryMethod.CourseFactory</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.learn.designModel.Factory.FactoryMethod.CodingCourse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.learn.designModel.Factory.FactoryMethod.CodingCourse</OriginalElement>
-          <nodes>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.ICourse</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.MathCourseFactory</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.MathCourse</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.CourseFactory</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.EnglishCourse</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.CodingCourseFactory</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.EnglishCourseFactory</node>
-            <node x="" y="">com.learn.designModel.Factory.FactoryMethod.CodingCourse</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-194.0" y="67.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/EnglishExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/EnglishPractise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -830,31 +729,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Hungary/HungarySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="462" selection-start-line="462" selection-end-line="462" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -862,6 +744,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonBroken/LazyReflectSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -874,36 +770,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyDoubleCheck/LazyDubleCheckSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyReflectSingleton.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Hungary/HungarySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/ExecuteThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/pom.xml">
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="336">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/ReflectBrokenSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" selection-start-line="17" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
