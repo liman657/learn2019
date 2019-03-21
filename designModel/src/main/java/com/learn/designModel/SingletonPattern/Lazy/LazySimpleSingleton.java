@@ -6,7 +6,8 @@ package com.learn.designModel.SingletonPattern.Lazy;
  */
 public class LazySimpleSingleton {
 
-    private static LazySimpleSingleton lazySimpleSingle = null;
+    //为了避免jvm层面的new对象指令重排，这里加入volatile关键字
+    private static volatile LazySimpleSingleton lazySimpleSingle = null;
     private LazySimpleSingleton(){}
 
     public static LazySimpleSingleton getInstance(){
