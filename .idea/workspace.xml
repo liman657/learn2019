@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/ContainerSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/DTOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ThreadLocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/registerSingleton/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/registerSingleton/EnumSingleton02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/registerSingleton/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/GoldenCudgel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/Monkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/SunWuKong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/PersonA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/SimpleCloneTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Hungary/HungarySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Hungary/HungarySingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SerializableProblem/SerializableProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -29,37 +27,55 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LazyInnerClassSingleton.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
+          <file leaf-file-name="GoldenCudgel.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/GoldenCudgel.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ThreadLocalSingleton.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ThreadLocal/ThreadLocalSingleton.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                <state relative-caret-position="-193">
+                  <caret selection-end-line="29" />
                   <folding>
-                    <element signature="e#447#448#0" expanded="true" />
-                    <element signature="e#503#504#0" expanded="true" />
-                    <element signature="e#551#552#0" expanded="true" />
+                    <element signature="e#274#275#0" expanded="true" />
+                    <element signature="e#303#304#0" expanded="true" />
+                    <element signature="e#347#348#0" expanded="true" />
+                    <element signature="e#383#384#0" expanded="true" />
+                    <element signature="e#416#417#0" expanded="true" />
+                    <element signature="e#445#446#0" expanded="true" />
+                    <element signature="e#489#490#0" expanded="true" />
+                    <element signature="e#525#526#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ContainerSingleton.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/ContainerSingleton.java">
+          <file leaf-file-name="SunWuKong.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/SunWuKong.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="417">
-                  <caret line="30" column="1" selection-end-line="30" selection-end-column="1" />
+                <state relative-caret-position="407">
+                  <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#443#444#0" expanded="true" />
+                    <element signature="e#478#479#0" expanded="true" />
+                    <element signature="e#540#541#0" expanded="true" />
+                    <element signature="e#588#589#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Monkey.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/Monkey.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="9" lean-forward="true" selection-end-line="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DeepCloneTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +88,8 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="391">
-                    <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+                  <first_editor relative-caret-position="463">
+                    <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -88,6 +104,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -103,18 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/IPractise.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/MathPractise.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/MathExam.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/EnglishExam.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/EnglishPractise.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/CodingPractise.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/EnglishCourseFactory.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/MathCourseFactory.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/CodingCourse.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/simpleFactory/EnglishCourse.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/EnglishCourse.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/CodingCourseFactory.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/AbstractFactoryTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/CodingCourseFactory.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/CourseFactory.java" />
@@ -153,6 +158,18 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/ContainerSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ThreadLocal/ThreadLocalSingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/Lazy/LazySimpleSingleton.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple/Person.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple/PersonA.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple/Client.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple/SimpleCloneTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/Person.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/PersonA.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/SimpleCloneTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/Monkey.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/SunWuKong.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/GoldenCudgel.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -247,7 +264,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="PrototypePattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -258,8 +275,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ContainerSingleton" type="462c0819:PsiDirectoryNode" />
+              <item name="PrototypePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="deepClone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -270,98 +287,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Hungary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="Lazy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyDoubleCheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="LazyInnerClassSingleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="registerSingleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="SerializableProblem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonBroken" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="PrototypePattern" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleClone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ContainerSingletonTest">
+  <component name="RunManager" selected="Application.DeepCloneTest">
     <configuration name="ContainerSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.ContainerSingleton.ContainerSingletonTest" />
       <module name="designModel" />
@@ -413,6 +340,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.designModel.SingletonPattern.ContainerSingleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeepCloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.PrototypePattern.deepClone.DeepCloneTest" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.PrototypePattern.deepClone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,28 +366,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LazyInnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.LazyInnerClassTest" />
-      <module name="designModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ReflectBrokenSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.ReflectBrokenSingleton" />
-      <module name="designModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.designModel.SingletonPattern.LazyInnerClassSingleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="SerializableProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.designModel.SingletonPattern.SerializableProblem.SerializableProblem" />
       <module name="designModel" />
@@ -457,6 +373,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.designModel.SingletonPattern.SerializableProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SimpleCloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.PrototypePattern.simpleClone.SimpleCloneTest" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.PrototypePattern.simpleClone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -513,19 +440,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LazyInnerClassTest" />
-      <item itemvalue="Application.ReflectBrokenSingleton" />
       <item itemvalue="Application.SerializableProblem" />
       <item itemvalue="Application.EnumSingletonTest" />
       <item itemvalue="Application.ContainerSingletonTest" />
+      <item itemvalue="Application.SimpleCloneTest" />
+      <item itemvalue="Application.DeepCloneTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeepCloneTest" />
+        <item itemvalue="Application.SimpleCloneTest" />
         <item itemvalue="Application.ContainerSingletonTest" />
         <item itemvalue="Application.EnumSingletonTest" />
         <item itemvalue="Application.SerializableProblem" />
-        <item itemvalue="Application.ReflectBrokenSingleton" />
-        <item itemvalue="Application.LazyInnerClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -540,12 +467,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552049053014</updated>
       <workItem from="1552049059565" duration="25289000" />
-      <workItem from="1552790964207" duration="20034000" />
+      <workItem from="1552790964207" duration="26816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45323000" />
+    <option name="totallyTimeSpent" value="52105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -614,74 +541,17 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/SimpleCloneTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/CourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/EnglishCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/MathCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/CodingCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/FactoryMethod/FactoryMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="22" column="1" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/ICourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/IExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/IPractise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/MathCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="2" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/MathCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -963,20 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonBroken/LazyReflectSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ThreadLocal/ThreadLocalSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -991,19 +847,116 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/ContainerSingleton/ContainerSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="30" column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonBroken/LazyReflectSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazyInnerClassSingleton/LazyInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/PersonA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/simpleClone/SimpleCloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/Monkey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/GoldenCudgel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret selection-end-line="29" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/SunWuKong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="391">
-            <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <first_editor relative-caret-position="463">
+            <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
