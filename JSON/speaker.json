@@ -1,0 +1,7 @@
+{
+  "id" : 1,
+  "age" : 18,
+  "fullName" : "liman",
+  "tags" : [ "JavaScript", "AngularJS", "Yeoman" ],
+  "registered" : true
+}
