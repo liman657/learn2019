@@ -11,6 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>JSON</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../Java8</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
