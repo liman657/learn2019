@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/DelegateModelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeCoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Leader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -21,13 +24,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="472">
+                <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,14 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concurrent/pom.xml" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/startAndEnd.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/MyThread.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/RandomThread.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/RandomMain.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonTeset.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/SingletonTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/HungarySingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazySingleton.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/SingletonPattern/LazySingletonTest.java" />
@@ -89,11 +97,19 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/SunWuKong.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/GoldenCudgel.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/JSON/src/main/java/com/learn/JSON/domain/Speaker.java" />
         <option value="$PROJECT_DIR$/JSON/speakerList.json" />
         <option value="$PROJECT_DIR$/JSON/src/test/java/com/learn/JSON/BasicJsonTypesTest.java" />
         <option value="$PROJECT_DIR$/JSON/pom.xml" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Employee.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/IEmployee.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeA.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Boss.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/DelegateModelTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeCoder.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Leader.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -132,7 +148,102 @@
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSON" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="DelegatePattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,7 +289,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicJsonTypesTest.deSerializeMultipleObjects">
+  <component name="RunManager" selected="Application.DelegateModelTest">
+    <configuration name="DelegateModelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.DelegatePattern.DelegateModelTest" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.DelegatePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -196,29 +318,6 @@
       <option name="MAIN_CLASS_NAME" value="com.learn.JSON.BasicJsonTypesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="BasicJsonTypesTest.deSerializeBasicTypes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JSON" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.JSON.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.JSON" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.JSON.BasicJsonTypesTest" />
-      <option name="METHOD_NAME" value="deSerializeBasicTypes" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -346,19 +445,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeBasicTypes" />
       <item itemvalue="JUnit.BasicJsonTypesTest" />
       <item itemvalue="JUnit.BasicJsonTypesTest.serizlizeObject" />
       <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeObject" />
       <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeMultipleObjects" />
+      <item itemvalue="Application.DelegateModelTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DelegateModelTest" />
         <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeMultipleObjects" />
         <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeObject" />
         <item itemvalue="JUnit.BasicJsonTypesTest.serizlizeObject" />
         <item itemvalue="JUnit.BasicJsonTypesTest" />
-        <item itemvalue="JUnit.BasicJsonTypesTest.deSerializeBasicTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +472,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552049053014</updated>
       <workItem from="1552049059565" duration="25289000" />
-      <workItem from="1552790964207" duration="35648000" />
+      <workItem from="1552790964207" duration="37415000" />
     </task>
     <servers />
   </component>
@@ -410,10 +509,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60937000" />
+    <option name="totallyTimeSpent" value="62704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,13 +525,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -485,40 +585,10 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/CodingCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/startAndEnd.java" />
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/Interrupt.java" />
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/com/learn/threadFund/chapter01/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -823,16 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="463">
-            <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/PrototypePattern/deepClone/DeepCloneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -921,6 +981,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/DelegateModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/EmployeeCoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DelegatePattern/IEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="472">
+            <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
