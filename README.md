@@ -30,6 +30,10 @@
 ###DelegatePattern              委派模式
 ####DelegateModelTest           委派模式测试类
 
+###StrategyPattery              策略模式
+####BigSaleTest                 促销实例的测试
+####PayTest                     支付实例的测试
+
 
 ##Java8                         Java8中的特性
 ###
