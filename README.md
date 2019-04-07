@@ -34,6 +34,9 @@
 ####BigSaleTest                 促销实例的测试
 ####PayTest                     支付实例的测试
 
+###AdapterPattern               适配器模式
+####PassportTest                适配器实例（总结的并不好）
+
 
 ##Java8                         Java8中的特性
 ###
