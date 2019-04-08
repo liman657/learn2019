@@ -6,8 +6,8 @@ package com.learn.designModel.DecoratePattern.v2;
  * mail:657271181@qq.com
  * comment:
  */
-public class MilkCoffeeDecorator extends CoffeeDecorator {
-    public MilkCoffeeDecorator(Coffee coffee) {
+public class MilkDecorator extends Decorator {
+    public MilkDecorator(Coffee coffee) {
         super(coffee);
     }
 

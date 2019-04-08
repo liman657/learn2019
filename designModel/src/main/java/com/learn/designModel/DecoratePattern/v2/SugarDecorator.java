@@ -4,8 +4,8 @@ package com.learn.designModel.DecoratePattern.v2;
  * autor:liman
  * comment:
  */
-public class SugarCoffeeDecorator extends CoffeeDecorator {
-    public SugarCoffeeDecorator(Coffee coffee) {
+public class SugarDecorator extends Decorator {
+    public SugarDecorator(Coffee coffee) {
         super(coffee);
     }
 

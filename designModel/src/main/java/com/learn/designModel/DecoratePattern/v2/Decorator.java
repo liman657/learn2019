@@ -4,11 +4,11 @@ package com.learn.designModel.DecoratePattern.v2;
  * autor:liman
  * comment:
  */
-public class CoffeeDecorator extends Coffee{
+public class Decorator extends Coffee{
 
     private Coffee coffee;
 
-    public CoffeeDecorator(Coffee coffee) {
+    public Decorator(Coffee coffee) {
         this.coffee = coffee;
     }
 
