@@ -36,9 +36,16 @@
 
 ###AdapterPattern               适配器模式
 ####PassportTest                适配器实例（总结的并不好）
+####LoginAdapterTest            适配器模式实例
 
 ###DecoratePattern              装饰者模式
 ####CoffeeWithOutDecorateTest   没有用到装饰者模式的扩展实例
+
+###ObserverPattern              观察者模式
+####JDKObserverTest             JDK的观察者设计模式
+####MouseEventTest              鼠标事件实例（课程实例）
+####OnlineProblemTest           博客总结实例
+####SubjectTest                 2018年的总结实例
 
 
 ##Java8                         Java8中的特性
