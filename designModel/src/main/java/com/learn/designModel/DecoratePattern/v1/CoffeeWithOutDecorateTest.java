@@ -10,11 +10,10 @@ public class CoffeeWithOutDecorateTest {
         Coffee coffee = new Coffee();
         System.out.println(coffee.getMaterial()+":总售价:"+coffee.getPrice());
 
-        CoffeeWithSuger coffeeWithSuger = new CoffeeWithSuger();
-        System.out.println(coffeeWithSuger.getMaterial()+":总售价:"+coffeeWithSuger.getPrice());
+        CoffeeWithSugar coffeeWithSugar = new CoffeeWithSugar();
+        System.out.println(coffeeWithSugar.getMaterial()+":总售价:"+ coffeeWithSugar.getPrice());
 
-        CoffeeWithSugerAndMilk coffeeWithSugerAndMilk = new CoffeeWithSugerAndMilk();
+        CoffeeWithSugarAndMilk coffeeWithSugerAndMilk = new CoffeeWithSugarAndMilk();
         System.out.println(coffeeWithSugerAndMilk.getMaterial()+":总售价:"+coffeeWithSugerAndMilk.getPrice());
     }
-
 }

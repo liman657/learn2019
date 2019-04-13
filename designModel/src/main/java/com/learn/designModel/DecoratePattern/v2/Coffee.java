@@ -9,5 +9,4 @@ public abstract class Coffee {
     public abstract String getMaterial();
 
     public abstract int getPrice();
-
 }

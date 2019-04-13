@@ -2,18 +2,17 @@ package com.learn.designModel.DecoratePattern.v1;
 
 /**
  * autor:liman
- * mobilNo:15528212893
- * mail:657271181@qq.com
  * comment:
  */
-public class CoffeeWithSugerAndMilk extends CoffeeWithSuger {
+public class CoffeeWithSugar extends Coffee{
+
     @Override
     public String getMaterial() {
-        return super.getMaterial()+",奶泡";
+        return super.getMaterial()+",糖";
     }
 
     @Override
     public int getPrice() {
-        return super.getPrice()+5;
+        return super.getPrice()+3;
     }
 }

@@ -10,10 +10,16 @@ public class ServerOnline extends MessageListener{
         System.out.println("服务器正常运行");
     }
 
-    public void runException(){
-        System.out.println("服务器运行出现异常");
+    public void runExceptionLi(){
+        System.out.println("服务器运行出现异常,需要CoderLi处理");
         System.out.println("=================开始进入告警机制================");
-        this.trigger("ERROR");
+        this.trigger("ERRORLi");
+    }
+
+    public void runExceptionWang(){
+        System.out.println("服务器运行出现异常,需要CoderWang处理");
+        System.out.println("=================开始进入告警机制================");
+        this.trigger("ERRORWang");
     }
 
 }

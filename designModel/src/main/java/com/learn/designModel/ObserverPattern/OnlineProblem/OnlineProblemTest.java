@@ -7,12 +7,17 @@ package com.learn.designModel.ObserverPattern.OnlineProblem;
 public class OnlineProblemTest {
 
     public static void main(String[] args) throws NoSuchMethodException {
-        CoderLi coderLi = new CoderLi();
+        ICoder coderLi = new CoderLi();
+        ICoder coderWang = new CoderWang();
         ServerOnline serverOnline = new ServerOnline();
-        serverOnline.addListener("ERROR",coderLi,
+        serverOnline.addListener("ERRORLi",coderLi,
                 coderLi.getClass().getMethod("problemMessage",new Class<?>[]{Message.class}));
+        serverOnline.addListener("ERRORWang",coderWang,
+                coderWang.getClass().getMethod("problemMessage",new Class<?>[]{Message.class}));
 
-        serverOnline.runException();
+        serverOnline.runExceptionLi();
+        serverOnline.runExceptionWang();
+
     }
 
 }

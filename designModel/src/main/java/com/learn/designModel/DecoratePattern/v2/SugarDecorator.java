@@ -2,7 +2,7 @@ package com.learn.designModel.DecoratePattern.v2;
 
 /**
  * autor:liman
- * comment:
+ * comment:加入糖的装饰器
  */
 public class SugarDecorator extends Decorator {
     public SugarDecorator(Coffee coffee) {

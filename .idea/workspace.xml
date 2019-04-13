@@ -2,44 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/AaliLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/ILoginAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/ILoginForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/LoginAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/QQLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/SiginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/SiginServiceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/SinaLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/TaobaoLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/WechatLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/MessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/SubjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderWang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ICoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/src/main/java/com/learn/foundation/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithOutDecorateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithOutDecorateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSuger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugerAndMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugarAndMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
     <ignored path="$PROJECT_DIR$/concurrent/target/" />
     <ignored path="$PROJECT_DIR$/JSON/target/" />
     <ignored path="$PROJECT_DIR$/Java8/target/" />
+    <ignored path="$PROJECT_DIR$/leetCode/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,23 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginAdapterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/LoginAdapterTest.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="152">
-                <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="96">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -97,27 +77,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/IPassportForThird.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/LoginForQQAdapter.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/PassportTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/LoginAdapter.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/Coffee.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/CoffeeWithSuger.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/CoffeeWithSugerAndMilk.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/CoffeeTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeCanNotExtendTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithOutDecorateTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/BaseCoffee.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkCoffeeDecorator.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarCoffeeDecorator.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecorator.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/ObserverTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseCallBack.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Mouse.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventTest.java" />
@@ -130,9 +94,6 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/EventListener.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Event.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/Message.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/MessageListener.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/PassportForThirdAdapter.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/LoginService.java" />
@@ -148,6 +109,25 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/QQLogin.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Self/SiginServiceAdapter.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/leetCode/src/main/java/com/learn/foundation/Play.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Decorator.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugar.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugarAndMilk.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithOutDecorateTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkDecorator.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarDecorator.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ICoder.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CodeWang.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java" />
       </list>
     </option>
   </component>
@@ -168,8 +148,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1782" />
-    <option name="y" value="-10" />
+    <option name="x" value="551" />
+    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -232,7 +212,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassInfo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,7 +285,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LoginAdapterTest">
+  <component name="RunManager" selected="Application.JDKObserverTest">
+    <configuration name="CoffeeDecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.DecoratePattern.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CoffeeWithOutDecorateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.DecoratePattern.v1.CoffeeWithOutDecorateTest" />
+      <module name="designModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.designModel.DecoratePattern.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="JDKObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.designModel.ObserverPattern.JDKObserver.JDKObserverTest" />
       <module name="designModel" />
@@ -290,28 +315,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.designModel.ObserverPattern.JDKObserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LoginAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.AdapterPattern.Self.LoginAdapterTest" />
-      <module name="designModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.designModel.AdapterPattern.Self.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MouseEventTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.ObserverPattern.MouseEvent.MouseEventTest" />
-      <module name="designModel" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.designModel.ObserverPattern.MouseEvent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,13 +330,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.designModel.ObserverPattern.Self.SubjectTest" />
-      <module name="designModel" />
+    <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.Play" />
+      <module name="leetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.designModel.ObserverPattern.Self.*" />
+          <option name="PATTERN" value="com.learn.foundation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,19 +393,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.JDKObserverTest" />
-      <item itemvalue="Application.MouseEventTest" />
-      <item itemvalue="Application.SubjectTest" />
       <item itemvalue="Application.OnlineProblemTest" />
-      <item itemvalue="Application.LoginAdapterTest" />
+      <item itemvalue="Application.Play" />
+      <item itemvalue="Application.CoffeeWithOutDecorateTest" />
+      <item itemvalue="Application.CoffeeDecoratorTest" />
+      <item itemvalue="Application.JDKObserverTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoginAdapterTest" />
-        <item itemvalue="Application.OnlineProblemTest" />
-        <item itemvalue="Application.SubjectTest" />
-        <item itemvalue="Application.MouseEventTest" />
         <item itemvalue="Application.JDKObserverTest" />
+        <item itemvalue="Application.OnlineProblemTest" />
+        <item itemvalue="Application.CoffeeDecoratorTest" />
+        <item itemvalue="Application.CoffeeWithOutDecorateTest" />
+        <item itemvalue="Application.Play" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +424,7 @@
       <workItem from="1553914263074" duration="13337000" />
       <workItem from="1554000919772" duration="21771000" />
       <workItem from="1554509258685" duration="14736000" />
-      <workItem from="1554898898893" duration="23702000" />
+      <workItem from="1554898898893" duration="33573000" />
     </task>
     <servers />
   </component>
@@ -458,7 +461,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138946000" />
+    <option name="totallyTimeSpent" value="148817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,7 +473,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -483,7 +486,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.31905782" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3310962" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -494,7 +497,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982103" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39721626" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -567,351 +570,10 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/BaseCoffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.learn.designModel.DecoratePattern.v2.BaseCoffee">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.learn.designModel.DecoratePattern.v2.BaseCoffee</OriginalElement>
-          <nodes>
-            <node x="140.37499999999997" y="0.0">com.learn.designModel.DecoratePattern.v2.Coffee</node>
-            <node x="10.5" y="90.0">com.learn.designModel.DecoratePattern.v2.BaseCoffee</node>
-            <node x="144.5" y="90.0">com.learn.designModel.DecoratePattern.v2.CoffeeDecorator</node>
-            <node x="3.0029761904761756" y="170.0">com.learn.designModel.DecoratePattern.v2.SugarCoffeeDecorator</node>
-            <node x="218.29166666666666" y="170.0">com.learn.designModel.DecoratePattern.v2.MilkCoffeeDecorator</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.learn.designModel.DecoratePattern.v2.SugarCoffeeDecorator" target="com.learn.designModel.DecoratePattern.v2.CoffeeDecorator">
-              <point x="59.666666666666686" y="-15.0" />
-              <point x="152.16964285714286" y="150.0" />
-              <point x="198.875" y="150.0" />
-              <point x="-18.125" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.DecoratePattern.v2.MilkCoffeeDecorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
-              <point x="56.66666666666666" y="-15.0" />
-              <point x="359.9583333333333" y="140.0" />
-              <point x="306.0803571428571" y="140.0" />
-              <point x="306.0803571428571" y="50.0" />
-              <point x="219.20833333333334" y="50.0" />
-              <point x="35.83333333333337" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.DecoratePattern.v2.SugarCoffeeDecorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
-              <point x="-59.66666666666666" y="-15.0" />
-              <point x="32.83630952380952" y="150.0" />
-              <point x="0.0" y="150.0" />
-              <point x="0.0" y="60.0" />
-              <point x="147.54166666666663" y="60.0" />
-              <point x="-35.83333333333334" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.DecoratePattern.v2.BaseCoffee" target="com.learn.designModel.DecoratePattern.v2.Coffee">
-              <point x="0.0" y="-15.0" />
-              <point x="67.5" y="70.0" />
-              <point x="161.87499999999997" y="70.0" />
-              <point x="-21.5" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.DecoratePattern.v2.CoffeeDecorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
-              <point x="48.333333333333314" y="-15.0" />
-              <point x="265.3333333333333" y="60.0" />
-              <point x="204.87499999999997" y="60.0" />
-              <point x="21.5" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.DecoratePattern.v2.MilkCoffeeDecorator" target="com.learn.designModel.DecoratePattern.v2.CoffeeDecorator">
-              <point x="-56.66666666666666" y="-15.0" />
-              <point x="246.625" y="150.0" />
-              <point x="235.125" y="150.0" />
-              <point x="18.125" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="38.0" y="51.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.learn.designModel.ObserverPattern.MouseEvent.Event">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.learn.designModel.ObserverPattern.MouseEvent.Event</OriginalElement>
-          <nodes>
-            <node x="98.43000000000002" y="160.0">com.learn.designModel.ObserverPattern.MouseEvent.Mouse</node>
-            <node x="167.0" y="80.0">com.learn.designModel.ObserverPattern.MouseEvent.EventListener</node>
-            <node x="210.07000000000002" y="0.0">com.learn.designModel.ObserverPattern.MouseEvent.Event</node>
-            <node x="0.0" y="80.0">com.learn.designModel.ObserverPattern.MouseEvent.MouseEventType</node>
-            <node x="311.0" y="80.0">com.learn.designModel.ObserverPattern.MouseEvent.MouseCallBack</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.learn.designModel.ObserverPattern.MouseEvent.Mouse" target="com.learn.designModel.ObserverPattern.MouseEvent.EventListener">
-              <point x="22.0" y="-15.0" />
-              <point x="164.43" y="135.0" />
-              <point x="229.0" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.ObserverPattern.MouseEvent.EventListener" target="com.learn.designModel.ObserverPattern.MouseEvent.Event">
-              <point x="-15.5" y="-15.0" />
-              <point x="213.5" y="60.0" />
-              <point x="233.77" y="60.0" />
-              <point x="-15.800000000000011" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.ObserverPattern.MouseEvent.MouseCallBack" target="com.learn.designModel.ObserverPattern.MouseEvent.Event">
-              <point x="0.0" y="-15.0" />
-              <point x="379.5" y="60.0" />
-              <point x="281.17" y="60.0" />
-              <point x="31.599999999999994" y="15.0" />
-            </edge>
-            <edge source="com.learn.designModel.ObserverPattern.MouseEvent.Mouse" target="com.learn.designModel.ObserverPattern.MouseEvent.MouseEventType">
-              <point x="-22.0" y="-15.0" />
-              <point x="120.43000000000002" y="135.0" />
-              <point x="73.5" y="135.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-411.0" y="98.5" />
-          <SelectedNodes>
-            <node>com.learn.designModel.ObserverPattern.MouseEvent.Event</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseCallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Mouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/SubjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.learn.designModel.ObserverPattern.OnlineProblem.ServerOnline">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.learn.designModel.ObserverPattern.OnlineProblem.ServerOnline</OriginalElement>
-          <nodes>
-            <node x="" y="">com.learn.designModel.ObserverPattern.OnlineProblem.Message</node>
-            <node x="" y="">com.learn.designModel.ObserverPattern.OnlineProblem.ServerOnline</node>
-            <node x="" y="">com.learn.designModel.ObserverPattern.OnlineProblem.MessageListener</node>
-            <node x="" y="">com.learn.designModel.ObserverPattern.OnlineProblem.CoderLi</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="39.64285714285711" y="86.92857142857144" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1148,10 +810,321 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="152">
-            <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <first_editor relative-caret-position="272">
+            <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/main/java/com/learn/foundation/Play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.learn.designModel.DecoratePattern.v2.Coffee">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.learn.designModel.DecoratePattern.v2.Coffee</OriginalElement>
+          <nodes>
+            <node x="161.0" y="170.0">com.learn.designModel.DecoratePattern.v2.MilkDecorator</node>
+            <node x="142.91666666666666" y="0.0">com.learn.designModel.DecoratePattern.v2.Coffee</node>
+            <node x="264.0" y="90.0">com.learn.designModel.DecoratePattern.v2.BaseCoffee</node>
+            <node x="0.0" y="170.0">com.learn.designModel.DecoratePattern.v2.SugarDecorator</node>
+            <node x="186.09469696969697" y="250.0">com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest</node>
+            <node x="93.15719696969697" y="90.0">com.learn.designModel.DecoratePattern.v2.Decorator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.learn.designModel.DecoratePattern.v2.MilkDecorator" target="com.learn.designModel.DecoratePattern.v2.Decorator">
+              <point x="0.0" y="-15.0" />
+              <point x="227.0" y="140.0" />
+              <point x="186.78219696969697" y="140.0" />
+              <point x="40.125" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.MilkDecorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
+              <point x="44.0" y="-15.0" />
+              <point x="271.0" y="150.0" />
+              <point x="235.50108225108224" y="150.0" />
+              <point x="235.50108225108224" y="70.0" />
+              <point x="198.20238095238093" y="70.0" />
+              <point x="12.285714285714278" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.Decorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
+              <point x="-35.66666666666666" y="-15.0" />
+              <point x="110.99053030303031" y="60.0" />
+              <point x="161.34523809523807" y="60.0" />
+              <point x="-24.571428571428584" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest" target="com.learn.designModel.DecoratePattern.v2.SugarDecorator">
+              <point x="-63.375" y="-15.0" />
+              <point x="207.21969696969697" y="225.0" />
+              <point x="70.5" y="225.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.SugarDecorator" target="com.learn.designModel.DecoratePattern.v2.Coffee">
+              <point x="-47.0" y="-15.0" />
+              <point x="23.5" y="150.0" />
+              <point x="61.40611471861473" y="150.0" />
+              <point x="61.40611471861473" y="50.0" />
+              <point x="149.0595238095238" y="50.0" />
+              <point x="-36.85714285714286" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest" target="com.learn.designModel.DecoratePattern.v2.BaseCoffee">
+              <point x="21.125" y="-15.0" />
+              <point x="291.719696969697" y="225.0" />
+              <point x="321.0" y="225.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.SugarDecorator" target="com.learn.designModel.DecoratePattern.v2.Decorator">
+              <point x="0.0" y="-15.0" />
+              <point x="70.5" y="150.0" />
+              <point x="106.53219696969697" y="150.0" />
+              <point x="-40.125" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest" target="com.learn.designModel.DecoratePattern.v2.MilkDecorator">
+              <point x="-21.125" y="-15.0" />
+              <point x="249.46969696969697" y="225.0" />
+              <point x="227.0" y="225.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.CoffeeDecoratorTest" target="com.learn.designModel.DecoratePattern.v2.Coffee">
+              <point x="63.375" y="-15.0" />
+              <point x="333.969696969697" y="225.0" />
+              <point x="388.5" y="225.0" />
+              <point x="388.5" y="50.0" />
+              <point x="222.77380952380952" y="50.0" />
+              <point x="36.85714285714286" y="15.0" />
+            </edge>
+            <edge source="com.learn.designModel.DecoratePattern.v2.BaseCoffee" target="com.learn.designModel.DecoratePattern.v2.Coffee">
+              <point x="0.0" y="-15.0" />
+              <point x="321.0" y="60.0" />
+              <point x="210.48809523809524" y="60.0" />
+              <point x="24.571428571428584" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-363.5" y="42.5" />
+          <SelectedNodes>
+            <node>com.learn.designModel.DecoratePattern.v2.Decorator</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithSugarAndMilk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v1/CoffeeWithOutDecorateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/BaseCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/MilkDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/SugarDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/DecoratePattern/v2/CoffeeDecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.learn.designModel.DecoratePattern.v2.BaseCoffee">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.learn.designModel.DecoratePattern.v2.BaseCoffee</OriginalElement>
+          <nodes>
+            <node x="" y="">com.learn.designModel.DecoratePattern.v2.MilkDecorator</node>
+            <node x="" y="">com.learn.designModel.DecoratePattern.v2.Coffee</node>
+            <node x="" y="">com.learn.designModel.DecoratePattern.v2.BaseCoffee</node>
+            <node x="" y="">com.learn.designModel.DecoratePattern.v2.SugarDecorator</node>
+            <node x="" y="">com.learn.designModel.DecoratePattern.v2.Decorator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-322.0" y="42.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderLi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/MessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ICoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/CoderWang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/OnlineProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/OnlineProblem/ServerOnline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>

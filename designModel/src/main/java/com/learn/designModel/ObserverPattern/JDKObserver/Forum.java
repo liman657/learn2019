@@ -4,13 +4,11 @@ import java.util.Observable;
 
 /**
  * autor:liman
- * mobilNo:15528212893
- * mail:657271181@qq.com
  * comment:
  */
 public class Forum extends Observable {
 
-    private String name = "提问论坛";
+    private String name = "百度知道";
 
     private static Forum forum = null;
 

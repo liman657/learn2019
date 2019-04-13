@@ -17,6 +17,6 @@ public class Teacher implements Observer {
         Forum forum = (Forum)o;
         Question question = (Question)arg;
         System.out.println("================================");
-        System.out.println("您收到了一个来自论坛的消息："+question.getUserName()+" 的提问:"+question.getContent());
+        System.out.println("您收到了一个来自百度知道的消息："+question.getUserName()+" 的提问:"+question.getContent());
     }
 }

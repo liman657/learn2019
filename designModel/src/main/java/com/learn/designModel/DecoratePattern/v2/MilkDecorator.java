@@ -2,9 +2,7 @@ package com.learn.designModel.DecoratePattern.v2;
 
 /**
  * autor:liman
- * mobilNo:15528212893
- * mail:657271181@qq.com
- * comment:
+ * comment: 奶泡装饰器
  */
 public class MilkDecorator extends Decorator {
     public MilkDecorator(Coffee coffee) {

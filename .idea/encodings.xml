@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/JSON" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java8" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/concurrent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/designModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/leetCode" charset="UTF-8" />
   </component>
 </project>

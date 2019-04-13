@@ -11,6 +11,7 @@
     <modules>
         <module>../designModel</module>
         <module>../JSON</module>
+        <module>../leetCode</module>
     </modules>
 
     <properties>
