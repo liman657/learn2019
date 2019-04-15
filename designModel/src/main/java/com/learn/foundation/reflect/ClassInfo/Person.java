@@ -33,6 +33,10 @@ public class Person {
         this.age = age;
     }
 
+    public void test(String name,Integer age){
+        System.out.println("调用test方法成功，参数是："+name+age);
+    }
+
     @Override
     public String toString() {
         return "Person{" +
