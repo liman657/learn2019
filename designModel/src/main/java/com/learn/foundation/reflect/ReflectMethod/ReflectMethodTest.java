@@ -6,10 +6,14 @@ import java.lang.reflect.Method;
 
 /**
  * autor:liman
- * comment:
+ * comment: 反射执行指定方法
  */
 public class ReflectMethodTest {
 
+    /**
+     * 反射获取方法信息
+     * @throws Exception
+     */
     @Test
     public void testReflectMethod() throws Exception {
         Class clazz = Class.forName("com.learn.foundation.reflect.ClassInfo.Person");
@@ -34,6 +38,7 @@ public class ReflectMethodTest {
 
         // 执行方法
         Object obj = clazz.newInstance();
+        //invoke方法的第一个参数就是指定对象，表示指定某个对象的方法。剩下的参数就是传入执行该方法的参数
         method.invoke(obj,2);
     }
 

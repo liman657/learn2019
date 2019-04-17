@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/InvokeMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSON/target/test-classes/com/learn/JSON/BasicJsonTypesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JSON/target/test-classes/com/learn/JSON/BasicJsonTypesTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -20,23 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReflectMethodTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java">
+      <file leaf-file-name="SuperClassMethodTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="412">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -69,9 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/ObserverTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseCallBack.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/Mouse.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/MouseEvent/MouseEventTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Event.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/Self/Subject.java" />
@@ -118,8 +111,11 @@
         <option value="$PROJECT_DIR$/designModel/pom.xml" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ReflectTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/InvokeMethodTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/Son.java" />
+        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java" />
       </list>
     </option>
   </component>
@@ -140,8 +136,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -153,8 +147,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +200,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="foundation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,20 +247,80 @@
               <item name="reflect" type="462c0819:PsiDirectoryNode" />
               <item name="ReflectMethod" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -289,23 +354,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReflectMethodTest.testReflectMethod">
+  <component name="RunManager" selected="JUnit.SuperClassMethodTest.testVisitMethod">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ClassLoaderTest.testClassLoader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designModel" />
+    <configuration name="InvokeMethodTest.testInvoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.foundation.reflect.ClassInfo.*" />
+          <option name="PATTERN" value="com.learn.foundation.reflect.ReflectMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ClassInfo" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ClassInfo.ClassLoaderTest" />
-      <option name="METHOD_NAME" value="testClassLoader" />
+      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ReflectMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.InvokeMethodTest" />
+      <option name="METHOD_NAME" value="testInvoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="InvokeMethodTest.testInvokeByClassName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.foundation.reflect.ReflectMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ReflectMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.InvokeMethodTest" />
+      <option name="METHOD_NAME" value="testInvokeByClassName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -317,7 +405,30 @@
       <patterns />
     </configuration>
     <configuration name="ReflectMethodTest.testReflectMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designModel" />
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.foundation.reflect.ReflectMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ReflectMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.ReflectMethodTest" />
+      <option name="METHOD_NAME" value="testReflectMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SuperClassMethodTest.testGetSuperClassMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.foundation.reflect.ReflectMethod.*" />
@@ -327,8 +438,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ReflectMethod" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.ReflectMethodTest" />
-      <option name="METHOD_NAME" value="testReflectMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.SuperClassMethodTest" />
+      <option name="METHOD_NAME" value="testGetSuperClassMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -339,65 +450,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReflectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designModel" />
+    <configuration name="SuperClassMethodTest.testVisitMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.foundation.reflect.ClassInfo.*" />
+          <option name="PATTERN" value="com.learn.foundation.reflect.ReflectMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ClassInfo" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ClassInfo.ReflectTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ReflectTest.testClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.foundation.reflect.ClassInfo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ClassInfo" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ClassInfo.ReflectTest" />
-      <option name="METHOD_NAME" value="testClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ReflectTest.testClassInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="designModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.foundation.reflect.ClassInfo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ClassInfo" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ClassInfo.ReflectTest" />
-      <option name="METHOD_NAME" value="testClassInfo" />
+      <option name="PACKAGE_NAME" value="com.learn.foundation.reflect.ReflectMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.foundation.reflect.ReflectMethod.SuperClassMethodTest" />
+      <option name="METHOD_NAME" value="testVisitMethod" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -457,19 +522,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ReflectTest.testClass" />
-      <item itemvalue="JUnit.ReflectTest" />
-      <item itemvalue="JUnit.ReflectTest.testClassInfo" />
-      <item itemvalue="JUnit.ClassLoaderTest.testClassLoader" />
       <item itemvalue="JUnit.ReflectMethodTest.testReflectMethod" />
+      <item itemvalue="JUnit.InvokeMethodTest.testInvoke" />
+      <item itemvalue="JUnit.InvokeMethodTest.testInvokeByClassName" />
+      <item itemvalue="JUnit.SuperClassMethodTest.testGetSuperClassMethod" />
+      <item itemvalue="JUnit.SuperClassMethodTest.testVisitMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuperClassMethodTest.testVisitMethod" />
+        <item itemvalue="JUnit.SuperClassMethodTest.testGetSuperClassMethod" />
+        <item itemvalue="JUnit.InvokeMethodTest.testInvokeByClassName" />
+        <item itemvalue="JUnit.InvokeMethodTest.testInvoke" />
         <item itemvalue="JUnit.ReflectMethodTest.testReflectMethod" />
-        <item itemvalue="JUnit.ClassLoaderTest.testClassLoader" />
-        <item itemvalue="JUnit.ReflectTest.testClassInfo" />
-        <item itemvalue="JUnit.ReflectTest.testClass" />
-        <item itemvalue="JUnit.ReflectTest" />
       </list>
     </recent_temporary>
   </component>
@@ -490,43 +555,46 @@
       <workItem from="1554509258685" duration="14736000" />
       <workItem from="1554898898893" duration="39092000" />
       <workItem from="1555208153197" duration="2611000" />
+      <workItem from="1555345000835" duration="360000" />
+      <workItem from="1555505381941" duration="804000" />
+      <workItem from="1555506221140" duration="1795000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReflectTest_testClassInfo - 2019.04.13 at 17h 08m 39s.xml">
-      <configuration name="ReflectTest.testClassInfo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClassLoaderTest_testClassLoader - 2019.04.13 at 17h 22m 16s.xml">
-      <configuration name="ClassLoaderTest.testClassLoader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClassLoaderTest_testClassLoader - 2019.04.13 at 17h 23m 31s.xml">
-      <configuration name="ClassLoaderTest.testClassLoader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClassLoaderTest_testClassLoader - 2019.04.13 at 17h 26m 23s.xml">
-      <configuration name="ClassLoaderTest.testClassLoader" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 31m 42s.xml">
-      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 33m 37s.xml">
-      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 35m 00s.xml">
-      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 36m 32s.xml">
-      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 37m 46s.xml">
-      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.13 at 17h 38m 06s.xml">
       <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.17 at 21h 04m 55s.xml">
+      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.17 at 21h 05m 08s.xml">
+      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectMethodTest_testReflectMethod - 2019.04.17 at 21h 06m 02s.xml">
+      <configuration name="ReflectMethodTest.testReflectMethod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeMethodTest_testInvoke - 2019.04.17 at 21h 11m 52s.xml">
+      <configuration name="InvokeMethodTest.testInvoke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeMethodTest_testInvoke - 2019.04.17 at 21h 12m 15s.xml">
+      <configuration name="InvokeMethodTest.testInvoke" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeMethodTest_testInvokeByClassName - 2019.04.17 at 21h 18m 18s.xml">
+      <configuration name="InvokeMethodTest.testInvokeByClassName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeMethodTest_testInvokeByClassName - 2019.04.17 at 21h 18m 41s.xml">
+      <configuration name="InvokeMethodTest.testInvokeByClassName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeMethodTest_testInvokeByClassName - 2019.04.17 at 21h 20m 38s.xml">
+      <configuration name="InvokeMethodTest.testInvokeByClassName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuperClassMethodTest_testGetSuperClassMethod - 2019.04.17 at 21h 24m 00s.xml">
+      <configuration name="SuperClassMethodTest.testGetSuperClassMethod" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156947000" />
+    <option name="totallyTimeSpent" value="159906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,24 +606,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.31905782" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.31879196" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3310962" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.33712983" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.22334754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.38666666" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" visible="true" weight="0.22121535" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.4611111" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -567,7 +637,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,52 +702,11 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ReflectTest.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-614">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/LoginAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/SiginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/IPassportForThird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/LoginForQQAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/AdapterPattern/PassportForThirdAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1062,13 +1090,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo.java" />
-    <entry file="file://$PROJECT_DIR$/designModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2065">
@@ -1076,44 +1097,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="2579" column="40" lean-forward="true" selection-start-line="2579" selection-start-column="40" selection-end-line="2579" selection-end-column="40" />
+        <state relative-caret-position="168">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ClassLoaderTest.java">
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/chapter02/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="336">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java">
+    <entry file="file://$PROJECT_DIR$/designModel/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="2123" column="20" lean-forward="true" selection-start-line="2123" selection-start-column="20" selection-end-line="2123" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/InvokeMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -34,7 +34,12 @@ public class Person {
     }
 
     public void test(String name,Integer age){
-        System.out.println("调用test方法成功，参数是："+name+age);
+        System.out.println("调用test方法成功，参数是："+name+","+age);
+    }
+
+    private String methodInSuper(int age){
+        System.out.println("父类中的私有方法，参数：age,"+age);
+        return String.valueOf(age);
     }
 
     @Override
