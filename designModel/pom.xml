@@ -12,6 +12,7 @@
         <module>../designModel</module>
         <module>../JSON</module>
         <module>../leetCode</module>
+        <module>../spring_demo</module>
     </modules>
 
     <properties>
