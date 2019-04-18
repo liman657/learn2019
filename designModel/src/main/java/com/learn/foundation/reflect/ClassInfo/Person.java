@@ -8,6 +8,7 @@ public class Person {
 
     private String name;
     private int age;
+    public String testProperty;
 
     public Person(String name, int age) {
         this.name = name;
@@ -29,11 +30,20 @@ public class Person {
         return age;
     }
 
+    @AgeValidator(min=18,max=25)
     public void setAge(int age) {
         this.age = age;
     }
 
-    public void test(String name,Integer age){
+    public String getTestProperty() {
+        return testProperty;
+    }
+
+    public void setTestProperty(String testProperty) {
+        this.testProperty = testProperty;
+    }
+
+    public void test(String name, Integer age){
         System.out.println("调用test方法成功，参数是："+name+","+age);
     }
 

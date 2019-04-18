@@ -1,8 +1,6 @@
 package com.learn.foundation.reflect.ReflectMethod;
 
 import org.junit.Test;
-
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
