@@ -10,7 +10,25 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring_demo</artifactId>
+    <properties>
+        <servlet.api.version>2.4</servlet.api.version>
+    </properties>
 
+    <artifactId>spring_demo</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../dataStructure</module>
+    </modules>
+
+    <dependencies>
+        <!-- requied start -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- requied end -->
+    </dependencies>
 
 </project>
