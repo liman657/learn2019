@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dataStructure" />
         <module name="Java8" />
         <module name="leetCode" />
-        <module name="spring_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

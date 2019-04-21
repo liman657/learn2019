@@ -2,9 +2,14 @@ package com.learn.LinkList;
 
 /**
  * autor:liman
- * mobilNo:15528212893
- * mail:657271181@qq.com
- * comment:
+ * comment: 链表对应的节点
  */
 public class ListNode {
+
+    public int value;
+    public ListNode next;
+
+    public ListNode(int value) {
+        this.value = value;
+    }
 }

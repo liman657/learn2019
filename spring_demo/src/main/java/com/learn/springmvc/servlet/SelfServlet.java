@@ -1,8 +1,6 @@
 package com.learn.springmvc.servlet;
 
-import com.learn.springmvc.Annotation.SelfAutowired;
-import com.learn.springmvc.Annotation.SelfController;
-import com.learn.springmvc.Annotation.SelfService;
+import com.learn.springmvc.Annotation.*;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Parameter;
 import java.net.URL;
 import java.util.*;
 
@@ -30,15 +31,22 @@ public class SelfServlet extends HttpServlet {
     //传说中的IOC容器，为了简化程序，这里不用ConcurrentHashMap
     private Map<String,Object> ioc = new HashMap<String,Object>();
 
+    //保存url和Method的对应关系
+    private Map<String,Method> handlerMapping = new HashMap<String,Method>();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+        doPost(req, resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //6.调用
-        doDispatch(req,resp);
+        try {
+            doDispatch(req,resp);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -59,16 +67,112 @@ public class SelfServlet extends HttpServlet {
         //4.完成依赖注入
         doAutowired();
         //5.初始化handleMapping
-        initHandleMapping();
+        initHandlerMapping();
 
         System.out.println("自己写的spring mvc 初始化完成");
 
     }
 
-    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) {
+    /**
+     * 开始调用自己写的mvc框架
+     * @param req
+     * @param resp
+     */
+    private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+
+        //获取绝对路径
+        String  url = req.getRequestURI();
+        System.out.println(url);
+        String contextPath = req.getContextPath();
+        System.out.println(contextPath);
+        //处理成相对路径
+        url = url.replaceAll(contextPath,"").replaceAll("/+","/");
+
+        if(!this.handlerMapping.containsKey(url)){
+            resp.getWriter().write("404 not found!!!");
+            return;
+        }
+
+        Method method = this.handlerMapping.get(url);
+
+        System.out.println("===================="+method.getParameters());
+
+        //调用方法需要对象和参数，
+        //1.从request中获取参数
+        Map<String,String[]> params = req.getParameterMap();
+
+        //获取参数的类型列表
+        Class<?> [] parameterTypes = method.getParameterTypes();
+        Parameter[] parameters = method.getParameters();
+
+        //存放参数的值
+        Object[] paramValues = new Object[parameterTypes.length];
+
+        for(int i = 0;i<parameterTypes.length;i++){
+            Class parameterType = parameterTypes[i];
+            if(parameterType == HttpServletRequest.class){
+                paramValues[i] = req;
+                continue;
+            }else if(parameterType == HttpServletResponse.class){
+                paramValues[i]=resp;
+                continue;
+            }else if(parameterType == String.class){
+                SelfRequestParam requestParam = (SelfRequestParam) parameters[i].getAnnotation(SelfRequestParam.class);
+                //原来是这样写的，这里涉及反射的内容，parameterType和parameter似乎不是一个东西
+//                SelfRequestParam requestParam = (SelfRequestParam) parameterType.getAnnotation(SelfRequestParam.class);
+                if(params.containsKey(requestParam.value())){
+                    for(Map.Entry<String,String[]> param:params.entrySet()){
+                        String value = Arrays.toString(param.getValue()).replaceAll("\\[|\\]","")
+                                .replaceAll("\\s",",");
+                        paramValues[i] = value;
+                    }
+                }
+            }
+        }
+
+        //通过方法获取class，然后将首字母小写获得指定的bean
+        String beanName = toLowerFirstCase(method.getDeclaringClass().getSimpleName());
+        method.invoke(ioc.get(beanName),paramValues);
+//        method.invoke(ioc.get(beanName),new Object[]{req,resp,params.get("name")[0]});
+
     }
 
-    private void initHandleMapping() {
+    /**
+     * 初始化HandlerMapping
+     * HandlerMapping——url和method一对一的映射
+     */
+    private void initHandlerMapping() {
+        if(ioc.isEmpty()){
+            return;
+        }
+
+        for(Map.Entry<String,Object> entry:ioc.entrySet()){
+            Class<?> clazz = entry.getValue().getClass();
+            if(!clazz.isAnnotationPresent(SelfController.class)){
+                continue;
+            }
+
+            //获取写在类上面的RequestMapping的值
+            String baseUrl = "";
+            if(clazz.isAnnotationPresent(SelfRequestMapping.class)){
+                SelfRequestMapping requestMapping = clazz.getAnnotation(SelfRequestMapping.class);
+                baseUrl = requestMapping.value();
+            }
+
+            //遍历所有的public 方法
+            for(Method method:clazz.getMethods()){
+                if(!method.isAnnotationPresent(SelfRequestMapping.class)){
+                    continue;
+                }
+
+                SelfRequestMapping requestMapping = method.getAnnotation(SelfRequestMapping.class);
+                String url = ("/"+baseUrl+"/"+requestMapping.value()).replaceAll("/+","/");
+                handlerMapping.put(url,method);
+                System.out.println("Mapped:"+url+","+method);
+            }
+
+        }
+
     }
 
     /**
@@ -92,6 +196,7 @@ public class SelfServlet extends HttpServlet {
                 //获取注解的值
                 String beanName = selfAutowired.value().trim();
                 if("".equals(beanName)){
+                    //如果没有自定义，默认根据类型注入
                     beanName = field.getType().getName();
                 }
 
@@ -166,7 +271,7 @@ public class SelfServlet extends HttpServlet {
             if(file.isDirectory()){
                 doScanner(scanPackage+"."+file.getName());
             }else{
-                if(file.getName().endsWith(".class")){continue;}
+                if(!file.getName().endsWith(".class")){continue;}
                 String className = (scanPackage+"."+file.getName().replace(".class",""));
                 classNames.add(className);
             }
