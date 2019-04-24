@@ -16,7 +16,6 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 import java.net.URL;
 import java.util.*;
-import java.util.regex.Pattern;
 
 /**
  * autor:liman
@@ -34,9 +33,9 @@ public class SelfServletV2bak extends HttpServlet {
     private Map<String, Object> ioc = new HashMap<String, Object>();
 
     //保存url和Method的对应关系
-//    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
+    private Map<String, Method> handlerMapping = new HashMap<String, Method>();
 
-    private List<HandlerMapping> handlerMapping = new ArrayList<HandlerMapping>();
+//    private List<HandlerMapping>
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -85,6 +84,69 @@ public class SelfServletV2bak extends HttpServlet {
      */
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 
+        //获取绝对路径
+        String url = req.getRequestURI();
+        System.out.println(url);
+        String contextPath = req.getContextPath();
+        System.out.println(contextPath);
+        //处理成相对路径
+        url = url.replaceAll(contextPath, "").replaceAll("/+", "/");
+
+        if (!this.handlerMapping.containsKey(url)) {
+            resp.getWriter().write("404 not found!!!");
+            return;
+        }
+
+        Method method = this.handlerMapping.get(url);
+
+        System.out.println("====================" + method.getParameters());
+
+        //调用方法需要对象和参数，
+        //1.从request中获取参数
+        Map<String, String[]> params = req.getParameterMap();
+
+        //获取参数的类型列表
+        Class<?>[] parameterTypes = method.getParameterTypes();
+        Parameter[] parameters = method.getParameters();
+
+        //存放参数的值
+        Object[] paramValues = new Object[parameterTypes.length];
+
+        for (int i = 0; i < parameterTypes.length; i++) {
+            Class parameterType = parameterTypes[i];
+            if (parameterType == HttpServletRequest.class) {
+                paramValues[i] = req;
+                continue;
+            } else if (parameterType == HttpServletResponse.class) {
+                paramValues[i] = resp;
+                continue;
+            }
+            Annotation[][] parameterAnnotations = method.getParameterAnnotations();
+            for (int j = 0; j < parameterAnnotations.length; j++) {
+                for (Annotation a : parameterAnnotations[j]) {
+                    if (a instanceof SelfRequestParam) {
+                        String paramName = ((SelfRequestParam) a).value();
+//                            if("".equals(paramName.trim())) {
+//                                paramValues[i] =
+//                            }
+                        if (params.containsKey(paramName)) {
+                            for (Map.Entry<String, String[]> param : params.entrySet()) {
+                                System.out.println(Arrays.toString(param.getValue()));
+                                String value = Arrays.toString(param.getValue()).replaceAll("\\[|\\]", "").replaceAll("\\s", "");
+                                paramValues[i] = value;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        //通过方法获取class，然后将首字母小写获得指定的bean
+        String beanName = toLowerFirstCase(method.getDeclaringClass().getSimpleName());
+        method.invoke(ioc.get(beanName), paramValues);
+//        method.invoke(ioc.get(beanName),new Object[]{req,resp,params.get("name")[0]});
 
     }
 
@@ -97,29 +159,31 @@ public class SelfServletV2bak extends HttpServlet {
             return;
         }
 
-        for(Map.Entry entry:ioc.entrySet()){
+        for (Map.Entry<String, Object> entry : ioc.entrySet()) {
             Class<?> clazz = entry.getValue().getClass();
-            if(!clazz.isAnnotationPresent(SelfController.class)){
+            if (!clazz.isAnnotationPresent(SelfController.class)) {
                 continue;
             }
 
+            //获取写在类上面的RequestMapping的值
             String baseUrl = "";
-            if(clazz.isAnnotationPresent(SelfRequestMapping.class)){
-                SelfRequestMapping selfRequestMapping = clazz.getAnnotation(SelfRequestMapping.class);
-                baseUrl = selfRequestMapping.value();
+            if (clazz.isAnnotationPresent(SelfRequestMapping.class)) {
+                SelfRequestMapping requestMapping = clazz.getAnnotation(SelfRequestMapping.class);
+                baseUrl = requestMapping.value();
             }
 
-            //默认获取所有的public方法
-            for(Method method:clazz.getMethods()){
-                if(!method.isAnnotationPresent(SelfRequestMapping.class)){
+            //遍历所有的public 方法
+            for (Method method : clazz.getMethods()) {
+                if (!method.isAnnotationPresent(SelfRequestMapping.class)) {
                     continue;
                 }
 
                 SelfRequestMapping requestMapping = method.getAnnotation(SelfRequestMapping.class);
-                String url = ("/"+baseUrl+"/"+requestMapping.value()).replaceAll("/+","/");
-                this.handlerMapping.add(new HandlerMapping(url,method,entry.getValue()));
-                System.out.println("Mapped:"+url+":"+method);
+                String url = ("/" + baseUrl + "/" + requestMapping.value()).replaceAll("/+", "/");
+                handlerMapping.put(url, method);
+                System.out.println("Mapped:" + url + "," + method);
             }
+
         }
 
     }
@@ -282,101 +346,4 @@ public class SelfServletV2bak extends HttpServlet {
         }
         return value;
     }
-
-    /**
-     * 暂时将HandlerMapping写成一个静态内部类
-     */
-    public class HandlerMapping {
-        private String url;
-        private Method method;
-        private Object controller;
-        private Class<?>[] paramTypes;//参数类型列表
-        private Map<String, Integer> paramIndexMapping;//参数索引位置
-
-        public String getUrl() {
-            return url;
-        }
-
-        public void setUrl(String url) {
-            this.url = url;
-        }
-
-        public Method getMethod() {
-            return method;
-        }
-
-        public void setMethod(Method method) {
-            this.method = method;
-        }
-
-        public Object getController() {
-            return controller;
-        }
-
-        public void setController(Object controller) {
-            this.controller = controller;
-        }
-
-        /**
-         * 构造函数
-         *
-         * @param string
-         * @param method
-         * @param controller
-         */
-        public HandlerMapping(String url, Method method, Object controller) {
-            this.url = url;
-            this.method = method;
-            this.controller = controller;
-            paramTypes = method.getParameterTypes();
-
-            paramIndexMapping = putParamIndexMapping(method);
-        }
-
-        /**
-         * 初始化参数的索引位置
-         *
-         * @param method
-         * @return
-         */
-        private Map<String, Integer> putParamIndexMapping(Method method) {
-            //提取方法中加了注解的参数
-            Annotation[][] pa = method.getParameterAnnotations();
-            for (int i = 0; i < pa.length; i++) {
-                for (Annotation a : pa[i]) {
-                    if (a instanceof SelfRequestParam) {
-                        String paramName = ((SelfRequestParam) a).value();
-                        if (!"".equals(paramName.trim())) {
-                            paramIndexMapping.put(paramName, i);
-                        }
-                    }
-                }
-            }
-
-            //提取方法中的request和response参数
-            Class<?>[] paramsTypes = method.getParameterTypes();
-            for (int i = 0; i < paramsTypes.length; i++) {
-                Class<?> type = paramsTypes[i];
-                if (type == HttpServletRequest.class
-                        || type == HttpServletResponse.class) {
-                    paramIndexMapping.put(type.getName(), i);
-                }
-            }
-        }
-    }
-
-    private HandlerMapping getHandler(HttpServletRequest req){
-        if(handlerMapping.isEmpty()){
-            return null;
-        }
-        String url = req.getRequestURI();
-        String contextPath = req.getContextPath();
-        url = url.replaceAll(contextPath,"").replaceAll("/+","/");
-
-        for(HandlerMapping handlerMapping:this.handlerMapping){
-            handlerMapping
-        }
-    }
-
-
 }

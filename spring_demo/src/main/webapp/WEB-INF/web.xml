@@ -9,7 +9,8 @@
 
     <servlet>
         <servlet-name>selfServlet</servlet-name>
-        <servlet-class>com.learn.springmvc.servlet.SelfServlet</servlet-class>
+        <!--<servlet-class>com.learn.springmvc.servlet.SelfServlet</servlet-class>-->
+        <servlet-class>com.learn.springmvc.servlet.V2.SelfServletV2</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>application.properties</param-value>
