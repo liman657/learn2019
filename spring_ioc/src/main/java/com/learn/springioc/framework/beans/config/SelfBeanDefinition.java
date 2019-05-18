@@ -10,6 +10,7 @@ public class SelfBeanDefinition {
     private String beanClassName;//获得到的全路径的类名——例如：com.learn.spring.beanName.class
     private boolean lazyInit = false; //是否懒加载
     private String factoryBeanName; //真正放入容器中的类名——<bean id = ""/name="">指定的名称
+    private boolean isSingleton;
 
     public String getBeanClassName() {
         return beanClassName;
@@ -33,5 +34,13 @@ public class SelfBeanDefinition {
 
     public void setFactoryBeanName(String factoryBeanName) {
         this.factoryBeanName = factoryBeanName;
+    }
+
+    public boolean isSingleton() {
+        return isSingleton;
+    }
+
+    public void setSingleton(boolean singleton) {
+        isSingleton = singleton;
     }
 }

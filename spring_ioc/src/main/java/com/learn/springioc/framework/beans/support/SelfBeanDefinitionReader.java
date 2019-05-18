@@ -66,6 +66,10 @@ public class SelfBeanDefinitionReader {
         return this.config;
     }
 
+    /**
+     * 把每一个定义信息解析成beanDefinition
+     * @return
+     */
     public List<SelfBeanDefinition> loadBeanDefinitions(){
         List<SelfBeanDefinition> result = new ArrayList<SelfBeanDefinition>();
         try{

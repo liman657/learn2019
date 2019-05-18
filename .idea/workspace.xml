@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_ioc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/spring_ioc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/support/SelfAbstractApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/resources/webdefault.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/action/MyAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/IModifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/IQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfBeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_ioc/src/test/java/com/learn/springioc/test/TestApplicationContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -36,15 +37,60 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SelfApplicationContext.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SelfApplicationContext.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="54" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestApplicationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_ioc/src/test/java/com/learn/springioc/test/TestApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModifyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/ModifyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/QueryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -69,8 +115,8 @@
       <find>newInstance</find>
       <find>MouseEventCallback</find>
       <find>declaredFields</find>
-      <find>GP</find>
       <find>initHan</find>
+      <find>GP</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -83,14 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Forum.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Teacher.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/Question.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ObserverPattern/JDKObserver/JDKObserverTest.java" />
-        <option value="$PROJECT_DIR$/designModel/pom.xml" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ReflectTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ClassInfo/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/InvokeMethodTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/Son.java" />
@@ -132,8 +170,16 @@
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java" />
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java" />
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfBeanWrapper.java" />
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/IQueryService.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/GPService.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfService.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/action/MyAction.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/test/java/com/learn/springioc/test/TestApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/ModifyService.java" />
+        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/QueryService.java" />
       </list>
     </option>
   </component>
@@ -170,7 +216,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="961" />
+    <option name="x" value="551" />
+    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -182,12 +229,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
@@ -257,6 +318,43 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="springioc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springioc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springioc" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springioc" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,7 +367,7 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="springioc" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -282,20 +380,6 @@
               <item name="springioc" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springioc" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -308,19 +392,6 @@
               <item name="springioc" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springioc" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -333,24 +404,62 @@
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_ioc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springioc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/gupaoProject2019/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -372,11 +481,11 @@
       <recent name="com.learn.designModel.ProxyPattern.dynamicProxy.SelfProxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\framework\annotation" />
+      <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\demo\service" />
+      <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\demo\action" />
       <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\framework\beans" />
       <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\framework" />
-      <recent name="F:\gupaoProject2019\spring_ioc\src\main\resources" />
-      <recent name="F:\gupaoProject2019\spring_ioc\src\main" />
-      <recent name="F:\gupaoProject2019\spring_demo\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,9 +500,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.spring_demo [jetty:run]">
+  <component name="RunManager" selected="JUnit.TestApplicationContext.testGetApplicationContext">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestApplicationContext.testGetApplicationContext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.springioc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.springioc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.springioc.test.TestApplicationContext" />
+      <option name="METHOD_NAME" value="testGetApplicationContext" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestParamAnno.testAnnoParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_demo" />
@@ -450,30 +582,6 @@
             <option name="goals">
               <list>
                 <option value="compiler:compile" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/spring_demo" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
-    <configuration name="spring_demo [deploy]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="deploy" />
               </list>
             </option>
             <option name="pomFileName" value="pom.xml" />
@@ -626,17 +734,17 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Maven.spring_demo [jetty:run]" />
       <item itemvalue="Maven.spring_demo [package]" />
-      <item itemvalue="Maven.spring_demo [deploy]" />
       <item itemvalue="Maven.spring_demo [compiler:compile]" />
       <item itemvalue="JUnit.TestParamAnno.testAnnoParam" />
+      <item itemvalue="JUnit.TestApplicationContext.testGetApplicationContext" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestApplicationContext.testGetApplicationContext" />
         <item itemvalue="Maven.spring_demo [jetty:run]" />
         <item itemvalue="Maven.spring_demo [compiler:compile]" />
         <item itemvalue="JUnit.TestParamAnno.testAnnoParam" />
         <item itemvalue="Maven.spring_demo [package]" />
-        <item itemvalue="Maven.spring_demo [deploy]" />
       </list>
     </recent_temporary>
   </component>
@@ -667,7 +775,9 @@
       <workItem from="1556350871879" duration="736000" />
       <workItem from="1556354506335" duration="133000" />
       <workItem from="1556890189684" duration="1000" />
-      <workItem from="1556935895953" duration="9758000" />
+      <workItem from="1556935895953" duration="11232000" />
+      <workItem from="1557063171515" duration="9851000" />
+      <workItem from="1558102145015" duration="5259000" />
     </task>
     <servers />
   </component>
@@ -704,7 +814,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216803000" />
+    <option name="totallyTimeSpent" value="233387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,32 +827,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.31879196" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32997763" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.36666667" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.31543624" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.21748401" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.4611111" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39709172" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.31543624" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2217484" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39709172" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32885906" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
@@ -824,55 +935,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/Factory/AbstractFactory/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="2123" column="20" lean-forward="true" selection-start-line="2123" selection-start-column="20" selection-end-line="2123" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/InvokeMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/ReflectMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectMethod/SuperClassMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/foundation/reflect/ReflectField/ReflectFieldTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -1056,9 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;method#init#0;class#SelfServlet#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,9 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1320">
           <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,20 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.learn.springioc.framework.beans.support.SelfDefaultListableBeanFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1151,7 +1193,7 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-128.5" y="-85.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-128.0" y="-85.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1159,71 +1201,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java">
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/support/SelfAbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="80" column="26" lean-forward="true" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+        <state relative-caret-position="1176">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContextAware.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/support/SelfAbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="144">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="144">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfDefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/config/SelfBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/SelfBeanWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/IQueryService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/annotation/SelfService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/action/MyAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/test/java/com/learn/springioc/test/TestApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/ModifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/demo/service/impl/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
