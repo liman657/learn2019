@@ -36,7 +36,7 @@ public class SelfApplicationContext extends SelfDefaultListableBeanFactory imple
         try {
             refresh();
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
@@ -92,7 +92,8 @@ public class SelfApplicationContext extends SelfDefaultListableBeanFactory imple
          */
         //1.doCreateBean
         //1.1 instantsBean //初始化bean //spring中这个方法是在AbstractAutowireCapableBeanFactory
-        SelfBeanWrapper selfBeanWrapper = instantiateBean(beanName, new SelfBeanDefinition());
+        SelfBeanDefinition selfBeanDefinition = this.beanDefinitionMap.get(beanName);
+        SelfBeanWrapper selfBeanWrapper = instantiateBean(beanName, selfBeanDefinition);
 
         //拿到BeanWrapper之后，将BeanWrapper保存到IOC容器中去
         this.factoryBeanInstanceCache.put(beanName, selfBeanWrapper);
@@ -131,7 +132,11 @@ public class SelfApplicationContext extends SelfDefaultListableBeanFactory imple
             //强制访问，给属性赋值，至此DI完成
             field.setAccessible(true);
             try {
-                field.set(instance,this.factoryBeanInstanceCache.get(autowiredBeanName).getWrappedClass());
+                //TODO:会有空指针异常
+                if(this.factoryBeanInstanceCache.get(autowiredBeanName) == null){
+                    continue;
+                }
+                field.set(instance,this.factoryBeanInstanceCache.get(autowiredBeanName).getWrappedInstance());
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }

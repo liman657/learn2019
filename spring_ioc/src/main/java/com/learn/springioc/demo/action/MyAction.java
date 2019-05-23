@@ -65,5 +65,8 @@ public class MyAction {
 			e.printStackTrace();
 		}
 	}
-	
+
+	public IQueryService getQueryService() {
+		return queryService;
+	}
 }
