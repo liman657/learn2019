@@ -12,6 +12,7 @@ import com.learn.springioc.framework.beans.support.SelfDefaultListableBeanFactor
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -166,5 +167,17 @@ public class SelfApplicationContext extends SelfDefaultListableBeanFactory imple
         SelfBeanWrapper beanWrapper = new SelfBeanWrapper(instance);
         //4.把BeanWrapper存放到IOC容器中（真正的IOC容器）
         return beanWrapper;
+    }
+
+    public String[] getBeanDefinitionNames(){
+        return this.beanDefinitionMap.keySet().toArray(new String[this.beanDefinitionMap.size()]);
+    }
+
+    public int getBeanDefinitionCount(){
+        return this.beanDefinitionMap.size();
+    }
+
+    public Properties getConfig(){
+        return this.selfBeanDefinitionReader.getConfig();
     }
 }
