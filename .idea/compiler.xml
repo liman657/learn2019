@@ -9,6 +9,7 @@
         <module name="dataStructure" />
         <module name="Java8" />
         <module name="leetCode" />
+        <module name="spring_read" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

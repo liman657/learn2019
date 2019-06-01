@@ -13,6 +13,7 @@
         <module>../JSON</module>
         <module>../leetCode</module>
         <module>../spring_demo</module>
+        <module>../spring_read</module>
     </modules>
 
     <properties>
