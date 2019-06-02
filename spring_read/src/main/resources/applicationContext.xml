@@ -3,5 +3,9 @@
        xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
 
-    <bean id="messageService" class="com.learn.service.impl.MessageServiceImpl"/>
+    <bean id="messageService" name="message,messageServive" class="com.learn.service.impl.MessageServiceImpl"/>
+
+    <bean id="postProcessor" class="com.learn.processor.PostProcessor"/>
+
+    <bean id="factoryPostProcessor" class="com.learn.processor.FactoryPostProcessor"/>
 </beans>
