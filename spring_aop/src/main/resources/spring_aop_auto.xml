@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="orderServiceImpl" class="com.learn.spring_aop.service.impl.OrderServiceImpl"></bean>
+    <bean id="userServiceImpl" class="com.learn.spring_aop.service.impl.UserServiceImpl"></bean>
+
+    <!--定义两个advice-->
+    <bean id="logArgsAdvice" class="com.learn.spring_aop.advice.LogArgsAdvice"></bean>
+    <bean id="logResultAdvice" class="com.learn.spring_aop.advice.LogResultAdvice"></bean>
+
+    <!--定义一个只拦截createUser和createOrder的方法-->
+    <!--Advisor内部有一个advice，advisor负责匹配方法，内部的advice负责实现方法包装
+        advisor实现了更细粒度的控制，如果直接配置advice的话，所有方法都会被拦截。
+    -->
+    <bean id="logCreateAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <!--advisor 实例的内部会有一个advice-->
+        <property name="advice" ref="logArgsAdvice"></property>
+        <!--只有下面这两个方法会被拦截-->
+        <property name="mappedNames" value="createUser,createOrder"></property>
+    </bean>
+
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <property name="interceptorNames">
+            <list>
+                <value>logArgsAdvice</value>
+                <value>logResultAdvice</value>
+            </list>
+        </property>
+        <property name="beanNames" value="*ServiceImpl"/>
+    </bean>
+
+</beans>

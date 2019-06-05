@@ -9,6 +9,8 @@
         <module name="dataStructure" />
         <module name="Java8" />
         <module name="leetCode" />
+        <module name="spring_aop" />
+        <module name="spring_http" />
         <module name="spring_read" />
       </profile>
     </annotationProcessing>
