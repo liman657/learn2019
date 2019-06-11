@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id = "arithmetic" class="com.learn.aop.Arithmetic"></bean>
+
+    <bean id="logginAspectJ" class="com.learn.aop.LogginAspectJ"></bean>
+
+    <bean id="safetyAspectJ" class="com.learn.aop.SafetyAspectJ"></bean>
+
+    <!--aop的配置-->
+    <aop:config>
+        <!--切入点表达式-->
+        <aop:pointcut id="arithAop" expression="execution(* com.learn.aop.Arithmetic.*(..))"></aop:pointcut>
+
+        <!--配置切面和通知-->
+        <aop:aspect ref="logginAspectJ" order="2">
+            <aop:before method="BeforeMethod" pointcut-ref="arithAop"></aop:before>
+        </aop:aspect>
+
+        <aop:aspect ref="safetyAspectJ" order="1">
+            <aop:before method="BeforeMethod" pointcut-ref="arithAop"></aop:before>
+        </aop:aspect>
+
+    </aop:config>
+
+</beans>

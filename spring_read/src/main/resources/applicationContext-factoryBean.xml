@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
+
+    <!--<bean id="stage" class="com.learn.FactoryBean.Stage" factory-method="getInstance"></bean>-->
+
+    <!--<bean id="dancer" class="com.learn.FactoryBean.Dancer">-->
+        <!--<property name="stage" ref="stage"></property>-->
+    <!--</bean>-->
+
+    <!-- 静态工厂实例化Bean -->
+    <!-- class:这里不再是Bean实例的实现类，而是生成Bean实例的静态工厂类 -->
+    <!--<bean id="stage" class="com.learn.FactoryBean.factory.StageFactory" factory-method="getInstance">-->
+        <!--<property name="stageName" value="testStage"></property>-->
+    <!--</bean>-->
+
+
+    <bean id="factoryBean" class="com.learn.FactoryBean.factoryBean.FactoryBean"></bean>
+
+    <bean id="abean" factory-bean="factoryBean" factory-method="getABean"></bean>
+
+    <!--<bean id="stageFactory" class="com.learn.FactoryBean.springFactoryBean.SelfFactoryBean"></bean>-->
+
+    <bean id="stageForHuifang" class="com.learn.FactoryBean.springFactoryBean.SelfFactoryBean"></bean>
+</beans>
