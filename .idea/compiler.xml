@@ -12,6 +12,7 @@
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
+        <module name="springboot_mq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

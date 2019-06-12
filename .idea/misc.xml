@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/designModel/pom.xml" />
         <option value="$PROJECT_DIR$/spring_aop/pom.xml" />
         <option value="$PROJECT_DIR$/spring_http/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mq/pom.xml" />
       </list>
     </option>
   </component>

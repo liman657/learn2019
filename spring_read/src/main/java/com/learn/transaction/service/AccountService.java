@@ -7,6 +7,8 @@ package com.learn.transaction.service;
  */
 public interface AccountService {
 
-    public void transfer(String out,String in,Double money);
+    public void transfer(String out, String in, Double money);
+
+    public void transferInTransaction(String out, String in, Double money);
 
 }
