@@ -7,7 +7,7 @@ package com.learn.designModel.ChainOfResponsibilityPattern;
  */
 public class SaveProcessor implements IRequestProcessor {
 
-    private IRequestProcessor nextProcessor;
+    private final IRequestProcessor nextProcessor;
 
     public SaveProcessor(IRequestProcessor nextProcessor) {
         this.nextProcessor = nextProcessor;
@@ -15,6 +15,7 @@ public class SaveProcessor implements IRequestProcessor {
 
     @Override
     public void processor(Request request) {
-        System.out.println("save data "+request.getName());
+        System.out.println("save request data : "+request.getName());
+        nextProcessor.processor(request);
     }
 }

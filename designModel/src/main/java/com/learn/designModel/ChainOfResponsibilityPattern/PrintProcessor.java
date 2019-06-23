@@ -8,6 +8,6 @@ package com.learn.designModel.ChainOfResponsibilityPattern;
 public class PrintProcessor implements IRequestProcessor {
     @Override
     public void processor(Request request) {
-        System.out.println("print request data" + request.getName());
+        System.out.println("print request data : " + request.getName());
     }
 }

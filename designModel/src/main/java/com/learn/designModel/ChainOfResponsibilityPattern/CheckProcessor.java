@@ -7,7 +7,7 @@ package com.learn.designModel.ChainOfResponsibilityPattern;
  */
 public class CheckProcessor implements IRequestProcessor {
 
-    private IRequestProcessor nextProcessor;
+    private final IRequestProcessor nextProcessor;
 
     public CheckProcessor(IRequestProcessor nextProcessor) {
         this.nextProcessor = nextProcessor;
@@ -16,5 +16,6 @@ public class CheckProcessor implements IRequestProcessor {
     @Override
     public void processor(Request request) {
         System.out.println("check request data:"+request.getName());
+        nextProcessor.processor(request);
     }
 }
