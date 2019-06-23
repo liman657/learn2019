@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="" />
+    <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
     <ignored path="$PROJECT_DIR$/concurrent/target/" />
@@ -130,12 +132,10 @@
       <file leaf-file-name="PrevProcessor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="120">
+              <caret line="14" lean-forward="true" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -647,7 +647,7 @@
       <workItem from="1560044468110" duration="14235000" />
       <workItem from="1560250415485" duration="5963000" />
       <workItem from="1560855749354" duration="13808000" />
-      <workItem from="1561205614225" duration="6372000" />
+      <workItem from="1561205614225" duration="5488000" />
     </task>
     <servers />
   </component>
@@ -684,7 +684,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330261000" />
+    <option name="totallyTimeSpent" value="329377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -718,7 +718,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29418343" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.29418343" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23773988" />
@@ -1246,12 +1246,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="120">
+          <caret line="14" lean-forward="true" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
           </folding>
         </state>
       </provider>
