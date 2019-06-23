@@ -8,11 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructure" />
         <module name="Java8" />
+        <module name="java_thread" />
         <module name="leetCode" />
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
-        <module name="springboot_mq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
