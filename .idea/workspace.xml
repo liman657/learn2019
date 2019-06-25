@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -31,112 +34,90 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IRequestProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/IRequestProcessor.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ThreadStatusDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/ThreadStatusDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartByExtends.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByExtends.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartByImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="36" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/CheckProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
               <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaveProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/SaveProcessor.java">
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="211">
+              <caret line="55" selection-start-line="55" selection-end-line="68" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="751" column="7" lean-forward="true" selection-start-line="749" selection-start-column="5" selection-end-line="751" selection-end-column="7" />
               <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#15704#15705#0" expanded="true" />
+                <element signature="e#15770#15771#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/PrintProcessor.java">
+      <file leaf-file-name="StartByCallable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChainOfReponsibilityPattern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IRequestProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/IRequestProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrintProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/SaveProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrevProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" lean-forward="true" selection-end-line="46" />
+            <state relative-caret-position="514">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/FutureTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnableFuture.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/RunnableFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -167,6 +148,8 @@
       <find>getHandlerAdapter</find>
       <find>putPar</find>
       <find>SelfBeanDefinition</find>
+      <find>State</find>
+      <find>target.run</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -183,9 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/test/MainTest.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/processor/PostProcessor.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/processor/FactoryPostProcessor.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/Dancer.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/Stage.java" />
@@ -234,6 +214,9 @@
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/SaveProcessor.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/PrintProcessor.java" />
         <option value="$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByExtends.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByImpl.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByCallable.java" />
       </list>
     </option>
   </component>
@@ -270,10 +253,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -283,15 +266,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,15 +318,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="ChainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChainOfReponsibilityPattern">
+  <component name="RunManager" selected="Application.StartByCallable">
     <configuration name="ChainOfReponsibilityPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.designModel.ChainOfResponsibilityPattern.ChainOfReponsibilityPattern" />
       <module name="learn" />
@@ -416,53 +395,41 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.InterruptDemo" />
+    <configuration name="StartByCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.start.StartByCallable" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.stop.*" />
+          <option name="PATTERN" value="com.learn.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadResetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.ThreadResetDemo" />
+    <configuration name="StartByExtends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.start.StartByExtends" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.stop.*" />
+          <option name="PATTERN" value="com.learn.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StartByImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.start.StartByImpl" />
+      <module name="java_thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TransactionTest.testTranout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_read" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.test" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.TransactionTest" />
-      <option name="METHOD_NAME" value="testTranout" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -590,19 +557,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="JUnit.TransactionTest.testTranout" />
-      <item itemvalue="Application.InterruptDemo" />
-      <item itemvalue="Application.ThreadResetDemo" />
       <item itemvalue="Application.ExceptionThreadDemo" />
       <item itemvalue="Application.ChainOfReponsibilityPattern" />
+      <item itemvalue="Application.StartByExtends" />
+      <item itemvalue="Application.StartByImpl" />
+      <item itemvalue="Application.StartByCallable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartByCallable" />
+        <item itemvalue="Application.StartByExtends" />
+        <item itemvalue="Application.StartByImpl" />
         <item itemvalue="Application.ChainOfReponsibilityPattern" />
         <item itemvalue="Application.ExceptionThreadDemo" />
-        <item itemvalue="Application.ThreadResetDemo" />
-        <item itemvalue="Application.InterruptDemo" />
-        <item itemvalue="JUnit.TransactionTest.testTranout" />
       </list>
     </recent_temporary>
   </component>
@@ -648,6 +615,7 @@
       <workItem from="1560250415485" duration="5963000" />
       <workItem from="1560855749354" duration="13808000" />
       <workItem from="1561205614225" duration="5488000" />
+      <workItem from="1561379438917" duration="6843000" />
     </task>
     <servers />
   </component>
@@ -684,7 +652,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329377000" />
+    <option name="totallyTimeSpent" value="336220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +664,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -718,10 +686,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.29418343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.29336187" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23773988" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24040511" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -876,58 +844,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/spring-tx-5.0.2.RELEASE.jar!/org/springframework/dao/support/DaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/test/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/resources/tx/applicationContext-tx.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/dao/impl/AccountDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_read/src/main/resources/applicationContext-tx.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -953,20 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/ThreadStatusDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1156,12 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,45 +1070,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/CheckProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="264">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/SaveProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/PrintProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="600">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1246,8 +1119,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" lean-forward="true" selection-end-line="46" />
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/PrintProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/ThreadStatusDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByExtends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="751" column="7" lean-forward="true" selection-start-line="749" selection-start-column="5" selection-end-line="751" selection-end-column="7" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="55" selection-start-line="55" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="62" column="49" lean-forward="true" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
