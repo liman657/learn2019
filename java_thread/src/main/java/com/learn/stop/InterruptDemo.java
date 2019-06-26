@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
  * Thread类中存在一个变量 isInterrupted 默认是false
  */
 public class InterruptDemo {
-
     private static int i ;
 
     public static void main(String[] args) throws InterruptedException {
@@ -18,7 +17,7 @@ public class InterruptDemo {
             while(!Thread.currentThread().isInterrupted()){
                 i++;
             }
-            System.out.println("i:"+i);
+            System.out.println("循环外输出，i:"+i);
         });
 
         thread.start();
@@ -26,5 +25,4 @@ public class InterruptDemo {
         TimeUnit.SECONDS.sleep(1);
         thread.interrupt();//将isInterrupted设置成true
     }
-
 }
