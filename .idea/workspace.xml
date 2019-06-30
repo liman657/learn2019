@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptedExceptionStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ReturnInterruptDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ThreadStopByFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ExceptionThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ExceptionThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ExceptionThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ExceptionThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptedExceptionStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptedExceptionStop.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -39,29 +36,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExceptionThreadDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ExceptionThreadDemo.java">
+      <file leaf-file-name="SyncDemo02.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterruptedExceptionStop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptedExceptionStop.java">
+      <file leaf-file-name="SetPrivateNum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReturnInterruptDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ReturnInterruptDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+                <element signature="e#2347#2348#0" expanded="true" />
+                <element signature="e#2397#2398#0" expanded="true" />
+                <element signature="e#2436#2437#0" expanded="true" />
+                <element signature="e#2463#2464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/factoryBean/ABean.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/factoryBean/FactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/SelfAopProxy.java" />
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/SelfCglibAopProxy.java" />
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/SelfJdkDynamicAopProxy.java" />
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/intercept/SelfMethodInterceptor.java" />
         <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/intercept/SelfMethodInvocation.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/factory/StageFactory.java" />
@@ -161,6 +158,11 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ReturnInterruptDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptedExceptionStop.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java" />
       </list>
     </option>
   </component>
@@ -262,7 +264,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeOfLock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +274,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stop" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeOfLock" type="462c0819:PsiDirectoryNode" />
+              <item name="SynchronizedDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,18 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterruptedExceptionStop">
-    <configuration name="ExceptionThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.ExceptionThreadDemo" />
-      <module name="java_thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.SyncDemo02">
     <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.stop.InterruptDemo" />
       <module name="java_thread" />
@@ -371,13 +363,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ThreadStopByFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.ThreadStopByFlag" />
+    <configuration name="SyncDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.TypeOfLock.SynchronizedDemo.SyncDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.stop.*" />
+          <option name="PATTERN" value="com.learn.TypeOfLock.SynchronizedDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SyncDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.TypeOfLock.SynchronizedDemo.SyncDemo02" />
+      <module name="java_thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.TypeOfLock.SynchronizedDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,19 +514,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="Application.ExceptionThreadDemo" />
-      <item itemvalue="Application.ThreadStopByFlag" />
       <item itemvalue="Application.InterruptDemo" />
       <item itemvalue="Application.ReturnInterruptDemo" />
       <item itemvalue="Application.InterruptedExceptionStop" />
+      <item itemvalue="Application.SyncDemo" />
+      <item itemvalue="Application.SyncDemo02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SyncDemo02" />
+        <item itemvalue="Application.SyncDemo" />
         <item itemvalue="Application.InterruptedExceptionStop" />
         <item itemvalue="Application.ReturnInterruptDemo" />
         <item itemvalue="Application.InterruptDemo" />
-        <item itemvalue="Application.ExceptionThreadDemo" />
-        <item itemvalue="Application.ThreadStopByFlag" />
       </list>
     </recent_temporary>
   </component>
@@ -569,7 +572,7 @@
       <workItem from="1560250415485" duration="5963000" />
       <workItem from="1560855749354" duration="13808000" />
       <workItem from="1561205614225" duration="5488000" />
-      <workItem from="1561379438917" duration="12882000" />
+      <workItem from="1561379438917" duration="23473000" />
     </task>
     <servers />
   </component>
@@ -606,7 +609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342259000" />
+    <option name="totallyTimeSpent" value="352850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -619,9 +622,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" weight="0.31879196" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32997763" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.36666667" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -639,10 +643,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3836689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3836689" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24040511" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24040511" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -797,41 +801,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_read/src/sql/tansaction.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/context/SelfApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/beans/support/SelfBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/processor/PostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/service/impl/MessageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1179,6 +1148,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2436#2437#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
