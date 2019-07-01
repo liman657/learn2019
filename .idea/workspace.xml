@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyAndWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/WaitDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptedExceptionStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptedExceptionStop.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -36,34 +35,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SyncDemo02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java">
+      <file leaf-file-name="InterruptDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="336">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetPrivateNum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java">
+      <file leaf-file-name="InterruptedException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/InterruptedException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding>
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#2347#2348#0" expanded="true" />
-                <element signature="e#2397#2398#0" expanded="true" />
-                <element signature="e#2436#2437#0" expanded="true" />
-                <element signature="e#2463#2464#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="188">
+              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/java.lang.InterruptedException" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/java.lang.InterruptedException">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>java.lang.InterruptedException</OriginalElement>
+              <nodes>
+                <node x="181.796875" y="240.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+                <node x="182.88020833333334" y="80.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+                <node x="59.88020833333334" y="0.0">java.util.concurrent.locks.Lock</node>
+                <node x="31.880208333333343" y="80.0">java.util.concurrent.locks.ReentrantLock</node>
+                <node x="131.921875" y="160.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+                <node x="0.0" y="240.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+                  <point x="18.5" y="-15.0" />
+                  <point x="187.421875" y="140.0" />
+                  <point x="290.88020833333337" y="140.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock">
+                  <point x="23.75" y="-15.0" />
+                  <point x="253.046875" y="215.0" />
+                  <point x="242.45833333333334" y="215.0" />
+                  <point x="242.45833333333334" y="130.0" />
+                  <point x="141.04687499999997" y="130.0" />
+                  <point x="43.66666666666663" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock" target="java.util.concurrent.locks.Lock">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock">
+                  <point x="-29.5" y="-15.0" />
+                  <point x="29.5" y="215.0" />
+                  <point x="44.5" y="215.0" />
+                  <point x="44.5" y="140.0" />
+                  <point x="53.71354166666666" y="140.0" />
+                  <point x="-43.666666666666686" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+                  <point x="29.5" y="-15.0" />
+                  <point x="88.5" y="215.0" />
+                  <point x="150.421875" y="215.0" />
+                  <point x="-18.5" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.ReentrantLock">
+                  <point x="-18.5" y="-15.0" />
+                  <point x="150.421875" y="140.0" />
+                  <point x="97.38020833333334" y="140.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+                  <point x="-23.75" y="-15.0" />
+                  <point x="205.546875" y="215.0" />
+                  <point x="187.421875" y="215.0" />
+                  <point x="18.5" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-289.0" y="66.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -96,6 +153,7 @@
       <find>SelfBeanDefinition</find>
       <find>State</find>
       <find>target.run</find>
+      <find>Lock</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -112,10 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/intercept/SelfMethodInterceptor.java" />
-        <option value="$PROJECT_DIR$/spring_ioc/src/main/java/com/learn/springioc/framework/aop/intercept/SelfMethodInvocation.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/factory/StageFactory.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/factory/Stage.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/springFactoryBean/nameFactoryBean.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/FactoryBean/springFactoryBean/SelfFactoryBean.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/resources/applicationContext-factoryBean.xml" />
@@ -163,6 +217,10 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyTest.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyAndWaitTest.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/WaitDemo.java" />
       </list>
     </option>
   </component>
@@ -199,10 +257,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,18 +322,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="TypeOfLock" type="462c0819:PsiDirectoryNode" />
+              <item name="stop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="TypeOfLock" type="462c0819:PsiDirectoryNode" />
-              <item name="SynchronizedDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -329,9 +380,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SyncDemo02">
-    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.InterruptDemo" />
+  <component name="RunManager" selected="Application.NotifyAndWaitTest">
+    <configuration name="InterruptedExceptionStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.stop.InterruptedExceptionStop" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -341,13 +392,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InterruptedExceptionStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stop.InterruptedExceptionStop" />
+    <configuration name="NotifyAndWaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.notifyAndWait.NotifyAndWaitTest" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.stop.*" />
+          <option name="PATTERN" value="com.learn.notifyAndWait.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -514,19 +565,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="Application.InterruptDemo" />
       <item itemvalue="Application.ReturnInterruptDemo" />
       <item itemvalue="Application.InterruptedExceptionStop" />
       <item itemvalue="Application.SyncDemo" />
       <item itemvalue="Application.SyncDemo02" />
+      <item itemvalue="Application.NotifyAndWaitTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotifyAndWaitTest" />
         <item itemvalue="Application.SyncDemo02" />
         <item itemvalue="Application.SyncDemo" />
         <item itemvalue="Application.InterruptedExceptionStop" />
         <item itemvalue="Application.ReturnInterruptDemo" />
-        <item itemvalue="Application.InterruptDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +623,7 @@
       <workItem from="1560250415485" duration="5963000" />
       <workItem from="1560855749354" duration="13808000" />
       <workItem from="1561205614225" duration="5488000" />
-      <workItem from="1561379438917" duration="23473000" />
+      <workItem from="1561379438917" duration="30497000" />
     </task>
     <servers />
   </component>
@@ -609,7 +660,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352850000" />
+    <option name="totallyTimeSpent" value="359874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,8 +672,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
@@ -643,12 +693,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3836689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.3672377" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24040511" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24040511" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,7 +707,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -801,41 +851,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/service/impl/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring_read/src/main/java/com/learn/test/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="763" column="28" selection-start-line="763" selection-start-column="28" selection-end-line="763" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="117" column="28" selection-start-line="117" selection-start-column="28" selection-end-line="117" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -1109,13 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ThreadResetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1181,8 +1189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding>
             <element signature="e#1030#1031#0" expanded="true" />
             <element signature="e#1080#1081#0" expanded="true" />
@@ -1197,6 +1205,119 @@
             <element signature="e#2436#2437#0" expanded="true" />
             <element signature="e#2463#2464#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyAndWaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/NotifyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/notifyAndWait/WaitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.InterruptedException">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.InterruptedException</OriginalElement>
+          <nodes>
+            <node x="181.796875" y="240.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+            <node x="182.88020833333334" y="80.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="59.88020833333334" y="0.0">java.util.concurrent.locks.Lock</node>
+            <node x="31.880208333333343" y="80.0">java.util.concurrent.locks.ReentrantLock</node>
+            <node x="131.921875" y="160.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+            <node x="0.0" y="240.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+              <point x="18.5" y="-15.0" />
+              <point x="187.421875" y="140.0" />
+              <point x="290.88020833333337" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="23.75" y="-15.0" />
+              <point x="253.046875" y="215.0" />
+              <point x="242.45833333333334" y="215.0" />
+              <point x="242.45833333333334" y="130.0" />
+              <point x="141.04687499999997" y="130.0" />
+              <point x="43.66666666666663" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock" target="java.util.concurrent.locks.Lock">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="-29.5" y="-15.0" />
+              <point x="29.5" y="215.0" />
+              <point x="44.5" y="215.0" />
+              <point x="44.5" y="140.0" />
+              <point x="53.71354166666666" y="140.0" />
+              <point x="-43.666666666666686" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+              <point x="29.5" y="-15.0" />
+              <point x="88.5" y="215.0" />
+              <point x="150.421875" y="215.0" />
+              <point x="-18.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="-18.5" y="-15.0" />
+              <point x="150.421875" y="140.0" />
+              <point x="97.38020833333334" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+              <point x="-23.75" y="-15.0" />
+              <point x="205.546875" y="215.0" />
+              <point x="187.421875" y="215.0" />
+              <point x="18.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-289.0" y="66.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/InterruptDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>
