@@ -1,4 +1,4 @@
-package com.learn.ReentrantlockDemo;
+package com.learn.reentrantlockDemo;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;

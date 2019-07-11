@@ -1,4 +1,4 @@
-package com.learn.TypeOfLock.SynchronizedDemo;
+package com.learn.typeOfLock.SynchronizedDemo;
 
 /**
  * autor:liman

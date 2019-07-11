@@ -1,6 +1,4 @@
-package com.learn.TypeOfLock.SynchronizedDemo;
-
-import com.sun.corba.se.impl.orbutil.concurrent.Sync;
+package com.learn.typeOfLock.SynchronizedDemo;
 
 /**
  * autor:liman

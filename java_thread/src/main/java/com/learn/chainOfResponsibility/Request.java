@@ -1,4 +1,4 @@
-package com.learn.ChainOfResponsibility;
+package com.learn.chainOfResponsibility;
 
 /**
  * autor:liman

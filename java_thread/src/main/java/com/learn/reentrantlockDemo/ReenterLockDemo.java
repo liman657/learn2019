@@ -1,4 +1,4 @@
-package com.learn.ReentrantlockDemo;
+package com.learn.reentrantlockDemo;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -27,6 +27,10 @@ public class ReenterLockDemo implements Runnable {
             } finally {
                 lock.unlock();
             }
+        }
+
+        synchronized (Object.class){
+            i++;
         }
     }
 
