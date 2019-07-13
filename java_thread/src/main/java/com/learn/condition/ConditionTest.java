@@ -32,7 +32,7 @@ public class ConditionTest {
                 }
 
                 Thread.sleep(500);
-                System.out.println("producer produced a Apple");
+                System.out.println("producer produced a object");
                 num = 1;
                 consumer.signal();
             }finally {
@@ -55,7 +55,7 @@ public class ConditionTest {
                     System.out.println("consumer awaked");
                 }
                 Thread.sleep(500);
-                System.out.println("consumer consumed an Apple");
+                System.out.println("consumer consumed an object");
                 num = 0;
                 producer.signal();
             }finally {

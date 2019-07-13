@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/AttemptLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/InterruptReenterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/ReenterLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/TimeLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/NotifyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/NotifyDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/WaitDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/WaitDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -37,37 +32,21 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AttemptLocking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/AttemptLocking.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConditionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="600">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReenterLockDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/ReenterLockDemo.java">
+      <file leaf-file-name="Condition.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Condition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterruptReenterDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/InterruptReenterDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding>
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4704">
+              <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,11 +54,19 @@
       <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="576" column="19" selection-start-line="576" selection-start-column="19" selection-end-line="576" selection-end-column="19" />
+            <state relative-caret-position="384">
+              <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
               <folding>
+                <element signature="e#5562#5563#0" expanded="true" />
+                <element signature="e#5614#5615#0" expanded="true" />
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
+                <element signature="e#7116#7117#0" expanded="true" />
+                <element signature="e#7150#7151#0" expanded="true" />
                 <element signature="e#9117#9118#0" expanded="true" />
                 <element signature="e#9144#9145#0" expanded="true" />
+                <element signature="e#15850#15851#0" expanded="true" />
+                <element signature="e#15881#15882#0" expanded="true" />
                 <element signature="e#19868#19869#0" expanded="true" />
                 <element signature="e#19915#19916#0" expanded="true" />
               </folding>
@@ -87,13 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/TimeLock.java">
+      <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+            <state relative-caret-position="294">
+              <caret line="2000" column="20" selection-start-line="2000" selection-start-column="20" selection-end-line="2000" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#32644#32645#0" expanded="true" />
+                <element signature="e#32694#32695#0" expanded="true" />
+                <element signature="e#41392#41393#0" expanded="true" />
+                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="e#61323#61331#0" expanded="true" />
+                <element signature="e#61946#61954#0" expanded="true" />
+                <element signature="e#62618#62626#0" expanded="true" />
+                <element signature="e#88061#88069#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,11 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/Arithmetid.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/LogginAspectJ.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/SafetyAspectJ.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/Arithmetic.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/resources/applicationContext-aop.xml" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/SpringAopTest.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/StudentService.java" />
@@ -196,6 +185,11 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/ReenterLockDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/TimeLock.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/InterruptReenterDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/lockSupportDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/ReenterLockDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjLockpark.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjWait.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java" />
       </list>
     </option>
   </component>
@@ -232,10 +226,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="2040" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -245,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,17 +291,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="ReentrantlockDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="condition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
+    <property name="SearchEverywhereHistoryKey" value="NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -321,8 +315,12 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.springioc.framework.webmvc.servlet" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gupaoProject2019\java_thread\src\main\java\com\learn\condition" />
+      <recent name="F:\gupaoProject2019\java_thread\src\main\java\com\learn\countdownlatch" />
+      <recent name="F:\gupaoProject2019\java_thread\src\main\java\com\learn\cyclicbarrier" />
+      <recent name="F:\gupaoProject2019\spring_read\src\sql" />
+      <recent name="F:\gupaoProject2019\spring_read\src\main\java\com\learn" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.ChainOfResponsibility" />
@@ -331,12 +329,8 @@
       <recent name="com.learn.designModel.ProxyPattern.dynamicProxy.CGLIBProxy" />
       <recent name="com.learn.designModel.ProxyPattern.staticProxy.DBDynamic" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gupaoProject2019\spring_read\src\sql" />
-      <recent name="F:\gupaoProject2019\spring_read\src\main\java\com\learn" />
-      <recent name="F:\gupaoProject2019\spring_read\src\main\resources" />
-      <recent name="F:\gupaoProject2019\spring_ioc\src\main\resources" />
-      <recent name="F:\gupaoProject2019\spring_ioc\src\main\java\com\learn\springioc\framework\annotation" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.springioc.framework.webmvc.servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,58 +345,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeLock">
+  <component name="RunManager" selected="Application.TestObjWait">
     <configuration name="InterruptReenterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.ReentrantlockDemo.InterruptReenterDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.InterruptReenterDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.ReentrantlockDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NotifyAndWaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.notifyAndWait.NotifyAndWaitTest" />
-      <module name="java_thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.notifyAndWait.*" />
+          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ReenterLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.ReentrantlockDemo.ReenterLockDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.ReenterLockDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.ReentrantlockDemo.*" />
+          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SyncDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.TypeOfLock.SynchronizedDemo.SyncDemo02" />
+    <configuration name="TestObjLockpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.lockSupportDemo.TestObjLockpark" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.TypeOfLock.SynchronizedDemo.*" />
+          <option name="PATTERN" value="com.learn.lockSupportDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestObjWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.lockSupportDemo.TestObjWait" />
+      <module name="java_thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.lockSupportDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="TimeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.ReentrantlockDemo.TimeLock" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.TimeLock" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.ReentrantlockDemo.*" />
+          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -536,19 +530,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="Application.SyncDemo02" />
-      <item itemvalue="Application.NotifyAndWaitTest" />
       <item itemvalue="Application.ReenterLockDemo" />
       <item itemvalue="Application.InterruptReenterDemo" />
       <item itemvalue="Application.TimeLock" />
+      <item itemvalue="Application.TestObjWait" />
+      <item itemvalue="Application.TestObjLockpark" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestObjWait" />
+        <item itemvalue="Application.TestObjLockpark" />
         <item itemvalue="Application.TimeLock" />
         <item itemvalue="Application.InterruptReenterDemo" />
         <item itemvalue="Application.ReenterLockDemo" />
-        <item itemvalue="Application.NotifyAndWaitTest" />
-        <item itemvalue="Application.SyncDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -595,8 +589,19 @@
       <workItem from="1560855749354" duration="13808000" />
       <workItem from="1561205614225" duration="5488000" />
       <workItem from="1561379438917" duration="35513000" />
-      <workItem from="1562244418070" duration="4769000" />
+      <workItem from="1562244418070" duration="11631000" />
+      <workItem from="1562584341236" duration="8471000" />
+      <workItem from="1562842256917" duration="4891000" />
+      <workItem from="1562850700718" duration="5399000" />
     </task>
+    <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
+      <created>1562845208648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562845208648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -632,7 +637,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369659000" />
+    <option name="totallyTimeSpent" value="395282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,7 +649,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
@@ -659,16 +664,15 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39709172" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277405" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.23266219" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.23266219" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24307036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24840085" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -676,9 +680,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.31584582" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -723,6 +728,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[20190711-condition,countDownLatch,cyclicbarrier实例]" />
+    <option name="LAST_COMMIT_MESSAGE" value="[20190711-condition,countDownLatch,cyclicbarrier实例]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,9 +791,9 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java</url>
+          <url>file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrevProcessor.java</url>
           <line>28</line>
-          <properties class="com.learn.ChainOfResponsibility.PrevProcessor" method="process">
+          <properties class="com.learn.chainOfResponsibility.PrevProcessor" method="process">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="46" />
@@ -823,69 +832,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="100" column="38" lean-forward="true" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="246" column="58" selection-start-line="246" selection-start-column="58" selection-end-line="246" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/config/BeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1027">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="84" column="39" selection-start-line="84" selection-start-column="39" selection-end-line="84" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/support/BeanDefinitionRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="240" column="28" selection-start-line="240" selection-start-column="28" selection-end-line="240" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/IRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="36" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/CheckProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -907,35 +853,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/IRequestProcessor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/IRequestProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/Request.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrintProcessor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrintProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/SaveProcessor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/SaveProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ChainOfResponsibility/PrevProcessor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrevProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -972,10 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,10 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,9 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,7 +1021,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock.java" />
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/typeOfLock/SynchronizedDemo/SyncDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
@@ -1094,14 +1029,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.java" />
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/typeOfLock/SynchronizedDemo/SyncDemo02.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/typeOfLock/SynchronizedDemo/SetPrivateNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
@@ -1119,10 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,10 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,60 +1150,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/TimeLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="383" column="35" selection-start-line="383" selection-start-column="26" selection-end-line="383" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/AttemptLocking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/ReenterLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/TimeLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
+        <state relative-caret-position="612">
           <caret line="36" column="52" lean-forward="true" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/InterruptReenterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.ReentrantLock">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.ReentrantLock</OriginalElement>
+          <nodes>
+            <node x="0.0" y="160.0">java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject</node>
+            <node x="574.0388888888889" y="240.0">java.util.concurrent.locks.ReentrantLock.FairSync</node>
+            <node x="260.0" y="80.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="68.93333333333334" y="80.0">java.util.concurrent.locks.Condition</node>
+            <node x="562.05" y="0.0">java.util.concurrent.locks.Lock</node>
+            <node x="501.29999999999995" y="80.0">java.util.concurrent.locks.ReentrantLock</node>
+            <node x="324.0" y="160.0">java.util.concurrent.locks.AbstractQueuedSynchronizer.Node</node>
+            <node x="443.5388888888889" y="160.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+            <node x="436.0388888888889" y="240.0">java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+            <node x="162.0" y="160.0">java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject</node>
+            <node x="230.6222222222222" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject" target="java.util.concurrent.locks.Condition">
+              <point x="35.5" y="-15.0" />
+              <point x="106.5" y="135.0" />
+              <point x="94.93333333333334" y="135.0" />
+              <point x="-26.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject" target="java.util.concurrent.locks.Condition">
+              <point x="-47.33333333333334" y="-15.0" />
+              <point x="185.66666666666666" y="135.0" />
+              <point x="146.93333333333334" y="135.0" />
+              <point x="26.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="29.5" y="-15.0" />
+              <point x="524.5388888888889" y="220.0" />
+              <point x="547.9" y="220.0" />
+              <point x="547.9" y="135.0" />
+              <point x="566.8" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="18.5" y="-15.0" />
+              <point x="499.0388888888889" y="135.0" />
+              <point x="523.1333333333333" y="135.0" />
+              <point x="-43.66666666666663" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock" target="java.io.Serializable">
+              <point x="-32.75" y="-15.0" />
+              <point x="534.05" y="50.0" />
+              <point x="330.3722222222222" y="50.0" />
+              <point x="42.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedLongSynchronizer.ConditionObject" target="java.io.Serializable">
+              <point x="-35.5" y="-15.0" />
+              <point x="35.5" y="135.0" />
+              <point x="49.98333333333335" y="135.0" />
+              <point x="49.98333333333335" y="50.0" />
+              <point x="244.8722222222222" y="50.0" />
+              <point x="-42.75" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+              <point x="-18.5" y="-15.0" />
+              <point x="462.0388888888889" y="135.0" />
+              <point x="440.0" y="135.0" />
+              <point x="72.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock">
+              <point x="23.75" y="-15.0" />
+              <point x="645.2888888888889" y="135.0" />
+              <point x="610.4666666666666" y="135.0" />
+              <point x="43.66666666666663" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+              <point x="47.333333333333314" y="-15.0" />
+              <point x="280.3333333333333" y="135.0" />
+              <point x="296.0" y="135.0" />
+              <point x="-72.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock" target="java.util.concurrent.locks.Lock">
+              <point x="32.75" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer.Node" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+              <point x="0.0" y="-15.0" />
+              <point x="364.5" y="135.0" />
+              <point x="368.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer.ConditionObject" target="java.io.Serializable">
+              <point x="0.0" y="-15.0" />
+              <point x="233.0" y="135.0" />
+              <point x="227.58333333333331" y="135.0" />
+              <point x="227.58333333333331" y="60.0" />
+              <point x="273.3722222222222" y="60.0" />
+              <point x="-14.25" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
+              <point x="0.0" y="-15.0" />
+              <point x="368.0" y="60.0" />
+              <point x="301.8722222222222" y="60.0" />
+              <point x="14.25" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.NonfairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+              <point x="-29.5" y="-15.0" />
+              <point x="465.5388888888889" y="220.0" />
+              <point x="462.0388888888889" y="220.0" />
+              <point x="-18.5" y="15.0" />
+            </edge>
+            <edge source="java.util.concurrent.locks.ReentrantLock.FairSync" target="java.util.concurrent.locks.ReentrantLock.Sync">
+              <point x="-23.75" y="-15.0" />
+              <point x="597.7888888888889" y="210.0" />
+              <point x="499.0388888888889" y="210.0" />
+              <point x="18.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-135.0" y="59.0" />
+          <SelectedNodes>
+            <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/AttemptLocking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="264" column="77" lean-forward="true" selection-start-line="264" selection-start-column="77" selection-end-line="264" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjLockpark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/cyclicbarrier/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/countdownlatch/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/ReenterLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4704">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="576" column="19" selection-start-line="576" selection-start-column="19" selection-end-line="576" selection-end-column="19" />
+        <state relative-caret-position="384">
+          <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
           <folding>
+            <element signature="e#5562#5563#0" expanded="true" />
+            <element signature="e#5614#5615#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
             <element signature="e#9117#9118#0" expanded="true" />
             <element signature="e#9144#9145#0" expanded="true" />
+            <element signature="e#15850#15851#0" expanded="true" />
+            <element signature="e#15881#15882#0" expanded="true" />
             <element signature="e#19868#19869#0" expanded="true" />
             <element signature="e#19915#19916#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/InterruptReenterDemo.java">
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="2000" column="20" selection-start-line="2000" selection-start-column="20" selection-end-line="2000" selection-end-column="20" />
           <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#32644#32645#0" expanded="true" />
+            <element signature="e#32694#32695#0" expanded="true" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#61323#61331#0" expanded="true" />
+            <element signature="e#61946#61954#0" expanded="true" />
+            <element signature="e#62618#62626#0" expanded="true" />
+            <element signature="e#88061#88069#0" expanded="true" />
           </folding>
         </state>
       </provider>
