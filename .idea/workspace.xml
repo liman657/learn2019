@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="" />
+    <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_thread/src/test/java/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/ReenterLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/ReenterLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadC.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
     <ignored path="$PROJECT_DIR$/concurrent/target/" />
@@ -28,8 +41,36 @@
       <FILTER>com.learn.springioc.test.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CountTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="732">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#726#737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +100,9 @@
       <find>target.run</find>
       <find>Lock</find>
       <find>lock</find>
+      <find>check</find>
+      <find>resizeS</find>
+      <find>compare</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -75,11 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/aop/SpringAopTest.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/StudentService.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/servicea/AccountService.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/servicea/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/dao/impl/AccountDaoImpl.java" />
@@ -126,6 +165,11 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjLockpark.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjWait.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/test/java/TestDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadFactoryDemo.java" />
+        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java" />
       </list>
     </option>
   </component>
@@ -162,8 +206,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2749" />
-    <option name="y" value="-8" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -175,69 +217,82 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="forkJoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ConcurrentHashMap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
+    <property name="SearchEverywhereHistoryKey" value="ConcurrentHashMap&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -281,64 +336,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestObjWait">
-    <configuration name="InterruptReenterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.InterruptReenterDemo" />
+  <component name="RunManager" selected="Application.CountTask">
+    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.concurrentSet.hashmap.ConcurrentHashMapDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
+          <option name="PATTERN" value="com.learn.concurrentSet.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ReenterLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.ReenterLockDemo" />
+    <configuration name="CountTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.forkJoin.CountTask" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
+          <option name="PATTERN" value="com.learn.forkJoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestObjLockpark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.lockSupportDemo.TestObjLockpark" />
+    <configuration name="ThreadFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.threadPool.ThreadFactoryDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.lockSupportDemo.*" />
+          <option name="PATTERN" value="com.learn.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestObjWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.lockSupportDemo.TestObjWait" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.threadPool.ThreadPoolDemo" />
       <module name="java_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.lockSupportDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TimeLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.reentrantlockDemo.TimeLock" />
-      <module name="java_thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.reentrantlockDemo.*" />
+          <option name="PATTERN" value="com.learn.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestDemo.testResizeStamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_thread" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testResizeStamp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -466,19 +527,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="Application.ReenterLockDemo" />
-      <item itemvalue="Application.InterruptReenterDemo" />
-      <item itemvalue="Application.TimeLock" />
-      <item itemvalue="Application.TestObjWait" />
-      <item itemvalue="Application.TestObjLockpark" />
+      <item itemvalue="Application.ConcurrentHashMapDemo" />
+      <item itemvalue="JUnit.TestDemo.testResizeStamp" />
+      <item itemvalue="Application.ThreadPoolDemo" />
+      <item itemvalue="Application.ThreadFactoryDemo" />
+      <item itemvalue="Application.CountTask" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestObjWait" />
-        <item itemvalue="Application.TestObjLockpark" />
-        <item itemvalue="Application.TimeLock" />
-        <item itemvalue="Application.InterruptReenterDemo" />
-        <item itemvalue="Application.ReenterLockDemo" />
+        <item itemvalue="Application.CountTask" />
+        <item itemvalue="Application.ThreadFactoryDemo" />
+        <item itemvalue="Application.ThreadPoolDemo" />
+        <item itemvalue="JUnit.TestDemo.testResizeStamp" />
+        <item itemvalue="Application.ConcurrentHashMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +589,8 @@
       <workItem from="1562244418070" duration="11631000" />
       <workItem from="1562584341236" duration="8471000" />
       <workItem from="1562842256917" duration="4891000" />
-      <workItem from="1562850700718" duration="7253000" />
+      <workItem from="1562850700718" duration="7656000" />
+      <workItem from="1563093186584" duration="24356000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -541,9 +603,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestApplicationContext_testGetApplicationContext - 2019.05.19 at 09h 57m 53s.xml">
-      <configuration name="TestApplicationContext.testGetApplicationContext" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestApplicationContext_testGetApplicationContext - 2019.05.19 at 10h 02m 17s.xml">
       <configuration name="TestApplicationContext.testGetApplicationContext" configurationId="JUnit" />
     </history-entry>
@@ -571,9 +630,12 @@
     <history-entry file="TransactionTest_testTranout - 2019.06.11 at 19h 24m 07s.xml">
       <configuration name="TransactionTest.testTranout" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDemo_testResizeStamp - 2019.07.21 at 12h 36m 25s.xml">
+      <configuration name="TestDemo.testResizeStamp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="397136000" />
+    <option name="totallyTimeSpent" value="421895000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +647,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
@@ -594,32 +656,32 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39709172" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38926175" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277405" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.23266219" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22665147" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24840085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.19722815" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33599088" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.31584582" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -729,7 +791,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrevProcessor.java</url>
           <line>28</line>
-          <properties class="com.learn.chainOfResponsibility.PrevProcessor" method="process">
+          <properties class="com.learn.chainOfResponsibility.PrevProcessor">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="46" />
@@ -768,67 +830,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/SaveProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/ChainOfReponsibilityPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/IRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrintProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/SaveProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/chainOfResponsibility/PrevProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/designModel/src/main/java/com/learn/designModel/ChainOfResponsibilityPattern/PrintProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1058,7 +1059,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1213,7 +1214,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1313,17 +1314,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-922">
-          <caret line="272" column="6" lean-forward="true" selection-start-line="272" selection-start-column="6" selection-end-line="272" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2593" column="36" selection-start-line="2593" selection-start-column="36" selection-end-line="2593" selection-end-column="36" />
+          <folding>
+            <element signature="e#103044#103045#0" expanded="true" />
+            <element signature="e#103104#103105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2497" column="5" lean-forward="true" selection-start-line="2366" selection-end-line="2497" selection-end-column="5" />
+          <folding>
+            <element signature="e#32334#32335#0" expanded="true" />
+            <element signature="e#32385#32386#0" expanded="true" />
+            <element signature="e#39094#39095#0" expanded="true" />
+            <element signature="e#39146#39147#0" expanded="true" />
+            <element signature="e#93710#93711#0" expanded="true" />
+            <element signature="e#93797#93798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/test/java/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadFactoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#726#737#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
