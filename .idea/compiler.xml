@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructure" />
         <module name="Java8" />
+        <module name="java_distribute" />
         <module name="java_thread" />
         <module name="leetCode" />
         <module name="spring_aop" />

@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_thread/src/test/java/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_distribute/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/ReenterLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/ReenterLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadB.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadC.class" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -29,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/spring_http/target/" />
     <ignored path="$PROJECT_DIR$/springboot_mq/target/" />
     <ignored path="$PROJECT_DIR$/java_thread/target/" />
+    <ignored path="$PROJECT_DIR$/java_distribute/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,14 +54,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CountTask.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_distribute/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="216">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerSocketDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#726#737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientSocketDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,10 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/dao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/servicea/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/dao/impl/AccountDaoImpl.java" />
-        <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/transaction/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring_read/src/main/resources/applicationContext-tx.xml" />
         <option value="$PROJECT_DIR$/spring_read/pom.xml" />
         <option value="$PROJECT_DIR$/spring_read/src/main/java/com/learn/test/TransactionTest.java" />
@@ -170,6 +192,10 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadFactoryDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java" />
+        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java" />
+        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocket.java" />
+        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" />
+        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" />
       </list>
     </option>
   </component>
@@ -206,6 +232,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -217,78 +244,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="forkJoin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="java_distribute" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,14 +350,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountTask">
-    <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.concurrentSet.hashmap.ConcurrentHashMapDemo" />
-      <module name="java_thread" />
+  <component name="RunManager" selected="Application.ClientSocketDemo">
+    <configuration name="ClientSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.network.ClientSocketDemo" />
+      <module name="java_distribute" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.concurrentSet.hashmap.*" />
+          <option name="PATTERN" value="com.learn.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,6 +369,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.forkJoin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ServerSocketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.network.ServerSocketDemo" />
+      <module name="java_distribute" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,23 +408,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TestDemo.testResizeStamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_thread" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDemo" />
-      <option name="METHOD_NAME" value="testResizeStamp" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -527,19 +535,19 @@
       <item itemvalue="Tomcat Server.springDemo" />
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
-      <item itemvalue="Application.ConcurrentHashMapDemo" />
-      <item itemvalue="JUnit.TestDemo.testResizeStamp" />
       <item itemvalue="Application.ThreadPoolDemo" />
       <item itemvalue="Application.ThreadFactoryDemo" />
       <item itemvalue="Application.CountTask" />
+      <item itemvalue="Application.ServerSocketDemo" />
+      <item itemvalue="Application.ClientSocketDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientSocketDemo" />
+        <item itemvalue="Application.ServerSocketDemo" />
         <item itemvalue="Application.CountTask" />
         <item itemvalue="Application.ThreadFactoryDemo" />
         <item itemvalue="Application.ThreadPoolDemo" />
-        <item itemvalue="JUnit.TestDemo.testResizeStamp" />
-        <item itemvalue="Application.ConcurrentHashMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +598,8 @@
       <workItem from="1562584341236" duration="8471000" />
       <workItem from="1562842256917" duration="4891000" />
       <workItem from="1562850700718" duration="7656000" />
-      <workItem from="1563093186584" duration="24356000" />
+      <workItem from="1563093186584" duration="24481000" />
+      <workItem from="1563806195553" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -635,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421895000" />
+    <option name="totallyTimeSpent" value="424233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,6 +657,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
@@ -657,7 +667,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38926175" />
@@ -668,13 +678,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.22665147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.52796423" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" weight="0.41555557" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33599088" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,6 +691,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33599088" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -830,48 +840,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/ThreadStatusDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByExtends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/start/StartByImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -904,14 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="946" column="45" lean-forward="true" selection-start-line="946" selection-start-column="45" selection-end-line="946" selection-end-column="45" />
-          <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-            <element signature="e#37304#37305#0" expanded="true" />
-            <element signature="e#37347#37348#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,7 +1019,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category>Inner Classes</Category>
+            <Category />
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1214,7 +1174,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category>Inner Classes</Category>
+            <Category />
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1280,20 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-          <folding>
-            <element signature="e#5562#5563#0" expanded="true" />
-            <element signature="e#5614#5615#0" expanded="true" />
-            <element signature="e#6849#6850#0" expanded="true" />
-            <element signature="e#6907#6908#0" expanded="true" />
-            <element signature="e#7116#7117#0" expanded="true" />
-            <element signature="e#7150#7151#0" expanded="true" />
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-            <element signature="e#15850#15851#0" expanded="true" />
-            <element signature="e#15881#15882#0" expanded="true" />
-            <element signature="e#19868#19869#0" expanded="true" />
-            <element signature="e#19915#19916#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,16 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="2008" column="43" lean-forward="true" selection-start-line="2008" selection-start-column="43" selection-end-line="2008" selection-end-column="43" />
-          <folding>
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-            <element signature="e#61323#61331#0" expanded="true" />
-            <element signature="e#61946#61954#0" expanded="true" />
-            <element signature="e#62618#62626#0" expanded="true" />
-            <element signature="e#88061#88069#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,10 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="2593" column="36" selection-start-line="2593" selection-start-column="36" selection-end-line="2593" selection-end-column="36" />
-          <folding>
-            <element signature="e#103044#103045#0" expanded="true" />
-            <element signature="e#103104#103105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,9 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,14 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2497" column="5" lean-forward="true" selection-start-line="2366" selection-end-line="2497" selection-end-column="5" />
-          <folding>
-            <element signature="e#32334#32335#0" expanded="true" />
-            <element signature="e#32385#32386#0" expanded="true" />
-            <element signature="e#39094#39095#0" expanded="true" />
-            <element signature="e#39146#39147#0" expanded="true" />
-            <element signature="e#93710#93711#0" expanded="true" />
-            <element signature="e#93797#93798#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,21 +1299,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadFactoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadFactoryDemo.java" />
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/threadPool/ThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1405,11 +1312,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="132">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#726#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_distribute/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
