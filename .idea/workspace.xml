@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java_distribute/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -75,8 +70,8 @@
       <file leaf-file-name="ServerSocketDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="264">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +82,8 @@
       <file leaf-file-name="ClientSocketDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="432">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,8 +189,8 @@
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/forkJoin/CountTask.java" />
         <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/NetworkApp.java" />
         <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocket.java" />
-        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" />
         <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java" />
+        <option value="$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java" />
       </list>
     </option>
   </component>
@@ -232,7 +227,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="507" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -244,8 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,11 +291,17 @@
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,7 +598,9 @@
       <workItem from="1562842256917" duration="4891000" />
       <workItem from="1562850700718" duration="7656000" />
       <workItem from="1563093186584" duration="24481000" />
-      <workItem from="1563806195553" duration="2213000" />
+      <workItem from="1563806195553" duration="2423000" />
+      <workItem from="1564191865647" duration="1843000" />
+      <workItem from="1564816549277" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -644,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424233000" />
+    <option name="totallyTimeSpent" value="428987000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -667,7 +668,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38926175" />
@@ -678,10 +679,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.52796423" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.27964205" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" weight="0.41555557" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2457356" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1019,7 +1020,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1174,7 +1175,7 @@
             <node>java.util.concurrent.locks.ReentrantLock.NonfairSync</node>
           </SelectedNodes>
           <Categories>
-            <Category />
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -1304,9 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,9 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,8 +1345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ServerSocketDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1360,8 +1355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_distribute/src/main/java/com/learn/network/ClientSocketDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="432">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

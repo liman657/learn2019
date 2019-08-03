@@ -22,13 +22,13 @@ public class ServerSocketDemo {
             //开始阻塞监听
             Socket socket = serverSocket.accept();
 
-            //通过socket拿到输入输出流
+            //通过socket拿到输入流
             System.out.println("服务端开始获取数据流");
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            PrintWriter writer = new PrintWriter(socket.getOutputStream());
 
             //拿到控制台数据
             BufferedReader sin = new BufferedReader(new InputStreamReader(System.in));
+            PrintWriter writer = new PrintWriter(socket.getOutputStream());//拿到socket的输出流
             System.out.println("客户端发送过来的数据为："+in.readLine());
             String line = sin.readLine();//准备发送的数据
             while(!"bye".equals(line)){
