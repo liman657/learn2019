@@ -1,4 +1,4 @@
-package com.learn.lambda.chapter02;
+package com.learn.lambda;
 
 /**
  * autor:liman

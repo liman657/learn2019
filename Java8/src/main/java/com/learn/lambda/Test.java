@@ -1,4 +1,4 @@
-package com.learn.lambda.chapter02;
+package com.learn.lambda;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,24 @@ public class Test {
         return apples;
     }
 
-    public static List<Apple> filterGreenApples(List<Apple> apples,String color){
+    public static List<Apple> filteGreenApple(List<Apple> apples){
+        List<Apple> result = new ArrayList<>();
+        for(Apple apple:apples){
+            if("green".equals(apple.getColor())){
+                result.add(apple);
+            }
+        }
+        return result;
+    }
+
+
+    /**
+     * 各种过滤方法
+     * @param apples
+     * @param color
+     * @return
+     */
+    public static List<Apple> filterApplesByColor(List<Apple> apples,String color){
         List<Apple> result = new ArrayList<>();
         for(Apple apple:apples){
             if(color.equals(apple.getColor())){
@@ -49,11 +66,11 @@ public class Test {
 
     public static void main(String[] args) {
         List<Apple> apples = initApples();
-        List<Apple> redApples = filterGreenApples(apples, "red");
+        List<Apple> redApples = filterApplesByColor(apples, "green");
         System.out.println(redApples);
 
-        List<Apple> appleOverWeight = filterByWeight(apples, 50);
-        System.out.println(appleOverWeight);
+//        List<Apple> appleOverWeight = filterByWeight(apples, 50);
+//        System.out.println(appleOverWeight);
     }
 
 }
