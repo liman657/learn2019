@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/functionInterface/FunctionInterfaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/DishContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/stepin/StreamStepInDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/common/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/common/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/comparableDemo/ComparableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/comparableDemo/ComparableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/functioncombine/FuncCombineDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -59,8 +50,17 @@
       <file leaf-file-name="MethodReferenceDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" selection-start-line="18" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiFunction.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BiFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,8 +113,8 @@
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="2834" lean-forward="true" selection-start-line="2834" selection-end-line="2834" />
+            <state relative-caret-position="187">
+              <caret line="684" column="15" selection-start-line="684" selection-start-column="15" selection-end-line="684" selection-end-column="15" />
               <folding>
                 <element signature="e#22786#22787#0" expanded="true" />
                 <element signature="e#22821#22822#0" expanded="true" />
@@ -659,7 +659,7 @@
       <workItem from="1564816549277" duration="22174000" />
       <workItem from="1565270729510" duration="2669000" />
       <workItem from="1565782950215" duration="200000" />
-      <workItem from="1565783167721" duration="16196000" />
+      <workItem from="1565783167721" duration="17731000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -704,7 +704,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467525000" />
+    <option name="totallyTimeSpent" value="469060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,6 +717,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1052" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
@@ -736,11 +737,11 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.27865168" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.27865168" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.25591397" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.25591397" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -899,13 +900,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="2008" column="43" lean-forward="true" selection-start-line="2008" selection-start-column="43" selection-end-line="2008" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1247,21 +1241,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="2834" lean-forward="true" selection-start-line="2834" selection-end-line="2834" />
-          <folding>
-            <element signature="e#22786#22787#0" expanded="true" />
-            <element signature="e#22821#22822#0" expanded="true" />
-            <element signature="e#111196#111197#0" expanded="true" />
-            <element signature="e#111251#111252#0" expanded="true" />
-            <element signature="e#120889#120890#0" expanded="true" />
-            <element signature="e#120932#120933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1276,10 +1255,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="684" column="15" selection-start-line="684" selection-start-column="15" selection-end-line="684" selection-end-column="15" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+            <element signature="e#111196#111197#0" expanded="true" />
+            <element signature="e#111251#111252#0" expanded="true" />
+            <element signature="e#120889#120890#0" expanded="true" />
+            <element signature="e#120932#120933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" selection-start-line="18" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="256">
+          <caret line="103" column="5" lean-forward="true" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
         </state>
       </provider>
     </entry>

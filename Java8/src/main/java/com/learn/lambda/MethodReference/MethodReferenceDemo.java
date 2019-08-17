@@ -27,6 +27,8 @@ public class MethodReferenceDemo {
         testArrayMethodReference();
 
         testConstructorMethodReference();
+
+        testObjectMethodReferenceUpdate();
     }
 
     public static void testSupplier(){
@@ -116,4 +118,15 @@ public class MethodReferenceDemo {
         System.out.println(apple);
     }
 
+    public static void testObjectMethodReferenceUpdate(){
+        System.out.println("==========test testObjectMethodReferenceUpdate===============");
+        String test = "Aest";
+        Function<String,Integer> stringFunc = String::length;
+        Function<Integer,Integer> stringTest = test::codePointAt;
+        BiFunction<String,Integer,Integer> biTest = String::codePointAt;
+        Integer apply = biTest.apply(test, 0);
+        Integer result = stringFunc.apply("test");
+        System.out.println(result);
+        System.out.println(apply);
+    }
 }
