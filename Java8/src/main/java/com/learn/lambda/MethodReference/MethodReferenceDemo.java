@@ -25,6 +25,8 @@ public class MethodReferenceDemo {
         testObjectMethodReference();
         testStaticMethodReference();
         testArrayMethodReference();
+
+        testConstructorMethodReference();
     }
 
     public static void testSupplier(){
@@ -62,27 +64,29 @@ public class MethodReferenceDemo {
     }
 
     public static void testObjectMethodReference(){
-        System.out.println("==========test staticMethodReference===============");
+        System.out.println("==========test objectMethodReference===============");
         Consumer<String> consumer = (str)-> System.out.println(str);
         consumer.accept("test Consumer lambda");
 
-        Consumer<String> staticConsumer = System.out::println;
+        Consumer<String> staticConsumer = System.out::println;//用的就是对象方法引用，out是system的一个静态对象
+
+        String test = new String("just test object method reference");
+        Supplier<Integer> supLegth = test::length;//直接通过指定对象调用length方法
+        Integer length = supLegth.get();
+        System.out.println(length);
         staticConsumer.accept("test consumer method reference");
     }
 
     public static void testStaticMethodReference(){
-        System.out.println("==========test StaticMethodReference===============");
-        Comparator<Integer> com = (a,b)->a.compareTo(b);
-        int compare = com.compare(2, 3);
-        System.out.println(compare);
 
-        Comparator<Integer> compStaticLambda = (a,b)->Integer.compare(a,b);
-        int compStaticResult = compStaticLambda.compare(5, 6);
-        System.out.println(compStaticResult);
+        System.out.println("=================test static method reference==================");
 
-        Comparator<Integer> compStaticMethodReference = Integer::compare;
-        int compStaticMethodReferenceResult = compStaticMethodReference.compare(10,8);
-        System.out.println(compStaticMethodReferenceResult);
+        Function<Object,String> valueOf = String::valueOf;
+        String transLong = valueOf.apply(19089839023L);
+        System.out.println(transLong);
+
+        String transDouble = valueOf.apply(9.857445948D);
+        System.out.println(transDouble);
     }
 
     public static void testArrayMethodReference(){
@@ -95,6 +99,21 @@ public class MethodReferenceDemo {
         String[] stringArrayMethodReference = fuStringArrayMethodReference.apply(100);
         System.out.println(stringArrayMethodReference.length);
 
+    }
+
+    public static void testConstructorMethodReference(){
+        System.out.println("==========test ConstructorMethodReference===============");
+        Function<Integer,Apple> lambdaFunc = (a)->new Apple(a);//调用new Apple(int weight)
+        Apple lambdaFuncApple = lambdaFunc.apply(150);
+        System.out.println(lambdaFuncApple);
+
+        Function<Integer,Apple> methodReferenceFunc = Apple::new;//调用new Apple(int weight)
+        Apple methodReferenceApple = methodReferenceFunc.apply(100);
+        System.out.println(methodReferenceApple);
+
+        Supplier<Apple> supplierApp = Apple::new;//调用默认构造函数
+        Apple apple = supplierApp.get();
+        System.out.println(apple);
     }
 
 }

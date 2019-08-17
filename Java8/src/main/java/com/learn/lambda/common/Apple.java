@@ -4,7 +4,7 @@ package com.learn.lambda.common;
  * author: liman
  * createtime: 2019/8/8
  */
-public class Apple implements Comparable<Apple>{
+public class Apple{
 
     private int weight;
     private String color;
@@ -61,8 +61,8 @@ public class Apple implements Comparable<Apple>{
                 '}';
     }
 
-    @Override
-    public int compareTo(Apple o) {
-        return this.getWeight()-o.getWeight();
-    }
+//    @Override
+//    public int compareTo(Apple o) {
+//        return this.getWeight()-o.getWeight();
+//    }
 }

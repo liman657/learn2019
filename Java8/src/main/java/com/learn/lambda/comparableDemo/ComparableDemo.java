@@ -20,11 +20,11 @@ public class ComparableDemo {
     public static void main(String[] args) {
         List<Apple> apples = AppleContainer.initAppleList();
         System.out.println(apples);
-//        Collections.sort(apples,new AppWeightComparator());
+        Collections.sort(apples,new AppWeightComparator());
+        System.out.println(apples);
+
+//        Collections.sort(apples);
 //        System.out.println(apples);
-
-        Collections.sort(apples);
-
     }
 }
 
@@ -32,6 +32,6 @@ class AppWeightComparator implements Comparator<Apple>{
 
     @Override
     public int compare(Apple o1, Apple o2) {
-        return o1.getWeight()-o2.getWeight();
+        return o1.getColor().compareTo(o2.getColor());
     }
 }

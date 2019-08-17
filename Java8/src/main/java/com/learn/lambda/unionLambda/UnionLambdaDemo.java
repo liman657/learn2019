@@ -1,7 +1,12 @@
 package com.learn.lambda.unionLambda;
 
 
+import com.learn.lambda.common.Apple;
+import com.learn.lambda.common.AppleContainer;
+
 import java.util.Comparator;
+import java.util.List;
+import java.util.function.Predicate;
 
 /**
  * author: liman
