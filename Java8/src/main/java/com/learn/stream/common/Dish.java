@@ -7,10 +7,10 @@ package com.learn.stream.common;
  */
 public class Dish {
 
-    private final String name;
-    private final boolean vegetarian;
-    private final int calories;
-    private final Type type;
+    private final String name;//姓名
+    private final boolean vegetarian;//是否是蔬菜
+    private final int calories;//热量
+    private final Type type;//类型
 
     public Dish(String name, boolean vegetarian, int calories, Type type) {
         this.name = name;
