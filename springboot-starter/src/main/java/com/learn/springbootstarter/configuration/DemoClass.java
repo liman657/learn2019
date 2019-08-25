@@ -10,5 +10,4 @@ public class DemoClass {
     public void sayDemoClass(){
         System.out.println("demo class");
     }
-
 }

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/create/CreateStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDefineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/LoggerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/SPIDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/TestConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -66,33 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NumericStreamDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java">
+      <file leaf-file-name="SPIDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/SPIDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="269" column="55" lean-forward="true" selection-start-line="269" selection-start-column="55" selection-end-line="269" selection-end-column="55" />
-              <folding>
-                <element signature="e#45701#45702#0" expanded="true" />
-                <element signature="e#45745#45746#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamFilterDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="366">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,14 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamMapDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java">
+      <file leaf-file-name="spring-autoconfigure-metadata.properties" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/learn/SpiCore/1.0-SNAPSHOT/SpiCore-1.0-SNAPSHOT.jar!/META-INF/spring-autoconfigure-metadata.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" column="69" lean-forward="true" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -147,6 +114,10 @@
       <find>compare</find>
       <find>Predicate</find>
       <find>Stream</find>
+      <find>EnableAuto</find>
+      <find>Conditional</find>
+      <find>SPIConfig</find>
+      <find>SPI</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -163,11 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/ReentrantlockDemo/InterruptReenterDemo.java" />
-        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/lockSupportDemo.java" />
-        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/reentrantlockDemo/ReenterLockDemo.java" />
-        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjLockpark.java" />
-        <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/lockSupportDemo/TestObjWait.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/condition/ConditionTest.java" />
         <option value="$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java" />
         <option value="$PROJECT_DIR$/java_thread/src/test/java/TestDemo.java" />
@@ -200,20 +166,25 @@
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/functionInterface/FunctionInterfaceDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationMain.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheImportService.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDefineService.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/create/CreateStreamDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherBean.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherConfiguration.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/LoggerService.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDefineService.java" />
+        <option value="$PROJECT_DIR$/springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/SPIDemo.java" />
       </list>
     </option>
   </component>
@@ -249,10 +220,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -263,104 +234,117 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="middleoperation" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootstarter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="middleoperation" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootstarter" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="middleoperation" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootstarter" type="462c0819:PsiDirectoryNode" />
+              <item name="EnableAutoFromSpi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.learn:SpiCore:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.learn:SpiCore:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="SpiCore-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.learn:SpiCore:1.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="SpiCore-1.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="spring-autoconfigure-metadata&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;ConcurrentHashMap&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="XADataSourceAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration&#10;spring-autoconfigure-metadata&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;spring.factories&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/META-INF/spring.factories&#10;spring-autoconfigure-metadata.properties&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;ConcurrentHashMap&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -404,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamMapDemo">
+  <component name="RunManager" selected="Spring Boot.SPIDemo">
     <configuration name="ConfigurationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.springbootstarter.configuration.ConfigurationDemo" />
       <module name="springboot-starter" />
@@ -412,17 +396,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.springbootstarter.configuration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CreateStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.create.CreateStreamDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stream.create.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -488,6 +461,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="SPIDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.springbootstarter.EnableAutoFromSpi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.springbootstarter.EnableAutoFromSpi.SPIDemo" />
     </configuration>
     <configuration name="SpringHttpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring_http" />
@@ -596,17 +579,17 @@
       <item itemvalue="Spring Boot.SpringbootStarterApplication" />
       <item itemvalue="Application.ConfigurationDemo" />
       <item itemvalue="Application.EnableDemoMain" />
-      <item itemvalue="Application.CreateStreamDemo" />
       <item itemvalue="Application.StreamFilterDemo" />
       <item itemvalue="Application.StreamMapDemo" />
+      <item itemvalue="Spring Boot.SPIDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamMapDemo" />
-        <item itemvalue="Application.StreamFilterDemo" />
-        <item itemvalue="Application.CreateStreamDemo" />
+        <item itemvalue="Spring Boot.SPIDemo" />
         <item itemvalue="Application.EnableDemoMain" />
         <item itemvalue="Application.ConfigurationDemo" />
+        <item itemvalue="Application.StreamMapDemo" />
+        <item itemvalue="Application.StreamFilterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -667,6 +650,7 @@
       <workItem from="1566210819363" duration="16122000" />
       <workItem from="1566478746136" duration="3253000" />
       <workItem from="1566557179647" duration="7195000" />
+      <workItem from="1566612407155" duration="20561000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -711,7 +695,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="495691000" />
+    <option name="totallyTimeSpent" value="516252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,11 +707,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.3836689" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32997763" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.36666667" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -737,7 +720,7 @@
       <window_info anchor="right" id="Structure" order="9" sideWeight="0.5009276" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38865095" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38814318" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32662192" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -745,12 +728,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.27730194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.3736018" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23400854" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.21215352" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33557048" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -758,7 +742,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33599088" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
@@ -907,254 +890,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="684" column="15" selection-start-line="684" selection-start-column="15" selection-end-line="684" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BiFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/MethodReference/MethodReferenceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="106" column="87" lean-forward="true" selection-start-line="106" selection-start-column="87" selection-end-line="106" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/common/AppleContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5376">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="65" column="50" lean-forward="true" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/SpringbootMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/producer/MsgProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/org/springframework/boot/SpringBootConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/Import.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/SpringbootStarterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="380" column="11" selection-start-line="380" selection-start-column="11" selection-end-line="380" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/annotation/AnnotationAttributes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/LoggerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDefineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/DeferredImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationMetadataLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="122" column="46" selection-start-line="122" selection-start-column="46" selection-end-line="122" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/StreamSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1222,10 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
-          <folding>
-            <element signature="e#32010#32011#0" expanded="true" />
-            <element signature="e#32095#32096#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,10 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="1560" column="22" selection-start-line="1560" selection-start-column="22" selection-end-line="1560" selection-end-column="22" />
-          <folding>
-            <element signature="e#59796#59797#0" expanded="true" />
-            <element signature="e#59824#59825#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,17 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="408">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1290,7 +1010,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="600">
           <caret line="32" column="45" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1300,11 +1020,289 @@
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="269" column="55" lean-forward="true" selection-start-line="269" selection-start-column="55" selection-end-line="269" selection-end-column="55" />
+        <state relative-caret-position="528">
+          <caret line="290" lean-forward="true" selection-start-line="290" selection-end-line="290" />
           <folding>
             <element signature="e#45701#45702#0" expanded="true" />
             <element signature="e#45745#45746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/ImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="67" column="105" selection-start-line="67" selection-start-column="105" selection-end-line="67" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationMetadataLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/core/io/support/SpringFactoriesLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE-sources.jar!/org/springframework/boot/SpringBootConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="13" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/LoggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationPackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" selection-start-line="8" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDefineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/EnableDemoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/SpringbootStarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.1.7.RELEASE/spring-boot-starter-2.1.7.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.6.BUILD-SNAPSHOT/spring-boot-2.1.6.BUILD-20190618.232856-21.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/TestConfigService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/XADataSourceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationMetadataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="96" />
+          <folding>
+            <element signature="e#2401#2402#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="119" column="45" lean-forward="true" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+          <folding>
+            <element signature="e#17841#17842#0" expanded="true" />
+            <element signature="e#17876#17877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="80" column="35" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/ConfigurationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/learn/SpiCore/1.0-SNAPSHOT/SpiCore-1.0-SNAPSHOT.jar!/META-INF/spring-autoconfigure-metadata.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="69" lean-forward="true" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/SPIDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

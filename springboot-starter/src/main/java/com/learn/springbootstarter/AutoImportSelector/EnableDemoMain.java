@@ -16,23 +16,14 @@ import java.util.function.Predicate;
 @SpringBootApplication
 @EnableDefineService
 public class EnableDemoMain {
-
     public static void main(String[] args) {
         ConfigurableApplicationContext ca=SpringApplication.run(EnableDemoMain.class,args);
 
         String[] beanDefinitionNames = ca.getBeanDefinitionNames();
-//        Consumer<String> consumer = System.out::println;
-//        for(String str:beanDefinitionNames){
-//            if(str.equals("com.learn.springbootstarter.AutoImportSelector.CacheService")
-//                    || str.equals("com.learn.springbootstarter.AutoImportSelector.LoggerService")) {
-//                consumer.accept(str);
-//            }
-//        }
 
         Predicate<String> predicate = str->str.equals("com.learn.springbootstarter.AutoImportSelector.CacheService")
                 || str.equals("com.learn.springbootstarter.AutoImportSelector.LoggerService");
 
         Arrays.asList(beanDefinitionNames).stream().filter(predicate).forEach(System.out::println);
     }
-
 }

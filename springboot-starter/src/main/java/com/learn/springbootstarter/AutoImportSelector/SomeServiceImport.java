@@ -22,17 +22,17 @@ public class SomeServiceImport implements ImportSelector {
     public String[] selectImports(AnnotationMetadata annotationMetadata) {
 
         String name = EnableDefineService.class.getName();
+        //将注解中的元数据转换成attributes
         AnnotationAttributes attributes = AnnotationAttributes.fromMap(annotationMetadata.getAnnotationAttributes(name, true));
+        //获取注解元数据中的值
         String[] excludes = (String[]) attributes.get("exclude");
-        System.out.println();
         String excludeName = excludes[0];//获得需要屏蔽加载的类;
-        System.out.println(excludeName);
+        String[] services=null;
         if(excludeClassName.equals(excludeName)){
-            String[] services = new String[]{LoggerService.class.getName()};
-            return services;
+            services = new String[]{LoggerService.class.getName()};
         }else{
-            String[] services = new String[]{CacheService.class.getName()};
-            return services;
+            services = new String[]{CacheService.class.getName()};
         }
+        return services;
     }
 }
