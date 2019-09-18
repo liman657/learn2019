@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/spring_http/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_mq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/zkLearn/pom.xml" />
       </list>
     </option>
   </component>

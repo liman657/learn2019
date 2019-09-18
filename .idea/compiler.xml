@@ -15,6 +15,7 @@
         <module name="spring_http" />
         <module name="spring_read" />
         <module name="springboot-starter" />
+        <module name="zkLearn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
