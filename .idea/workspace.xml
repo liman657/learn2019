@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/update/CuratorLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/update/CuratorWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/update/CuratorWatcher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -54,49 +51,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeaderSelectorClientOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientOne.java">
+      <file leaf-file-name="CollectorsActionTwo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="264">
+              <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zkLearn/pom.xml">
+      <file leaf-file-name="CollectorsActionOne.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaderSelectorClientTwo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeaderSelectorClientThree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientThree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            <state relative-caret-position="216">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,9 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheImportService.java" />
-        <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java" />
-        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/create/CreateStreamDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/configuration/DemoClass.java" />
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/importDemo/OtherBean.java" />
@@ -173,7 +144,6 @@
         <option value="$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/EnableAutoFromSpi/SPIDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduce.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/find/StreamFindDemo.java" />
-        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamFlagMapDemo.java" />
@@ -207,6 +177,10 @@
         <option value="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientTwo.java" />
         <option value="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientOne.java" />
         <option value="$PROJECT_DIR$/zkLearn/src/main/java/com/learn/curator/master/LeaderSelectorClientThree.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectionsActionTwo.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java" />
       </list>
     </option>
   </component>
@@ -243,10 +217,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -262,63 +236,85 @@
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="curator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zkLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="curator" type="462c0819:PsiDirectoryNode" />
-              <item name="master" type="462c0819:PsiDirectoryNode" />
+              <item name="collector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="collector" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectorOne" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="collector" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="collector" type="462c0819:PsiDirectoryNode" />
+              <item name="stepin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,25 +373,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeaderSelectorClientThree">
-    <configuration name="CuratorConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.curator.update.CuratorConn" />
-      <module name="zkLearn" />
+  <component name="RunManager" selected="Application.CollectorsActionTwo">
+    <configuration name="CollectorsActionOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.CollectorOne.CollectorsActionOne" />
+      <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.curator.update.*" />
+          <option name="PATTERN" value="com.learn.collector.CollectorOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CuratorLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.curator.update.CuratorLock" />
-      <module name="zkLearn" />
+    <configuration name="CollectorsActionTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.CollectorOne.CollectorsActionTwo" />
+      <module name="Java8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.curator.update.*" />
+          <option name="PATTERN" value="com.learn.collector.CollectorOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -567,19 +563,19 @@
       <item itemvalue="Spring Boot.SpringHttpApplication" />
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
       <item itemvalue="Spring Boot.SpringbootStarterApplication" />
-      <item itemvalue="Application.CuratorLock" />
-      <item itemvalue="Application.CuratorConn" />
       <item itemvalue="Application.LeaderSelectorClientOne" />
       <item itemvalue="Application.LeaderSelectorClientTwo" />
       <item itemvalue="Application.LeaderSelectorClientThree" />
+      <item itemvalue="Application.CollectorsActionOne" />
+      <item itemvalue="Application.CollectorsActionTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectorsActionTwo" />
+        <item itemvalue="Application.CollectorsActionOne" />
         <item itemvalue="Application.LeaderSelectorClientThree" />
         <item itemvalue="Application.LeaderSelectorClientTwo" />
         <item itemvalue="Application.LeaderSelectorClientOne" />
-        <item itemvalue="Application.CuratorLock" />
-        <item itemvalue="Application.CuratorConn" />
       </list>
     </recent_temporary>
   </component>
@@ -650,7 +646,7 @@
       <workItem from="1567838128127" duration="1242000" />
       <workItem from="1568111857271" duration="8693000" />
       <workItem from="1568718747132" duration="5209000" />
-      <workItem from="1568818613560" duration="16342000" />
+      <workItem from="1568818613560" duration="22910000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -695,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="578108000" />
+    <option name="totallyTimeSpent" value="584676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,10 +725,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.35346755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.35346755" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23347548" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23347548" />
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -891,27 +887,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/filter/StreamFilterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" lean-forward="true" selection-start-line="43" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/middleoperation/map/StreamFlagMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1056,6 +1031,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="249" column="61" lean-forward="true" selection-start-line="249" selection-start-column="61" selection-end-line="249" selection-end-column="61" />
+          <folding>
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2998#2999#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3544#3545#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+            <element signature="e#4278#4279#0" expanded="true" />
+            <element signature="e#8628#8629#0" expanded="true" />
+            <element signature="e#8680#8681#0" expanded="true" />
+            <element signature="e#9141#9142#0" expanded="true" />
+            <element signature="e#9199#9200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1263,8 +1252,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zkLearn/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="288">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
