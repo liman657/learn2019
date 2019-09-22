@@ -55,7 +55,7 @@ public class CuratorWatcher {
         curatorFramework.getData().usingWatcher((org.apache.curator.framework.api.CuratorWatcher) watchedEvent -> {
             System.out.println("触发了watcher事件，节点路径为:" + watchedEvent.getPath() + ",事件类型为:" + watchedEvent.getType());
         }).forPath(nodePath);
-//        System.in.read();
+        System.in.read();
     }
 
     /**
@@ -76,6 +76,7 @@ public class CuratorWatcher {
         };
 
         curatorFramework.getData().usingWatcher(watcher).forPath(nodePath);
+        System.in.read();
     }
 
     /**
@@ -135,7 +136,7 @@ public class CuratorWatcher {
          *
          * 使用NodeCache来监听节点的事件
          */
-        nodeCache.start();//start
+        nodeCache.start(true);//start
 
         // 第1次变更节点数据
         curatorFramework.setData().forPath(nodePath, "第1次更改内容".getBytes());
@@ -245,7 +246,7 @@ public class CuratorWatcher {
             curatorFramework.create().forPath(childPath, data);
         }
 
-        Thread.sleep(100000);
+        Thread.sleep(1000);
         for (int i = 0; i < 3; i++) {
             String childPath = nodePath + "/" + i;
             curatorFramework.delete().forPath(childPath);
