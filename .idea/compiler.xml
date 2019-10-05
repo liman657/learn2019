@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructure" />
         <module name="formatSpringbootStarter" />
+        <module name="Java-rabbitMq" />
         <module name="java_distribute" />
         <module name="java_thread" />
         <module name="JavaSPI" />
