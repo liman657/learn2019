@@ -23,6 +23,7 @@ public class HelloFormatTemplate {
         stringBuilder.append("Execute format : ").append("<br/>");
         stringBuilder.append("Obj format result :").append(formatProcessor.format(obj)).append("<br/>");
         stringBuilder.append("properties Infos : ").append(helloProperties.getInfos()).append("<br/>");
+        stringBuilder.append("other properties info : ").append(helloProperties.getTestPropertiesConfig()).append("<br/>");
         return stringBuilder.toString();
     }
 }

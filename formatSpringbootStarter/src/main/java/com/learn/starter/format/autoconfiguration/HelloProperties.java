@@ -18,11 +18,21 @@ public class HelloProperties {
 
     private Map<String,Object> infos;
 
+    private String testPropertiesConfig;
+
     public Map<String, Object> getInfos() {
         return infos;
     }
 
     public void setInfos(Map<String, Object> infos) {
         this.infos = infos;
+    }
+
+    public String getTestPropertiesConfig() {
+        return testPropertiesConfig;
+    }
+
+    public void setTestPropertiesConfig(String testPropertiesConfig) {
+        this.testPropertiesConfig = testPropertiesConfig;
     }
 }

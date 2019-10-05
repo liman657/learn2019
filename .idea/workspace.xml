@@ -2,106 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSPI/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/ServiceImplOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/ServiceImplTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/JsonFormatProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/StringFormatProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-javaapi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/message/MessageConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/message/MessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/util/ResourceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq-javaapi/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON/target/test-classes/com/learn/JSON/BasicJsonTypesTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON/target/test-classes/com/learn/JSON/BasicJsonTypesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/target/classes/com/learn/LinkList/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/target/classes/com/learn/LinkList/SelfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataStructure/target/classes/rebel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_distribute/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_distribute/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ChainOfResponsibility/IRequestProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ChainOfResponsibility/PrevProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ChainOfResponsibility/PrintProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ChainOfResponsibility/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ChainOfResponsibility/SaveProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/AttemptLocking$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/AttemptLocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/InterruptReenterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/ReenterLockDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/ReentrantlockDemo/TimeLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SetPrivateNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/SyncDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/TypeOfLock/SynchronizedDemo/ThreadC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/lockSupportDemo/TestObjLockpark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/lockSupportDemo/TestObjLockpark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/lockSupportDemo/TestObjWait$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/lockSupportDemo/TestObjWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/NotifyAndWaitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/NotifyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/notifyAndWait/WaitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/start/StartByCallable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/start/StartByExtends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/start/StartByImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/start/ThreadStatusDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ExceptionThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/InterruptedExceptionStop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ReturnInterruptDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ThreadResetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/target/classes/com/learn/stop/ThreadStopByFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode/target/classes/com/learn/foundation/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/advice/LogArgsAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/advice/LogResultAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/entity/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/service/impl/OrderServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/test/SpringAopApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_aop/target/classes/com/learn/spring_aop/test/SpringAopDefaultAdvisor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/Annotation/SelfAutowired.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/Annotation/SelfController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/Annotation/SelfRequestMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/Annotation/SelfRequestParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/Annotation/SelfService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/TestParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/controller/DemoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/controller/TwoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/service/IDemoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/service/impl/DemoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/servlet/SelfServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/servlet/V2/SelfServletV2$HandlerMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/servlet/V2/SelfServletV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/classes/com/learn/springmvc/servlet/V2/SelfServletV2bak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_demo/target/test-classes/TestParamAnno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/action/MyAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/action/MyAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/service/IModifyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/service/IModifyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/service/impl/ModifyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/demo/service/impl/ModifyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/framework/context/SelfApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc/target/classes/com/learn/springioc/framework/context/SelfApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_read/target/classes/com/learn/test/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_read/target/classes/com/learn/test/TransactionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_read/target/classes/com/learn/transaction/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_read/target/classes/com/learn/transaction/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_read/target/classes/com/learn/transaction/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_read/target/classes/com/learn/transaction/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -150,7 +54,102 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FormatAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloAutoConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="27" selection-start-line="22" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloFormatTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonFormatProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/JsonFormatProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="54" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="54" />
+              <folding>
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringFormatProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/StringFormatProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -241,21 +240,21 @@
         <option value="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/ServiceImplOne.java" />
         <option value="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/ServiceImplTwo.java" />
         <option value="$PROJECT_DIR$/JavaSPI/src/main/java/com/learn/spi/App.java" />
-        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java" />
         <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/StringFormatProcessor.java" />
         <option value="$PROJECT_DIR$/java_distribute/pom.xml" />
         <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/JsonFormatProcessor.java" />
         <option value="$PROJECT_DIR$/formatSpringbootStarter/pom.xml" />
-        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java" />
-        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java" />
         <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionThree.java" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/util/ResourceUtil.java" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/message/MessageProducer.java" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/src/main/java/com/learn/rabbitmq/message/MessageConsumer.java" />
+        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java" />
+        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java" />
+        <option value="$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java" />
       </list>
     </option>
   </component>
@@ -315,10 +314,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="958" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -333,87 +331,102 @@
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfiguration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+              <item name="format" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rabbitmq-javaapi" type="462c0819:PsiDirectoryNode" />
+              <item name="formatSpringbootStarter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,12 +459,8 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gupaoProject2019\rabbitmq-javaapi\src\main\resources" />
-      <recent name="F:\gupaoProject2019\rabbitmq-javaapi\src\main\java\com\learn\rabbitmq\util" />
-      <recent name="F:\gupaoProject2019\zkLearn\src\main\java\com\learn\curator\update" />
-      <recent name="F:\gupaoProject2019\Java8\src\main\java\com\learn\collector\common" />
-      <recent name="F:\gupaoProject2019\Java8\src\main\java\com\learn\Optional\inaction" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.springioc.framework.webmvc.servlet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.collector.CollectorOne" />
@@ -460,8 +469,12 @@
       <recent name="com.learn.ChainOfResponsibility" />
       <recent name="com.learn.springmvc.servlet.V2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.springioc.framework.webmvc.servlet" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gupaoProject2019\rabbitmq-javaapi\src\main\resources" />
+      <recent name="F:\gupaoProject2019\rabbitmq-javaapi\src\main\java\com\learn\rabbitmq\util" />
+      <recent name="F:\gupaoProject2019\zkLearn\src\main\java\com\learn\curator\update" />
+      <recent name="F:\gupaoProject2019\Java8\src\main\java\com\learn\collector\common" />
+      <recent name="F:\gupaoProject2019\Java8\src\main\java\com\learn\Optional\inaction" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -753,7 +766,7 @@
       <workItem from="1569493669363" duration="1825000" />
       <workItem from="1569753552029" duration="8910000" />
       <workItem from="1569891390791" duration="4068000" />
-      <workItem from="1570240187909" duration="258000" />
+      <workItem from="1570240187909" duration="11031000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -798,7 +811,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600610000" />
+    <option name="totallyTimeSpent" value="611383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -810,7 +823,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
@@ -830,7 +843,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.35234898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.35234898" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.24413647" />
@@ -924,7 +937,7 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -957,34 +970,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.3-beta/zookeeper-3.5.3-beta-sources.jar!/org/apache/zookeeper/WatchedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.3-beta/zookeeper-3.5.3-beta-sources.jar!/org/apache/zookeeper/Watcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="239" column="6" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.0/curator-framework-4.0.0.jar!/org/apache/curator/framework/listen/ListenerEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.0.0/curator-framework-4.0.0.jar!/org/apache/curator/framework/listen/ListenerContainer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1062,20 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaSPI/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1149,20 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/JsonFormatProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/StringFormatProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring_aop/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1173,62 +1130,6 @@
     <entry file="file://$PROJECT_DIR$/spring_demo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5398" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java">
@@ -1318,6 +1219,133 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/LoggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/AutoImportSelector/SomeServiceRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/src/main/java/com/learn/springbootstarter/SpringbootStarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/FormatProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="27" selection-start-line="22" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/FormatAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/JsonFormatProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/impl/StringFormatProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/HelloFormatTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="25" column="123" selection-start-line="25" selection-start-column="123" selection-end-line="25" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/java/com/learn/starter/format/autoconfiguration/HelloAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formatSpringbootStarter/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
         </state>
       </provider>
     </entry>
