@@ -10,6 +10,7 @@
         <module name="formatSpringbootStarter" />
         <module name="Java-rabbitMq" />
         <module name="java_distribute" />
+        <module name="Java_netty" />
         <module name="java_thread" />
         <module name="JavaSPI" />
         <module name="leetCode" />
