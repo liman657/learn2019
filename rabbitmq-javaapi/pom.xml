@@ -3,14 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>learn</artifactId>
+        <artifactId>Java8</artifactId>
         <groupId>com.liman</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../springboot-starter/pom.xml</relativePath>
+        <relativePath>../Java8/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java_distribute</artifactId>
+    <artifactId>rabbitmq-javaapi</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.6.0</version>
+        </dependency>
+    </dependencies>
 </project>

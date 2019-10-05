@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructure" />
-        <module name="Java8" />
+        <module name="formatSpringbootStarter" />
         <module name="java_distribute" />
         <module name="java_thread" />
+        <module name="JavaSPI" />
         <module name="leetCode" />
+        <module name="rabbitmq-javaapi" />
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
