@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.learn.springboot_mq.mapper.ProductMapper" >
+  <resultMap id="BaseResultMap" type="com.learn.springboot_mq.entity.Product" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="product_no" property="productNo" jdbcType="VARCHAR" />
+    <result column="total" property="total" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, product_no, total, create_time, update_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from product
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from product
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.learn.springboot_mq.entity.Product" >
+    insert into product (id, product_no, total, 
+      create_time, update_time)
+    values (#{id,jdbcType=INTEGER}, #{productNo,jdbcType=VARCHAR}, #{total,jdbcType=INTEGER}, 
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.learn.springboot_mq.entity.Product" >
+    insert into product
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="productNo != null" >
+        product_no,
+      </if>
+      <if test="total != null" >
+        total,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="productNo != null" >
+        #{productNo,jdbcType=VARCHAR},
+      </if>
+      <if test="total != null" >
+        #{total,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.learn.springboot_mq.entity.Product" >
+    update product
+    <set >
+      <if test="productNo != null" >
+        product_no = #{productNo,jdbcType=VARCHAR},
+      </if>
+      <if test="total != null" >
+        total = #{total,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.learn.springboot_mq.entity.Product" >
+    update product
+    set product_no = #{productNo,jdbcType=VARCHAR},
+      total = #{total,jdbcType=INTEGER},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <!--更新库存量-->
+  <update id="updateTotal">
+    UPDATE product a
+    SET a.total = a.total - 1
+    WHERE a.product_no = #{productNo}
+
+    AND a.total > 0
+  </update>
+
+  <!--根据产品号查询-->
+  <select id="selectByProductNo" resultType="com.learn.springboot_mq.entity.Product">
+    SELECT <include refid="Base_Column_List"/>
+    FROM product WHERE product_no=#{productNo}
+
+    AND total>0
+  </select>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

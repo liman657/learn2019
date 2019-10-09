@@ -19,7 +19,7 @@ public class MessageProducer {
     private static final String ROUTING_KEY = "routingkey_demo";
     private static final String QUEUE_NAME = "queue_demo";
     private static final String IP_ADDRESS = "127.0.0.1";
-    private static final int PORT = 5672;//RabbitMQ 服务端默认端口号
+    private static final int PORT = 5672;//rabbitmq 服务端默认端口号
     private static final String USERNAME = "guest";
     private static final String PASSWORD = "guest";
 
