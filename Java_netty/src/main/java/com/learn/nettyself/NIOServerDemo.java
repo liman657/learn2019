@@ -1,10 +1,8 @@
 package com.learn.nettyself;
 
-import com.learn.netty.NIOServer;
 import lombok.extern.slf4j.Slf4j;
 
 import java.net.InetSocketAddress;
-import java.net.ServerSocket;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 import java.util.Iterator;

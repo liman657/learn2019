@@ -15,7 +15,7 @@ import java.util.concurrent.TimeoutException;
  */
 public class Sender {
 
-    private final static String QUEUE_NAME = "hello_queue";
+    private final static String QUEUE_NAME = "fair_queue";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
@@ -25,7 +25,7 @@ public class Sender {
 
         //通过channel操作api
         Channel channel = connection.createChannel();
-        channel.queueDeclare(QUEUE_NAME,false,false,false,null);
+        channel.queueDeclare(QUEUE_NAME,true,false,false,null);
         StringBuffer message = new StringBuffer("this is message with deal time ");
         for(int i = 1;i<=6;i++){
             message.append(i);

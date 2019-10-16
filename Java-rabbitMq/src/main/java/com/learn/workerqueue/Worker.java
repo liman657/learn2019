@@ -15,7 +15,7 @@ import java.util.concurrent.TimeoutException;
  */
 public class Worker {
 
-    private static final String QUEUE_NAME = "hello_queue";
+    private static final String QUEUE_NAME = "fair_queue";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory connectionFactory = new ConnectionFactory();
@@ -24,10 +24,13 @@ public class Worker {
         Connection connection = connectionFactory.newConnection();
 
         Channel channel = connection.createChannel();
+        int prefetchCount = 1;
+        channel.basicQos(prefetchCount);
 
         //Note that we declare the queue here, as well. Because we might start the consumer before the publisher,
         // we want to make sure the queue exists before we try to consume messages from it.
-        channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+        boolean durable = true;
+        channel.queueDeclare(QUEUE_NAME, durable, false, false, null);
 
         System.out.println(" [*] Waiting for messages. To exit press CTRL+C");
 
@@ -54,11 +57,8 @@ public class Worker {
     }
 
     private static void doWork(String message) throws InterruptedException {
-//        for(char ch : task.toCharArray()){
-//            if(ch=='.') Thread.sleep(5000);
-//        }
         int times = Integer.valueOf(String.valueOf(message.charAt(message.length() - 1)));
-        System.out.println("消费者处理"+times*2000+"毫秒");
+        System.out.println("消费者处理"+times*20000+"毫秒");
         Thread.sleep(times*2000);
     }
 
