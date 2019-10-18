@@ -24,7 +24,6 @@ public class ClientConnectHandler implements Runnable{
         try{
             if(socketChannel.finishConnect()){//与服务端的三次握手完成
                 System.out.println(String.format("已完成 %s 的连接", socketChannel.getRemoteAddress()));
-
                 new ClientSelfHandler(socketChannel,selector);
             }
         }catch (Exception e){

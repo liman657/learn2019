@@ -30,12 +30,18 @@ public class ServerDataHandler implements Runnable{
 
         selectionKey=socketChannel.register(selector,SelectionKey.OP_READ);
         selectionKey.attach(this);
-//        selectionKey.interestOps()
+//        selectionKey.interestOps();
+        selector.wakeup();//唤起阻塞的selector
     }
 
 
     @Override
     public void run() {
+        try {
+            read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         dealEvent(selectionKey);
     }
 

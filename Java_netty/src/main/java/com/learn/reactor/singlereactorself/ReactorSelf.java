@@ -28,6 +28,7 @@ public class ReactorSelf implements Runnable {
 
         SelectionKey acceptKey = serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
         acceptKey.attach(new AcceptorHandler(selector,serverSocketChannel));
+        System.out.println("服务端启动");
     }
 
     //这里就做了分发的功能，如果是连接建立就分发给AcceptorHandler，如果是数据准备就绪，就分发给ServerDataHandler
@@ -39,7 +40,6 @@ public class ReactorSelf implements Runnable {
                 if(select<0){
                     return;
                 }
-
                 Set<SelectionKey> keys = selector.selectedKeys();
                 Iterator iterator = keys.iterator();
                 while(iterator.hasNext()){
@@ -54,13 +54,14 @@ public class ReactorSelf implements Runnable {
     private void dispatch(SelectionKey key) {
         Runnable run = (Runnable)key.attachment();
         if(run!=null){
-            run.run();
+            new Thread(run).start();
         }
     }
 
     public static void main(String[] args) {
         try {
             new Thread(new Reactor(8888)).start();
+            System.in.read();
         } catch (IOException e) {
             e.printStackTrace();
         }

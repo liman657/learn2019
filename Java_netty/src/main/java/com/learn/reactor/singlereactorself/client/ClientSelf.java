@@ -1,5 +1,6 @@
 package com.learn.reactor.singlereactorself.client;
 
+import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
@@ -49,19 +50,20 @@ public class ClientSelf implements Runnable{
 
             }
         }catch (Exception e){
-
+            e.printStackTrace();
         }
     }
 
     private void dispatch(SelectionKey key) {
         Runnable run = (Runnable)key.attachment();
         if(run!=null){
-            run.run();
+            new Thread(run).start();
         }
     }
 
-    public static void main(String[] args) {
-        new Thread(new ClientSelf("127.0.0.1", 8080)).start();
-        new Thread(new ClientSelf("127.0.0.1", 8080)).start();
+    public static void main(String[] args) throws IOException {
+        new Thread(new ClientSelf("127.0.0.1", 8888)).start();
+        new Thread(new ClientSelf("127.0.0.1", 8888)).start();
+        System.in.read();
     }
 }
