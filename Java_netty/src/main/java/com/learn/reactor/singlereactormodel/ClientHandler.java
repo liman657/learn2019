@@ -1,5 +1,7 @@
 package com.learn.reactor.singlereactormodel;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
@@ -12,7 +14,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  * createtime:2019/10/15
  * comment:
  */
-public class ClientHandler implements Runnable{
+@Slf4j
+public class ClientHandler implements Runnable {
     private final SelectionKey selectionKey;
     private final SocketChannel socketChannel;
 
@@ -32,7 +35,7 @@ public class ClientHandler implements Runnable{
         selectionKey = socketChannel.register(selector, 0); //将该客户端注册到selector，得到一个SelectionKey，以后的select到的就绪动作全都是由该对象进行封装
         selectionKey.attach(this); //附加处理对象，当前是Handler对象，run是对象处理业务的方法
         selectionKey.interestOps(SelectionKey.OP_WRITE); //走到这里，说明之前Connect已完成，那么接下来就是发送数据，因此这里首先将写事件标记为“感兴趣”事件
-        selector.wakeup(); //唤起select阻塞
+//        selector.wakeup(); //唤起select阻塞
     }
 
     @Override
@@ -64,9 +67,18 @@ public class ClientHandler implements Runnable{
             sendBuffer.clear();
             int count = counter.incrementAndGet();
             if (count <= 10) {
-                sendBuffer.put(String.format("客户端发送的第%s条消息", count).getBytes());
+                String sendMessage = "客户端发送的第" + count + "条消息";
+//                sendBuffer = BufferUtils.writeByteBufferInfo("客户端发送的第" + count + "条消息");
+//                System.out.println("客户端发送的第["+count+"]条消息"+BufferUtils.readByteBufferInfo(sendBuffer));
+                sendBuffer.put(sendMessage.getBytes());
                 sendBuffer.flip(); //切换到读模式，用于让通道读到buffer里的数据
+//                String sendMessage=BufferUtils.readByteBufferInfo(sendBuffer);
+//                sendBuffer.reset();
+//                log.info("客户端发送的第{}条消息，消息内容为:{}",count,sendMessage);
                 socketChannel.write(sendBuffer);
+//                String sendMessage = BufferUtils.readByteBufferInfo(sendBuffer);
+                log.info("客户端发送的第{}条消息，消息内容为:{}", count, sendMessage);
+
 
                 //则再次切换到读，用以接收服务端的响应
                 status = READ;
@@ -80,15 +92,10 @@ public class ClientHandler implements Runnable{
 
     private void read() throws IOException {
         if (selectionKey.isValid()) {
-            //5.有数据则在读取数据前进行复位操作
-            readBuffer.flip();
-            //6.根据缓冲区大小创建一个相应大小的bytes数组，用来获取值
-            byte[] bytes = new byte[readBuffer.remaining()];
-            //7.接受缓冲区数据
-            readBuffer.get(bytes);
-            System.out.println(String.format("收到来自 %s 的消息: %s",
-                    socketChannel.getRemoteAddress(),
-                    new String(bytes,"UTF-8")));
+            readBuffer.clear();
+            socketChannel.read(readBuffer);
+            log.info("收到来自客户端的消息,消息内容为：{}", BufferUtils.readByteBufferInfo(readBuffer));
+//            System.out.println("收到来自客户端的消息"+BufferUtils.readByteBufferInfo(readBuffer));
 
             //收到服务端的响应后，再继续往服务端发送数据
             status = SEND;

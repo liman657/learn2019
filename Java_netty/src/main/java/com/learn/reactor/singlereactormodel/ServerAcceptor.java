@@ -1,5 +1,7 @@
 package com.learn.reactor.singlereactormodel;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
@@ -9,6 +11,7 @@ import java.nio.channels.SocketChannel;
  * createtime:2019/10/15
  * comment:
  */
+@Slf4j
 public class ServerAcceptor implements Runnable{
 
     private final Selector selector;
@@ -27,7 +30,8 @@ public class ServerAcceptor implements Runnable{
         try{
             socketChannel = serverSocketChannel.accept();
             if(socketChannel!=null){
-                System.out.println(String.format("收到来自%s的连接",socketChannel.getRemoteAddress()));
+                log.info("收到来自{}的连接",socketChannel.getRemoteAddress());
+                //在构造函数中绑定业务处理类
                 new ServerHandler(socketChannel,selector);
             }
         }catch (Exception e){

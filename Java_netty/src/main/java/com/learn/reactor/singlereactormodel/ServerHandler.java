@@ -1,5 +1,7 @@
 package com.learn.reactor.singlereactormodel;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.io.IOException;
 import java.net.Socket;
 import java.nio.ByteBuffer;
@@ -12,7 +14,8 @@ import java.nio.channels.SocketChannel;
  * createtime:2019/10/15
  * comment:
  */
-public class ServerHandler implements Runnable{
+@Slf4j
+public class ServerHandler implements Runnable {
 
     private final SelectionKey selectionKey;
     private final SocketChannel socketChannel;
@@ -31,9 +34,9 @@ public class ServerHandler implements Runnable{
 
         this.socketChannel.configureBlocking(false);
         selectionKey = socketChannel.register(selector, 0);
-        selectionKey.attach(this);
+        selectionKey.attach(this);//将读写的处理类绑定为当前的业务类。
         selectionKey.interestOps(SelectionKey.OP_READ);
-        selector.wakeup();
+//        selector.wakeup();
     }
 
 
@@ -66,15 +69,14 @@ public class ServerHandler implements Runnable{
             readBuffer.clear();
             int count = socketChannel.read(readBuffer); //read方法结束，意味着本次"读就绪"变为"读完毕"，标记着一次就绪事件的结束
             if (count > 0) {
-                //5.有数据则在读取数据前进行复位操作
-                readBuffer.flip();
-                //6.根据缓冲区大小创建一个相应大小的bytes数组，用来获取值
-                byte[] bytes = new byte[readBuffer.remaining()];
-                //7.接受缓冲区数据
-                readBuffer.get(bytes);
-                System.out.println(String.format("收到来自 %s 的消息: %s",
-                        socketChannel.getRemoteAddress(),
-                        new String(bytes,"UTF-8")));
+
+//                try {
+//                    Thread.sleep(5000L);
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+
+                log.info("收到来自客户端的信息,信息为:{}", BufferUtils.readByteBufferInfo(readBuffer));
                 status = SEND;
                 selectionKey.interestOps(SelectionKey.OP_WRITE); //注册写方法
             } else {
@@ -89,19 +91,21 @@ public class ServerHandler implements Runnable{
 
     private void send() throws IOException {
         if (selectionKey.isValid()) {
-//            writeBuffer.clear();
-//            writeBuffer.put(String.format("我收到来自%s的信息辣：%s,  200ok;",
-//                    socketChannel.getRemoteAddress(),
-//                    new String(readBuffer.array())).getBytes());
-//            writeBuffer.flip();
-//            int count = socketChannel.write(writeBuffer); //write方法结束，意味着本次写就绪变为写完毕，标记着一次事件的结束
-//
-//            if (count < 0) {
-//                //同上，write场景下，取到-1，也意味着客户端断开连接
+            writeBuffer.clear();
+            String returnMessage = String.format("服务端收到来自%s的信息：%s,  200ok;",
+                    socketChannel.getRemoteAddress(),
+                    new String(readBuffer.array()));
+            writeBuffer.put(returnMessage.getBytes());
+            log.info("服务端发送消息,消息为:{}", returnMessage);
+            writeBuffer.flip();
+            int count = socketChannel.write(writeBuffer); //write方法结束，意味着本次写就绪变为写完毕，标记着一次事件的结束
+            if (count < 0) {
+                //同上，write场景下，取到-1，也意味着客户端断开连接
                 selectionKey.cancel();
                 socketChannel.close();
-//                System.out.println("send时-------连接关闭");
-//            }
+                log.info("发送消息时连接关闭");
+                System.out.println("send时-------连接关闭");
+            }
 
             //没断开连接，则再次切换到读
             status = READ;

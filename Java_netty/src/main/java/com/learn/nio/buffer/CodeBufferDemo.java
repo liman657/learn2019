@@ -39,10 +39,11 @@ public class CodeBufferDemo {
         charBuffer.append(str);
         charBuffer.flip();
 
-        Charset utf8 = Charset.forName("ASCII");
+        Charset utf8 = Charset.forName("UTF-8");
         ByteBuffer byteBuffer = utf8.encode(charBuffer);//对charBuffer中的内容进行编码，然后放入到ByteBuffer中
 
         byte[] datas = Arrays.copyOf(byteBuffer.array(),byteBuffer.limit());
+        System.out.println(datas);
         log.info(String.valueOf(datas));
     }
 

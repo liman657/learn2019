@@ -25,9 +25,10 @@ public class Reactor implements Runnable{
         serverSocketChannel.socket().bind(new InetSocketAddress(port));
         serverSocketChannel.configureBlocking(false);
 
+        //将ServerSocketChannel注册到selector上，订阅ACCEPT事件
         SelectionKey keys = serverSocketChannel.register(selector,SelectionKey.OP_ACCEPT);
 
-        //绑定回调对象——ServerAcceptor
+        //绑定连接建立的处理对象
         keys.attach(new ServerAcceptor(serverSocketChannel,selector));
     }
 
@@ -37,9 +38,9 @@ public class Reactor implements Runnable{
             while(!Thread.interrupted()){
                 selector.select();//就绪事件到达之前阻塞
                 Set selected = selector.selectedKeys();
-
                 Iterator iterator = selected.iterator();
                 while(iterator.hasNext()){
+                    //进行任务的分发
                     dispatch((SelectionKey)iterator.next());
                 }
                 selected.clear();
@@ -50,6 +51,7 @@ public class Reactor implements Runnable{
     }
 
     private void dispatch(SelectionKey key) {
+        //这里并没有做区分，任务的分发依旧交给了服务器主线程去处理。
         Runnable runThread = (Runnable) key.attachment();
         if(runThread!=null){
             runThread.run();
