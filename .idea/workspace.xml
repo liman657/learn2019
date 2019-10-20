@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -64,13 +59,31 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot_mq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpringbootMqApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/SpringbootMqApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -174,8 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOClientDemo.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOServerDemo.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/helloworld/Sender.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/helloworld/Recev.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/workerqueue/Sender.java" />
@@ -225,6 +236,8 @@
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" />
         <option value="$PROJECT_DIR$/java_thread/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mq/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -393,6 +406,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -801,7 +848,7 @@
       <workItem from="1571496475266" duration="3323000" />
       <workItem from="1571500089262" duration="9320000" />
       <workItem from="1571547790970" duration="6445000" />
-      <workItem from="1571560610952" duration="1498000" />
+      <workItem from="1571560610952" duration="3107000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -846,7 +893,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="725349000" />
+    <option name="totallyTimeSpent" value="726958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,7 +906,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
@@ -878,7 +924,7 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.45302013" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.45302013" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32997763" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
@@ -1018,13 +1064,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/topic/RoutingSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/topic/RoutingWorkerOrange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1285,13 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/SpringbootMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1313,13 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1331,6 +1356,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/SpringbootMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
