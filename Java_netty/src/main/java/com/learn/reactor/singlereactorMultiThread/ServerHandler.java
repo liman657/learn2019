@@ -106,8 +106,8 @@ public class ServerHandler implements Runnable {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println(String.format("收到来自客户端的消息: %s",
-                new String(readBuffer.array())));
+//        System.out.println(String.format("收到来自客户端的消息: %s",
+//                new String(readBuffer.array())));
         status = SEND;
         selectionKey.interestOps(SelectionKey.OP_WRITE); //注册写事件
         this.selector.wakeup(); //唤醒阻塞在select的线程，因为该interestOps写事件是放到子线程的，select在该channel还是对read事件感兴趣时又被调用，因此如果不主动唤醒，select可能并不会立刻select该读就绪事件（在该例中，可能永远不会被select到）
@@ -116,7 +116,7 @@ public class ServerHandler implements Runnable {
     private void sendWorker() {
         try {
             writeBuffer.clear();
-            writeBuffer.put(String.format("我收到来自%s的信息辣：%s,  200ok;",
+            writeBuffer.put(String.format("我收到来自%s的信息了：%s,  200ok;",
                     socketChannel.getRemoteAddress(),
                     new String(readBuffer.array())).getBytes());
             writeBuffer.flip();

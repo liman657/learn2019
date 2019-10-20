@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Connector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_thread/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -61,47 +60,50 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_mq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
+            <state relative-caret-position="312">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reactor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="264">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NIOClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot_netty/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="24">
+              <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ConcurrentHashMapDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Connector.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ServerAcceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ReturnInterruptDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ReturnInterruptDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -120,8 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>declaredFields</find>
-      <find>initHan</find>
       <find>GP</find>
       <find>initHandlerMa</find>
       <find>getHandlerAdapter</find>
@@ -148,8 +148,10 @@
       <find>com.debug.steadyjack.entity.Product</find>
       <find>com.debug.steadyjack.mapper.OrderRecordMapper</find>
       <find>com.debug.steadyjack.entity.OrderRecord</find>
-      <find>收到来自客户端的消息</find>
       <find>客户端发送的第[</find>
+      <find>收到来自客户端的消息: 客户端发送的第</find>
+      <find>收到服务端的响应后，再继续往服务端发送数据</find>
+      <find>收到来自客户端的消息</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -172,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOClientDemoUpdate.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOServerDemoUpdate.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOClientDemo.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOServerDemo.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/helloworld/Sender.java" />
@@ -219,10 +219,12 @@
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/BufferUtils.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Reactor.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/java_thread/pom.xml" />
       </list>
     </option>
   </component>
@@ -265,11 +267,30 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring_http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_http" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="springboot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot_mq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot_mq" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -293,35 +314,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -329,7 +351,82 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="stop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -338,110 +435,19 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="bytebuffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="nettyself" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="buffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="nioself" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-              <item name="singlereactormodel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-              <item name="singlereactorMultiThread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_netty" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot_netty" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,7 +506,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIOClient (2)">
+  <component name="RunManager" selected="Application.NIOClient">
     <configuration name="NIOClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.reactor.test.NIOClient" />
       <module name="Java_netty" />
@@ -703,10 +709,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NIOClient (2)" />
-        <item itemvalue="Application.Reactor (2)" />
         <item itemvalue="Application.NIOClient" />
         <item itemvalue="Application.Reactor" />
+        <item itemvalue="Application.NIOClient (2)" />
+        <item itemvalue="Application.Reactor (2)" />
         <item itemvalue="Application.NIOClient (1)" />
       </list>
     </recent_temporary>
@@ -794,7 +800,8 @@
       <workItem from="1571400660955" duration="3762000" />
       <workItem from="1571496475266" duration="3323000" />
       <workItem from="1571500089262" duration="9320000" />
-      <workItem from="1571547790970" duration="4801000" />
+      <workItem from="1571547790970" duration="6445000" />
+      <workItem from="1571560610952" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -839,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722207000" />
+    <option name="totallyTimeSpent" value="725349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,11 +859,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
       <window_info anchor="bottom" id="Application Servers" order="10" weight="0.32997763" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.36620468" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.36620468" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
@@ -866,27 +874,27 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38478747" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3232662" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.45302013" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.45302013" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23027718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23294243" />
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3232662" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3405467" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1010,52 +1018,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/Starter.java" />
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/ReactorSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="47" column="13" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/client/ClientSelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/client/ClientSelfHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="94" column="11" lean-forward="true" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/ServerDataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="95" column="31" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/RoutingWorkerOrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/RoutingWorkerBlack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/topic/RoutingSender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1219,48 +1181,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/BufferUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ServerAcceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/Connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/Reactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/NIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="42" column="50" lean-forward="true" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/BufferUtils.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ServerAcceptor.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/Connector.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/Reactor.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/NIOClient.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ServerHandler.java" />
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/BufferUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1275,17 +1201,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="395" column="7" lean-forward="true" selection-start-line="395" selection-start-column="7" selection-end-line="395" selection-end-column="7" />
-          <folding>
-            <element signature="e#14132#14133#0" expanded="true" />
-            <element signature="e#14192#14193#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/test/ClientHandler.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMutilThread.java" />
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Connector.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="77" column="38" lean-forward="true" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+        <state relative-caret-position="264">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="94" column="47" selection-start-line="94" selection-start-column="47" selection-end-line="94" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1296,78 +1247,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/NIOClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="182">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        <state relative-caret-position="415">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/NIOClient.java">
+    <entry file="file://$PROJECT_DIR$/springboot_mq/src/main/java/com/learn/springboot_mq/SpringbootMqApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="64" column="60" lean-forward="true" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
+        <state relative-caret-position="288">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/concurrentSet/hashmap/ConcurrentHashMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="97" column="54" lean-forward="true" selection-end-line="115" />
+        <state relative-caret-position="72">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/src/main/java/com/learn/stop/ReturnInterruptDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="298">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMutilThread.java">
+    <entry file="file://$PROJECT_DIR$/springboot_netty/src/main/java/com/learn/springboot_netty/SpringbootNettyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Connector.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/springboot_mq/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="97" column="68" selection-start-line="97" selection-start-column="68" selection-end-line="97" selection-end-column="68" />
+        <state relative-caret-position="312">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java">
+    <entry file="file://$PROJECT_DIR$/springboot_netty/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        <state relative-caret-position="24">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java">
+    <entry file="file://$PROJECT_DIR$/java_thread/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="264">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1424,11 +1387,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot_mq</last-edited>
+          <last-edited>java_thread</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.608046" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

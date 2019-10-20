@@ -69,13 +69,11 @@ public class ServerHandler implements Runnable {
             readBuffer.clear();
             int count = socketChannel.read(readBuffer); //read方法结束，意味着本次"读就绪"变为"读完毕"，标记着一次就绪事件的结束
             if (count > 0) {
-
-//                try {
-//                    Thread.sleep(5000L);
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
-
+                try {
+                    Thread.sleep(5000L);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 log.info("收到来自客户端的信息,信息为:{}", BufferUtils.readByteBufferInfo(readBuffer));
                 status = SEND;
                 selectionKey.interestOps(SelectionKey.OP_WRITE); //注册写方法

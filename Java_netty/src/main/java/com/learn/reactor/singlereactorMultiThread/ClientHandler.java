@@ -23,6 +23,8 @@ public class ClientHandler implements Runnable {
     private ByteBuffer readBuffer = ByteBuffer.allocate(2048);
     private ByteBuffer sendBuffer = ByteBuffer.allocate(1024);
 
+    private Long startTimes = 0l;
+
     private final static int READ = 0;
     private final static int SEND = 1;
 
@@ -65,19 +67,14 @@ public class ClientHandler implements Runnable {
 
     void send() throws IOException {
         if (selectionKey.isValid()) {
+            startTimes = System.currentTimeMillis();
             sendBuffer.clear();
             int count = counter.incrementAndGet();
             if (count <= 10) {
                 String sendMessage = "客户端发送的第" + count + "条消息";
-//                sendBuffer = BufferUtils.writeByteBufferInfo("客户端发送的第" + count + "条消息");
-//                System.out.println("客户端发送的第["+count+"]条消息"+BufferUtils.readByteBufferInfo(sendBuffer));
                 sendBuffer.put(sendMessage.getBytes());
                 sendBuffer.flip(); //切换到读模式，用于让通道读到buffer里的数据
-//                String sendMessage=BufferUtils.readByteBufferInfo(sendBuffer);
-//                sendBuffer.reset();
-//                log.info("客户端发送的第{}条消息，消息内容为:{}",count,sendMessage);
                 socketChannel.write(sendBuffer);
-//                String sendMessage = BufferUtils.readByteBufferInfo(sendBuffer);
                 log.info("客户端发送的第{}条消息，消息内容为:{}", count, sendMessage);
 
 
@@ -95,8 +92,9 @@ public class ClientHandler implements Runnable {
         if (selectionKey.isValid()) {
             readBuffer.clear();
             socketChannel.read(readBuffer);
-            log.info("收到来自客户端的消息,消息内容为：{}", BufferUtils.readByteBufferInfo(readBuffer));
-//            System.out.println("收到来自客户端的消息"+BufferUtils.readByteBufferInfo(readBuffer));
+            long endTimes = System.currentTimeMillis();
+            long costTimes = endTimes-startTimes;
+            log.info("收到来自客户端的消息,耗时:{},消息内容为：{}", costTimes,BufferUtils.readByteBufferInfo(readBuffer));
 
             //收到服务端的响应后，再继续往服务端发送数据
             status = SEND;
