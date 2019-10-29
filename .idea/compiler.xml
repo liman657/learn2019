@@ -24,7 +24,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java_thread" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

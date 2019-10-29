@@ -33,9 +33,9 @@ public class ServerHandler implements Runnable {
         this.socketChannel = socketChannel;
 
         this.socketChannel.configureBlocking(false);
-        selectionKey = socketChannel.register(selector, 0);
+        selectionKey = socketChannel.register(selector, SelectionKey.OP_READ);
         selectionKey.attach(this);//将读写的处理类绑定为当前的业务类。
-        selectionKey.interestOps(SelectionKey.OP_READ);
+//        selectionKey.interestOps(SelectionKey.OP_READ);
 //        selector.wakeup();
     }
 
