@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/SelfTomcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/FirstServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/SecondServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/resources/web.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/NIOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Reactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerAcceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/SubReactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -65,94 +64,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SelfTomcat.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/SelfTomcat.java">
+      <file leaf-file-name="SubReactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/SubReactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="32">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2442#2443#0" expanded="true" />
-                <element signature="e#2482#2483#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelfServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfServlet.java">
+      <file leaf-file-name="ServerAcceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerAcceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="242">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelfRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfRequest.java">
+      <file leaf-file-name="Reactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Reactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelfResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfResponse.java">
+      <file leaf-file-name="NIOClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/NIOClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/FirstServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/SecondServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java_netty/src/main/resources/web.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            <state relative-caret-position="650">
+              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -225,11 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Handler.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nio/NIOServer.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/NIOClient.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorself/AcceptorHandler.java" />
-        <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/Sender.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/RoutingWorker.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/RoutingWorkerOrange.java" />
         <option value="$PROJECT_DIR$/Java-rabbitMq/src/main/java/com/learn/routing/RoutingSender.java" />
@@ -262,7 +205,6 @@
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Reactor.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java" />
-        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ClientHandler.java" />
         <option value="$PROJECT_DIR$/java_thread/pom.xml" />
@@ -276,6 +218,12 @@
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfResponse.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/SecondServlet.java" />
         <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/SelfTomcat.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/singlereactorMultiThread/Connector.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Connector.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/SubReactor.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerAcceptor.java" />
+        <option value="$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Reactor.java" />
       </list>
     </option>
   </component>
@@ -354,10 +302,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -367,8 +313,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,7 +364,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatSelf" type="462c0819:PsiDirectoryNode" />
+              <item name="nettyself" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -429,8 +374,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatSelf" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="reactor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -440,8 +384,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcatSelf" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="reactor" type="462c0819:PsiDirectoryNode" />
+              <item name="multiReactorMultiThread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -454,7 +398,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,12 +424,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\gupaoProject2019\Java_netty\src\main\resources" />
-      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\reactor\singlereactorMultiThread" />
-      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\reactor\test" />
-      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\utils" />
-      <recent name="F:\gupaoProject2019\Java-rabbitMq\src\main\java\com\learn\topic" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.reactor.singlereactorself.client" />
+      <recent name="com.learn.reactor.singlereactorself" />
+      <recent name="com.learn.reactor.singlereactormodel" />
+      <recent name="com.learn.bio" />
+      <recent name="com.learn.springioc.framework.webmvc.servlet" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.topic" />
@@ -493,12 +438,12 @@
       <recent name="com.learn.collector.CollectorOne" />
       <recent name="com.learn.curator.master" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.reactor.singlereactorself.client" />
-      <recent name="com.learn.reactor.singlereactorself" />
-      <recent name="com.learn.reactor.singlereactormodel" />
-      <recent name="com.learn.bio" />
-      <recent name="com.learn.springioc.framework.webmvc.servlet" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\reactor\multiReactorMultiThread" />
+      <recent name="F:\gupaoProject2019\Java_netty\src\main\resources" />
+      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\reactor\singlereactorMultiThread" />
+      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\reactor\test" />
+      <recent name="F:\gupaoProject2019\Java_netty\src\main\java\com\learn\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -513,7 +458,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelfTomcat">
+  <component name="RunManager" selected="Application.NIOClient (1)">
+    <configuration name="NIOClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.reactor.multiReactorMultiThread.NIOClient" />
+      <module name="Java_netty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.reactor.multiReactorMultiThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="NIOClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.reactor.singlereactorMultiThread.NIOClient" />
       <module name="Java_netty" />
@@ -525,13 +481,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.reactor.singlereactormodel.NIOClient" />
+    <configuration name="Reactor (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.reactor.multiReactorMultiThread.Reactor" />
       <module name="Java_netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.reactor.singlereactormodel.*" />
+          <option name="PATTERN" value="com.learn.reactor.multiReactorMultiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -543,17 +499,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.reactor.singlereactorMultiThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Reactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.reactor.singlereactormodel.Reactor" />
-      <module name="Java_netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.reactor.singlereactormodel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -708,19 +653,19 @@
       <item itemvalue="Spring Boot.SpringbootMqApplication" />
       <item itemvalue="Spring Boot.SpringbootStarterApplication" />
       <item itemvalue="Spring Boot.SpringbootNettyApplication" />
-      <item itemvalue="Application.Reactor" />
-      <item itemvalue="Application.NIOClient" />
       <item itemvalue="Application.Reactor (2)" />
       <item itemvalue="Application.NIOClient (2)" />
       <item itemvalue="Application.SelfTomcat" />
+      <item itemvalue="Application.Reactor (1)" />
+      <item itemvalue="Application.NIOClient (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelfTomcat" />
-        <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.Reactor" />
+        <item itemvalue="Application.NIOClient (1)" />
+        <item itemvalue="Application.Reactor (1)" />
         <item itemvalue="Application.NIOClient (2)" />
         <item itemvalue="Application.Reactor (2)" />
+        <item itemvalue="Application.SelfTomcat" />
       </list>
     </recent_temporary>
   </component>
@@ -812,6 +757,8 @@
       <workItem from="1572074791745" duration="1603000" />
       <workItem from="1572266535371" duration="3268000" />
       <workItem from="1572348231232" duration="2763000" />
+      <workItem from="1572360316868" duration="1308000" />
+      <workItem from="1572776121081" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -856,7 +803,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="734592000" />
+    <option name="totallyTimeSpent" value="740357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,6 +816,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
@@ -892,7 +840,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.45190156" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.21002132" />
       <window_info anchor="right" id="Bean Validation" order="11" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1027,76 +975,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/utils/FormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/utils/ConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/utils/IOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/resources/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nioself/NioDemoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nioself/FileNIOCopyDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/target/classes/system.copy.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/target/classes/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOClientDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/bytebuffer/ByteBufferDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-262">
@@ -1128,13 +1006,6 @@
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMutilThread.java" />
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Connector.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="48" column="33" lean-forward="true" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1227,20 +1098,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="227" column="28" selection-start-line="227" selection-start-column="28" selection-end-line="227" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Reactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/NIOClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1248,53 +1105,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="97" column="24" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="960">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1308,56 +1124,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="648">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/SecondServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="628">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/servlet/FirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="432">
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/http/SelfServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="216">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/tomcatSelf/SelfTomcat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="408">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2482#2483#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOClientDemoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2588">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="242" column="7" lean-forward="true" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOServerDemoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="95" column="54" lean-forward="true" selection-start-line="95" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/nettyself/NIOServerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactormodel/Reactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/Reactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/singlereactorMultiThread/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/SubReactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/Reactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/reactor/multiReactorMultiThread/ServerAcceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
         </state>
       </provider>
     </entry>

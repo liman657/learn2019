@@ -1,4 +1,4 @@
-package com.learn.reactor.singlereactorMultiThread;
+package com.learn.reactor.multiReactorMultiThread;
 
 import com.learn.reactor.singlereactormodel.BufferUtils;
 import lombok.extern.slf4j.Slf4j;
