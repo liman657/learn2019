@@ -12,6 +12,7 @@
         <module name="java_distribute" />
         <module name="Java_netty" />
         <module name="java_thread" />
+        <module name="Javajvm" />
         <module name="JavaSPI" />
         <module name="leetCode" />
         <module name="rabbitmq-javaapi" />
@@ -24,7 +25,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java_thread" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
     </bytecodeTargetLevel>
   </component>

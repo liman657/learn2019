@@ -26,6 +26,9 @@ public class GuavaDemo {
         return Thread.currentThread().getName();
     }
 
+    /**
+     * 烧水的Callable接口
+     */
     static class HotWaterJobGuava implements Callable<Boolean>{
 
         @Override
@@ -45,6 +48,9 @@ public class GuavaDemo {
         }
     }
 
+    /**
+     * 洗杯子的Callable接口
+     */
     static class WashCupJobGuava implements Callable<Boolean>{
 
         @Override
@@ -106,7 +112,7 @@ public class GuavaDemo {
 
         Thread mainThread = new Thread(mainJob);
         mainThread.setName("主要的喝水线程");
-        mainThread.start();
+        mainThread.start();//到这里，主线程就完成了，后面的操作都是非阻塞的
 
         //烧水的业务逻辑
         Callable<Boolean> hotWaterJob = new HotWaterJobGuava();
