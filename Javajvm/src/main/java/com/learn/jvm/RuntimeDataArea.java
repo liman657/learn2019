@@ -18,17 +18,17 @@ public class RuntimeDataArea {
     private Object obj = new Object();
     private int sss = 0;
     
-//    public void methodOne(int i){
-//        int j=0;
-//        int sum = i+j;
-//        Object abc = obj;
-//        long start = System.currentTimeMillis();
-//        methodTwo();
-//        return;
-//    }
+    public void methodOne(int i){
+        int j=0;
+        int sum = i+j;
+        Object abc = obj;
+        long start = System.currentTimeMillis();
+        methodTwo(2);
+        return;
+    }
 
     public void methodTwo(int i) {
-//        File file = new File("");
+        File file = new File("");
         int j=6;
         int sum = i+j;
     }
