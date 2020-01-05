@@ -19,6 +19,7 @@
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
+        <module name="SpringBoot-JVM" />
         <module name="springboot-starter" />
         <module name="springboot_netty" />
         <module name="zkLearn" />
