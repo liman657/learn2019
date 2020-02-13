@@ -35,7 +35,7 @@ public class SelfLinkedList {
      */
     public static void traverse(ListNode head){
         while(head!=null){
-            System.out.println(head.value+" ");
+            System.out.print(head.value+" ");
             head = head.next;
         }
         System.out.println();
@@ -77,11 +77,24 @@ public class SelfLinkedList {
      * @param s
      */
     public static void deleteNode(ListNode head,ListNode s){
-        if(s!=null && s.next!=null){
+        if(s!=null && s.next!=null){//这里不包含删除尾节点的情况
             ListNode sNext = s.next;
             s.value = sNext.value;
             //删除s的下一个节点
             s.next = sNext.next;
+            sNext=null;
+        }
+
+        //如果是删除尾节点
+        if(s.next==null){
+            //遍历找打前驱
+            while(head!=null){
+                if(head.next!=null && head.next == s){
+                    head.next=null;
+                    break;
+                }
+                head=head.next;
+            }
         }
     }
 

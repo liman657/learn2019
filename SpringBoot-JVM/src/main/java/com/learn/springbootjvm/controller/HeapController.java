@@ -16,6 +16,7 @@ public class HeapController {
     @GetMapping("/heap")
     public String heap() throws Exception{
         while(true){
+//            System.out.println("test add object");
             list.add(new Person());
             Thread.sleep(1);
         }

@@ -1,7 +1,6 @@
 package com.learn.lambda.unionLambda;
 
 
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.learn.lambda.common.Apple;
 import com.learn.lambda.common.AppleContainer;
 
