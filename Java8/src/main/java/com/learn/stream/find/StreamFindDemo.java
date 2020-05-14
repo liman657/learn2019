@@ -1,4 +1,4 @@
-package com.learn.stream.match;
+package com.learn.stream.find;
 
 import com.learn.stream.common.Dish;
 import com.learn.stream.common.DishContainer;
@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * autor:liman
@@ -13,27 +14,24 @@ import java.util.List;
  * comment: stream find操作的实例
  */
 @Slf4j
-public class StreamMatchDemo {
+public class StreamFindDemo {
 
     public static void main(String[] args) {
         List<Dish> dishList = DishContainer.getDishList();
         List<Integer> numList = Arrays.asList(1,2,3,4,5,6,6,9,10,7,8);
+        //返回第一个
+        Optional<Integer> findFirstResult = numList.stream().filter(i -> i % 2 == 0).findFirst();
+        log.info("find first result : {}",findFirstResult.get());
 
-        //这一堆集合数据中是不是所有的数据都是偶数
-        boolean allMatchResult = numList.stream().allMatch(i -> i % 2 == 0);
-        log.info("all match result : {}",allMatchResult);
-        boolean allBiggerThanZero = numList.stream().allMatch(i->i>0);
-        log.info("all match bigger than 0 : {}",allBiggerThanZero);
+        //返回任意一个，通常也是第一个
+        Optional<Integer> findAnyResult = numList.stream().filter(i -> i % 2 != 0).findAny();
+        log.info("find any result : {}",findAnyResult.get());
 
-        //只要有一个能被3整除
-        boolean anyMatchResult = numList.stream().anyMatch(i -> i % 3 == 0);
-        log.info("any match result : {}",anyMatchResult);
+        Optional<Integer> first = numList.stream().findFirst();
+        log.info("original first result : {}",first.get());
 
-        boolean anyLessThanZero = numList.stream().anyMatch(i -> i < 0);
-        log.info("any less than zero result : {}",anyLessThanZero);
-
-        boolean noMatchResult = numList.stream().noneMatch(i -> i < 0);
-        log.info("no less than zero result : {}",noMatchResult);
+        Optional<Integer> any = numList.stream().findAny();
+        log.info("original any result : {}",any.get());
     }
 
 }

@@ -26,5 +26,8 @@ public class StreamReduceDemo {
         Optional<Integer> minNum = minStream.reduce(Integer::min);
         System.out.println(minNum.get());
 
+        //找出其中最大的
+        Stream<Integer> maxStream = Arrays.stream(new Integer[]{1, 2, 3, 4, 99, 5, 6, 7});
+        maxStream.reduce((i, j) -> i < j ? j : i).ifPresent(System.out::println);
     }
 }

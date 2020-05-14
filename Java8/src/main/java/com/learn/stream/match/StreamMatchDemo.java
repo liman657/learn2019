@@ -1,4 +1,4 @@
-package com.learn.stream.find;
+package com.learn.stream.match;
 
 import com.learn.stream.common.Dish;
 import com.learn.stream.common.DishContainer;
@@ -13,7 +13,7 @@ import java.util.List;
  * comment: stream find操作的实例
  */
 @Slf4j
-public class StreamFindDemo {
+public class StreamMatchDemo {
 
     public static void main(String[] args) {
         List<Dish> dishList = DishContainer.getDishList();
