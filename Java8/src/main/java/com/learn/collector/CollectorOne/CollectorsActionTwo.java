@@ -2,6 +2,7 @@ package com.learn.collector.CollectorOne;
 
 import com.learn.stream.common.Dish;
 import com.learn.stream.common.DishContainer;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Comparator;
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.stream.Collectors;
  * createtime:2019/9/22
  * comment:
  */
+@Slf4j
 public class CollectorsActionTwo {
 
     private static List<Dish> dishes = DishContainer.getDishList();

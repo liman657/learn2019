@@ -44,7 +44,7 @@ public class CollectorsActionForth {
                 .ifPresent(System.out::println);
     }
 
-    private static void testSummingInt(){
+    private static void testSummingInt() {
         System.out.println("testSummingInt");
         Optional.of(dishes.stream().collect(Collectors.summarizingInt(Dish::getCalories)))
                 .ifPresent(System.out::println);
@@ -53,29 +53,32 @@ public class CollectorsActionForth {
     /**
      * toCollections，将stream的数据放到自己指定的集合类型中
      */
-    private static void testToCollections(){
+    private static void testToCollections() {
         System.out.println("testToCollections");
-        Optional.ofNullable(dishes.stream().filter(d->d.getCalories()>500).collect(Collectors.toCollection(LinkedList::new)))
+        Optional.ofNullable(dishes.stream().filter(d -> d.getCalories() > 500).collect(Collectors.toCollection(LinkedList::new)))
                 .ifPresent(System.out::println);
     }
 
     /**
      * 将stream的数据转换成从currentHashMap
      */
-    private static void testToConcurrentMap(){
+    private static void testToConcurrentMap() {
         System.out.println("testToConcurrentMap");
-        Optional.ofNullable(dishes.stream().collect(Collectors.toConcurrentMap(Dish::getName,Dish::getCalories)))
-                .ifPresent(v->{
+        Optional.ofNullable(dishes.stream().collect(Collectors.toConcurrentMap(Dish::getName, Dish::getCalories)))
+                .ifPresent(v -> {
                     System.out.println(v);
                     System.out.println(v.getClass());
                 });
     }
 
-    private static void testToConcurrentHashMapWithBinaryOperator(){
+    private static void testToConcurrentHashMapWithBinaryOperator() {
         System.out.println("testToConcurrentHashMapWithBinaryOperator");
         Optional.ofNullable(dishes.stream().collect(
-                Collectors.toConcurrentMap(Dish::getType,v->1L,(a,b)->a+b,ConcurrentSkipListMap::new)
-        )).ifPresent(System.out::println);
+                Collectors.toConcurrentMap(Dish::getType, v -> 1L, (a, b) -> a + b, ConcurrentSkipListMap::new)
+        )).ifPresent(v -> {
+            System.out.println(v);
+            System.out.println(v.getClass());
+        });
     }
 
 }

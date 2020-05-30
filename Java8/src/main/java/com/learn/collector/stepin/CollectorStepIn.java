@@ -16,13 +16,15 @@ public class CollectorStepIn {
     public static void main(String[] args) {
         List<Apple> apples = AppleContainer.initAppleList();
 
-//        Map<String, List<Apple>> appleGroupByColor = groupByFunction(apples);
-//        System.out.println(appleGroupByColor);
-
         Map<String, List<Apple>> collectorResult = groupByCollector(apples);
         System.out.println(collectorResult);
     }
 
+    /**
+     * 对这一堆苹果进行颜色的分类
+     * @param apples
+     * @return
+     */
     public static Map<String, List<Apple>> groupAppleByColor(List<Apple> apples){
         Map<String,List<Apple>> map = new HashMap<>();
         for(Apple a:apples){
@@ -37,7 +39,7 @@ public class CollectorStepIn {
     }
 
     /**
-     * 用optional
+     * 用optional进行颜色的分类
      * @param apples
      * @return
      */
@@ -54,6 +56,11 @@ public class CollectorStepIn {
         return map;
     }
 
+    /**
+     * 使用collector进行颜色的分类
+     * @param apples
+     * @return
+     */
     private static Map<String,List<Apple>> groupByCollector(List<Apple> apples){
         Map<String, List<Apple>> collect = apples.stream().collect(Collectors.groupingBy(Apple::getColor));
         return collect;

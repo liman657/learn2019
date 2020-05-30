@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f30d55-b20b-4f8a-8099-a82e4fddb9d1" name="Default" comment="[20190711-condition,countDownLatch,cyclicbarrier实例]">
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/find/StreamFindDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/match/StreamMatchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/TransactionContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/OutOfCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorGroupBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/reduceAndSummary/ReduceAndSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/dateapi/LocalDateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8/src/main/resources/temp.tld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionForth.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionForth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/stepin/CollectorStepIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/stepin/CollectorStepIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/designModel/target/" />
@@ -66,20 +78,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StreamReduceDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java">
+      <file leaf-file-name="CollectorGroupBy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorGroupBy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="400">
+              <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
+      <file leaf-file-name="CollectorPartition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorPartition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+            <state relative-caret-position="424">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="670" column="23" lean-forward="true" selection-start-line="670" selection-start-column="23" selection-end-line="670" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntPipeline.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="219" column="40" selection-start-line="219" selection-start-column="33" selection-end-line="219" selection-end-column="40" />
+              <folding>
+                <element signature="e#7004#7005#0" expanded="true" />
+                <element signature="e#7053#7054#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReduceAndSummary.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/reduceAndSummary/ReduceAndSummary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-448">
+              <caret line="1142" column="73" lean-forward="true" selection-start-line="1142" selection-start-column="73" selection-end-line="1142" selection-end-column="73" />
+              <folding>
+                <element signature="e#16803#16804#0" expanded="true" />
+                <element signature="e#16858#16859#0" expanded="true" />
+                <element signature="e#33990#33991#0" expanded="true" />
+                <element signature="e#34045#34046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,8 +160,8 @@
       <file leaf-file-name="BinaryOperator.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BinaryOperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="48">
+              <caret line="47" column="57" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="47" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -99,20 +172,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
-        <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Tag Library Descriptor" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>putPar</find>
-      <find>SelfBeanDefinition</find>
-      <find>State</find>
       <find>target.run</find>
       <find>Lock</find>
       <find>lock</find>
@@ -140,6 +210,9 @@
       <find>MaxHeapSize</find>
       <find>manageable</find>
       <find>node0</find>
+      <find>reducing</find>
+      <find>groupingBy</find>
+      <find>box</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -163,21 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter07/PermOOM.java" />
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter07/StringJVMOOM.java" />
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter07/StringInternOOM.java" />
-        <option value="$PROJECT_DIR$/Javajvm/target/classes/com/learn/jvm/chapter11/Calc.txt" />
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter11/Calc.java" />
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter11/ArrayStackDemo.java" />
-        <option value="$PROJECT_DIR$/Javajvm/src/main/java/com/learn/jvm/chapter06/JpsTest.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/domain/Person.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/utils/MetaspaceUtil.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/controller/NonHeapController.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/test/java/com/learn/springbootjvm/SpringbootJvmApplicationTests.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/stack/StackOverFlowDemo.java" />
-        <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/SpringbootJvmApplication.java" />
         <option value="$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/controller/HeapController.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/tools/CalcVideoTime.java" />
@@ -214,6 +272,21 @@
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/match/StreamMatchDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/find/StreamFindDemo.java" />
         <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/stepin/CollectorStepIn.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionForth.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/dateapi/LocalDateDemo.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/resources/temp.tld" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Trader.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Transaction.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/TransactionContainer.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/OutOfCollector.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/ReduceAndSummary.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/reduceAndSummary/ReduceAndSummary.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorGroupBy.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorPartition.java" />
       </list>
     </option>
   </component>
@@ -265,10 +338,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -280,7 +353,6 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,75 +395,11 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="find" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="match" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamReduceDemo">
+  <component name="RunManager" selected="Application.CollectorPartition">
     <configuration name="AllocationEden" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.AllocationEden" />
       <module name="Javajvm" />
@@ -464,6 +472,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CollectorGroupBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.selfcollector.groupby.CollectorGroupBy" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collector.selfcollector.groupby.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CollectorPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.selfcollector.groupby.CollectorPartition" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collector.selfcollector.groupby.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,17 +510,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="FilterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.filter.FilterDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stream.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="JpsTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter06.JpsTest" />
       <module name="Javajvm" />
@@ -500,6 +519,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LocalDateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.dateapi.LocalDateDemo" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.dateapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -539,6 +569,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="OutOfCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.selfcollector.OutOfCollector" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collector.selfcollector.reduceAndSummary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PretenureSizeThresholdDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.PretenureSizeThresholdDemo" />
       <module name="Javajvm" />
@@ -551,23 +592,23 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="ReduceAndSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.collector.selfcollector.reduceAndSummary.ReduceAndSummary" />
+      <module name="Java8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.collector.selfcollector.reduceAndSummary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="RuntimeData" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.RuntimeDataArea" />
       <module name="Javajvm" />
       <option name="PROGRAM_PARAMETERS" value="liman" />
       <option name="VM_PARAMETERS" value="-Xmx32m" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-    </configuration>
-    <configuration name="ShorestPathDijkstraSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.graph.ShorestPathDijkstra.ShorestPathDijkstraSelf" />
-      <module name="dataStructure" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.graph.ShorestPathDijkstra.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="SimpleHeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter07.SimpleHeapOOM" />
@@ -601,39 +642,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StreamFindDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.find.StreamFindDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stream.find.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StreamMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.map.StreamMapDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stream.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StreamMatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.stream.match.StreamMatchDemo" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.stream.match.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -865,19 +873,19 @@
       <item itemvalue="Spring Boot.SpringbootJvmApplication" />
       <item itemvalue="Spring Boot.SpringbootDistributelockApplication" />
       <item itemvalue="Tomcat Server.springDemo" />
-      <item itemvalue="Application.ShorestPathDijkstraSelf" />
-      <item itemvalue="Application.FilterDemo" />
-      <item itemvalue="Application.StreamMapDemo" />
-      <item itemvalue="Application.StreamFindDemo" />
-      <item itemvalue="Application.StreamReduceDemo" />
+      <item itemvalue="Application.LocalDateDemo" />
+      <item itemvalue="Application.OutOfCollector" />
+      <item itemvalue="Application.ReduceAndSummary" />
+      <item itemvalue="Application.CollectorGroupBy" />
+      <item itemvalue="Application.CollectorPartition" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamReduceDemo" />
-        <item itemvalue="Application.StreamFindDemo" />
-        <item itemvalue="Application.StreamMatchDemo" />
-        <item itemvalue="Application.StreamMapDemo" />
-        <item itemvalue="Application.FilterDemo" />
+        <item itemvalue="Application.CollectorPartition" />
+        <item itemvalue="Application.CollectorGroupBy" />
+        <item itemvalue="Application.ReduceAndSummary" />
+        <item itemvalue="Application.OutOfCollector" />
+        <item itemvalue="Application.LocalDateDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -1010,7 +1018,14 @@
       <workItem from="1584786117893" duration="740000" />
       <workItem from="1584845487225" duration="2278000" />
       <workItem from="1586768171804" duration="664000" />
-      <workItem from="1589454556243" duration="5965000" />
+      <workItem from="1589454556243" duration="6245000" />
+      <workItem from="1589538405632" duration="5711000" />
+      <workItem from="1589594199816" duration="10283000" />
+      <workItem from="1589702643645" duration="661000" />
+      <workItem from="1589882907809" duration="594000" />
+      <workItem from="1590138863953" duration="15016000" />
+      <workItem from="1590385807849" duration="1334000" />
+      <workItem from="1590467290773" duration="29451000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -1062,7 +1077,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="972454000" />
+    <option name="totallyTimeSpent" value="1035784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1074,8 +1089,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
@@ -1088,7 +1102,7 @@
       <window_info anchor="right" id="Structure" order="10" sideWeight="0.5009276" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3836689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38329765" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32012847" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -1096,10 +1110,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32915717" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3222698" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.45396146" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.31991053" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2457356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2260128" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1244,7 +1258,7 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1277,179 +1291,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/controller/HeapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBoot-JVM/src/main/java/com/learn/springbootjvm/SpringbootJvmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/lambda/unionLambda/UnionLambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-javaapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/tools/CalcVideoTime.java" />
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/tools/AudioUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="50" column="16" selection-start-line="50" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/tools/VideoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/tools/CalcVedioTimeLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/ListTestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/SelfLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/ListReverseAndMiddleNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/InterviewTitleOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" selection-start-line="17" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/InterviewTitleTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="57" column="50" lean-forward="true" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/LinkList/CombineSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="78" column="33" lean-forward="true" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/stackandqueue/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/stackandqueue/MyQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/stackandqueue/DoubleStack2Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/InterviewTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/BinTreeDeep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="102" column="40" lean-forward="true" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/TreeTraverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/LowestAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" selection-start-line="9" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/graph/MatrixDG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/graph/ListDG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/graph/MatrixNDG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1517,10 +1358,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="124" column="34" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="39" />
-          <folding>
-            <element signature="e#2537#2538#0" expanded="true" />
-            <element signature="e#2604#2605#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1580,20 +1417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/DishContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/map/StreamMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,9 +1428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1611,9 +1435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1624,24 +1445,241 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BinaryOperator.java">
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="316">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/NumericStream/NumericStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/AppleContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionForth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/dateapi/LocalDateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/stepin/CollectorStepIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/resources/temp.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Trader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/ToIntFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="486" column="55" selection-start-line="486" selection-start-column="49" selection-end-line="486" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/CollectorOne/CollectorsActionThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="606" column="6" selection-start-line="606" selection-start-column="6" selection-end-line="606" selection-end-column="6" />
+        <state relative-caret-position="185">
+          <caret line="806" column="27" selection-start-line="806" selection-start-column="27" selection-end-line="806" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java">
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="206" column="6" lean-forward="true" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35832">
+          <caret line="1560" column="22" selection-start-line="1560" selection-start-column="22" selection-end-line="1560" selection-end-column="22" />
+          <folding>
+            <element signature="e#59796#59797#0" expanded="true" />
+            <element signature="e#59824#59825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/common/TransactionContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="39" column="44" selection-start-line="13" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/OutOfCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/DishContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/common/Dish.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="47" column="57" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="47" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/reduceAndSummary/ReduceAndSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="88" column="46" lean-forward="true" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorGroupBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-448">
+          <caret line="1142" column="73" lean-forward="true" selection-start-line="1142" selection-start-column="73" selection-end-line="1142" selection-end-column="73" />
+          <folding>
+            <element signature="e#16803#16804#0" expanded="true" />
+            <element signature="e#16858#16859#0" expanded="true" />
+            <element signature="e#33990#33991#0" expanded="true" />
+            <element signature="e#34045#34046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="670" column="23" lean-forward="true" selection-start-line="670" selection-start-column="23" selection-end-line="670" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="219" column="40" selection-start-line="219" selection-start-column="33" selection-end-line="219" selection-end-column="40" />
+          <folding>
+            <element signature="e#7004#7005#0" expanded="true" />
+            <element signature="e#7053#7054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/collector/selfcollector/groupby/CollectorPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

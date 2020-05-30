@@ -27,9 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="java_thread" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
-      <module name="rabbitmq-javaapi" target="1.8" />
       <module name="springboot_distributeLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>

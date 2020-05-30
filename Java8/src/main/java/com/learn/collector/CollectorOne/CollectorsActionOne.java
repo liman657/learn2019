@@ -62,7 +62,7 @@ public class CollectorsActionOne {
 //
 //        List<Dish> unModifyList = dishes.stream().filter(d -> d.getType().equals(Dish.Type.MEAT))
 //                .collect(Collectors.collectingAndThen(Collectors.toList()
-//                , Collections::unmodifiableList));
+//                , Collections::unmodifiableList));//返回的集合不希望被修改
 //        unModifyList.add(test);//这里会抛出异常，UNsupportedOperationException
 //        System.out.println(unModifyList);
     }
@@ -102,8 +102,8 @@ public class CollectorsActionOne {
         Map<Dish.Type, Double> firstTypeResult = dishes.stream()
                 .collect(Collectors.groupingBy(Dish::getType, TreeMap::new, Collectors.averagingDouble(Dish::getCalories)));
 
+        Optional.ofNullable(firstTypeResult).ifPresent(System.out::println);
         Optional.ofNullable(firstTypeResult.getClass()).ifPresent(System.out::println);
-
     }
 
     /**
