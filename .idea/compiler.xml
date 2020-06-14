@@ -13,6 +13,7 @@
         <module name="java_distribute" />
         <module name="Java_netty" />
         <module name="java_thread" />
+        <module name="Java_thread_update" />
         <module name="Javajvm" />
         <module name="JavaSPI" />
         <module name="leetCode" />
@@ -27,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java_thread_update" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
       <module name="springboot_distributeLock" target="1.8" />
     </bytecodeTargetLevel>
