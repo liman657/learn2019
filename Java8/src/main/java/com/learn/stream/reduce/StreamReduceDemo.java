@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * autor:liman
  * createtime:2019/8/26
- * comment:
+ * comment:stream reduce实例
  */
 public class StreamReduceDemo {
 

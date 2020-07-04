@@ -28,6 +28,8 @@
         <option value="$PROJECT_DIR$/SpringBoot-JVM/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Java_thread_update/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_jedis/pom.xml" />
       </list>
     </option>
   </component>

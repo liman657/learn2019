@@ -11,6 +11,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dataStructure</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../spring-boot-redis</module>
+    </modules>
 
 
 </project>
