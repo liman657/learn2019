@@ -1,4 +1,4 @@
-package com.learn.thread.update.exam;
+package com.learn.exam.xingye;
 
 import java.util.Scanner;
 
