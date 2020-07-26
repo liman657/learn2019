@@ -19,19 +19,23 @@
         <module name="JavaSPI" />
         <module name="leetCode" />
         <module name="rabbitmq-javaapi" />
-        <module name="spring-boot-redis" />
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
         <module name="SpringBoot-JVM" />
+        <module name="springboot-redis-api" />
+        <module name="springboot-redis-model" />
+        <module name="springboot-redis-service" />
         <module name="springboot-starter" />
         <module name="springboot_netty" />
         <module name="zkLearn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java_thread" target="1.5" />
       <module name="java_thread_update" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
+      <module name="rabbitmq-javaapi" target="1.8" />
       <module name="springboot_distributeLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>

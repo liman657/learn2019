@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot-redis</artifactId>
+        <groupId>com.learn</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.learn.springboot-redis-service</groupId>
+    <artifactId>springboot-redis-service</artifactId>
+
+    <!-- 依赖管理 -->
+    <!--<dependencyManagement>-->
+        <!--<dependencies>-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-dependencies</artifactId>-->
+                <!--<version>${spring-boot.version}</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
+        <!--</dependencies>-->
+    <!--</dependencyManagement>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>com.learn.springboot-redis-model</groupId>
+            <artifactId>springboot-redis-model</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!-- 引入热部署jar包 devtools-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <!--optional=true,依赖不会传递，该项目依赖devtools；之后依赖该项目的项目如果想要使用devtools，需要重新引入 &ndash;&gt;-->
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
+</project>
