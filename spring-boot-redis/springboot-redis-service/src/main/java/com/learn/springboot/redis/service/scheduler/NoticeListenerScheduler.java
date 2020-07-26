@@ -7,7 +7,6 @@ import com.learn.springboot.redis.model.mapper.UserMapper;
 import com.learn.springboot.redis.service.constants.RedisKeyConstants;
 import com.learn.springboot.redis.service.service.email.EmailService;
 import lombok.extern.slf4j.Slf4j;
-import net.bytebuddy.asm.Advice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisTemplate;
