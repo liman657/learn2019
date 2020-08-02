@@ -6,6 +6,7 @@ import com.learn.springboot.redis.api.response.StatusCode;
 import com.learn.springboot.redis.model.entity.Notice;
 import com.learn.springboot.redis.model.entity.Product;
 import com.learn.springboot.redis.service.service.ListService;
+import com.learn.springboot.redis.service.util.ValidatorUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -54,10 +55,10 @@ public class ListController {
     //平台发送通知给到各位商户
     @RequestMapping(value = "/notice/put",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
     public BaseResponse putNotice(@RequestBody @Validated Notice notice, BindingResult result){
-//        String checkRes=ValidatorUtil.checkResult(result);
-//        if (StrUtil.isNotBlank(checkRes)){
-//            return new BaseResponse(StatusCode.Fail.getCode(),checkRes);
-//        }
+        String checkRes=ValidatorUtil.checkResult(result);
+        if (StrUtil.isNotBlank(checkRes)){
+            return new BaseResponse(StatusCode.Fail.getCode(),checkRes);
+        }
         BaseResponse response=new BaseResponse(StatusCode.Success);
         try {
             log.info("--平台发送通知给到各位商户：{}",notice);

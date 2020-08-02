@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/spring-boot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/Java_jedis/pom.xml" />
         <option value="$PROJECT_DIR$/Java_exam/pom.xml" />
+        <option value="$PROJECT_DIR$/java_netty_update/pom.xml" />
       </list>
     </option>
   </component>

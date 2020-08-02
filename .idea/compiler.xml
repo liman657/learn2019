@@ -12,7 +12,7 @@
         <module name="java_distribute" />
         <module name="Java_exam" />
         <module name="Java_jedis" />
-        <module name="Java_netty" />
+        <module name="java_netty_update" />
         <module name="java_thread" />
         <module name="Java_thread_update" />
         <module name="Javajvm" />

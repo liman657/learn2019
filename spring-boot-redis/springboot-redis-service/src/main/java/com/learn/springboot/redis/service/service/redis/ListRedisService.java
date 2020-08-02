@@ -31,12 +31,12 @@ public class ListRedisService {
      * @param product
      */
     public void pushRedisObject(final Product product){
-        ListOperations listOperations = redisTemplate.opsForList();
+        ListOperations<String,Product> listOperations = redisTemplate.opsForList();
         listOperations.leftPush(RedisKeyConstants.RedisListPrefix+product.getUserId(),product);
     }
 
     /**
-     * 将product 放入到Redis list中
+     * 将notice 放入到Redis list中
      * @param notice
      */
     public void pushNoticeInRedis(final Notice notice){
@@ -73,9 +73,15 @@ public class ListRedisService {
         }
     }
 
+    /**
+     * 将一个数组批量压入到Redis中的list中。
+     * @param productKey
+     * @param productList
+     * @return
+     */
     public Long pushListIntoRedis(final String productKey,final List<Product> productList){
-        ListOperations listOperations = redisTemplate.opsForList();
-        Long aLong = listOperations.leftPush(productKey, productList);
+        ListOperations<String,Product> listOperations = redisTemplate.opsForList();
+        Long aLong = listOperations.leftPushAll(productKey, productList);
         return aLong;
     }
 }

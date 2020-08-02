@@ -64,5 +64,4 @@ public class StringRedisService {
     public void expire(final String key,final Long expireSeconds) throws Exception{
         stringRedisTemplate.expire(key,expireSeconds, TimeUnit.SECONDS);
     }
-
 }

@@ -8,6 +8,7 @@ import com.learn.springboot.redis.service.constants.RedisKeyConstants;
 import com.learn.springboot.redis.service.service.email.EmailService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
 import org.springframework.data.redis.core.ListOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.scheduling.annotation.Async;
@@ -40,20 +41,22 @@ public class NoticeListenerScheduler {
     @Autowired
     private EmailService emailService;
 
-    @Scheduled(cron = "0/59 * * * * ?")
+    @Scheduled(cron = "0/60 * * * * ?")
     public void noticeListenerScheduler(){
         log.info("=====定时任务开启，读取queue中的数据，并发送数据=====");
         ListOperations<String,Notice> listOperations = redisTemplate.opsForList();
         Notice notice = listOperations.rightPop(noticeListenerKey);
         while(null!=notice){
             log.info("======开始给指定商户：{}发送邮件=====");
+
+            //this.noticeUser(notice);
             notice = listOperations.rightPop(noticeListenerKey);
         }
     }
 
     //TODO:发送通知给到不同的商户
     @Async("threadPoolTaskExecutor")
-    private void noticeUser(Notice notice){
+    public void noticeUser(Notice notice){
         if (notice!=null){
             List<User> list=userMapper.selectList();
 

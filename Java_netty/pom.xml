@@ -6,6 +6,7 @@
 
     <groupId>com.learn</groupId>
     <artifactId>Java_netty</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,6 +20,9 @@
             </plugin>
         </plugins>
     </build>
+    <!--<modules>-->
+        <!--<module>../java_netty_update</module>-->
+    <!--</modules>-->
 
     <dependencies>
         <dependency>

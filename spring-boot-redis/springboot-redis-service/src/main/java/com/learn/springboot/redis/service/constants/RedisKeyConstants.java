@@ -14,11 +14,11 @@ public class RedisKeyConstants {
 
     public static final String RedisSetKey="SpringBoot:Redis:Set:User:Email";
 
-    public static final String RedisSetProblemKey="SpringBoot:Redis:Set:Problem";
+    public static final String RedisSetProblemKey="SpringBoot:Redis:Set:problem";
 
     public static final String RedisSetProblemsKey="SpringBoot:Redis:Set:Problems";
 
-    public static final String RedisSortedSetKey1 ="SpringBootRedis:SortedSet:PhoneFare:key1";
+    public static final String RedisSortedSetKeyOne ="SpringBootRedis:SortedSet:PhoneFare";
 
     public static final String RedisSortedSetKey2 ="SpringBootRedis:SortedSet:PhoneFare:key2";
 

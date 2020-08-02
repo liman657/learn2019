@@ -2,8 +2,9 @@ package com.learn.springboot.redis.model.entity;
 
 import lombok.Data;
 import lombok.ToString;
+import org.hibernate.validator.constraints.NotBlank;
 
-import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Date;
 

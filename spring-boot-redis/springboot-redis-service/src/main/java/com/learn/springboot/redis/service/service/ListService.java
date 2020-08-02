@@ -60,8 +60,8 @@ public class ListService {
         productList = listRedisService.getRedisListObject(productKey, false);
         if(1>productList.size()){//如果缓存中没有则直接去数据库中取数据，并更新缓存
             productList=productMapper.listProductsByUId(userId);
-            productList.stream().forEach(p->listRedisService.pushRedisObject(p));
-//            listRedisService.pushListIntoRedis(productKey,productList);//这种是List中只有一个元素，这个元素是一个list
+//            productList.stream().forEach(p->listRedisService.pushListIntoRedis(p));
+            listRedisService.pushListIntoRedis(productKey,productList);//这种是List中只有一个元素，这个元素是一个list
         }
         log.info("=====查询的productList结果为:{}=====",productList);
         return productList;
