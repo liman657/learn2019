@@ -55,9 +55,9 @@ public class FileChannelLearn {
                 outChannel = fos.getChannel();
                 int length = -1;
                 ByteBuffer buf = ByteBuffer.allocate(1024);
-                //从输入通道读取到buf
+                //从输入通道读取到buf，buf默认是写入模式
                 while((length = inChannel.read(buf))!=-1){
-                    //将buffer切换到写模式
+                    //将buffer切换到读模式
                     buf.flip();
                     int outLength = 0;
 
