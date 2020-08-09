@@ -26,6 +26,7 @@ public class LocalDateAndLocalTime {
         testDurationAndPeriod();
         testDecodeTimeFormat();
         testSelfDateFormat();
+        testMonthYearChinaFormat();
 //        dateOriginal();
     }
 
@@ -151,6 +152,12 @@ public class LocalDateAndLocalTime {
         String formattedDate = date1.format(dateTimeFormatter);
         LocalDate date2 = LocalDate.parse(formattedDate,dateTimeFormatter);
         log.info("date2:{}",date2);
+    }
+
+    public static void testMonthYearChinaFormat(){
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy年MM月dd日");
+        LocalDate localDate = LocalDate.now();
+        log.info("localDate:{}",localDate);
     }
 
 }

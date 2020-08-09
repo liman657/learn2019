@@ -41,7 +41,7 @@ public class NoticeListenerScheduler {
     @Autowired
     private EmailService emailService;
 
-    @Scheduled(cron = "0/60 * * * * ?")
+//    @Scheduled(cron = "0/60 * * * * ?")
     public void noticeListenerScheduler(){
         log.info("=====定时任务开启，读取queue中的数据，并发送数据=====");
         ListOperations<String,Notice> listOperations = redisTemplate.opsForList();
