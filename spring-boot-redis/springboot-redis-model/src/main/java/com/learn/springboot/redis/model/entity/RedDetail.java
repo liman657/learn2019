@@ -6,6 +6,9 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
+/**
+ * 红包拆分的明细记录
+ */
 @Data
 public class RedDetail implements Serializable{
 

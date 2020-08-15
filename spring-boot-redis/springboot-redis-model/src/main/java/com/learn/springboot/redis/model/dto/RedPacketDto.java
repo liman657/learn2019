@@ -15,7 +15,7 @@ public class RedPacketDto {
 
     //指定多少人抢
     @NotNull(message = "指定人数不能为空！")
-    private Integer total;
+    private Integer count;
 
     //指定总金额-单位为分
     @NotNull(message = "红包总金额必填！")

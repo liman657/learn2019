@@ -74,7 +74,41 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CacheableService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/cacheable/CacheableService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheableConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/config/CacheableConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheableController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/CacheableController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,31 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/ListRedisService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/SpringBootRedisApplication.java" />
-        <option value="$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/leetcode/easy/Title771.java" />
-        <option value="$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/leetcode/easy/Title1528.java" />
-        <option value="$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/leetcode/easy/Title1266.java" />
-        <option value="$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/leetcode/easy/Title1252.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/Item.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/ProblemService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/SetRedisService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/User.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/ListController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/util/ValidatorUtil.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/SetController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/ZSetRedisTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/SetRedisTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/SetService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/ProblemController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/problem/ProblemService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/PhoneFare.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/constants/RedisKeyConstants.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/ZSetController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/ZSetRedisService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/ZSetService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/HashRedisTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/SysConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/HashRedisService.java" />
         <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/HashService.java" />
         <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/HashController.java" />
@@ -197,6 +206,31 @@
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/BioClient.java" />
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/aio/client/AioClient.java" />
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/aio/client/AioClientHandler.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/NIOClient.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/NIOClientHandler.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeClient.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServer.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServerOutOfThread.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/TimeServerHandlerThreadPool.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/FakeAsynTimeServer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedRecord.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedDetail.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedRobRecord.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/RedPacketAmountTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/util/RedPacketUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/dto/RedPacketDto.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeServer.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeClient.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/MultiplexerTimeServer.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/RedPacketController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redpacket/RedPacketService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/cacheable/CacheableService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/CacheableController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/config/CacheableConfig.java" />
       </list>
     </option>
   </component>
@@ -243,10 +277,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -256,94 +288,124 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-redis-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="iopattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="iopattern" type="462c0819:PsiDirectoryNode" />
-              <item name="bio" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -375,12 +437,8 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.learn.reactor.singlereactorself.client" />
-      <recent name="com.learn.reactor.singlereactorself" />
-      <recent name="com.learn.reactor.singlereactormodel" />
-      <recent name="com.learn.bio" />
-      <recent name="com.learn.springioc.framework.webmvc.servlet" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gupaoProject2019\Javajvm\target\classes\com\learn\jvm\chapter09" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\gupaoProject2019\java_netty_update\src\main\java\com\learn\netty\config" />
@@ -391,13 +449,17 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.learn.redis.test" />
+      <recent name="com.learn.netty.iopattern.bio.fakeAsynIo" />
+      <recent name="com.learn.netty.iopattern.bio.update" />
       <recent name="com.learn.thread.update.phase02.readAndWrite" />
       <recent name="com.learn.thread.update.selfLock" />
-      <recent name="com.learn.thread.update.synchronizeddemo" />
-      <recent name="com.learn.thread.update.threadinterrupt" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\gupaoProject2019\Javajvm\target\classes\com\learn\jvm\chapter09" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.learn.reactor.singlereactorself.client" />
+      <recent name="com.learn.reactor.singlereactorself" />
+      <recent name="com.learn.reactor.singlereactormodel" />
+      <recent name="com.learn.bio" />
+      <recent name="com.learn.springioc.framework.webmvc.servlet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +474,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BioClient">
+  <component name="RunManager" selected="Spring Boot.SpringBootRedisApplication">
     <configuration name="AllocationEden" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.AllocationEden" />
       <module name="Javajvm" />
@@ -425,28 +487,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.netty.iopattern.bio.BioClient" />
-      <module name="java_netty_update" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.netty.iopattern.bio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BioService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.netty.iopattern.bio.BioService" />
-      <module name="java_netty_update" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.netty.iopattern.bio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="DirectBufferOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter07.DirectBufferOOM" />
       <module name="Javajvm" />
@@ -455,17 +495,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FileChannelLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.netty.channel.FileChannelLearn" />
-      <module name="java_netty_update" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.netty.channel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,17 +519,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LocalDateAndLocalTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.timeapi.LocalDateAndLocalTime" />
-      <module name="Java8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.timeapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -656,8 +674,76 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.netty.iopattern.nio.update.TimeClient" />
+      <module name="java_netty_update" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.netty.iopattern.nio.update.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.netty.iopattern.nio.update.TimeServer" />
+      <module name="java_netty_update" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.netty.iopattern.nio.update.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RedPacketAmountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-redis-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.redis.test.RedPacketAmountTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RedPacketAmountTest.testAmountMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-redis-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.learn.redis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.redis.test.RedPacketAmountTest" />
+      <option name="METHOD_NAME" value="testAmountMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -832,19 +918,19 @@
       <item itemvalue="Spring Boot.SpringbootJvmApplication" />
       <item itemvalue="Spring Boot.SpringbootDistributelockApplication" />
       <item itemvalue="Tomcat Server.springDemo" />
-      <item itemvalue="Application.FileChannelLearn" />
-      <item itemvalue="Application.LocalDateAndLocalTime" />
+      <item itemvalue="JUnit.RedPacketAmountTest.testAmountMoney" />
+      <item itemvalue="JUnit.RedPacketAmountTest" />
       <item itemvalue="Spring Boot.SpringBootRedisApplication" />
-      <item itemvalue="Application.BioService" />
-      <item itemvalue="Application.BioClient" />
+      <item itemvalue="Application.TimeServer" />
+      <item itemvalue="Application.TimeClient (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BioClient" />
-        <item itemvalue="Application.BioService" />
         <item itemvalue="Spring Boot.SpringBootRedisApplication" />
-        <item itemvalue="Application.LocalDateAndLocalTime" />
-        <item itemvalue="Application.FileChannelLearn" />
+        <item itemvalue="Application.TimeClient (1)" />
+        <item itemvalue="Application.TimeServer" />
+        <item itemvalue="JUnit.RedPacketAmountTest" />
+        <item itemvalue="JUnit.RedPacketAmountTest.testAmountMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -1012,7 +1098,11 @@
       <workItem from="1596763051059" duration="3808000" />
       <workItem from="1596894513152" duration="4764000" />
       <workItem from="1596938051887" duration="1650000" />
-      <workItem from="1596939827700" duration="9470000" />
+      <workItem from="1596939827700" duration="13179000" />
+      <workItem from="1597024019241" duration="47549000" />
+      <workItem from="1597301408858" duration="5885000" />
+      <workItem from="1597322063776" duration="3225000" />
+      <workItem from="1597396286282" duration="14565000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -1032,24 +1122,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BufferTest_testBufferPut - 2020.08.02 at 17h 18m 20s.xml">
-      <configuration name="BufferTest.testBufferPut" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferTest_testBufferFlip - 2020.08.02 at 17h 20m 57s.xml">
-      <configuration name="BufferTest.testBufferFlip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferTest_testBufferFlip - 2020.08.02 at 17h 21m 25s.xml">
-      <configuration name="BufferTest.testBufferFlip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferTest_testBufferGet - 2020.08.02 at 17h 26m 00s.xml">
-      <configuration name="BufferTest.testBufferGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferTest_testBufferGet - 2020.08.02 at 17h 26m 23s.xml">
-      <configuration name="BufferTest.testBufferGet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BufferTest_testBufferGet - 2020.08.02 at 17h 27m 14s.xml">
-      <configuration name="BufferTest.testBufferGet" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BufferTest_testRewindBuffer - 2020.08.02 at 17h 28m 22s.xml">
       <configuration name="BufferTest.testRewindBuffer" configurationId="JUnit" />
     </history-entry>
@@ -1062,9 +1134,27 @@
     <history-entry file="BufferTest_testBufferClean - 2020.08.02 at 17h 30m 33s.xml">
       <configuration name="BufferTest.testBufferClean" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RedPacketAmountTest_testAmountMoney - 2020.08.11 at 20h 20m 15s.xml">
+      <configuration name="RedPacketAmountTest.testAmountMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedPacketAmountTest_testAmountMoney - 2020.08.11 at 20h 20m 50s.xml">
+      <configuration name="RedPacketAmountTest.testAmountMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedPacketAmountTest_testAmountMoney - 2020.08.11 at 20h 23m 43s.xml">
+      <configuration name="RedPacketAmountTest.testAmountMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedPacketAmountTest_testAmountMoney - 2020.08.11 at 20h 25m 10s.xml">
+      <configuration name="RedPacketAmountTest.testAmountMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedPacketAmountTest - 2020.08.11 at 20h 25m 51s.xml">
+      <configuration name="RedPacketAmountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RedPacketAmountTest - 2020.08.11 at 20h 35m 09s.xml">
+      <configuration name="RedPacketAmountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1422053000" />
+    <option name="totallyTimeSpent" value="1496986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1077,6 +1167,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" weight="0.3736018" />
@@ -1097,13 +1188,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32915717" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.3222698" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.38547486" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.39021614" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.23667377" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" weight="0.31444445" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33966482" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33902162" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1399,294 +1490,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/test/java/com/learn/test/netty/channel/FileChannelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/IOUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/FormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/java/com/learn/utils/IOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/Dateutil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/ClassLoaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/IOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/DeEnCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java_netty/src/main/resources/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/annotation/Tanscation.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/ConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/config/NioLearnConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/ReflectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/resources/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/target/classes/system.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/target/classes/system.copy.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/channel/FileChannelLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="60" column="31" lean-forward="true" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/ZSetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/ZSetRedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22891">
-          <caret line="1162" column="55" lean-forward="true" selection-start-line="1162" selection-start-column="55" selection-end-line="1162" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="397" column="83" lean-forward="true" selection-start-line="397" selection-start-column="83" selection-end-line="397" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.10/hutool-all-4.6.10.jar!/cn/hutool/core/lang/Snowflake.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.10/hutool-all-4.6.10-sources.jar!/cn/hutool/core/lang/Snowflake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redis/StringRedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/scheduler/NoticeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/scheduler/NoticeListenerScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/CacheFightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="103" column="62" selection-start-line="103" selection-start-column="54" selection-end-line="103" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/CacheFightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/SpringBootRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/config/SystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/config/NioLearnConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/net/Socket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="207" column="11" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/config/BaseIOConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/time/LocalDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
-          <folding>
-            <element signature="e#6863#6864#0" expanded="true" />
-            <element signature="e#6916#6917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/aio/client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/timeapi/LocalDateAndLocalTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1589">
-          <caret line="143" column="69" selection-start-line="143" selection-start-column="69" selection-end-line="143" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/aio/client/AioClientReadHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/aio/client/AioClientWriterHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1733,11 +1536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1152">
           <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1745,9 +1543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-355">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1755,9 +1550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1765,6 +1557,309 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/NIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/channel/FileChannelLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/NIOClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/TimeServerHandlerThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/fakeAsynIo/FakeAsynTimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="900" column="19" selection-start-line="900" selection-start-column="19" selection-end-line="900" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="55" column="79" selection-start-line="54" selection-start-column="51" selection-end-line="56" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="79" column="65" lean-forward="true" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/stepin/StreamStepInDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/stream/reduce/StreamReduceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/test/java/com/learn/redis/test/RedPacketAmountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/entity/RedRobRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-model/src/main/java/com/learn/springboot/redis/model/dto/RedPacketDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="506" column="18" selection-start-line="506" selection-start-column="18" selection-end-line="506" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/bio/update/TimeServerOutOfThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/xingye/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/xingye/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/xingye/HelpZKL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/xingye/FinalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1128">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.43.Final/netty-transport-4.1.43.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/iopattern/nio/update/MultiplexerTimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="62" column="42" lean-forward="true" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/SpringBootRedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/util/RedPacketUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.10/hutool-all-4.6.10-sources.jar!/cn/hutool/core/lang/Snowflake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#3900#3901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/redpacket/RedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="147" column="45" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/RedPacketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/config/RedisConfg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/controller/CacheableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/config/CacheableConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-redis/springboot-redis-service/src/main/java/com/learn/springboot/redis/service/service/cacheable/CacheableService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
