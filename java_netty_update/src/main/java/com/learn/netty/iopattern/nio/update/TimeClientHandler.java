@@ -8,6 +8,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
+import java.time.LocalDateTime;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -87,6 +88,7 @@ public class TimeClientHandler implements Runnable {
             if (key.isConnectable()) {
                 if (socketChannel.finishConnect()) {
                     socketChannel.register(selector, SelectionKey.OP_READ);
+                    log.info("client connect to server ,client time is {}", LocalDateTime.now().toString());
                     doWrite(socketChannel);
                 } else {
                     System.exit(1);

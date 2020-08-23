@@ -9,29 +9,33 @@ import java.util.Scanner;
  */
 public class FinalTest {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
+        try {
+            Scanner scanner = new Scanner(System.in);
+            int num = scanner.nextInt();
 
-        //输入对称数字
-        if (isSymmetry(String.valueOf(num))) {
-            System.out.println(num);
-        } else {
-            int maxNumber = findMaxNumber(num);
-            int minNumber = findMinNumber(num);
-
-            if (minNumber == -1) {
-                System.out.println(maxNumber);
+            //输入对称数字
+            if (isSymmetry(String.valueOf(num))) {
+                System.out.println(num);
             } else {
-                if (Math.abs(maxNumber - num) == Math.abs(minNumber - num)) {
-                    System.out.println(minNumber + "," + maxNumber);
+                int maxNumber = findMaxNumber(num);
+                int minNumber = findMinNumber(num);
+
+                if (minNumber == -1) {
+                    System.out.println(maxNumber);
                 } else {
-                    if (Math.abs(maxNumber - num) > Math.abs(minNumber - num)) {
-                        System.out.println(minNumber);
+                    if (Math.abs(maxNumber - num) == Math.abs(minNumber - num)) {
+                        System.out.println(minNumber + "," + maxNumber);
                     } else {
-                        System.out.println(maxNumber);
+                        if (Math.abs(maxNumber - num) > Math.abs(minNumber - num)) {
+                            System.out.println(minNumber);
+                        } else {
+                            System.out.println(maxNumber);
+                        }
                     }
                 }
             }
+        }catch (Exception e){
+            System.out.println("ERROR");
         }
     }
 

@@ -1,4 +1,4 @@
-package com.learn.netty.channel;
+package com.learn.netty.component.channel;
 
 import com.learn.netty.config.NioLearnConfig;
 import com.learn.netty.util.IOUtil;

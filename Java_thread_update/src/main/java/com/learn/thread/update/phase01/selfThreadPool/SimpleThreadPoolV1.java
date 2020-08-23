@@ -1,14 +1,19 @@
 package com.learn.thread.update.phase01.selfThreadPool;
 
+import lombok.extern.slf4j.Slf4j;
+
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * autor:liman
  * createtime:2020/6/22
  * comment:简单的线程池
  */
+@Slf4j
 public class SimpleThreadPoolV1 {
 
     private final int size;
@@ -40,7 +45,7 @@ public class SimpleThreadPoolV1 {
     private void createWorkTask(){
         WorkTask task = new WorkTask(GROUP,THREAD_PREFIX+(seq++));
         task.start();
-        THREAD_QUEUE.add(task);
+//        THREAD_QUEUE.add(task);
     }
 
     /**
@@ -93,13 +98,14 @@ public class SimpleThreadPoolV1 {
                             break OUTER;
                         }
                     }
+                }
 
-                    runnable = TASK_QUEUE.removeFirst();
-                    if(null!=runnable){
-                        taskState = TaskState.RUNNING;
-                        runnable.run();
-                        taskState = TaskState.FREE;
-                    }
+                //获取任务的时候，不需要在synchronize中
+                runnable = TASK_QUEUE.removeFirst();
+                if(null!=runnable){
+                    taskState = TaskState.RUNNING;
+                    runnable.run();
+                    taskState = TaskState.FREE;
                 }
             }
         }
@@ -108,5 +114,19 @@ public class SimpleThreadPoolV1 {
             this.taskState = TaskState.TERMINATE;
         }
 
+    }
+
+    public static void main(String[] args) {
+        SimpleThreadPoolV1 threadPoolV1 = new SimpleThreadPoolV1();
+        IntStream.rangeClosed(0,40)
+                .forEach(i->threadPoolV1.submit(()->{
+                    log.info("the runnable {} be serviced at {}",i,LocalDateTime.now().toString());
+                    try {
+                        Thread.sleep(10000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    log.info("the runnable {} finished at {}",i,LocalDateTime.now().toString());
+                }));
     }
 }
