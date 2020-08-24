@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+
+    <!--<dubbo:annotation package="com.learn.springboot.dubbo.producerr" />-->
+    <dubbo:registry address="${dubbo.registry.address}" />
+
+    <!--<dubbo:protocol name="rest" threads="500" contextpath="v1" server="tomcat" accepts="500"/>-->
+    <!--<dubbo:protocol name="dubbo" />-->
+
+	<!--<dubbo:application name="springboot-dubbo-consumer" owner="ohome" organization="dubbox"/>-->
+
+
+</beans>

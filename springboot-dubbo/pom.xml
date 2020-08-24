@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--<parent>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-parent</artifactId>-->
+        <!--<version>2.2.2.RELEASEE</version>-->
+        <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+    <!--</parent>-->
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+    </parent>
+
+    <groupId>com.learn</groupId>
+    <artifactId>springboot-dubbo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <description>springboot集成dubbo的相关实例</description>
+    <modules>
+        <module>springboot-dubbo-api</module>
+        <module>springboot-dubbo-model</module>
+        <module>springboot-dubbo-server</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
+        <spring-session.version>1.3.5.RELEASE</spring-session.version>
+        <slf4j.version>1.7.13</slf4j.version>
+        <log4j.version>1.2.17</log4j.version>
+        <mysql.version>5.1.37</mysql.version>
+        <ladp.version>2.3.1.RELEASE</ladp.version>
+        <dubbo.version>2.6.4</dubbo.version>
+        <dubbo.starter.version>2.7.6</dubbo.starter.version>
+        <zookeeper.version>3.6.0</zookeeper.version>
+        <curator.version>4.0.0</curator.version>
+        <curator.recipes.version>4.0.0</curator.recipes.version>
+        <mybatis-spring-boot.version>1.1.1</mybatis-spring-boot.version>
+        <mybatis-pagehelper.version>5.1.4</mybatis-pagehelper.version>
+        <druid.version>1.0.16</druid.version>
+        <javax-validation.version>1.1.0.Final</javax-validation.version>
+        <hibernate-validator.version>6.0.18.Final</hibernate-validator.version>
+        <guava.version>19.0</guava.version>
+        <shiro.version>1.4.0</shiro.version>
+        <gson.version>2.8.5</gson.version>
+        <okhttp.version>4.8.0</okhttp.version>
+        <joda-time.version>2.9.2</joda-time.version>
+        <retrofit.version>2.3.0</retrofit.version>
+
+        <jboss-el-api.version>1.0.0.Final</jboss-el-api.version>
+
+        <cglib.version>3.1</cglib.version>
+        <resteasy.version>3.0.14.Final</resteasy.version>
+
+        <commons-beanutils.version>1.9.2</commons-beanutils.version>
+        <redisson.version>3.8.2</redisson.version>
+
+        <javamail.version>1.4.7</javamail.version>
+        <lombok.version>1.16.10</lombok.version>
+    </properties>
+
+
+
+    <dependencies>
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <!--for page-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>${mybatis-pagehelper.version}</version>
+        </dependency>
+        <!--log-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>${joda-time.version}</version>
+        </dependency>
+
+        <!--mysql-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+
+
+        <!-- jsp 支持 -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tomcat.embed</groupId>-->
+            <!--<artifactId>tomcat-embed-jasper</artifactId>-->
+            <!--<scope>provided</scope>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>javax.servlet</groupId>-->
+            <!--<artifactId>jstl</artifactId>-->
+        <!--</dependency>-->
+
+        <!-- 如果要使用xml序列化 -->
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxb-provider</artifactId>
+            <version>${resteasy.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.spec.javax.el</groupId>
+            <artifactId>jboss-el-api_3.0_spec</artifactId>
+            <version>${jboss-el-api.version}</version>
+        </dependency>
+
+        <!--for test-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-test</artifactId>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+
+
+    </dependencies>
+
+</project>

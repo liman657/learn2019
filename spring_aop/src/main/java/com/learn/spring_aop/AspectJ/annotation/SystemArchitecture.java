@@ -18,7 +18,7 @@ public class SystemArchitecture {
     @Pointcut("within(com.learn.spring_aop.AspectJ.dao.*.*)")
     public void inDaoLayer(){}
 
-    // service 实现，注意这里指的是方法实现，其实通常也可以使用 bean(*ServiceImpl)
+    // producer 实现，注意这里指的是方法实现，其实通常也可以使用 bean(*ServiceImpl)
     @Pointcut("execution(* com.learn..service.*.*(..))")
     public void businessService() {}
 

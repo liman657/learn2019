@@ -108,7 +108,7 @@ public class ServerSocketChannelDemo {
 
                                 /*准备好向客户端发送的信息*/
                                 /*先写入"echo:"，再写入收到的信息*/
-                                writeBuffer.put("echo from service:".getBytes("UTF-8"));
+                                writeBuffer.put("echo from producer:".getBytes("UTF-8"));
                                 writeBuffer.put(readBuffer);
 
                                 readBuffer.clear();
@@ -147,7 +147,7 @@ public class ServerSocketChannelDemo {
 
                             }
                         }catch(IOException e){
-                            System.out.println("service encounter client error");
+                            System.out.println("producer encounter client error");
                             /*若客户端连接出现异常，从Seletcor中移除这个key*/
                             key.cancel();
                             key.channel().close();

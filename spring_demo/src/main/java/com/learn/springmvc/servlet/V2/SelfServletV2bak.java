@@ -248,7 +248,7 @@ public class SelfServletV2bak extends HttpServlet {
                     SelfService service = clazz.getAnnotation(SelfService.class);
                     String beanName = service.value();//获得注解的值（一般自己制定service的名称的时候）
                     if ("".equals(beanName.trim())) {
-                        //如果没有指定名称，service 默认首字母小写
+                        //如果没有指定名称，producer 默认首字母小写
                         beanName = toLowerFirstCase(clazz.getSimpleName());
                     }
 
