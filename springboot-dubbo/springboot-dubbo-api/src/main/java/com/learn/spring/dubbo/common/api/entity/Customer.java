@@ -1,11 +1,12 @@
-package com.learn.springboot.dubbo.model.entity;
+package com.learn.spring.dubbo.common.api.entity;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
-public class Customer {
+public class Customer implements Serializable {
     private Integer id;
 
     private String name;

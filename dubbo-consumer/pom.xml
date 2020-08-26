@@ -1,34 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.3.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
     <groupId>com.learn</groupId>
     <artifactId>dubbo-consumer</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <description>dubbo服务消费者入门实例</description>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>dubbo-consumer</name>
+    <description>dubbo-consumer</description>
 
     <properties>
-        <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
-        <spring-session.version>1.2.0.RELEASE</spring-session.version>
-        <slf4j.version>1.7.13</slf4j.version>
-        <log4j.version>1.2.17</log4j.version>
-        <mysql.version>5.1.37</mysql.version>
-        <mybatis-spring-boot.version>1.1.1</mybatis-spring-boot.version>
-        <mybatis-pagehelper.version>5.1.4</mybatis-pagehelper.version>
-        <druid.version>1.0.16</druid.version>
-        <guava.version>19.0</guava.version>
-        <joda-time.version>2.9.2</joda-time.version>
-        <cglib.version>3.1</cglib.version>
-        <zookeeper.version>3.4.10</zookeeper.version>
-        <curator.version>2.12.0</curator.version>
-        <dubbo.version>2.8.4</dubbo.version>
-        <resteasy.version>3.0.7.Final</resteasy.version>
-        <shiro.version>1.2.6</shiro.version>
-        <okhttp.version>3.1.2</okhttp.version>
-        <gson.version>2.6.1</gson.version>
-        <commons-codec.version>1.10</commons-codec.version>
-        <httpclient.version>4.3.6</httpclient.version>
+        <java.version>8</java.version>
+        <dubbo.starter.version>2.7.6</dubbo.starter.version>
+        <dubbo.version>2.7.6</dubbo.version>
+        <zookeeper.version>3.6.0</zookeeper.version>
+        <curator.version>4.0.0</curator.version>
+        <curator.recipes.version>4.0.0</curator.recipes.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- dubbo -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo.starter.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+
+        <!-- zookeeper start -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>${zookeeper.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-log4j12</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-framework</artifactId>
+            <version>${curator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>${curator.recipes.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.learn</groupId>
+            <artifactId>dubbo-provider-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

@@ -1,7 +1,7 @@
 package com.learn.springboot.dubbo.model.mapper;
 
 
-import com.learn.springboot.dubbo.model.entity.Customer;
+import com.learn.spring.dubbo.common.api.entity.Customer;
 
 public interface CustomerMapper {
     int deleteByPrimaryKey(Integer id);

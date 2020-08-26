@@ -1,7 +1,8 @@
 package com.learn.springboot.dubbo.producer.service.impl;
 
+import com.learn.spring.dubbo.common.api.entity.Customer;
 import com.learn.spring.dubbo.common.api.request.CustomerRequest;
-import com.learn.springboot.dubbo.model.entity.Customer;
+import com.learn.spring.dubbo.common.api.request.IdEntityRequest;
 import com.learn.springboot.dubbo.model.mapper.CustomerMapper;
 import com.learn.springboot.dubbo.producer.service.ICustomerService;
 import lombok.extern.slf4j.Slf4j;
@@ -50,5 +51,25 @@ public class CustomserServiceImpl implements ICustomerService {
             return customerMapper.updateByPrimaryKeySelective(entity);
         }
         return -1;
+    }
+
+    /**
+     * 删除客户
+     * @param request
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Integer deleteCustomer(IdEntityRequest request) throws Exception {
+        Customer entity=customerMapper.selectByPrimaryKey(request.getId());
+        if (entity!=null){
+            //customerMapper.deleteByPrimaryKey(request.getId());
+
+            entity.setIsActive(0);
+            entity.setUpdateTime(new Date());
+            return customerMapper.updateByPrimaryKeySelective(entity);
+        }else {
+            throw new Exception("客户不存在!");
+        }
     }
 }

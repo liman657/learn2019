@@ -1,4 +1,4 @@
-package com.learn.consumer;
+package com.learn.springboot.dubbo.consumer;
 
 import com.rabbitmq.client.*;
 
