@@ -27,10 +27,10 @@ public class NettyTimeServer {
     }
 
     public void start() throws InterruptedException {
-        final NettyTimeServerHandler serverHandler = new NettyTimeServerHandler();
-        EventLoopGroup group = new NioEventLoopGroup();
+//        final NettyTimeServerHandler serverHandler = new NettyTimeServerHandler();
+        EventLoopGroup group = new NioEventLoopGroup();//这个相当于线程组
         try{
-            ServerBootstrap serverBootstrap = new ServerBootstrap();
+            ServerBootstrap serverBootstrap = new ServerBootstrap();//这个相当于服务端的channel，等同于ServerScoketChannel
             serverBootstrap.group(group);
             serverBootstrap.channel(NioServerSocketChannel.class);
             serverBootstrap.localAddress(new InetSocketAddress(port));
@@ -39,7 +39,8 @@ public class NettyTimeServer {
             serverBootstrap.childHandler(new ChannelInitializer<SocketChannel>() {
                 @Override
                 protected void initChannel(SocketChannel socketChannel) throws Exception {
-                    socketChannel.pipeline().addLast(serverHandler);
+//                    socketChannel.pipeline().addLast(serverHandler);
+                    socketChannel.pipeline().addLast(new NettyTimeServerHandler());
                 }
             });
             //绑定到端口，阻塞等待直到连接完成
@@ -48,34 +49,9 @@ public class NettyTimeServer {
             serverFuture.channel().closeFuture().sync();
 
         }catch (Exception e){
-//            group.shutdownGracefully().sync();
+            log.info("连接出现异常，异常信息为:{}",e);
         }finally {
             group.shutdownGracefully().sync();
-        }
-    }
-
-    public void bind(int port){
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
-        EventLoopGroup workerGroup = new NioEventLoopGroup();
-        try{
-            ServerBootstrap serverBootstrap = new ServerBootstrap();
-            serverBootstrap.group(bossGroup,workerGroup);
-            serverBootstrap.channel(NioServerSocketChannel.class);
-            serverBootstrap.option(ChannelOption.SO_BACKLOG,1024);
-            serverBootstrap.childHandler(new ChildChannelHandler());
-        }catch (Exception e){
-
-        }finally {
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
-        }
-    }
-
-    private class ChildChannelHandler extends ChannelInitializer<SocketChannel>{
-
-        @Override
-        protected void initChannel(SocketChannel socketChannel) throws Exception {
-            socketChannel.pipeline().addLast(new NettyTimeServerHandler());
         }
     }
 
@@ -88,5 +64,4 @@ public class NettyTimeServer {
             e.printStackTrace();
         }
     }
-
 }

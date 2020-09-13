@@ -26,6 +26,10 @@
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />
+        <module name="spring_source_learn_demo" />
+        <module name="springboot-auth-api" />
+        <module name="springboot-auth-model" />
+        <module name="springboot-auth-service" />
         <module name="springboot-dubbo-api" />
         <module name="springboot-dubbo-consumer" />
         <module name="springboot-dubbo-model" />
@@ -41,10 +45,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubbo-provider-api" target="11" />
-      <module name="java_thread" target="1.5" />
       <module name="java_thread_update" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
-      <module name="rabbitmq-javaapi" target="1.8" />
       <module name="springboot-dubbo-provider" target="11" />
       <module name="springboot_distributeLock" target="1.8" />
     </bytecodeTargetLevel>

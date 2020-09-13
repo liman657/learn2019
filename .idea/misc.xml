@@ -10,6 +10,9 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring_source_learn_demo" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -37,6 +40,14 @@
         <option value="$PROJECT_DIR$/springboot-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-springboot/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_source_learn_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-auth/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-auth/auth-model/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-auth/auth-api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/java_thread/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-javaapi/pom.xml" />
       </list>
     </option>
   </component>

@@ -29,8 +29,10 @@ public class MultiplexerTimeServer implements Runnable {
         try {
             selector = Selector.open();
             serverSocketChannel = ServerSocketChannel.open();
+            //注册到选择器的通道必须是非阻塞模式
             serverSocketChannel.configureBlocking(false);
             serverSocketChannel.socket().bind(new InetSocketAddress(port), 1024);
+            //将serverSocketChannel注册到selector上
             serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
             log.info("The time server is start in port : {}", port);
         } catch (IOException e) {
@@ -67,7 +69,7 @@ public class MultiplexerTimeServer implements Runnable {
                     keysIterator.remove();
                 }
             } catch (Exception e) {
-
+                e.printStackTrace();
             }
         }
 
@@ -85,7 +87,7 @@ public class MultiplexerTimeServer implements Runnable {
      * @param key
      * @throws IOException
      */
-    private void handleInput(SelectionKey key) throws IOException {
+    private void handleInput(SelectionKey key) throws IOException, InterruptedException {
         String currentTime = null;
         if (key.isValid()) {
 
@@ -107,14 +109,15 @@ public class MultiplexerTimeServer implements Runnable {
                     String body = new String(bytes, "UTF-8");
                     log.info("the time server receive order:{}", body);
                     if ("QUERY TIME".equalsIgnoreCase(body)) {
+                        Thread.sleep(10000);
                         currentTime = LocalDateTime.now().toString();
                     } else {
                         currentTime = "BAD ORDER";
                     }
                     doWrite(socketChannel, currentTime);
                 } else if (readBytes < 0) {
-                    key.channel();
-
+                    key.cancel();
+                    socketChannel.close();
                 }
                 socketChannel.close();
             }

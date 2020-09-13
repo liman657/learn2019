@@ -31,7 +31,7 @@ public class TimeServer {
             }
 
         }catch (Exception e){
-
+            log.error("服务端读取信息异常，异常信息为:{}",e);
         }finally {
             if(serverSocket!=null){
                 log.info("the time server close!");
@@ -42,10 +42,5 @@ public class TimeServer {
                 }
             }
         }
-
-
     }
-
-
-
 }

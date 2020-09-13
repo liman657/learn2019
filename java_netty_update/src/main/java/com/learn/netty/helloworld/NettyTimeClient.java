@@ -46,7 +46,9 @@ public class NettyTimeClient {
 
     public static void main(String[] args) {
         try {
-            new NettyTimeClient(9999, "127.0.0.1").start();
+            for(int i=0;i<100;i++) {
+                new NettyTimeClient(9999, "127.0.0.1").start();
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

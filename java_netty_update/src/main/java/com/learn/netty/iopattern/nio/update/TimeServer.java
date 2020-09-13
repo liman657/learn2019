@@ -16,6 +16,4 @@ public class TimeServer {
         new Thread(timeServer,"NIO-Time-HandlerServer-001").start();
     }
 
-
-
 }
