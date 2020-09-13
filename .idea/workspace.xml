@@ -100,29 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AuthServerStarterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/AuthServerStarterApplication.java">
+      <file leaf-file-name="HttpHelloService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HttpHelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-model/src/main/java/com/learn/springauthmodel/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="297">
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +112,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdatePsdDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/dto/UpdatePsdDto.java">
+      <file leaf-file-name="ReflectionUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/ReflectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="188">
+              <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloServerInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HelloServerInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,11 +133,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-model/pom.xml">
+      <file leaf-file-name="CustomerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/CustomerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="921">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -226,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/timeapi/LocalDateAndLocalTime.java" />
-        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/reactor/TimeClientAcceptor.java" />
-        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/reactor/IHandler.java" />
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/reactor/TimeReactorClient.java" />
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/reactor/DispatchThread.java" />
         <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/reactor/TimeServerAcceptor.java" />
@@ -277,6 +268,9 @@
         <option value="$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-auth/springboot-auth-model/src/main/java/com/learn/springauthmodel/entity/User.java" />
         <option value="$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/dto/UpdatePsdDto.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HelloServerInitializer.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/CustomerHandler.java" />
+        <option value="$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HttpHelloService.java" />
       </list>
     </option>
   </component>
@@ -328,6 +322,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -345,43 +340,29 @@
           <expand>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -389,8 +370,7 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -399,102 +379,47 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springauthmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-model" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springauthmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="update" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="java_netty_update" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springauthserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="springauthserver" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-auth-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -566,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServerStarterApplication">
+  <component name="RunManager" selected="Application.HttpHelloService">
     <configuration name="AllocationEden" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.AllocationEden" />
       <module name="Javajvm" />
@@ -587,6 +512,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HttpHelloService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.netty.helloworld.update.HttpHelloService" />
+      <module name="java_netty_update" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.netty.helloworld.update.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -812,29 +748,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FoundationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_netty_update" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.test.netty.randome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.learn.test.netty.randome" />
-      <option name="MAIN_CLASS_NAME" value="com.learn.test.netty.randome.FoundationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1128,15 +1041,15 @@
       <item itemvalue="Application.TimeMultiReactorClient" />
       <item itemvalue="Application.NettyTimeServer" />
       <item itemvalue="Application.NettyTimeClient" />
-      <item itemvalue="JUnit.FoundationTest" />
+      <item itemvalue="Application.HttpHelloService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpHelloService" />
         <item itemvalue="Application.NettyTimeServer" />
         <item itemvalue="Application.NettyTimeClient" />
         <item itemvalue="Application.TimeMultiReactorClient" />
         <item itemvalue="Application.TimeMulitReactorServer" />
-        <item itemvalue="JUnit.FoundationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1325,7 +1238,7 @@
       <workItem from="1599828280039" duration="37850000" />
       <workItem from="1599982156320" duration="2398000" />
       <workItem from="1599984674292" duration="237000" />
-      <workItem from="1599984972556" duration="3328000" />
+      <workItem from="1599984972556" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -1377,7 +1290,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1714349000" />
+    <option name="totallyTimeSpent" value="1715934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1393,19 +1306,19 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32997763" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.30055866" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.29497206" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32915717" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026652" side_tool="true" weight="0.3642458" />
       <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32997763" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.27558637" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49733475" weight="0.45139664" />
+      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49733475" visible="true" weight="0.45139664" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.3222698" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2595949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49907234" visible="true" weight="0.2595949" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -1742,10 +1655,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-auth/auth-model/src/main/java/com/learn/springauthmodel/entity/Log.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-auth/auth-model/src/main/java/com/learn/springauthmodel/entity/User.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-auth/auth-service/src/main/java/com/learn/springauthserver/controller/DBAuthController.java" />
-    <entry file="file://$PROJECT_DIR$/springboot-auth/auth-service/src/main/java/com/learn/springauthserver/controller/BaseController.java" />
     <entry file="file://$PROJECT_DIR$/springboot-auth/auth-service/src/main/java/com/learn/springauthserver/controller/ErrorController.java" />
     <entry file="file://$PROJECT_DIR$/springboot-auth/auth-service/src/main/java/com/learn/springauthserver/controller/JWTAuthController.java" />
     <entry file="file://$PROJECT_DIR$/springboot-auth/auth-service/src/main/java/com/learn/springauthserver/controller/JWTRedisAuthController.java" />
@@ -3675,13 +3584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/AuthServerStarterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -3711,8 +3613,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-model/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="-235">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/AuthServerStarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/CustomerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HelloServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/helloworld/update/HttpHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3771,7 +3717,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot-auth-service</last-edited>
+          <last-edited>java_netty_update</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
