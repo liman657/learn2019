@@ -27,7 +27,7 @@ public class NettyTimeServer {
     }
 
     public void start() throws InterruptedException {
-//        final NettyTimeServerHandler serverHandler = new NettyTimeServerHandler();
+//        final FixLengthTimeServerHandler serverHandler = new FixLengthTimeServerHandler();
         EventLoopGroup group = new NioEventLoopGroup();//这个相当于线程组
         try{
             ServerBootstrap serverBootstrap = new ServerBootstrap();//这个相当于服务端的channel，等同于ServerScoketChannel

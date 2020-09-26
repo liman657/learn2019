@@ -33,7 +33,6 @@ public class JWTAuthController {
         }
         BaseResponse result = new BaseResponse(StatusCode.Success);
         try{
-
             result.setData(jwtAuthService.createAuthModelToken(userName,password));
             log.info("[jwt认证]生成token成功,{}",result);
         }catch (Exception e ){

@@ -21,7 +21,7 @@ public class CommonScheduler {
     @Autowired
     private AuthTokenMapper authTokenMapper;
 
-    @Scheduled(cron = "0/60 * * * * ? ")//10S执行一次的表达式
+    @Scheduled(cron = "0/60 * * * * ? ")//60S执行一次的表达式
     @Async("taskExecutor")
     public void deleteAnyInvalidateToken(){
         try{
@@ -32,5 +32,4 @@ public class CommonScheduler {
         }
         log.info("--删除无效token的批次执行结束--");
     }
-
 }

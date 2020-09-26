@@ -5,6 +5,7 @@ package com.learn.springauthserver.service;/**
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.learn.springauthmodel.entity.Log;
 import com.learn.springauthmodel.mapper.LogMapper;
+import org.apache.commons.lang3.CharSetUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -31,7 +32,8 @@ public class CommonService {
     public void print(HttpServletResponse response, Object message){
         try {
             response.setStatus(HttpStatus.OK.value());
-            response.setContentType(MediaType.APPLICATION_JSON_UTF8_VALUE);
+            response.setContentType(MediaType.APPLICATION_JSON_VALUE);
+            response.setCharacterEncoding("UTF-8");
             response.setHeader("Cache-Control", "no-cache, must-revalidate");
             PrintWriter writer = response.getWriter();
             writer.write(objectMapper.writeValueAsString(message));

@@ -78,5 +78,4 @@ public class JWTAuthService {
             int res = userService.updatePassword(claims.getSubject(),updatePsdDto.getOldPassword(),updatePsdDto.getNewPassword());
         }
     }
-
 }

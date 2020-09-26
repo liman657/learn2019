@@ -17,6 +17,7 @@
         <module name="Java_exam" />
         <module name="Java_jedis" />
         <module name="java_netty_update" />
+        <module name="java_shiro" />
         <module name="java_thread" />
         <module name="Java_thread_update" />
         <module name="Javajvm" />
@@ -48,6 +49,7 @@
       <module name="java_thread_update" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
       <module name="springboot-dubbo-provider" target="11" />
+      <module name="springboot-netty" target="1.5" />
       <module name="springboot_distributeLock" target="1.8" />
     </bytecodeTargetLevel>
   </component>

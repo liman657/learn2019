@@ -3,9 +3,7 @@ package com.learn.springauthserver.config;
 import com.learn.springauthserver.interceptor.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
@@ -37,9 +35,9 @@ public class CustomerWebConfig implements WebMvcConfigurer {
         final String[] sessionInterceptor = new String[]{"/session/auth"
                 , "/session/password/update", "/session/logout"};
 
-//        registry.addInterceptor(dbAuthInterceptor())
-//                .addPathPatterns(interceptorPaths)
-//                .excludePathPatterns(redisInterceptorPath);
+        registry.addInterceptor(dbAuthInterceptor())
+                .addPathPatterns(interceptorPaths)
+                .excludePathPatterns(redisInterceptorPath);
 //
 //        registry.addInterceptor(redisAuthInterceptor())
 //                .addPathPatterns(redisInterceptorPath).excludePathPatterns(interceptorPaths);
@@ -49,7 +47,7 @@ public class CustomerWebConfig implements WebMvcConfigurer {
 //                .excludePathPatterns(redisInterceptorPath)
 //                .excludePathPatterns(interceptorPaths);
 
-        registry.addInterceptor(sessionInterceptor()).addPathPatterns(sessionInterceptor);
+//        registry.addInterceptor(sessionInterceptor()).addPathPatterns(sessionInterceptor);
     }
 
     @Bean
@@ -57,35 +55,35 @@ public class CustomerWebConfig implements WebMvcConfigurer {
         return new DBAuthInterceptor();
     }
 
-    @Bean
-    public RedisTokenAuthInterceptor redisAuthInterceptor() {
-        return new RedisTokenAuthInterceptor();
-    }
+//    @Bean
+//    public RedisTokenAuthInterceptor redisAuthInterceptor() {
+//        return new RedisTokenAuthInterceptor();
+//    }
 
-    @Bean
-    public JWTInterceptor jwtInterceptor() {
-        return new JWTInterceptor();
-    }
+//    @Bean
+//    public JWTInterceptor jwtInterceptor() {
+//        return new JWTInterceptor();
+//    }
 
-    @Bean
-    public JWTRedisInterceptor jwtRedisInterceptor(){
-        return new JWTRedisInterceptor();
-    }
+//    @Bean
+//    public JWTRedisInterceptor jwtRedisInterceptor(){
+//        return new JWTRedisInterceptor();
+//    }
 
-    @Bean
-    public SessionInterceptor sessionInterceptor(){
-        return new SessionInterceptor();
-    }
+//    @Bean
+//    public SessionInterceptor sessionInterceptor(){
+//        return new SessionInterceptor();
+//    }
 
-    //访问静态资源
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-
-    }
-
-    //跨域设置
-    @Override
-    public void addCorsMappings(CorsRegistry registry) {
-//        registry.addMapping("/**").allowedMethods("*")
-    }
+//    //访问静态资源
+//    @Override
+//    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//
+//    }
+//
+//    //跨域设置
+//    @Override
+//    public void addCorsMappings(CorsRegistry registry) {
+//        registry.addMapping("/**").allowedMethods("*");
+//    }
 }

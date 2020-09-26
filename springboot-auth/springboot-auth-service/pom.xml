@@ -13,8 +13,8 @@
     <artifactId>springboot-auth-service</artifactId>
 
     <properties>
-        <!--<start-class>com.learn.springauthserver.AuthServerStarterApplication</start-class>-->
-
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>com.learn.springauthserver.AuthServerStarterApplication</start-class>
         <!--<spring-boot.version>2.0.5.RELEASE</spring-boot.version>-->
         <slf4j.version>1.7.13</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
@@ -27,7 +27,6 @@
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
         <common-lang.version>3.8</common-lang.version>
         <shiro.version>1.4.0</shiro.version>
-
     </properties>
 
     <!-- 依赖管理 -->
@@ -262,12 +261,10 @@
             <version>0.7.0</version>
         </dependency>
 
-
         <!--spring session redis，这里需要导入session-redis的依赖-->
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-data-redis</artifactId>
         </dependency>
-
     </dependencies>
 </project>

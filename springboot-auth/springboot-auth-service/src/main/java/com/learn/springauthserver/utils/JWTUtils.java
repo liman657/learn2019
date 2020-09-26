@@ -30,7 +30,7 @@ public class JWTUtils {
     }
 
     /**
-     * 创建token
+     * 创建JWT，设置PayLoad即可，其中的 compact 会自动补充Header和签名两个部分
      *
      * @param id
      * @param subject
@@ -43,27 +43,31 @@ public class JWTUtils {
         SignatureAlgorithm algorithm = SignatureAlgorithm.HS256;
         //生成签名的密钥
         SecretKey key = generalKey();
-
         Date now = DateTime.now().toDate();
 
         //借用第三方组件生成JWT的token
         JwtBuilder builder = Jwts.builder()
-                .setId(id)//用户id
-                .setSubject(subject)//JWT主体
-                .setIssuer(Constant.TOKEN_ISSUER)//签发者
-                .setIssuedAt(now)//签发时间
+                .setId(id)//JWT Payload部分的编号
+                .setSubject(subject)//JWT Payload部分的主题
+                .setIssuer(Constant.TOKEN_ISSUER)//JWT Payload部分的签发者
+                .setIssuedAt(now)//JWT Payload部分的签发时间
                 .signWith(algorithm, key);//指定加密算法和密钥
 
         //设置过期时间
         if(expireMills>=0){
             Long realExpire = System.currentTimeMillis()+expireMills;
-            builder.setExpiration(new Date(realExpire));
+            builder.setExpiration(new Date(realExpire)); //JWT Payload部分的签发时间
         }
 
         //生成token
-        return builder.compact();
+        return builder.compact(); //生成JWT
     }
 
+    /**
+     * 验证JWT
+     * @param jwtToken 前端传递过来的token
+     * @return
+     */
     public static BaseResponse validateJwtToken(String jwtToken) {
 
         BaseResponse result = new BaseResponse(StatusCode.Success);
@@ -83,7 +87,7 @@ public class JWTUtils {
     }
 
     /**
-     * 解析JWTToken
+     * 解析JWTToken，解析成功之后，Claims就包含了JWT Payload的所有组成部分
      * @param jwtToken
      * @return
      */

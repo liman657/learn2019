@@ -2,6 +2,9 @@ package com.learn.exam.xingye;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -14,82 +17,92 @@ import java.util.Scanner;
 @Slf4j
 public class HelpZKL {
 
-    // 单个整数对称
-    private static List singles = Arrays.asList(0, 8);
-
-    public static void main(String[] args) {
-        int out = -1;
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNextLine()) {
-            try {
-                // 输入数据
-                int intput = sc.nextInt();
-                String inputStr = String.valueOf(intput);
-
-                char[] inputChar = inputStr.toCharArray();
-                // 单个对称数据
-                if (singles.contains(intput)) {
-                    out = intput;
-                } else {
-                    // 基数情况（除0外），中间位置必须是0,1,8 偶数的话必须每个char都为对称一样的 如：4334
-                    if (inputStr.length() % 2 == 0) {
-                        for (int i = 0; i < inputChar.length; i++) {
-                            int high = i;
-                            int low = inputChar.length - 1 - i;
-                            if (inputChar[i] == inputChar[inputChar.length - 1 - i]) {
-                                continue;
-                            } else {
-                                if (inputChar[high] < inputChar[low]) {
-                                    if (inputChar[low] < '7') {
-                                        inputChar[low] = inputChar[high];
-                                    } else {
-                                        inputChar[high] = (char) (inputChar[high] + 1);
-                                        inputChar[low] = inputChar[high];
-                                    }
-                                } else {
-                                    if (inputChar[high] - inputChar[low] > 5) {
-                                        inputChar[high] = (char) (inputChar[high] - 1);
-                                    }
-                                    inputChar[low] = inputChar[high];
-                                }
-                            }
-                        }
-                        out = Integer.parseInt(String.valueOf(inputChar));
-                    } else {
-                        // 中间值必须为0,1,8
-                        int mid = (inputChar.length - 1) / 2;
-                        char midChar = inputChar[mid];
-                        if (!singles.contains(inputChar[mid])) {
-                            if (midChar == '4') {
-                                inputChar[mid] = '0'; // 或者8
-                            }
-                            if (midChar > '4') {
-                                inputChar[mid] = '8';
-                            } else {
-                                inputChar[mid] = '0';
-                            }
-                        }
-                        for (int i = 0; i < inputChar.length; i++) {
-                            int high = i;
-                            int low = inputChar.length - 1 - i;
-                            if (inputChar[high] == inputChar[low]) {
-                                continue;
-                            } else {
-                                if (inputChar[high] > inputChar[low]) {
-                                    inputChar[low] = inputChar[high];
-                                } else {
-                                    inputChar[low] = inputChar[high];
-                                }
-                            }
-                        }
-                        out = Integer.parseInt(String.valueOf(inputChar));
-                    }
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String s = bufferedReader.readLine();
+        String leftStr = s.substring(0, (s.length() + 1) / 2);
+        long left = Long.parseLong(leftStr);
+        long smaller = getLeftSmallerSymmetry(s.length(), left, leftStr.length());
+        long bigger = getLeftBiggerSymmetry(s.length(), left, leftStr.length());
+        long sValue = Long.parseLong(s);
+        long sToSmaller=sValue - smaller;
+        long sToBigger=bigger - sValue;
+        long closestValue;
+        long minDistance;
+        if (sToSmaller <= sToBigger) {
+            closestValue = smaller;
+            minDistance=sToSmaller;
+        } else {
+            closestValue = bigger;
+            minDistance=sToBigger;
+        }
+        if (!isSymmetry(s)) {
+            long equal = getLeftEqualSymmetry(s.length(), left, leftStr.length());
+            long sToEqual = Math.abs(equal - sValue);
+            if (sToEqual < minDistance) {
+                closestValue = equal;
+            } else if (sToEqual == minDistance) {
+                if (equal < sValue) {
+                    closestValue = equal;
                 }
-                System.out.println(out);
-            } catch (Exception e) {
-                e.printStackTrace();
-                System.out.println("ERROR");
             }
         }
+        System.out.println(closestValue);
     }
+
+    //判断s是否对称
+    static boolean isSymmetry(String s) {
+        int mid = s.length() / 2;
+        for (int i = 0, j = s.length() - 1; i < mid; i++, j--) {
+            if (s.charAt(i) != s.charAt(j)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //将左半部分反转到右半部分
+    static void reverseLeftToRight(char[] cs) {
+        int mid = cs.length / 2;
+        for (int i = 0, j = cs.length - 1; i < mid; i++, j--) {
+            cs[j] = cs[i];
+        }
+    }
+
+    //获取左半部分减去1的对称值
+    static long getLeftSmallerSymmetry(int originLen, long leftValue, int leftLen) {
+        long leftSmaller = leftValue - 1;
+        String leftSmallerStr = String.format("%0" + leftLen + "d", leftSmaller);
+        char[] temp;
+        temp = Arrays.copyOf(leftSmallerStr.toCharArray(), originLen);
+        reverseLeftToRight(temp);
+        if (temp[0] == '0' && temp.length > 1) {
+            temp = String.valueOf(temp, 1, temp.length - 1).toCharArray();
+            temp[temp.length - 1] = '9';
+        }
+        return Long.parseLong(String.valueOf(temp));
+    }
+
+    //获取左半部分相等的对称值
+    static long getLeftEqualSymmetry(int originLen, long leftValue, int leftLen) {
+        String leftEqualStr = String.valueOf(leftValue);
+        char[] temp = Arrays.copyOf(leftEqualStr.toCharArray(), originLen);
+        reverseLeftToRight(temp);
+        return Long.parseLong(String.valueOf(temp));
+    }
+
+    //获取左半部分加上1的对称值
+    static long getLeftBiggerSymmetry(int originLen, long leftValue, int leftLen) {
+        long leftBigger = leftValue + 1;
+        String leftBiggerStr = String.valueOf(leftBigger);
+        char[] temp;
+        if (leftBiggerStr.length() > leftLen) {
+            temp = Arrays.copyOf(leftBiggerStr.toCharArray(), originLen + 1);
+        } else {
+            temp = Arrays.copyOf(leftBiggerStr.toCharArray(), originLen);
+        }
+        reverseLeftToRight(temp);
+        return Long.parseLong(String.valueOf(temp));
+    }
+
 }

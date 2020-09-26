@@ -51,12 +51,10 @@ public class JWTInterceptor implements HandlerInterceptor {
             }else{
                 log.info("[jwt认证拦截器]开始认证jwt token:{}",jwtToken);
                 BaseResponse result = new BaseResponse(StatusCode.Success);
-
                 result=jwtAuthService.validateJwtToken(jwtToken);
-
-                if(Objects.equals(result.getStatus(),StatusCode.Success.getCode())){
+                if(Objects.equals(result.getStatus(),StatusCode.Success.getCode())){//JWT验证成功
                     return true;
-                }else{
+                }else{//JWT验证失败
                     log.error("[jwt认证]token未通过认证,token:{}",jwtToken);
                     commonService.print(response,result);
                     return false;

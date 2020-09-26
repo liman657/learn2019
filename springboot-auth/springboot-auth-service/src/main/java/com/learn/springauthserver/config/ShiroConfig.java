@@ -17,7 +17,7 @@ import java.util.Map;
  * createtime:2019/12/24
  * comment:shiro容器化的配置
  */
-@Configuration
+//@Configuration
 public class ShiroConfig {
 
     /**

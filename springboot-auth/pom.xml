@@ -38,13 +38,10 @@
         <guava.version>19.0</guava.version>
         <joda-time.version>2.9.2</joda-time.version>
         <retrofit.version>2.3.0</retrofit.version>
-
         <cglib.version>3.1</cglib.version>
         <resteasy.version>3.0.14.Final</resteasy.version>
-
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
         <redisson.version>3.8.2</redisson.version>
-
         <javamail.version>1.4.7</javamail.version>
         <lombok.version>1.16.10</lombok.version>
     </properties>

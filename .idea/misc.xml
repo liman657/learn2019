@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml" />
         <option value="$PROJECT_DIR$/java_thread/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/pom.xml" />
+        <option value="$PROJECT_DIR$/java_shiro/pom.xml" />
       </list>
     </option>
   </component>
