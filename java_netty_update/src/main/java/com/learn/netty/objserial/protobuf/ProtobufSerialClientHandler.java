@@ -24,7 +24,7 @@ public class ProtobufSerialClientHandler extends ChannelInboundHandlerAdapter {
                 builder.setUserName("seven");
             } else {
                 builder.setSubReqID(1);
-                builder.setType("request entity");
+                builder.setType("request domain");
                 builder.setPassword("request password");
                 builder.setUserName("request test");
             }

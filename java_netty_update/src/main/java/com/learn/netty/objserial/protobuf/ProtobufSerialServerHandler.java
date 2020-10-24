@@ -21,9 +21,9 @@ public class ProtobufSerialServerHandler extends ChannelInboundHandlerAdapter {
         if("seven".equalsIgnoreCase(requestEntity.getUserName())) {
             UserEntityResponseProto.UserEntityResponse.Builder userResponseBuilder = UserEntityResponseProto.UserEntityResponse.newBuilder();
             userResponseBuilder.setSubReqID(1);
-            userResponseBuilder.setUserName("response entity");
-            userResponseBuilder.setPassword("response pwd");
-            userResponseBuilder.setType("response entity");
+            userResponseBuilder.setUserName("response seven");
+            userResponseBuilder.setPassword("response seven");
+            userResponseBuilder.setType("response seven");
             UserEntityResponseProto.UserEntityResponse responseEntity = userResponseBuilder.build();
 
             ctx.writeAndFlush(responseEntity);

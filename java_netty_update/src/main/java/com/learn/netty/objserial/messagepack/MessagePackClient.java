@@ -36,9 +36,10 @@ public class MessagePackClient {
                 protected void initChannel(SocketChannel ch) throws Exception {
                     ch.pipeline().addLast("frameDecoder", new LengthFieldBasedFrameDecoder(65535, 0, 2, 0, 2));
                     ch.pipeline().addLast("msgpack decode",new MsgpackDecoder());
-                    ch.pipeline().addLast("msgpack encode",new MsgpackEncoder());
                     // 在MessagePack编码器之前增加LengthFieldPrepender，它将在ByteBuf之前增加2个字节的消息长度字段
                     ch.pipeline().addLast("frameEncoder", new LengthFieldPrepender(2));
+                    ch.pipeline().addLast("msgpack encode",new MsgpackEncoder());
+
                     ch.pipeline().addLast("msgpack handler",new MessagePackClientHandler());
                 }
             });

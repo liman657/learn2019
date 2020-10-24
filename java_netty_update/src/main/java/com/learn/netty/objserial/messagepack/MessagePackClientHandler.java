@@ -14,7 +14,8 @@ public class MessagePackClientHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        UserInfo[] userInfos = getUserArray(10);
+        log.info("client start send message");
+        UserInfo[] userInfos = getUserArray(1000);
 //        for(UserInfo user: userInfos){
 //            ctx.writeAndFlush(user);
 //        }
@@ -23,7 +24,7 @@ public class MessagePackClientHandler extends ChannelInboundHandlerAdapter {
             ctx.writeAndFlush(userInfos[i]);
         }
 //        ctx.flush();
-//        ctx.flush();
+        ctx.flush();
         super.channelActive(ctx);
     }
 

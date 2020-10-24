@@ -13,6 +13,14 @@ import org.msgpack.MessagePack;
  */
 @Slf4j
 public class MsgpackEncoder extends MessageToByteEncoder<Object> {
+
+    /**
+     *
+     * @param ctx channelHandler的上下文
+     * @param msg 传递过来的消息对象
+     * @param out 输出对象
+     * @throws Exception
+     */
     @Override
     protected void encode(ChannelHandlerContext ctx, Object msg, ByteBuf out) throws Exception {
         MessagePack messagePack = new MessagePack();

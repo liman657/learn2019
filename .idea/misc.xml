@@ -49,6 +49,12 @@
         <option value="$PROJECT_DIR$/java_thread/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-javaapi/pom.xml" />
         <option value="$PROJECT_DIR$/java_shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-im/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-im/archetype-api/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-im/archetype-model/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-im/archetype-service/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-im/netty-im-api/pom.xml" />
+        <option value="$PROJECT_DIR$/java_spi_impl/pom.xml" />
       </list>
     </option>
   </component>

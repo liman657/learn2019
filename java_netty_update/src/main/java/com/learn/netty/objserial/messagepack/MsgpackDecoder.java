@@ -13,6 +13,7 @@ import java.util.List;
  * autor:liman
  * createtime:2020/9/23
  * comment:MsgpackDecoder解码器
+ * 这里的泛型参数代表接受的消息类型
  */
 @Slf4j
 public class MsgpackDecoder extends MessageToMessageDecoder<ByteBuf> {

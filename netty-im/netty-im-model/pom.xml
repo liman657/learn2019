@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.learn</groupId>
+        <artifactId>netty-im</artifactId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.learn.netty-im</groupId>
+    <artifactId>netty-im-model</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+
+    <name>netty-im-model</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.learn.netty-im</groupId>
+            <artifactId>netty-im-api</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!--spring-mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot.version}</version>
+        </dependency>
+
+        <!--json-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+    </dependencies>
+
+
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>localRepository</id>-->
+            <!--<name>localRepository</name>-->
+            <!--<url>file:///C:/Users/Administrator/.m2/repository</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+
+
+</project>

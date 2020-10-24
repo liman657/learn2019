@@ -19,7 +19,7 @@ import java.net.InetSocketAddress;
 /**
  * autor:liman
  * createtime:2020/9/23
- * comment:
+ * comment:服务端的类
  */
 @Slf4j
 public class MessagePackService {
@@ -59,5 +59,4 @@ public class MessagePackService {
     public static void main(String[] args) {
         new MessagePackService().start(9090);
     }
-
 }

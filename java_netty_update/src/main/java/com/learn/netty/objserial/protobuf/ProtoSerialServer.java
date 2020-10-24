@@ -48,7 +48,7 @@ public class ProtoSerialServer {
                     ch.pipeline().addLast(new ProtobufVarint32FrameDecoder());//protobuf数据包长度的解码器
                     ch.pipeline().addLast(new ProtobufDecoder(UserEntityRequestProto.UserEntityRequest.getDefaultInstance()));//客户端请求对象的解码器
                     ch.pipeline().addLast(new ProtobufVarint32LengthFieldPrepender());//出站消息的定长编码器
-                    ch.pipeline().addLast(new ProtobufEncoder());
+                    ch.pipeline().addLast(new ProtobufEncoder());//protobuf提供的编码器
                     ch.pipeline().addLast(new ProtobufSerialServerHandler());
                 }
             });

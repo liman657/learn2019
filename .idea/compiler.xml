@@ -18,11 +18,16 @@
         <module name="Java_jedis" />
         <module name="java_netty_update" />
         <module name="java_shiro" />
+        <module name="java_spi_impl" />
         <module name="java_thread" />
         <module name="Java_thread_update" />
         <module name="Javajvm" />
         <module name="JavaSPI" />
         <module name="leetCode" />
+        <module name="mybatis-generate-tools" />
+        <module name="netty-im-api" />
+        <module name="netty-im-model" />
+        <module name="netty-im-server" />
         <module name="rabbitmq-javaapi" />
         <module name="spring_aop" />
         <module name="spring_http" />
