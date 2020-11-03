@@ -32,4 +32,18 @@
     select id, my_user_id, my_friend_user_id
     from t_my_friends
   </select>
+
+  <select id="selectMyFriendByUserIdAndFriendId" resultMap="BaseResultMap">
+    select * from t_my_friends
+    <where>
+      <if test="myId != null and myId !=''">
+        and my_user_id = #{myId,jdbcType=VARCHAR}
+      </if>
+      <if test="friendId != null and friendId != ''">
+        and my_friend_user_id = #{friendId,jdbcType=VARCHAR}
+      </if>
+    </where>
+  </select>
+
+
 </mapper>

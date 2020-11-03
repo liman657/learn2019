@@ -17,4 +17,6 @@ public interface TUsersMapper {
     int updateByPrimaryKey(TUsers record);
 
     TUsers selectByUsernameAndPassword(@Param("username") String username, @Param("password") String password);
+
+    TUsers selectUserInfoByUserName(@Param("username") String username);
 }

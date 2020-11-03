@@ -2,6 +2,8 @@ package com.learn.netty_im.controller;
 
 import com.learn.enums.StatusCode;
 import com.learn.netty_im.domain.TUsers;
+import com.learn.netty_im.dto.FriendRequestVO;
+import com.learn.netty_im.enums.SearchFriendsStatusEnum;
 import com.learn.netty_im.pojo.bo.FaceImgBO;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
 import com.learn.netty_im.pojo.vo.UsersVO;
@@ -15,11 +17,11 @@ import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 
 
 /**
@@ -120,7 +122,7 @@ public class UserController {
     }
 
     /**
-     * 修改用户信息
+     * 修改用户昵称
      * @param userRequest
      * @return
      */
@@ -139,6 +141,71 @@ public class UserController {
             log.error("服务器异常，异常信息为:{}",e);
             return new BaseResponse(StatusCode.Fail);
         }
+        return result;
+    }
+
+    /**
+     * 根据账号做匹配查询，而不是模糊匹配
+     * @return
+     */
+    @RequestMapping(value="/searchFriend",method=RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    public BaseResponse searchFriend(@RequestParam String myUserId,@RequestParam String friendUserName) throws InvocationTargetException, IllegalAccessException {
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        if(StringUtils.isBlank(myUserId)||StringUtils.isBlank(friendUserName)){
+            result = new BaseResponse(StatusCode.Fail);
+        }
+
+        Integer checkResult = userService.checkAddFriend(myUserId, friendUserName);
+        if(SearchFriendsStatusEnum.SUCCESS.status == checkResult){
+            TUsers tUsers = userService.queryUserInfoByUserName(friendUserName);
+            UsersVO usersVO = new UsersVO();
+            BeanUtils.copyProperties(usersVO,tUsers);
+            result.setData(usersVO);
+        }else{
+            String errorMsg = SearchFriendsStatusEnum.getMsgByKey(checkResult);
+            result.setData(errorMsg);
+        }
+        return result;
+    }
+
+    /**
+     * 添加好友的请求，只需要返回一个200的状态就可以了
+     * @return
+     */
+    @RequestMapping(value="/addFriendRequest",method=RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    public BaseResponse addFriend(@RequestParam String myUserId,@RequestParam String friendUserName) throws InvocationTargetException, IllegalAccessException {
+        log.info("开始添加好友，参数为：{}，{}",myUserId,friendUserName);
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        if(StringUtils.isBlank(myUserId)||StringUtils.isBlank(friendUserName)){
+            result = new BaseResponse(StatusCode.Fail);
+        }
+
+        Integer checkResult = userService.checkAddFriend(myUserId, friendUserName);
+        if(SearchFriendsStatusEnum.SUCCESS.status == checkResult){
+            userService.sendFriendRequest(myUserId,friendUserName);
+        }else{
+            String errorMsg = SearchFriendsStatusEnum.getMsgByKey(checkResult);
+            result.setData(errorMsg);
+        }
+        return result;
+    }
+
+    /**
+     * 查询好友请求列表
+     * @param userId
+     * @return
+     */
+    @PostMapping("/queryFriendRequests")
+    public BaseResponse queryFriendRequests(@RequestParam("userId") String userId) {
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        // 0. 判断不能为空
+        if (StringUtils.isBlank(userId)) {
+            result = new BaseResponse(StatusCode.Fail);
+        }
+
+        //查询接受到的好友请求
+        List<FriendRequestVO> friendRequestVOS = userService.queryFriendRequestList(userId);
+        result.setData(friendRequestVOS);
         return result;
     }
 }

@@ -45,6 +45,7 @@
         <module name="springboot-redis-model" />
         <module name="springboot-redis-service" />
         <module name="springboot-starter" />
+        <module name="springboot-websocket" />
         <module name="springboot_netty" />
         <module name="zkLearn" />
       </profile>

@@ -42,6 +42,14 @@ public class NettyWebSocketServer {
                     pipeline.addLast(new HttpServerCodec());
                     //加入对写大数据流的支持
                     pipeline.addLast(new ChunkedWriteHandler());
+
+                    /**
+                     * 我们通常接收到的是一个http片段，如果要想完整接受一次请求的所有数据，我们需要绑定HttpObjectAggregator，然后我们
+                     * 就可以收到一个FullHttpRequest-是一个完整的请求信息。
+                     * 对httpMessage进行聚合，聚合成FullHttpRequest或FullHttpResponse
+                     * 几乎在netty中的编程，都会使用到此hanler
+                     */
+
                     //对HttpMessage进行聚合，聚合成FullHttpRequest或FullHttpResponse
                     pipeline.addLast(new HttpObjectAggregator(1024 * 64));
 

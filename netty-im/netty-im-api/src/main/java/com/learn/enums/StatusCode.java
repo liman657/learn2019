@@ -22,6 +22,9 @@ public enum StatusCode {
 
     UserNamePasswordNotBlank(50000, "账户密码不能为空!"),
     AccessTokenNotBlank(50001, "accessToken必填，请在请求头header中塞入该字段"),
+    User_Not_Exist(50002, "用户不存在"),
+    NOT_YOURSELF(50003, "不能添加你自己"),
+    ALREADY_FRIENDS(50004, "该用户已经是你的好友"),
 
     TokenValidateExpireToken(60001, "Token已过期"),
     TokenValidateCheckFail(60002, "Token验证失败"),
@@ -35,7 +38,7 @@ public enum StatusCode {
 
     LoginFail(100000, "用户名或密码不正确，登录失败！"),
     CurrUserHasNotPermission(100001, "当前用户没有权限访问该资源或者操作！"),
-    CurrUserNotLogin(100002, "当前用户没有登录，请先进行登录！"),;
+    CurrUserNotLogin(100002, "当前用户没有登录，请先进行登录！");
 
     private Integer code;
     private String msg;

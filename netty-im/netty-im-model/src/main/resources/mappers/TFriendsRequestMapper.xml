@@ -15,9 +15,9 @@
     <selectKey resultType="java.lang.String" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into t_friends_request (send_user_id, accept_user_id, request_date_time
+    insert into t_friends_request (id,send_user_id, accept_user_id, request_date_time
       )
-    values (#{sendUserId,jdbcType=VARCHAR}, #{acceptUserId,jdbcType=VARCHAR}, #{requestDateTime,jdbcType=TIMESTAMP}
+    values (#{id,jdbcType=VARCHAR},#{sendUserId,jdbcType=VARCHAR}, #{acceptUserId,jdbcType=VARCHAR}, #{requestDateTime,jdbcType=TIMESTAMP}
       )
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.learn.netty_im.domain.TFriendsRequest" >
@@ -35,5 +35,17 @@
   <select id="selectAll" resultMap="BaseResultMap" >
     select id, send_user_id, accept_user_id, request_date_time
     from t_friends_request
+  </select>
+
+  <select id="selectTFriendsRequestBySendUserIdAndAcceptUserId" resultMap="BaseResultMap">
+    select * from t_friends_request
+    <where>
+      <if test="sendUserId != null and sendUserId !=''">
+        and send_user_id = #{sendUserId,jdbcType=VARCHAR}
+      </if>
+      <if test="acceptUserId != null and acceptUserId != ''">
+        and accept_user_id = #{acceptUserId,jdbcType=VARCHAR}
+      </if>
+    </where>
   </select>
 </mapper>

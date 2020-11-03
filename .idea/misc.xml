@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/netty-im/archetype-service/pom.xml" />
         <option value="$PROJECT_DIR$/netty-im/netty-im-api/pom.xml" />
         <option value="$PROJECT_DIR$/java_spi_impl/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
       </list>
     </option>
   </component>

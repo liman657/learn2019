@@ -1,6 +1,7 @@
 package com.learn.netty_im.mapper;
 
 import com.learn.netty_im.domain.TFriendsRequest;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -14,4 +15,6 @@ public interface TFriendsRequestMapper {
     List<TFriendsRequest> selectAll();
 
     int updateByPrimaryKey(TFriendsRequest record);
+
+    TFriendsRequest selectTFriendsRequestBySendUserIdAndAcceptUserId(@Param("sendUserId") String sendUserId,@Param("acceptUserId") String acceptUserId);
 }

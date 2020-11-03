@@ -78,4 +78,15 @@
       </if>
     </where>
   </select>
+
+  <!--用于添加好友-->
+  <select id="selectUserInfoByUserName" resultMap="BaseResultMap">
+    select * from t_users
+    <where>
+      <if test="username != null and username !=''">
+        and username = #{username,jdbcType=VARCHAR}
+      </if>
+    </where>
+    limit 1;
+  </select>
 </mapper>
