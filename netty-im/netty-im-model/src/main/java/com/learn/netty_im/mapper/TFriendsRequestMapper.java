@@ -17,4 +17,6 @@ public interface TFriendsRequestMapper {
     int updateByPrimaryKey(TFriendsRequest record);
 
     TFriendsRequest selectTFriendsRequestBySendUserIdAndAcceptUserId(@Param("sendUserId") String sendUserId,@Param("acceptUserId") String acceptUserId);
+
+    int deleteBySendUserIdAndAcceptUserId(TFriendsRequest record);
 }

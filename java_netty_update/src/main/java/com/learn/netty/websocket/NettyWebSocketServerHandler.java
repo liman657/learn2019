@@ -14,7 +14,8 @@ import java.time.LocalDateTime;
 /**
  * autor:liman
  * createtime:2020/9/25
- * comment:webservice的后端处理
+ * comment:
+ * webservice的后端处理
  * TextWebSocketFrame： 在netty中，是用于为websocket专门处理文本的对象，frame是消息的载体
  * 这里已经指定了类型 如果这里是Object 那么下面还需判断是不是TextWebSocketFrame类型
  */
@@ -51,7 +52,7 @@ public class NettyWebSocketServerHandler extends SimpleChannelInboundHandler<Tex
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         clients.add(ctx.channel());
-//        super.handlerAdded(ctx);
+        super.handlerAdded(ctx);
     }
 
     @Override

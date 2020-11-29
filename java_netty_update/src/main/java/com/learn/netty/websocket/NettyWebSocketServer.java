@@ -53,7 +53,6 @@ public class NettyWebSocketServer {
                     //对HttpMessage进行聚合，聚合成FullHttpRequest或FullHttpResponse
                     pipeline.addLast(new HttpObjectAggregator(1024 * 64));
 
-                    // ====================== 以下是支持httpWebsocket ======================
                     /**
                      * websocket 服务器处理的协议，用于指定给客户端连接访问的路由 : /ws
                      * 本handler会帮你处理一些繁重的复杂的事

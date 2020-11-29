@@ -14,8 +14,8 @@
     <selectKey resultType="java.lang.String" keyProperty="id" order="AFTER" >
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into t_my_friends (my_user_id, my_friend_user_id)
-    values (#{myUserId,jdbcType=VARCHAR}, #{myFriendUserId,jdbcType=VARCHAR})
+    insert into t_my_friends (id,my_user_id, my_friend_user_id)
+    values (#{id,jdbcType=VARCHAR},#{myUserId,jdbcType=VARCHAR}, #{myFriendUserId,jdbcType=VARCHAR})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.learn.netty_im.domain.TMyFriends" >
     update t_my_friends

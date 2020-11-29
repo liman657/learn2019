@@ -29,6 +29,7 @@
         <module name="netty-im-model" />
         <module name="netty-im-server" />
         <module name="rabbitmq-javaapi" />
+        <module name="spring-websocket" />
         <module name="spring_aop" />
         <module name="spring_http" />
         <module name="spring_read" />

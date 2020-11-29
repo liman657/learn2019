@@ -48,4 +48,16 @@
       </if>
     </where>
   </select>
+
+  <delete id="deleteBySendUserIdAndAcceptUserId" parameterType="com.learn.netty_im.domain.TFriendsRequest" >
+    delete from t_friends_request
+    <where>
+      <if test="sendUserId != null and sendUserId !=''">
+        and send_user_id = #{sendUserId,jdbcType=VARCHAR}
+      </if>
+      <if test="acceptUserId != null and acceptUserId != ''">
+        and accept_user_id = #{acceptUserId,jdbcType=VARCHAR}
+      </if>
+    </where>
+  </delete>
 </mapper>

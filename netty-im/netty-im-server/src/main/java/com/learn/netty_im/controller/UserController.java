@@ -3,6 +3,8 @@ package com.learn.netty_im.controller;
 import com.learn.enums.StatusCode;
 import com.learn.netty_im.domain.TUsers;
 import com.learn.netty_im.dto.FriendRequestVO;
+import com.learn.netty_im.dto.MyFriendsVO;
+import com.learn.netty_im.enums.OperatorFriendRequestTypeEnum;
 import com.learn.netty_im.enums.SearchFriendsStatusEnum;
 import com.learn.netty_im.pojo.bo.FaceImgBO;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
@@ -206,6 +208,58 @@ public class UserController {
         //查询接受到的好友请求
         List<FriendRequestVO> friendRequestVOS = userService.queryFriendRequestList(userId);
         result.setData(friendRequestVOS);
+        return result;
+    }
+
+    /**
+     * 接收方接受或者忽略朋友请求
+     * @param acceptUserId
+     * @return
+     */
+    @PostMapping("/operatorFriendRequest")
+    public BaseResponse operatorFriendRequest(String acceptUserId,String sendUserId,Integer operType) {
+        log.info("开始处理好友的请求，参数为,acceptUserId:{},sendUserId:{},operType:{}",acceptUserId,sendUserId,operType);
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        //1、参数校验
+        if (StringUtils.isBlank(acceptUserId) ||
+                StringUtils.isBlank(sendUserId) ||
+                null == operType) {
+            result = new BaseResponse(StatusCode.Fail);
+        }
+
+        if(operType == OperatorFriendRequestTypeEnum.IGNORE.type){//如果是忽略
+            //如果是忽略，则直接删除数据库中的好友请求记录
+            log.info("用户:{}，针对:{}的好友请求选择了忽略",acceptUserId,sendUserId);
+            userService.deleteFriendRequest(sendUserId,acceptUserId);
+        }
+
+        if(operType == OperatorFriendRequestTypeEnum.PASS.type){//如果是通过
+            //如果是通过，则互相增加好友记录到数据库对应的表中，然后删除好友请求的数据库表记录
+            log.info("用户:{}，针对:{}的好友请求选择了通过",acceptUserId,sendUserId);
+            userService.passFriendRequest(sendUserId,acceptUserId);
+        }
+        // 4. 数据库查询好友列表
+        List<MyFriendsVO> myFirends = userService.queryMyFriends(acceptUserId);
+        result.setData(myFirends);
+        return result;
+    }
+
+    @PostMapping("/myFriends")
+    public BaseResponse getMyFriendsList(String userId){
+        log.info("用户:{},开始查询好友列表信息",userId);
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        //1、参数校验
+        if (StringUtils.isBlank(userId)) {
+            result = new BaseResponse(StatusCode.Fail);
+        }
+        try{
+            //2、开始查询数据库列表
+            List<MyFriendsVO> myFriendsList = userService.queryMyFriends(userId);
+            result.setData(myFriendsList);
+        }catch (Exception e){
+            log.error("查询我的好友列表信息出现异常：{}",e);
+        }
+        log.info("查询好友列表返回信息为:{}",result);
         return result;
     }
 }

@@ -2,6 +2,7 @@ package com.learn.netty_im.service;
 
 import com.learn.netty_im.domain.TUsers;
 import com.learn.netty_im.dto.FriendRequestVO;
+import com.learn.netty_im.dto.MyFriendsVO;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
 
 import java.util.List;
@@ -46,4 +47,29 @@ public interface IUserService {
      * @param userId
      */
     public List<FriendRequestVO> queryFriendRequestList(String userId);
+
+    /**
+     * 删除好友请求记录
+     * @param sendUserId
+     * @param acceptUserId
+     */
+    public void deleteFriendRequest(String sendUserId,String acceptUserId);
+
+    /**
+     * 通过好友请求
+     * @param sendUserId
+     * @param acceptUserId
+     * @Description:
+     *  1、保存好友
+     *  2、逆向保存好友
+     *  3、删除好友的请求记录
+     */
+    public void passFriendRequest(String sendUserId,String acceptUserId);
+
+    /**
+     * 查询好友列表
+     * @param userId
+     * @return
+     */
+    public List<MyFriendsVO> queryMyFriends(String userId);
 }

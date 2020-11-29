@@ -4,6 +4,7 @@ import com.learn.netty_im.domain.TFriendsRequest;
 import com.learn.netty_im.domain.TMyFriends;
 import com.learn.netty_im.domain.TUsers;
 import com.learn.netty_im.dto.FriendRequestVO;
+import com.learn.netty_im.dto.MyFriendsVO;
 import com.learn.netty_im.enums.SearchFriendsStatusEnum;
 import com.learn.netty_im.idworker.Sid;
 import com.learn.netty_im.mapper.TFriendsRequestMapper;
@@ -11,6 +12,7 @@ import com.learn.netty_im.mapper.TMyFriendsMapper;
 import com.learn.netty_im.mapper.TUsersMapper;
 import com.learn.netty_im.mapper.TUsersMapperConsumer;
 import com.learn.netty_im.pojo.requsetentity.FriendsRequest;
+import com.learn.netty_im.pojo.requsetentity.MyFriends;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
 import com.learn.netty_im.service.IUserService;
 import com.learn.netty_im.utils.FastDFSClient;
@@ -185,4 +187,55 @@ public class UserServiceImpl implements IUserService {
         return usersMapperConsumer.queryFriendRequestList(acceptUserId);
     }
 
+    /**
+     * 删除好友申请的方法
+     * @param sendUserId
+     * @param acceptUserId
+     */
+    @Override
+    public void deleteFriendRequest(String sendUserId, String acceptUserId) {
+        TFriendsRequest request = new TFriendsRequest();
+        request.setSendUserId(sendUserId);
+        request.setAcceptUserId(acceptUserId);
+        tFriendsRequestMapper.deleteBySendUserIdAndAcceptUserId(request);
+    }
+
+    /**
+     * 通过好友申请的方法
+     * @param sendUserId
+     * @param acceptUserId
+     */
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public void passFriendRequest(String sendUserId, String acceptUserId) {
+        saveFriendsRequest(sendUserId,acceptUserId);
+        saveFriendsRequest(acceptUserId,sendUserId);
+        deleteFriendRequest(sendUserId, acceptUserId);
+    }
+
+    /**
+     *
+     * @param sendUserId
+     * @param acceptUserId
+     */
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void saveFriendsRequest(String sendUserId,String acceptUserId){
+        TMyFriends myFriends = new TMyFriends();
+        String recordId = sid.nextShort();
+        myFriends.setId(recordId);
+        myFriends.setMyFriendUserId(acceptUserId);
+        myFriends.setMyUserId(sendUserId);
+        tMyFriendsMapper.insert(myFriends);
+    }
+
+
+    /**
+     * 查询好友列表
+     * @param userId
+     * @return
+     */
+    @Override
+    public List<MyFriendsVO> queryMyFriends(String userId) {
+        return usersMapperConsumer.queryMyFriends(userId);
+    }
 }

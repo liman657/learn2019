@@ -19,26 +19,10 @@ public enum StatusCode {
     Success(200, "成功"),
     Fail(500, "服务器异常"),
     InvalidParams(401, "非法的参数!"),
+    PassFriendRequest(601, "通过好友请求"),
+    IngoreFriendRequest(600, "忽略好友请求"),
 
-    UserNamePasswordNotBlank(50000, "账户密码不能为空!"),
-    AccessTokenNotBlank(50001, "accessToken必填，请在请求头header中塞入该字段"),
-    User_Not_Exist(50002, "用户不存在"),
-    NOT_YOURSELF(50003, "不能添加你自己"),
-    ALREADY_FRIENDS(50004, "该用户已经是你的好友"),
-
-    TokenValidateExpireToken(60001, "Token已过期"),
-    TokenValidateCheckFail(60002, "Token验证失败"),
-
-    AccessTokenNotExist(70001, "Token不存在-请重新登录!"),
-    AccessTokenInvalidate(70002, "无效的Token!"),
-
-    AccessTokenNotExistRedis(80001, "Token不存在或已经过期-请重新登录!"),
-
-    AccessSessionNotExist(90001, "用户没登录或登录Session已经过期-请重新登录!"),
-
-    LoginFail(100000, "用户名或密码不正确，登录失败！"),
-    CurrUserHasNotPermission(100001, "当前用户没有权限访问该资源或者操作！"),
-    CurrUserNotLogin(100002, "当前用户没有登录，请先进行登录！");
+    LoginFail(100000, "用户名或密码不正确，登录失败！");
 
     private Integer code;
     private String msg;
