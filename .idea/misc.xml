@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/java_spi_impl/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/spring-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8-strategy/pom.xml" />
       </list>
     </option>
   </component>

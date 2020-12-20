@@ -13,6 +13,7 @@
         <module name="dubbo-springboot" />
         <module name="formatSpringbootStarter" />
         <module name="Java-rabbitMq" />
+        <module name="Java8-strategy" />
         <module name="java_distribute" />
         <module name="Java_exam" />
         <module name="Java_jedis" />
