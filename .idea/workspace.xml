@@ -111,74 +111,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FunctionPackageLearn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/FunctionPackageLearn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4101#4102#0" expanded="true" />
-                <element signature="e#4150#4151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StreamOperateLearn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/StreamOperateLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="504">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
+            <state relative-caret-position="191">
+              <caret line="233" column="25" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+      <file leaf-file-name="IntStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1108" column="89" lean-forward="true" selection-start-line="1107" selection-start-column="4" selection-end-line="1108" selection-end-column="89" />
+            <state relative-caret-position="240">
+              <caret line="445" column="25" lean-forward="true" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
+      <file leaf-file-name="ObjIntConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/ObjIntConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="408" column="57" lean-forward="true" selection-start-line="408" selection-start-column="4" selection-end-line="408" selection-end-column="57" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="897" column="4" selection-start-line="897" selection-start-column="4" selection-end-line="897" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="113" column="35" selection-start-line="113" selection-start-column="28" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="246">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -201,11 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>initChannel</find>
-      <find>http</find>
-      <find>Hibernate</find>
-      <find>lombok</find>
-      <find>test</find>
       <find>dev</find>
       <find>tomcat</find>
       <find>springboot-auth</find>
@@ -231,6 +190,11 @@
       <find>allMatch</find>
       <find>removeIf</find>
       <find>partitioningBy</find>
+      <find>stream</find>
+      <find>of</find>
+      <find>Stream</find>
+      <find>collect</find>
+      <find>reduce</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -260,7 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-im/netty-im-server/src/main/java/com/learn/netty_im/utils/FastDFSClient.java" />
         <option value="$PROJECT_DIR$/netty-im/netty-im-server/pom.xml" />
         <option value="$PROJECT_DIR$/Java_exam/src/main/java/com/learn/exam/xingye/FindClosestNum.java" />
         <option value="$PROJECT_DIR$/netty-im/netty-im-server/src/main/java/com/learn/netty_im/pojo/bo/FaceImgBO.java" />
@@ -305,11 +268,12 @@
         <option value="$PROJECT_DIR$/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapperConsumer.xml" />
         <option value="$PROJECT_DIR$/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml" />
         <option value="$PROJECT_DIR$/netty-im/netty-im-server/src/main/java/com/learn/netty_im/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/Java8-strategy/pom.xml" />
-        <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/common/Person.java" />
         <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/functioninterface/Employee.java" />
         <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/LambdaAndMethodReference.java" />
         <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/FunctionPackageLearn.java" />
+        <option value="$PROJECT_DIR$/Java8/src/main/java/com/learn/timeapi/LocalDateAndLocalTime.java" />
+        <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/common/Person.java" />
+        <option value="$PROJECT_DIR$/Java8-strategy/pom.xml" />
         <option value="$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/StreamOperateLearn.java" />
       </list>
     </option>
@@ -370,7 +334,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="963" />
+    <option name="x" value="962" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -385,6 +349,10 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java8-strategy" type="462c0819:PsiDirectoryNode" />
@@ -447,6 +415,30 @@
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8-strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="java8strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8-strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="java8strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="foundation" type="462c0819:PsiDirectoryNode" />
+              <item name="functioninterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -468,7 +460,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Collection&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java&#10;Stream&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Supplier&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Supplier.class&#10;Consumer&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Consumer.class&#10;Tmy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;tMy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TMyFriendsMapper.java&#10;tF&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TFriendsRequestMapper.java&#10;TFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;UserSer&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-server/src/main/java/com/learn/netty_im/service/impl/UserServiceImpl.java&#10;tFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriends&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;Friend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;UsersMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TUsersMapper.java&#10;TUserMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;TUserMa&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;DriverMan&#9;PSI&#9;JAVA://java.sql.DriverManager&#10;Class&#9;PSI&#9;JAVA://com.learn.foundation.reflect.ClassInfo.ClassLoaderTest&#10;Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;ModularRealmAuthenticator&#9;PSI&#9;JAVA://org.apache.shiro.authc.pam.ModularRealmAuthenticator&#10;IniRealm&#9;PSI&#9;JAVA://org.apache.shiro.realm.text.IniRealm&#10;MessageToMessageEnco&#9;PSI&#9;JAVA://io.netty.handler.codec.MessageToMessageEncoder&#10;MessageToMessage&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java&#10;SimpleChannelInB&#9;PSI&#9;JAVA://io.netty.channel.SimpleChannelInboundHandler&#10;AbstractChannel&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel&#10;BootstrapConfiguration&#9;PSI&#9;JAVA://javax.validation.BootstrapConfiguration&#10;Selector&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class&#10;SelectorImpl&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/transport/SelectorImpl.java&#10;SelectableChannel&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SelectableChannel.java&#10;org.apache.dubbo.config.ApplicationConfig&#9;PSI&#9;JAVA://org.apache.dubbo.config.ApplicationConfig&#10;TreeCacheListener&#9;PSI&#9;JAVA://org.apache.curator.framework.recipes.cache.TreeCacheListener&#10;IOUtil&#9;PSI&#9;JAVA://com.learn.utils.IOUtil&#10;Thread&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Collector&#9;FILE&#9;file://F:/gupaoProject2019/Java8/src/main/java/com/learn/collector&#10;XADataSourceAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration&#10;spring-autoconfigure-metadata&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;spring.factories&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/META-INF/spring.factories&#10;spring-autoconfigure-metadata.properties&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;ConcurrentHashMap&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync&#10;AbstractQu&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer" />
+    <property name="SearchEverywhereHistoryKey" value="Stream&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Iterable&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java&#10;Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Collection&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Supplier&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Supplier.class&#10;Consumer&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Consumer.class&#10;Tmy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;tMy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TMyFriendsMapper.java&#10;tF&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TFriendsRequestMapper.java&#10;TFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;UserSer&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-server/src/main/java/com/learn/netty_im/service/impl/UserServiceImpl.java&#10;tFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriends&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;Friend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;UsersMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TUsersMapper.java&#10;TUserMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;TUserMa&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;DriverMan&#9;PSI&#9;JAVA://java.sql.DriverManager&#10;Class&#9;PSI&#9;JAVA://com.learn.foundation.reflect.ClassInfo.ClassLoaderTest&#10;Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;ModularRealmAuthenticator&#9;PSI&#9;JAVA://org.apache.shiro.authc.pam.ModularRealmAuthenticator&#10;IniRealm&#9;PSI&#9;JAVA://org.apache.shiro.realm.text.IniRealm&#10;MessageToMessageEnco&#9;PSI&#9;JAVA://io.netty.handler.codec.MessageToMessageEncoder&#10;MessageToMessage&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java&#10;SimpleChannelInB&#9;PSI&#9;JAVA://io.netty.channel.SimpleChannelInboundHandler&#10;AbstractChannel&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel&#10;BootstrapConfiguration&#9;PSI&#9;JAVA://javax.validation.BootstrapConfiguration&#10;Selector&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class&#10;SelectorImpl&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/transport/SelectorImpl.java&#10;SelectableChannel&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SelectableChannel.java&#10;org.apache.dubbo.config.ApplicationConfig&#9;PSI&#9;JAVA://org.apache.dubbo.config.ApplicationConfig&#10;TreeCacheListener&#9;PSI&#9;JAVA://org.apache.curator.framework.recipes.cache.TreeCacheListener&#10;IOUtil&#9;PSI&#9;JAVA://com.learn.utils.IOUtil&#10;Thread&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Collector&#9;FILE&#9;file://F:/gupaoProject2019/Java8/src/main/java/com/learn/collector&#10;XADataSourceAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration&#10;spring-autoconfigure-metadata&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;spring.factories&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/META-INF/spring.factories&#10;spring-autoconfigure-metadata.properties&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties&#10;ConcurrentHashMap&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;NonfairSync &#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.NonfairSync&#10;FairSync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.FairSync&#10;Abstract&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Sync&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock.Sync" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -520,7 +512,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionPackageLearn">
+  <component name="RunManager" selected="Application.StreamOperateLearn">
     <configuration name="AllocationEden" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.AllocationEden" />
       <module name="Javajvm" />
@@ -615,17 +607,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NettyWebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.netty.websocket.NettyWebSocketServer" />
-      <module name="java_netty_update" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.netty.websocket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="PretenureSizeThresholdDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learn.jvm.chapter03.PretenureSizeThresholdDemo" />
       <module name="Javajvm" />
@@ -677,6 +658,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.jvm.chapter03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StreamOperateLearn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.java8strategy.foundation.StreamOperateLearn" />
+      <module name="Java8-strategy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.java8strategy.foundation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1121,19 +1113,19 @@
       <item itemvalue="Tomcat Server.spring-websocket" />
       <item itemvalue="Tomcat Server.spring-source-learn-introduction" />
       <item itemvalue="Tomcat Server.springDemo" />
-      <item itemvalue="Application.NettyWebSocketServer" />
       <item itemvalue="Application.TreeTraverse" />
       <item itemvalue="Application.LambdaAndMethodReference" />
       <item itemvalue="Spring Boot.NettyMiApplication" />
       <item itemvalue="Application.FunctionPackageLearn" />
+      <item itemvalue="Application.StreamOperateLearn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamOperateLearn" />
         <item itemvalue="Application.FunctionPackageLearn" />
         <item itemvalue="Application.LambdaAndMethodReference" />
         <item itemvalue="Spring Boot.NettyMiApplication" />
         <item itemvalue="Application.TreeTraverse" />
-        <item itemvalue="Application.NettyWebSocketServer" />
       </list>
     </recent_temporary>
   </component>
@@ -1352,7 +1344,9 @@
       <workItem from="1607836818823" duration="1301000" />
       <workItem from="1608101344016" duration="11198000" />
       <workItem from="1608433118520" duration="1186000" />
-      <workItem from="1608459789514" duration="9066000" />
+      <workItem from="1608459789514" duration="9122000" />
+      <workItem from="1608514850780" duration="30458000" />
+      <workItem from="1609037092047" duration="9489000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -1404,7 +1398,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2085606000" />
+    <option name="totallyTimeSpent" value="2125609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1429,11 +1423,11 @@
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="11" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.3222698" />
-      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49733475" visible="true" weight="0.31173185" />
+      <window_info active="true" anchor="bottom" id="Run" order="16" sideWeight="0.49733475" visible="true" weight="0.31061453" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832404" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832404" weight="0.54" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="3" sideWeight="0.50167596" side_tool="true" weight="0.2468017" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
@@ -1450,7 +1444,7 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33743018" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34357223" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1818,97 +1812,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/websocket/server/ProcessWsIndexPageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/http/NettyHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="41" column="74" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/websocket/server/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="45" column="54" lean-forward="true" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/websocket/NettyWebSocketServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructure/src/main/java/com/learn/tree/TreeTraverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-api/src/main/java/com/learn/response/BaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-api/src/main/java/com/learn/enums/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-server/src/main/java/com/learn/netty_im/enums/OperatorFriendRequestTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TFriendsRequestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/src/main/java/com/learn/netty/websocket/NettyWebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" selection-start-line="20" selection-end-line="77" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_netty_update/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="21" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-im/netty-im-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5736">
-          <caret line="239" column="21" selection-start-line="234" selection-start-column="8" selection-end-line="239" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty-im/netty-im-server/src/main/java/com/learn/netty_im/NettyWSServerStartBoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -2054,30 +1957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="74" column="12" selection-start-line="62" selection-start-column="4" selection-end-line="74" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8-strategy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/IntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -2085,24 +1964,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/functioninterface/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Consumer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#446#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2113,28 +1978,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Supplier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2147,16 +1992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/LambdaAndMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="115" column="104" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -2164,17 +1999,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/Java8/src/main/java/com/learn/timeapi/LocalDateAndLocalTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="897" column="4" selection-start-line="897" selection-start-column="4" selection-end-line="897" selection-end-column="53" />
+        <state relative-caret-position="1935">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/UnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="5002" column="32" selection-start-line="5002" selection-start-column="32" selection-end-line="5002" selection-end-column="32" />
+          <folding>
+            <element signature="e#223144#223145#0" expanded="true" />
+            <element signature="e#223197#223198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="110" column="41" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="408" column="57" lean-forward="true" selection-start-line="408" selection-start-column="4" selection-end-line="408" selection-end-column="57" />
+        <state relative-caret-position="192">
+          <caret line="573" column="68" selection-start-line="573" selection-start-column="62" selection-end-line="573" selection-end-column="68" />
           <folding>
             <element signature="e#26957#26958#0" expanded="true" />
             <element signature="e#27022#27023#0" expanded="true" />
@@ -2182,36 +2063,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1108" column="89" lean-forward="true" selection-start-line="1107" selection-start-column="4" selection-end-line="1108" selection-end-column="89" />
+        <state relative-caret-position="210">
+          <caret line="464" column="23" selection-start-line="464" selection-start-column="23" selection-end-line="464" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/Function.java">
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="202">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/IntBinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2025" column="18" selection-start-line="2025" selection-start-column="18" selection-end-line="2025" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/FunctionPackageLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="-1747">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4101#4102#0" expanded="true" />
-            <element signature="e#4150#4151#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/functioninterface/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/common/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/LambdaAndMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="96" column="108" selection-start-line="94" selection-start-column="8" selection-end-line="96" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="58" column="31" selection-start-line="55" selection-start-column="12" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8-strategy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding>
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2379#2380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="646" column="34" selection-start-line="646" selection-start-column="34" selection-end-line="646" selection-end-column="34" />
+          <folding>
+            <element signature="e#45701#45702#0" expanded="true" />
+            <element signature="e#45745#45746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/function/ObjIntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="445" column="25" lean-forward="true" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="233" column="25" selection-start-line="233" selection-start-column="25" selection-end-line="233" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8-strategy/src/main/java/com/learn/java8strategy/foundation/StreamOperateLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="504">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
