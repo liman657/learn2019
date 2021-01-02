@@ -1,9 +1,10 @@
 package com.learn.java8strategy.foundation;
 
+import com.learn.java8strategy.foundation.common.Customer;
+import com.learn.java8strategy.foundation.common.Order;
 import com.learn.java8strategy.foundation.common.Person;
 import lombok.extern.slf4j.Slf4j;
 
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.*;
@@ -29,6 +30,8 @@ public class StreamOperateLearn {
         reduceGetCountDemo();
         reduceCollectDemo();
         reduceFindFirstElementDemo();
+        streamMatchDemo();
+        streamMapAndFlatMap();
     }
 
     /**
@@ -228,14 +231,14 @@ public class StreamOperateLearn {
         int peekStart = IntStream.rangeClosed(0, 200)
                 //如果想打印stream数据流每一步的数据，可以利用在真正map之前加一个map操作，用于输出.
                 .map(n -> {
-                    System.out.print(n+" ");
+                    System.out.print(n + " ");
                     return n;
                 })
                 .map(n -> n * 2)
                 .filter(n -> n % 3 == 0)
                 .sum();
         System.out.println();
-        log.info("peek 的简单原理，结果为:{}",peekStart);
+        log.info("peek 的简单原理，结果为:{}", peekStart);
 
         int peekResult = IntStream.rangeClosed(0, 100)
                 .peek(n -> System.out.printf("original: %d%n", n))
@@ -244,46 +247,47 @@ public class StreamOperateLearn {
                 .filter(n -> n % 3 == 0)
                 .peek(n -> System.out.printf("filtered: %d%n", n))
                 .sum();
-        log.info("peek的最终结果:{}",peekResult);
+        log.info("peek的最终结果:{}", peekResult);
     }
 
     /**
      * 字符串转换为流实例
      * 通过惯用的流处理技术（而不是对 String 中的各个字符进行循环）实现字符串与
      * 流之间的转换。
-     *
+     * <p>
      * String 不属于集合框架（collections framework），因此无法
      * 实现 Iterable，不存在一种能将 String 转换为 Stream 的 stream 工厂方法。
-     *
+     * <p>
      * 尽管 Arrays.stream 提供了
      * 用于处理 int[]、 long[]、 double[] 甚至 T[] 的方法，却并未定义用于处理 char[] 的方法。
-     *
+     * <p>
      * String 类实现 CharSequence 接口，它
      * 引入了两种能生成 IntStream 的方法（chars 和 codePoints），它们都是接口中的默认方法，
      * 因此存在可用的实现。
-     *
+     * <p>
      * default IntStream chars()
      * default IntStream codePoints()
-     *
+     * <p>
      * chars 和 codePoints 方法的不同之处在于， chars 方法用于处理 UTF-16 编码字符，而
      * codePoints 方法用于处理完整的 Unicode 代码点（code point）集。
      */
-    public static void string2StreamDemo(){
+    public static void string2StreamDemo() {
         String str = "hdfssfdh";
         boolean oldresult = isPalindrome(str);
         boolean newresult = isPalindromeNewVersion(str);
-        log.info("判断回文字符串结果:老：{}，新：{}",oldresult,newresult);
+        log.info("判断回文字符串结果:老：{}，新：{}", oldresult, newresult);
     }
 
     /**
      * Java7中判断回文字符串的方法
+     *
      * @param s
      * @return
      */
-    private static boolean isPalindrome(String s){
+    private static boolean isPalindrome(String s) {
         StringBuilder sb = new StringBuilder();
-        for(char c : s.toCharArray()){
-            if(Character.isLetterOrDigit(c)){
+        for (char c : s.toCharArray()) {
+            if (Character.isLetterOrDigit(c)) {
                 sb.append(c);
             }
         }
@@ -294,10 +298,11 @@ public class StreamOperateLearn {
 
     /**
      * java8中判断回文字符串
+     *
      * @param s
      * @return
      */
-    private static boolean isPalindromeNewVersion(String s){
+    private static boolean isPalindromeNewVersion(String s) {
         //codePoints返回一个IntStream（每个字符的ascll码的数值流）
         String forward = s.toLowerCase().codePoints()
                 .filter(Character::isLetterOrDigit)
@@ -319,9 +324,9 @@ public class StreamOperateLearn {
      * 使用 java.util.stream.Stream 接口定义的 count 方法，或 java.util.stream.Collectors
      * 类定义的 counting 方法
      */
-    public static void reduceGetCountDemo(){
-        long streamCount = Stream.of(3,1,4,1,5,9,2,6,5).count();
-        log.info("stream count result : {}",streamCount);
+    public static void reduceGetCountDemo() {
+        long streamCount = Stream.of(3, 1, 4, 1, 5, 9, 2, 6, 5).count();
+        log.info("stream count result : {}", streamCount);
 
         /**
          * partitioningBy 方法的第一个参数是 Predicate，其作用是将字符串分为满足谓词和不
@@ -333,13 +338,13 @@ public class StreamOperateLearn {
          */
         List<String> strings = Arrays.asList("this", "is", "a", "list", "of", "strings");
         Map<Boolean, Long> numberLengthMap = strings.stream().collect(Collectors.partitioningBy(s -> s.length() % 2 == 0, Collectors.counting()));
-        log.info("number length map result:{}",numberLengthMap);
+        log.info("number length map result:{}", numberLengthMap);
     }
 
     /**
      * reduce 获取数值流中元素的数量、总和、最小值、最大值以及平均值
      */
-    public static void reduceCollectDemo(){
+    public static void reduceCollectDemo() {
 
         /**
          * 基本类型流 IntStream、 DoubleStream 与 LongStream 为 Stream 接口引入了用于处理基本数
@@ -348,7 +353,7 @@ public class StreamOperateLearn {
         DoubleSummaryStatistics statsNumbers = DoubleStream.generate(Math::random)
                 .limit(1_000)
                 .summaryStatistics();
-        log.info("统计数据结果为:{}",statsNumbers);
+        log.info("统计数据结果为:{}", statsNumbers);
     }
 
     /**
@@ -356,7 +361,7 @@ public class StreamOperateLearn {
      * 查找满足流中特定条件的第一个元素
      * findFirst 或 findAny 方法
      */
-    public static void reduceFindFirstElementDemo(){
+    public static void reduceFindFirstElementDemo() {
         Optional<Integer> firstElement = Stream.of(3, 1, 4, 1, 5, 9, 2, 6, 5)
                 .filter(n -> n % 2 == 0)
                 .findFirst();
@@ -365,7 +370,86 @@ public class StreamOperateLearn {
                 .filter(n -> n % 2 == 0)
                 .findAny();
 
-        log.info("查找第一个元素结果为：{}，查找任意一个元素结果为:{}",firstElement,anyElement);
+        log.info("查找第一个元素结果为：{}，查找任意一个元素结果为:{}", firstElement, anyElement);
+    }
+
+    /**
+     *
+     */
+    public static void streamMatchDemo() {
+        boolean allMatchresult = IntStream.of(2, 3, 5, 7, 11, 13, 17, 19).allMatch(i -> isPrime(i));
+        boolean anyMathcResult = IntStream.of(4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20).anyMatch(i->isPrime(i));
+        log.info("allMatch result : {},anyMatch result : {}",allMatchresult,anyMathcResult);
+    }
+
+    /**
+     * noneMath判断是否是质数
+     * @param num
+     * @return
+     */
+    private static boolean isPrime(int num) {
+        int limit = (int) (Math.sqrt(num) + 1);
+        return num == 2 || num > 1 && IntStream.range(2, limit).noneMatch(divisor -> num % divisor == 0);
+    }
+
+    /**
+     * <R> Stream<R> map(Function<? super T,? extends R> mapper)
+     */
+    public static void streamMapAndFlatMap(){
+        Customer sheridan = new Customer("Sheridan");
+        Customer ivanova = new Customer("Ivanova");
+        Customer garibaldi = new Customer("Garibaldi");
+
+        sheridan.addOrder(new Order(1))
+                .addOrder(new Order(2))
+                .addOrder(new Order(3));
+        ivanova.addOrder(new Order(4))
+                .addOrder(new Order(5));
+
+        List<Customer> customers = Arrays.asList(sheridan, ivanova, garibaldi);
+
+        //当输入参数和输出类型之间存在一一对应的关系时，将执行 map 操作
+        //一个客户名称对应一个客户
+        customers.stream().map(Customer::getName).forEach(System.out::println);
+
+        //最终的返回类型Stream<List<Order>>
+        customers.stream().map(Customer::getOrders).forEach(System.out::println);
+        //最终的返回类型为Stream<Stream<Order>>
+        //[Order(id=1), Order(id=2), Order(id=3)] [Order(id=4), Order(id=5)] []
+        customers.stream().map(customer->customer.getOrders().stream()).forEach(System.out::println);
+
+        /**
+         * 对于每个泛型参数 T，函数生成的是 Stream<R> 而不仅仅是 R。
+         * <R> Stream<R> flatMap(Function<? super T,? extends Stream<? extends R>> mapper)
+         */
+        //最终的返回类型为Stream<Order>
+        // Order{id=1}, Order{id=2}, Order{id=3}, Order{id=4}, Order{id=5}
+        customers.stream().flatMap(customer->customer.getOrders().stream()).forEach(System.out::println);
+
+    }
+
+    /**
+     * 流的拼接 慎用
+     * static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
+     * 两个输入流所包含的元素类型必须相同才能操作拼接
+     */
+    public static void streamContactDemo(){
+        Stream<String> first = Stream.of("a", "b", "c").parallel();
+        Stream<String> second = Stream.of("X", "Y", "Z");
+        List<String> strings = Stream.concat(first, second).collect(Collectors.toList());
+        List<String> stringList = Arrays.asList("a", "b", "c", "X", "Y", "Z");
+    }
+
+    /**
+     * 惰性流实例
+     * 流是惰性的，在达到终止条件前不会处理元素，达到终止条件后才通过流水线逐一处理每个元素。
+     */
+    public static void streamLazyDemo(){
+        OptionalInt firstEvenDoubleDivBy3 = IntStream.range(100, 200)
+                .map(n -> n * 2)
+                .filter(n -> n % 3 == 0)
+                .findFirst();
+        System.out.println(firstEvenDoubleDivBy3);
     }
 
 }

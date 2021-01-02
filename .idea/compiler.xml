@@ -29,6 +29,10 @@
         <module name="netty-im-api" />
         <module name="netty-im-model" />
         <module name="netty-im-server" />
+        <module name="permission-api" />
+        <module name="permission-common" />
+        <module name="permission-model" />
+        <module name="permission-server" />
         <module name="rabbitmq-javaapi" />
         <module name="spring-websocket" />
         <module name="spring_aop" />

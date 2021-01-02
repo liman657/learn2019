@@ -1,4 +1,4 @@
-import org.junit.Test;
+//import org.junit.Test;
 
 /**
  * autor:liman
@@ -7,7 +7,7 @@ import org.junit.Test;
  */
 public class TestDemo {
 
-    @Test
+//    @Test
     public void testResizeStamp(){
         int n = 16;
         int stamp = Integer.numberOfLeadingZeros(n)|(1<<(16-1));

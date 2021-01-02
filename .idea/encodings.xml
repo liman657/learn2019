@@ -4,6 +4,11 @@
     <file url="file://$PROJECT_DIR$/JSON" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java8" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Javajvm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionManagerPlatform" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBoot-JVM" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dataStructure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/designModel" charset="UTF-8" />
