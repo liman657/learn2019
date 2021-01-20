@@ -1,7 +1,7 @@
 $(function () {
     //初始化加载数据
     $("#jqGrid").jqGrid({
-        url: baseURL + '/post/list',
+        url: baseURL + 'post/list',
         datatype: "json",
         //数据字段一一绑定 <> 根据name
         colModel: [
@@ -20,7 +20,7 @@ $(function () {
         viewrecords: true,
         height: 425,
         rowNum: 10,
-        rowList : [5,10,20,40,60,80,100,120,200],
+        rowList : [10,20,40,60,80,100,120,200],
         rownumbers: true,
         rownumWidth: 25,
         autowidth:true,
@@ -89,7 +89,7 @@ var vm = new Vue({
         },
 
         //进入新增
-        toAddPage: function(){
+        add: function(){
             vm.showList = false;
             vm.title = "新增";
             vm.postList = {};
@@ -97,7 +97,7 @@ var vm = new Vue({
         },
 
         //进入修改
-        toUpdatePage: function () {
+        update: function () {
             var id = getSelectedRow();
             if(id == null){
                 return ;
@@ -111,7 +111,7 @@ var vm = new Vue({
 
         //获取详情
         getInfo: function(id){
-            $.get(baseURL + "/post/info/"+id, function(r){
+            $.get(baseURL + "sys/post/info/"+id, function(r){
                 vm.post = r.data.post;
             });
         },
@@ -127,7 +127,7 @@ var vm = new Vue({
                 var data=JSON.stringify(ids);
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "/post/delete",
+                    url: baseURL + "sys/post/delete",
                     contentType: "application/json",
                     data: data,
                     success: function(r){
@@ -145,7 +145,7 @@ var vm = new Vue({
 
         //保存-更新数据
         saveOrUpdate: function () {
-            var url = vm.post.postId == null ? "post/save" : "post/update";
+            var url = vm.post.postId == null ? "sys/post/save" : "sys/post/update";
             $.ajax({
                 type: "POST",
                 url: baseURL + url,

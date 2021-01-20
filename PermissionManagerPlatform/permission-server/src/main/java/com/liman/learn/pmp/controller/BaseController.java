@@ -2,8 +2,10 @@ package com.liman.learn.pmp.controller;
 
 import com.liman.learn.common.response.BaseResponse;
 import com.liman.learn.common.response.StatusCode;
+import com.liman.learn.pmp.model.entity.SysUserEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.SecurityUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -16,7 +18,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 @Slf4j
-@RequestMapping("test")
 public class BaseController {
 
     @RequestMapping(value="/hello",method = RequestMethod.POST)
@@ -34,6 +35,11 @@ public class BaseController {
     public String getPage(){
         String pageName = "pageOne";
         return pageName;
+    }
+
+    public SysUserEntity getCurUserInfo(){
+        SysUserEntity userEntity= (SysUserEntity) SecurityUtils.getSubject().getPrincipal();
+        return userEntity;
     }
 
 }

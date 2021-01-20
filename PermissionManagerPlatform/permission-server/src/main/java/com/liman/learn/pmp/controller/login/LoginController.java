@@ -50,11 +50,11 @@ public class LoginController {
         try{
 
             //校验验证码
-            String kaptcha = ShiroUtil.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
-            if(!kaptcha.equals(captcha)){
-                log.warn("用户:{},输入的验证码为:{},正确的验证码为:{}",username,captcha,kaptcha);
-                return new BaseResponse(StatusCode.InvalidCode,"请输入正确的验证码");
-            }
+//            String kaptcha = ShiroUtil.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
+//            if(!kaptcha.equals(captcha)){
+//                log.warn("用户:{},输入的验证码为:{},正确的验证码为:{}",username,captcha,kaptcha);
+//                return new BaseResponse(StatusCode.InvalidCode,"请输入正确的验证码");
+//            }
 
             //UserRealm交给了SecurityManager管理，每次认证的时候，需要通过utils获取subject对象
             Subject subject = SecurityUtils.getSubject();

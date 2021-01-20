@@ -48,14 +48,14 @@ var vm = new Vue({
 	methods: {
 		//获取导航菜单
 		getMenuList: function (event) {
-			$.getJSON("sys/menu/nav?_"+$.now(), function(r){
+			$.getJSON("menu/nav?_"+$.now(), function(r){
 				vm.menuList = r.data.menuList;
 			});
 		},
 		//获取当前登录用户信息
 		getInfo: function(){
-			$.getJSON("sys/user/info?_"+$.now(), function(r){
-				vm.user = r.data.user;
+			$.getJSON("user/info?_"+$.now(), function(r){
+				vm.user = r.data;
 			});
 		},
 		//修改密码
@@ -69,10 +69,10 @@ var vm = new Vue({
 				content: jQuery("#passwordLayer"),
 				btn: ['修改','取消'],
 				btn1: function (index) {
-					var data = "password="+vm.password+"&newPassword="+vm.newPassword;
+					var data = "oldPassword="+vm.password+"&newPassword="+vm.newPassword;
 					$.ajax({
 						type: "POST",
-					    url: "sys/user/password",
+					    url: "user/updatePassword",
 					    data: data,
 					    dataType: "json",
 					    success: function(result){

@@ -26,6 +26,7 @@
         <module name="JavaSPI" />
         <module name="leetCode" />
         <module name="mybatis-generate-tools" />
+        <module name="mybatis-plus-learn" />
         <module name="netty-im-api" />
         <module name="netty-im-model" />
         <module name="netty-im-server" />

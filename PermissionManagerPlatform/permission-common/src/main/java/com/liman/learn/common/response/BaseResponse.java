@@ -2,11 +2,14 @@ package com.liman.learn.common.response;/**
  * Created by Administrator on 2019/7/29.
  */
 
+import lombok.ToString;
+
 /**
  * 通用的响应封装类
  * @Author:debug (SteadyJack)
  * @Date: 2019/7/29 14:33
  **/
+@ToString
 public class BaseResponse<T> {
 
     private Integer code;

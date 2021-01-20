@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_mybatis_plus_learn?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+
+## %p 级别，%m内容,%n换行
+logging:
+  level:
+    root: warn
+    com.learn.mybatisplus.dao: trace
+  pattern:
+    console: '%p%m%n'
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+
+## mybatis-plus xml文件扫描位置
