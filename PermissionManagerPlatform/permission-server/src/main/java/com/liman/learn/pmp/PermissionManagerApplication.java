@@ -10,7 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 /**
  * autor:liman
  * createtime:2020/12/30
- * comment:
+ * comment:启动类
  */
 @SpringBootApplication
 @MapperScan(basePackages = "com.liman.learn.pmp.model.mapper")

@@ -37,7 +37,7 @@ public class SysDeptEntity implements Serializable {
 	private Integer orderNum;
 
 	//删除标记
-	@TableLogic
+	@TableLogic //这里标记了一个逻辑删除，如果记录删除了，mybatis-plus会默认将数据表中的这个字段置为-1
 	private Integer delFlag;
 
 	/**

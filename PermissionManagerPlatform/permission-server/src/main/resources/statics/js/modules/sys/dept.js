@@ -40,6 +40,7 @@ Dept.initColumn = function () {
 };
 
 
+//部门主页的treeGrid中选中一行记录，并返回选中的id
 function getDeptId () {
     var selected = $('#deptTable').bootstrapTreeTable('getSelections');
     if (selected.length == 0) {
@@ -53,15 +54,15 @@ function getDeptId () {
 
 $(function () {
     //获取顶级（第一级）部门的id，准备用于做tree table的铺展 - 并做tree table的相关字段的初始化
-    $.get(baseURL + "sys/dept/info", function(r){
+    $.get(baseURL + "/dept/info", function(r){
         var colunms = Dept.initColumn();
-        var table = new TreeTable(Dept.id, baseURL + "sys/dept/list", colunms);
+        var table = new TreeTable(Dept.id, baseURL + "/dept/list", colunms);
 
         //设置根节点code值----可指定根节点，默认为null,"",0,"0"
         table.setRootCodeValue(r.data.deptId);
         //在哪一列上面显示展开按钮,从0开始
         table.setExpandColumn(2);
-        //设置记录返回的id值 ~ 选取记录返回的值
+        //设置记录返回的id值 ~ 选取记录返回 的值
         table.setIdField("deptId");
         //设置记录分级的字段 ~ 用于设置父子关系
         table.setCodeField("deptId");
@@ -84,6 +85,7 @@ var vm = new Vue({
         showList: true,
         title: null,
 
+        //父级部门信息的相关参数
         dept:{
             parentName:null,
             parentId:0,
@@ -94,8 +96,8 @@ var vm = new Vue({
 
         //获取部门列表
         getDept: function(){
-            //加载部门树
-            $.get(baseURL + "sys/dept/select", function(r){
+            //加载部门树，同时找到指定吧部门的父部门名称
+            $.get(baseURL + "/dept/select", function(r){
                 ztree = $.fn.zTree.init($("#deptTree"), setting, r.data.deptList);
                 var node = ztree.getNodeByParam("deptId", vm.dept.parentId);
                 ztree.selectNode(node);
@@ -104,7 +106,7 @@ var vm = new Vue({
             })
         },
 
-        //新增
+        //新增部门的时候，会调用getDept去加载部门树
         add: function(){
             vm.showList = false;
             vm.title = "新增";
@@ -119,7 +121,8 @@ var vm = new Vue({
                 return ;
             }
 
-            $.get(baseURL + "sys/dept/detail/"+deptId, function(r){
+            //根据部门主页treeGrid中获取的id值，查询部门详情
+            $.get(baseURL + "/dept/detail/"+deptId, function(r){
                 vm.showList = false;
                 vm.title = "修改";
                 vm.dept = r.data.dept;
@@ -138,7 +141,7 @@ var vm = new Vue({
             confirm('确定要删除选中的记录？', function(){
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/dept/delete",
+                    url: baseURL + "/dept/delete",
                     data: "deptId=" + deptId,
                     success: function(r){
                         if(r.code === 0){
@@ -155,7 +158,7 @@ var vm = new Vue({
 
         //保存
         saveOrUpdate: function (event) {
-            var url = vm.dept.deptId == null ? "sys/dept/save" : "sys/dept/update";
+            var url = vm.dept.deptId == null ? "dept/save" : "dept/update";
             $.ajax({
                 type: "POST",
                 url: baseURL + url,
