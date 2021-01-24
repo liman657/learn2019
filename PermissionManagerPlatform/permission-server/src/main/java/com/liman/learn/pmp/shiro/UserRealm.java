@@ -111,9 +111,9 @@ public class UserRealm extends AuthorizingRealm {
         super.setCredentialsMatcher(shaCredentialsMatcher);
     }
 
-    public static void main(String[] args) {
-        String password = "root";
-        String salt = "YzcmCZNvbXocrsz9dm8e";
-        System.out.println(ShiroUtil.sha256(password, salt));
-    }
+//    public static void main(String[] args) {
+//        String password = "root";
+//        String salt = "YzcmCZNvbXocrsz9dm8e";
+//        System.out.println(ShiroUtil.sha256(password, salt));
+//    }
 }

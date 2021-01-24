@@ -98,7 +98,12 @@ var vm = new Vue({
         getDept: function(){
             //加载部门树，同时找到指定吧部门的父部门名称
             $.get(baseURL + "/dept/select", function(r){
+                /**
+                 * 设置ztree需要调用$.fn.zTree.init(element, setting, data);函数
+                    这个函数需要三个参数，第一个参数是元素，第二个参数是setting，第三个参数是需要显示的数据
+                 */
                 ztree = $.fn.zTree.init($("#deptTree"), setting, r.data.deptList);
+                //获取当前选中的zTree中的指定选项
                 var node = ztree.getNodeByParam("deptId", vm.dept.parentId);
                 ztree.selectNode(node);
 

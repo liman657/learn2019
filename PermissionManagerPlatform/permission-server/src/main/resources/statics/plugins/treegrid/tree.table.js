@@ -27,7 +27,7 @@
             this.btInstance =
                 $('#'+tableId).bootstrapTreeTable({
                     id: this.id,// 选取记录返回的值
-                    code: this.code,// 用于设置父子关系
+                    code: this.code,// 用于设置父子关系 //code与parentCode才用于指定父子的关系
                     parentCode: this.parentCode,// 用于设置父子关系
                     rootCodeValue: this.rootCodeValue,//设置根节点code值----可指定根节点，默认为null,"",0,"0"
                     type: this.method, //请求数据的ajax类型

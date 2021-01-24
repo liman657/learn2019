@@ -45,7 +45,7 @@ public class DeptController {
     public BaseResponse getDeptInfo(){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         Map<String,Object> resMap=Maps.newHashMap();
-        Long deptId=0L;
+        Long deptId=0L; //这里只需要返回一级部门的id即可
         try {
             //数据视野决定的顶级部门id可能不是0
             if (getUserId() != Constant.SUPER_ADMIN){
