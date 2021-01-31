@@ -96,7 +96,8 @@ var vm = new Vue({
 
         //获取部门列表
         getDept: function(){
-            //加载部门树，同时找到指定吧部门的父部门名称
+            //加载部门树，同时找到指定吧部门的父部门名称，
+            //这里已经初始化好了zTree，后续点击指定的父级部门输入框，则通过jQuery加载已经有数据的zTree控件
             $.get(baseURL + "/dept/select", function(r){
                 /**
                  * 设置ztree需要调用$.fn.zTree.init(element, setting, data);函数
@@ -181,8 +182,8 @@ var vm = new Vue({
             });
         },
 
-        //ztree打开事件
-        deptTree: function(){
+        //ztree打开事件，点击输入框，会自动加载已经有数据的zTree控件
+        deptTreeDataLoad: function(){
             layer.open({
                 type: 1,
                 offset: '30px',

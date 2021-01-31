@@ -1,6 +1,6 @@
 $(function () {
     $("#jqGrid").jqGrid({
-        url: baseURL + 'sys/role/list',
+        url: baseURL + '/role/list',
         datatype: "json",
         colModel: [
             { label: '角色ID', name: 'roleId', index: "role_id", width: 45, key: true },
@@ -11,7 +11,7 @@ $(function () {
         viewrecords: true,
         height: 385,
         rowNum: 10,
-        rowList : [10,20,50,100],
+        rowList : [5,10,20,50,100],
         rownumbers: true,
         rownumWidth: 25,
         autowidth:true,
@@ -79,6 +79,7 @@ var data_setting = {
 
 var vm = new Vue({
     el:'#pmpapp',
+    //定义vue初始化加载的数据
     data:{
         q:{
             roleName: null
@@ -91,15 +92,19 @@ var vm = new Vue({
             roleName:null,
             remark:null,
 
+            //当前角色关联的菜单id列表
             menuIdList:[],
+            //当前角色关联的部门id列表
             deptIdList:[]
         }
     },
+    //定义一些操作方法
     methods: {
         query: function () {
             vm.reload();
         },
 
+        //返回按钮的点击事件函数
         reload: function () {
             vm.showList = true;
             var page = $("#jqGrid").jqGrid('getGridParam','page');
@@ -109,18 +114,22 @@ var vm = new Vue({
             }).trigger("reloadGrid");
         },
 
+        //重置按钮的点击事件函数
         reset: function () {
-            window.location.href=baseURL+"modules/sys/role.html"
+            window.location.href=baseURL+"/modules/role.html"
         },
 
+        //点击新增按钮的事件函数，这里会去加载菜单数据和部门数据
         add: function(){
             vm.showList = false;
             vm.title = "新增";
             vm.role = {roleId:null, roleName:null, remark:null, menuIdList:null,deptIdList:null};
             vm.getMenuTree(null);
 
-            vm.getDataTree();
+            vm.getDeptDataTree();
         },
+
+        //点击修改按钮的事件函数，这里会去加载菜单数据和部门数据
         update: function () {
             var roleId = getSelectedRow();
             if(roleId == null){
@@ -129,10 +138,11 @@ var vm = new Vue({
 
             vm.showList = false;
             vm.title = "修改";
-            vm.getDataTree();
+            vm.getDeptDataTree();
             vm.getMenuTree(roleId);
 
         },
+
         del: function () {
             var roleIds = getSelectedRows();
             if(roleIds == null){
@@ -142,7 +152,7 @@ var vm = new Vue({
             confirm('确定要删除选中的记录？', function(){
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/role/delete",
+                    url: baseURL + "/role/delete",
                     contentType: "application/json",
                     data: JSON.stringify(roleIds),
                     success: function(r){
@@ -158,7 +168,7 @@ var vm = new Vue({
             });
         },
         getRole: function(roleId){
-            $.get(baseURL + "sys/role/info/"+roleId, function(r){
+            $.get(baseURL + "/role/info/"+roleId, function(r){
                 vm.role = r.data.role;
 
                 //勾选角色所拥有的菜单
@@ -195,7 +205,7 @@ var vm = new Vue({
             }
             vm.role.deptIdList = deptIdList;
 
-            var url = vm.role.roleId == null ? "sys/role/save" : "sys/role/update";
+            var url = vm.role.roleId == null ? "/role/save" : "role/update";
             $.ajax({
                 type: "POST",
                 url: baseURL + url,
@@ -215,7 +225,7 @@ var vm = new Vue({
 
         //加载菜单树
         getMenuTree: function(roleId) {
-            $.get(baseURL + "sys/menu/list", function(r){
+            $.get(baseURL + "/menu/list", function(r){
                 menu_ztree = $.fn.zTree.init($("#menuTree"), menu_setting, r);
                 //展开所有节点
                 menu_ztree.expandAll(true);
@@ -227,8 +237,8 @@ var vm = new Vue({
         },
 
         //加载部门树
-        getDataTree: function(roleId) {
-            $.get(baseURL + "sys/dept/list", function(r){
+        getDeptDataTree: function(roleId) {
+            $.get(baseURL + "dept/list", function(r){
                 data_ztree = $.fn.zTree.init($("#dataTree"), data_setting, r);
                 data_ztree.expandAll(true);
             });

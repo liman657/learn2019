@@ -34,6 +34,7 @@ public enum StatusCode {
     PostCodeHasExist(4001,"岗位编码已存在!"),
 
     MenuHasSubMenuListCanNotDelete(5001,"该菜单下有子菜单，请先删除子菜单！"),
+    MenuHasBeanDelete(5002,"菜单已经被删除"),
 
     SysUserAndCurrUserCanNotResetPsd(6001,"超级系统管理员与自己不能重置密码！"),
 

@@ -2,6 +2,7 @@
  * 初始化 Tree Table 的封装
  */
 (function () {
+    //调用该构造函数的时候，只是设置了url,tableId和columns三个参数
     var TreeTable = function (tableId, url, columns) {
         this.btInstance = null;					//jquery和bootstrapTreeTable绑定的对象
         this.bstableId = tableId;

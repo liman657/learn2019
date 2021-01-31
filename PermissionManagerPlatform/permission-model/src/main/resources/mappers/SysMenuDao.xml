@@ -27,7 +27,7 @@
 		  t1.*,
 		  (SELECT t2.name
 		   FROM sys_menu AS t2
-		   WHERE t2.menu_id = t1.parent_id) AS parentName
+		   WHERE t2.menu_id = t1.parent_id and t1.type = '2') AS parentName
 		FROM sys_menu AS t1
 	</select>
 

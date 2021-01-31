@@ -118,20 +118,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="menu.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/menu.js">
+      <file leaf-file-name="dept.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/dept.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="299">
+              <caret line="51" column="51" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/menu.html">
+      <file leaf-file-name="dept.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="96">
+              <caret line="184" column="44" selection-start-line="184" selection-start-column="44" selection-end-line="184" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -155,14 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>partitioningBy</find>
-      <find>stream</find>
-      <find>of</find>
-      <find>Stream</find>
-      <find>collect</find>
-      <find>reduce</find>
-      <find>druid</find>
-      <find>starter-web</find>
       <find>commons</find>
       <find>slf4j-jdk14</find>
       <find>free</find>
@@ -185,6 +180,14 @@
       <find>shiro</find>
       <find>chainDefinition</find>
       <find>comma-delimited</find>
+      <find>queryListParentId</find>
+      <find>sys/</find>
+      <find>reload</find>
+      <find>reset</find>
+      <find>add</find>
+      <find>menuTree</find>
+      <find>deptTree</find>
+      <find>deptTable</find>
     </findStrings>
     <replaceStrings>
       <replace>MouseCallBack</replace>
@@ -217,22 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IUserService.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/index.js" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/page/PageController.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/job/post.html" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IPostService.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/utils/QueryUtil.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/MPLearnApplication.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/test/java/com/learn/mybatisplus/test/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/test/java/com/learn/mybatisplus/test/LambdaConditionSearchTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/test/java/com/learn/mybatisplus/test/SelfSqlSearchTest.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/configuration/PageSelectConfiguration.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/resources/mappers/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/src/test/java/com/learn/mybatisplus/test/PageSelectTest.java" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/src/test/java/com/learn/mybatisplus/test/DeleteTest.java" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/entity/ARUserEntity.java" />
@@ -255,7 +242,6 @@
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/job/PostController.java" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/PermissionManagerApplication.java" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/dept.html" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysDeptDao.xml" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysDeptDao.java" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IDeptService.java" />
@@ -263,11 +249,28 @@
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/entity/SysDeptEntity.java" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/shiro/UserRealm.java" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/treegrid/tree.table.js" />
-        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/menu.html" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/menu.js" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IMenuService.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysMenuDao.xml" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/response/StatusCode.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/menu/MenuController.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/role.html" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/role.js" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleDeptService.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleMenuService.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/role/RoleController.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleService.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IUserRoleService.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/UserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/treegrid/tree.table.js" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/dept.html" />
+        <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js" />
       </list>
     </option>
   </component>
@@ -318,11 +321,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="965" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -333,6 +334,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -343,6 +345,41 @@
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
               <item name="permission-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -419,7 +456,48 @@
               <item name="liman" type="462c0819:PsiDirectoryNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="pmp" type="462c0819:PsiDirectoryNode" />
-              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liman" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="pmp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liman" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="pmp" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PermissionManagerPlatform" type="462c0819:PsiDirectoryNode" />
+              <item name="permission-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="liman" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="pmp" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -505,7 +583,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -519,7 +596,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="DeptController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java&#10;PostController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/job/PostController.java&#10;PageController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/page/PageController.java&#10;SFunction&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/toolkit/support/SFunction.class&#10;SqlCondition&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.annotation.SqlCondition&#10;post.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/post.html&#10;main.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/main.html&#10;UserR&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/shiro/UserRealm.java&#10;banner.txt&#9;FILE&#9;file://F:/gupaoProject2019/springboot-auth/springboot-auth-service/src/main/resources/banner.txt&#10;Stream&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Iterable&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java&#10;Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Collection&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Supplier&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Supplier.class&#10;Consumer&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Consumer.class&#10;Tmy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;tMy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TMyFriendsMapper.java&#10;tF&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TFriendsRequestMapper.java&#10;TFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;UserSer&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-server/src/main/java/com/learn/netty_im/service/impl/UserServiceImpl.java&#10;tFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriends&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;Friend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;UsersMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TUsersMapper.java&#10;TUserMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;TUserMa&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;DriverMan&#9;PSI&#9;JAVA://java.sql.DriverManager&#10;Class&#9;PSI&#9;JAVA://com.learn.foundation.reflect.ClassInfo.ClassLoaderTest&#10;Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;ModularRealmAuthenticator&#9;PSI&#9;JAVA://org.apache.shiro.authc.pam.ModularRealmAuthenticator&#10;IniRealm&#9;PSI&#9;JAVA://org.apache.shiro.realm.text.IniRealm&#10;MessageToMessageEnco&#9;PSI&#9;JAVA://io.netty.handler.codec.MessageToMessageEncoder&#10;MessageToMessage&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final-sources.jar!/io/netty/handler/codec/MessageToMessageDecoder.java&#10;SimpleChannelInB&#9;PSI&#9;JAVA://io.netty.channel.SimpleChannelInboundHandler&#10;AbstractChannel&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel&#10;BootstrapConfiguration&#9;PSI&#9;JAVA://javax.validation.BootstrapConfiguration&#10;Selector&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class&#10;SelectorImpl&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/transport/SelectorImpl.java&#10;SelectableChannel&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/nio/channels/SelectableChannel.java&#10;org.apache.dubbo.config.ApplicationConfig&#9;PSI&#9;JAVA://org.apache.dubbo.config.ApplicationConfig&#10;TreeCacheListener&#9;PSI&#9;JAVA://org.apache.curator.framework.recipes.cache.TreeCacheListener&#10;IOUtil&#9;PSI&#9;JAVA://com.learn.utils.IOUtil&#10;Thread&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java&#10;Runnable&#9;PSI&#9;JAVA://java.lang.Runnable&#10;Collector&#9;FILE&#9;file://F:/gupaoProject2019/Java8/src/main/java/com/learn/collector&#10;XADataSourceAutoConfiguration&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration" />
+    <property name="SearchEverywhereHistoryKey" value="DeptCon&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java&#10;dept&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js&#10;Dept&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/dept.html&#10;post.js&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/post.js&#10;post.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/post.html&#10;SysUserRole&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysUserRoleDao.xml&#10;SysRoleMe&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysRoleMenuDao.xml&#10;SysRoleE&#9;PSI&#9;JAVA://com.liman.learn.pmp.model.entity.SysRoleEntity&#10;header.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/header.html&#10;role.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/role.html&#10;Role.js&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/role.js&#10;SysMenu&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysMenuDao.xml&#10;menu.js&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/menu.js&#10;menu.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/menu.html&#10;SysMenuDao&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysMenuDao.xml&#10;Login&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/login/LoginController.java&#10;DeptController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java&#10;PostController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/job/PostController.java&#10;PageController&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/page/PageController.java&#10;SFunction&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/toolkit/support/SFunction.class&#10;SqlCondition&#9;PSI&#9;JAVA://com.baomidou.mybatisplus.annotation.SqlCondition&#10;main.html&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/resources/templates/main.html&#10;UserR&#9;FILE&#9;file://F:/gupaoProject2019/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/shiro/UserRealm.java&#10;banner.txt&#9;FILE&#9;file://F:/gupaoProject2019/springboot-auth/springboot-auth-service/src/main/resources/banner.txt&#10;Stream&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/stream/Stream.java&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Iterable&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/lang/Iterable.java&#10;Function&#9;PSI&#9;JAVA://java.util.function.Function&#10;Collection&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/Collection.java&#10;Predicate&#9;PSI&#9;JAVA://java.util.function.Predicate&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Supplier&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Supplier.class&#10;Consumer&#9;FILE&#9;jar://D:/Java/jdk1.8.0_181/jre/lib/rt.jar!/java/util/function/Consumer.class&#10;Tmy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;tMy&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TMyFriendsMapper.java&#10;tF&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TFriendsRequestMapper.java&#10;TFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;UserSer&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-server/src/main/java/com/learn/netty_im/service/impl/UserServiceImpl.java&#10;tFriendsRequestMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriends&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TFriendsRequestMapper.xml&#10;TFriend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;Friend&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TMyFriendsMapper.xml&#10;UsersMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/java/com/learn/netty_im/mapper/TUsersMapper.java&#10;TUserMapper&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;TUserMa&#9;FILE&#9;file://F:/gupaoProject2019/netty-im/netty-im-model/src/main/resources/mappers/TUsersMapper.xml&#10;DriverMan&#9;PSI&#9;JAVA://java.sql.DriverManager&#10;Class&#9;PSI&#9;JAVA://com.learn.foundation.reflect.ClassInfo.ClassLoaderTest&#10;Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;ModularRealmAuthenticator&#9;PSI&#9;JAVA://org.apache.shiro.authc.pam.ModularRealmAuthenticator&#10;IniRealm&#9;PSI&#9;JAVA://org.apache.shiro.realm.text.IniRealm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -1469,7 +1546,10 @@
       <workItem from="1610943768948" duration="29145000" />
       <workItem from="1611318230443" duration="1674000" />
       <workItem from="1611374449358" duration="15866000" />
-      <workItem from="1611493820883" duration="2991000" />
+      <workItem from="1611493820883" duration="3117000" />
+      <workItem from="1611537410606" duration="22116000" />
+      <workItem from="1611796477077" duration="3132000" />
+      <workItem from="1612015490683" duration="24065000" />
     </task>
     <task id="LOCAL-00001" summary="[20190711-condition,countDownLatch,cyclicbarrier实例]">
       <created>1562845208648</created>
@@ -1521,7 +1601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2306629000" />
+    <option name="totallyTimeSpent" value="2356068000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1533,7 +1613,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="965" height="1037" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32997763" />
@@ -1546,18 +1626,19 @@
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="right" id="CDI" order="11" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" weight="0.3222698" />
-      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49733475" weight="0.42673796" />
+      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49733475" weight="0.3765363" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832404" visible="true" weight="0.24626866" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832404" weight="0.48057714" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
       <window_info id="Web" order="3" sideWeight="0.50167596" side_tool="true" weight="0.2468017" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34931508" />
       <window_info anchor="right" id="Structure" order="12" sideWeight="0.50274223" side_tool="true" weight="0.29904053" />
       <window_info anchor="right" id="JSF" order="13" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.35530725" />
+      <window_info active="true" anchor="bottom" id="Debug" order="2" visible="true" weight="0.36301368" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1567,7 +1648,6 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="14" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34301677" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1586,7 +1666,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="JSF" order="13" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="3" sideWeight="0.50167596" side_tool="true" weight="0.2468017" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
       <window_info id="Capture Tool" order="6" />
@@ -1594,6 +1673,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026652" side_tool="true" weight="0.3642458" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.2916201" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32997763" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32915717" />
@@ -1604,7 +1684,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832404" visible="true" weight="0.22867803" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32997763" />
+      <window_info id="Web" order="3" sideWeight="0.50167596" side_tool="true" weight="0.2468017" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Structure" order="12" sideWeight="0.50274223" side_tool="true" weight="0.29904053" />
@@ -1899,7 +1979,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="228" />
+      <option name="time" value="231" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1954,339 +2034,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/jqgrid/jquery.jqGrid.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="318" column="118" selection-start-line="318" selection-start-column="118" selection-end-line="318" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="108" column="22" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/utils/ValidatorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-plus-learn/src/main/java/com/learn/mybatisplus/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/job/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/PermissionManagerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/PostServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="59" column="70" selection-start-line="59" selection-start-column="70" selection-end-line="59" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/response/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysDeptDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IDeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/entity/SysDeptEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/DeptServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523">
-          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/service/UserRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="9" selection-start-line="14" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/src/main/java/com/learn/springauthserver/service/ShiroService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-auth/springboot-auth-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/UsernamePasswordToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysRoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysMenuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysDeptDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.liman.learn.pmp.shiro.UserRealm">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.liman.learn.pmp.shiro.UserRealm</OriginalElement>
-          <nodes>
-            <node x="480.63461538461536" y="160.0">org.apache.shiro.authz.Authorizer</node>
-            <node x="319.99999999999994" y="0.0">org.apache.shiro.authc.LogoutAware</node>
-            <node x="412.49999999999994" y="320.0">com.liman.learn.pmp.shiro.UserRealm</node>
-            <node x="235.38461538461533" y="80.0">org.apache.shiro.realm.CachingRealm</node>
-            <node x="0.0" y="0.0">org.apache.shiro.util.Nameable</node>
-            <node x="127.99999999999994" y="0.0">org.apache.shiro.cache.CacheManagerAware</node>
-            <node x="608.6346153846154" y="160.0">org.apache.shiro.authz.permission.PermissionResolverAware</node>
-            <node x="385.38461538461536" y="80.0">org.apache.shiro.util.Initializable</node>
-            <node x="15.884615384615358" y="160.0">org.apache.shiro.authz.permission.RolePermissionResolverAware</node>
-            <node x="464.99999999999994" y="0.0">org.apache.shiro.realm.Realm</node>
-            <node x="392.99999999999994" y="240.0">org.apache.shiro.realm.AuthorizingRealm</node>
-            <node x="258.88461538461536" y="160.0">org.apache.shiro.realm.AuthenticatingRealm</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.shiro.realm.AuthenticatingRealm" target="org.apache.shiro.realm.CachingRealm">
-              <point x="-41.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthorizingRealm" target="org.apache.shiro.authz.permission.PermissionResolverAware">
-              <point x="60.0" y="-15.0" />
-              <point x="528.0" y="220.0" />
-              <point x="707.1346153846154" y="220.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.CachingRealm" target="org.apache.shiro.cache.CacheManagerAware">
-              <point x="-16.25" y="-15.0" />
-              <point x="284.13461538461536" y="50.0" />
-              <point x="213.99999999999994" y="50.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthorizingRealm" target="org.apache.shiro.util.Initializable">
-              <point x="0.0" y="-15.0" />
-              <point x="467.99999999999994" y="220.0" />
-              <point x="470.13461538461536" y="220.0" />
-              <point x="28.25" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.CachingRealm" target="org.apache.shiro.authc.LogoutAware">
-              <point x="16.25" y="-15.0" />
-              <point x="316.63461538461536" y="50.0" />
-              <point x="382.49999999999994" y="50.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthenticatingRealm" target="org.apache.shiro.util.Initializable">
-              <point x="41.5" y="-15.0" />
-              <point x="383.38461538461536" y="135.0" />
-              <point x="413.63461538461536" y="135.0" />
-              <point x="-28.25" y="15.0" />
-            </edge>
-            <edge source="com.liman.learn.pmp.shiro.UserRealm" target="org.apache.shiro.realm.AuthorizingRealm">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthorizingRealm" target="org.apache.shiro.realm.AuthenticatingRealm">
-              <point x="-30.0" y="-15.0" />
-              <point x="437.99999999999994" y="210.0" />
-              <point x="341.88461538461536" y="210.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.CachingRealm" target="org.apache.shiro.realm.Realm">
-              <point x="48.75" y="-15.0" />
-              <point x="349.13461538461536" y="60.0" />
-              <point x="506.99999999999994" y="60.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.CachingRealm" target="org.apache.shiro.util.Nameable">
-              <point x="-48.75" y="-15.0" />
-              <point x="251.63461538461533" y="60.0" />
-              <point x="54.0" y="60.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthorizingRealm" target="org.apache.shiro.authz.permission.RolePermissionResolverAware">
-              <point x="-60.0" y="-15.0" />
-              <point x="407.99999999999994" y="220.0" />
-              <point x="127.38461538461536" y="220.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.apache.shiro.realm.AuthorizingRealm" target="org.apache.shiro.authz.Authorizer">
-              <point x="30.0" y="-15.0" />
-              <point x="497.99999999999994" y="210.0" />
-              <point x="534.6346153846154" y="210.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-65.0" y="-6.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="314" column="38" lean-forward="true" selection-start-line="314" selection-start-column="38" selection-end-line="314" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/mgt/NamedFilterList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.4.0/shiro-web-1.4.0-sources.jar!/org/apache/shiro/web/filter/mgt/FilterChainManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="163" column="7" lean-forward="true" selection-start-line="163" selection-start-column="7" selection-end-line="163" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <element signature="e#2590#2591#0" expanded="true" />
-            <element signature="e#2645#2646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/mgt/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="273" column="26" lean-forward="true" selection-start-line="273" selection-start-column="26" selection-end-line="273" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0-sources.jar!/org/apache/shiro/authc/Authenticator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="653">
@@ -2350,13 +2097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -2364,48 +2104,326 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/treegrid/tree.table.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="31" column="53" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="53" />
+        <state relative-caret-position="-96">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java">
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="297">
+          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/util/ShiroUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding>
+            <element signature="e#1678#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/PermissionManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js">
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/mapper/SysMenuDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="216">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-common/src/main/java/com/liman/learn/common/response/StatusCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/menu/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/java/com/liman/learn/pmp/model/entity/SysRoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysRoleMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysRoleDeptDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/role/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="137" column="35" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IRoleMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleDeptServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-model/src/main/resources/mappers/SysUserRoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/UserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/IUserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="95" column="21" lean-forward="true" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/server/impl/PostServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/job/post.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/java/com/liman/learn/pmp/controller/dept/DeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/treegrid/tree.table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="227" column="8" selection-start-line="227" selection-start-column="8" selection-end-line="227" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/item/itemType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/dept.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        <state relative-caret-position="299">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/templates/modules/sys/menu.html">
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/plugins/ztree/jquery.ztree.all.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="289">
+          <caret line="70" column="416" selection-start-line="70" selection-start-column="416" selection-end-line="70" selection-end-column="416" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/menu.js">
+    <entry file="file://$PROJECT_DIR$/PermissionManagerPlatform/permission-server/src/main/resources/statics/js/modules/sys/dept.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="96">
+          <caret line="184" column="44" selection-start-line="184" selection-start-column="44" selection-end-line="184" selection-end-column="44" />
         </state>
       </provider>
     </entry>
