@@ -123,7 +123,7 @@ public class FunctionPackageLearn {
                 return s.length();
             }
         }).collect(Collectors.toList());
-        log.info("inner class list:{}",innerClassFunction);
+        log.info("inner class subMenuList:{}",innerClassFunction);
 
         //lambda实现
         List<Integer> lambdaLenthList = bonds.stream().map(s -> s.length()).collect(Collectors.toList());

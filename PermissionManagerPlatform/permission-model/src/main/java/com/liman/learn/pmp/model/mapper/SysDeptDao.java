@@ -21,4 +21,6 @@ public interface SysDeptDao extends BaseMapper<SysDeptEntity> {
     List<Long> queryDeptByParentId(Long parentId);
 
     Set<Long> queryAllDeptIds();
+
+//    queryDeptById(Long deptId);
 }

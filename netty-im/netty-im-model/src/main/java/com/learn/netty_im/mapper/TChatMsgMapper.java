@@ -14,4 +14,6 @@ public interface TChatMsgMapper {
     List<TChatMsg> selectAll();
 
     int updateByPrimaryKey(TChatMsg record);
+
+    void batchUpdateMsgSigned(List<String> msgIdList);
 }

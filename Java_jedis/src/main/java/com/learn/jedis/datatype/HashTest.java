@@ -20,9 +20,9 @@ public class HashTest {
 //        String h1 = JedisUtil.getJedisUtil().hget("h1", "a");
 //        System.out.println(h1);
 //
-//        List<String> list = new ArrayList<String>();
-//        list = JedisUtil.getJedisUtil().hmget("h1","a","b","c","d","e");
-//        System.out.println(list);
+//        List<String> subMenuList = new ArrayList<String>();
+//        subMenuList = JedisUtil.getJedisUtil().hmget("h1","a","b","c","d","e");
+//        System.out.println(subMenuList);
         Jedis jedis = new Jedis("192.168.72.128", 6379);
         Map<String,String> hmap = new HashMap<>();
         hmap.put("h1","a");

@@ -13,8 +13,8 @@ public class ValidatorUtil {
     public static String checkResult(BindingResult result){
         StringBuilder sb=new StringBuilder("");
         if (result.hasErrors()){
-            /*List<ObjectError> list=result.getAllErrors();
-            for (ObjectError error:list){
+            /*List<ObjectError> subMenuList=result.getAllErrors();
+            for (ObjectError error:subMenuList){
                 sb.append(error.getDefaultMessage()).append("\n");
             }*/
 

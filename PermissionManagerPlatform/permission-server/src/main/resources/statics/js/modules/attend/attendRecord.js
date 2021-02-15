@@ -1,6 +1,6 @@
 $(function () {
     $("#jqGrid").jqGrid({
-        url: baseURL + 'attend/record/list',
+        url: baseURL + 'workrecord/list',
         datatype: "json",
         colModel: [
             { label: 'ID', name: 'id', index: "id", width: 45,sortable:false, key: true },
@@ -140,7 +140,7 @@ var vm = new Vue({
             }
 
             var params='?userName='+userName+'&deptId='+deptId+'&startDate='+startDate+'&endDate='+endDate+'&status='+status;
-            window.location.href= baseURL + "attend/record/export"+params;
+            window.location.href= baseURL + "workrecord/export"+params;
         }
 	}
 });
@@ -148,7 +148,7 @@ var vm = new Vue({
 
 $(function () {
     //加载部门树
-    $.get(baseURL + "sys/dept/list", function(r){
+    $.get(baseURL + "dept/list", function(r){
         ztree = $.fn.zTree.init($("#deptTree"), setting, r);
         var node = ztree.getNodeByParam("deptId", vm.q.deptId);
         if(node != null){

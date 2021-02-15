@@ -17,4 +17,11 @@ public interface IDeptService extends IService<SysDeptEntity> {
 
     public List<Long> queryDeptByParentId(Long parentId);
 
+    /**
+     * 底层递归获取该部门id的所有子部门信息
+     * @param deptId
+     * @return
+     */
+    public List<Long> getSubDeptIdList(Long deptId);
+
 }

@@ -10,6 +10,7 @@ import com.liman.learn.pmp.model.entity.SysPostEntity;
 import com.liman.learn.pmp.server.IPostService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.validation.BindingResult;
@@ -33,6 +34,7 @@ public class PostController extends BaseController {
     private IPostService postService;
 
     @RequestMapping(value = "list")
+    @RequiresPermissions(value={"sys:post:list"})
     public BaseResponse listPostInfo(@RequestParam Map<String, Object> paramMap) {
         log.info("开始查询岗位信息,参数为:{}", paramMap);
         BaseResponse response = new BaseResponse(StatusCode.Success);
@@ -50,6 +52,7 @@ public class PostController extends BaseController {
     }
 
     @RequestMapping(value = "/save", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequiresPermissions(value={"sys:post:save"})
     public BaseResponse savePostInfo(@RequestBody @Validated SysPostEntity entity, BindingResult result) {
         log.info("开始新增岗位,参数为:{}", entity);
         String res = ValidatorUtil.checkResult(result);
@@ -69,6 +72,7 @@ public class PostController extends BaseController {
     }
 
     @RequestMapping(value = "delete", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequiresPermissions(value={"sys:post:delete"})
     public BaseResponse delete(@RequestBody Long[] ids) {
         BaseResponse response = new BaseResponse(StatusCode.Success);
         try {
@@ -82,6 +86,7 @@ public class PostController extends BaseController {
     }
 
     @RequestMapping(value = "/info/{id}")
+    @RequiresPermissions(value={"sys:post:list"})
     public BaseResponse getInfo(@PathVariable Long id) {
         if (id == null || id <= 0) {
             return new BaseResponse(StatusCode.InvalidParams);
@@ -101,6 +106,7 @@ public class PostController extends BaseController {
     }
 
     @RequestMapping(value = "/update",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequiresPermissions(value={"sys:post:update"})
     public BaseResponse updatePostInfo(@RequestBody @Validated SysPostEntity entity, BindingResult result){
         String res= ValidatorUtil.checkResult(result);
         if (StringUtils.isNotBlank(res)){
@@ -119,6 +125,24 @@ public class PostController extends BaseController {
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }
 
+        return response;
+    }
+
+    //岗位列表-select
+    @RequestMapping("/select")
+    @RequiresPermissions(value={"sys:post:list"})
+    public BaseResponse select(){
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try {
+            log.info("岗位列表~select..");
+
+            Map<String,Object> resMap=Maps.newHashMap();
+            resMap.put("list",postService.list());
+
+            response.setData(resMap);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
         return response;
     }
 

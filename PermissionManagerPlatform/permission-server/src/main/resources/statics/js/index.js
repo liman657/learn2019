@@ -10,7 +10,7 @@ var menuItem = Vue.extend({
         '		<i class="fa fa-angle-left pull-right"></i>',
         '	</a>',
         '	<ul v-if="item.type === 0" class="treeview-menu">',
-        '		<menu-item :item="item" v-for="item in item.list"></menu-item>',
+        '		<menu-item :item="item" v-for="item in item.subMenuList"></menu-item>',
         '	</ul>',
 
         '	<a v-if="item.type === 1 && item.parentId === 0" :href="\'#\'+item.url">',
@@ -121,14 +121,15 @@ function routerList(router, menuList){
 	for(var key in menuList){
 		var menu = menuList[key];
 		if(menu.type == 0){
-			routerList(router, menu.list);
+            //这里也是用了递归调用，设置子菜单的跳转路径，如果更改了实体对象中的子菜单属性，这里也要更改
+			routerList(router, menu.subMenuList);
 		}else if(menu.type == 1){
 			router.add('#'+menu.url, function() {
 				var url = window.location.hash;
-				
+				// console.log("===menuUrl:"+url);
 				//替换iframe的url
+				// console.log("menu item url : "+url.replace('#',''));
 			    vm.main = url.replace('#', '');
-			    
 			    //导航菜单展开
 			    $(".treeview-menu li").removeClass("active");
 			    $("a[href='"+url+"']").parents("li").addClass("active");

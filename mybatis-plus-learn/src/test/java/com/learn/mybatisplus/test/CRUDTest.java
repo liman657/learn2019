@@ -89,7 +89,7 @@ public class CRUDTest {
         queryWrapper.like("name", "雨").le("age", 40);
 
         List<UserEntity> userEntities = userMapper.selectList(queryWrapper);
-        log.info("wrapper user list:{}", userEntities);
+        log.info("wrapper user subMenuList:{}", userEntities);
 
 
         /**

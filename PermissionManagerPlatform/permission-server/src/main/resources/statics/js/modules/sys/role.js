@@ -238,7 +238,7 @@ var vm = new Vue({
 
         //加载部门树
         getDeptDataTree: function(roleId) {
-            $.get(baseURL + "dept/list", function(r){
+            $.get(baseURL + "dept/subMenuList", function(r){
                 data_ztree = $.fn.zTree.init($("#dataTree"), data_setting, r);
                 data_ztree.expandAll(true);
             });

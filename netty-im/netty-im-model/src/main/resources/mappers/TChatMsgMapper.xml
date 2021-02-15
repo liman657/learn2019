@@ -14,12 +14,12 @@
     where id = #{id,jdbcType=VARCHAR}
   </delete>
   <insert id="insert" parameterType="com.learn.netty_im.domain.TChatMsg" >
-    <selectKey resultType="java.lang.String" keyProperty="id" order="AFTER" >
-      SELECT LAST_INSERT_ID()
-    </selectKey>
-    insert into t_chat_msg (send_user_id, accept_user_id, msg, 
+    <!--<selectKey resultType="java.lang.String" keyProperty="id" order="AFTER" >-->
+      <!--SELECT LAST_INSERT_ID()-->
+    <!--</selectKey>-->
+    insert into t_chat_msg (id,send_user_id, accept_user_id, msg,
       sign_flag, create_time)
-    values (#{sendUserId,jdbcType=VARCHAR}, #{acceptUserId,jdbcType=VARCHAR}, #{msg,jdbcType=VARCHAR}, 
+    values (#{id,jdbcType=VARCHAR},#{sendUserId,jdbcType=VARCHAR}, #{acceptUserId,jdbcType=VARCHAR}, #{msg,jdbcType=VARCHAR},
       #{signFlag,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.learn.netty_im.domain.TChatMsg" >
@@ -40,4 +40,15 @@
     select id, send_user_id, accept_user_id, msg, sign_flag, create_time
     from t_chat_msg
   </select>
+
+  <!--批量更新消息状态-->
+  <update id="batchUpdateMsgSigned">
+
+    update t_chat_msg set sign_flag = 1 where id in
+    <foreach collection="list" item = "msgIdItem" index="index" open="(" separator="," close=")">
+      #{msgIdItem}
+    </foreach>
+
+  </update>
+
 </mapper>

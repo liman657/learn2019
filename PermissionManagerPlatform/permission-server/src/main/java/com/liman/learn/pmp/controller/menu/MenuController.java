@@ -6,8 +6,10 @@ import com.liman.learn.common.response.StatusCode;
 import com.liman.learn.common.utils.Constant;
 import com.liman.learn.pmp.model.entity.SysMenuEntity;
 import com.liman.learn.pmp.server.IMenuService;
+import com.liman.learn.pmp.util.ShiroUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -29,9 +31,10 @@ public class MenuController {
     private IMenuService menuService;
 
     @RequestMapping("/list")
+    @RequiresPermissions(value={"sys:menu:list"})
     public List<SysMenuEntity> list() {
         //第一种方式，借助mybatis-plus的查询方式实现
-//        List<SysMenuEntity> menuList = menuService.list();
+//        List<SysMenuEntity> menuList = menuService.subMenuList();
 //        if (null != menuList && !menuList.isEmpty()) {//如果不为空，则需要通过子查询获取parentName
 //            menuList.stream().forEach(entity -> {
 //                if(Constant.MenuType.BUTTON.getValue() == entity.getType()) {//这里只针对按钮类型的资源查询父菜单名
@@ -48,6 +51,7 @@ public class MenuController {
 
 
     @RequestMapping("/select")
+    @RequiresPermissions(value={"sys:menu:list"})
     public BaseResponse selectAllMenuInfo(){
         BaseResponse  response = new BaseResponse(StatusCode.Success);
         Map<String,Object> resMap = Maps.newHashMap();
@@ -75,6 +79,7 @@ public class MenuController {
      * @return
      */
     @RequestMapping(value="/save",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:menu:save"})
     public BaseResponse save(@RequestBody SysMenuEntity entity){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         try {
@@ -94,6 +99,7 @@ public class MenuController {
     }
 
     @RequestMapping("/info/{menuId}")
+    @RequiresPermissions(value={"sys:menu:list"})
     public BaseResponse getMenuInfo(@PathVariable Long menuId){
         if (menuId==null || menuId<=0){
             return new BaseResponse(StatusCode.InvalidParams);
@@ -118,6 +124,7 @@ public class MenuController {
      * @return
      */
     @RequestMapping(value="/update",method=RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:menu:update"})
     public BaseResponse updateMenuInfo(@RequestBody SysMenuEntity menuEntity){
         BaseResponse response = new BaseResponse(StatusCode.Success);
         try{
@@ -140,6 +147,7 @@ public class MenuController {
      * @return
      */
     @RequestMapping(value="/delete",method = RequestMethod.POST)
+    @RequiresPermissions(value={"sys:menu:delete"})
     public BaseResponse deleteMenuInfo(Long menuId){
         if (menuId==null || menuId<=0 ){
             return new BaseResponse(StatusCode.InvalidParams);
@@ -163,6 +171,28 @@ public class MenuController {
             response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }
 
+        return response;
+    }
+
+    /**
+     * 获取用户的左侧菜单导航栏
+     * @return
+     */
+    @RequestMapping(value="/nav")
+    public BaseResponse getUserNavMenuList(){
+        BaseResponse response = new BaseResponse(StatusCode.Success);
+        Map<String,Object> resMap = Maps.newHashMap();
+        Long currUserId = ShiroUtil.getUserId();
+        try{
+            //根据用户id获取用户指定的左侧菜单栏数据
+            List<SysMenuEntity> userMenuList = menuService.getUserMenuList(currUserId);
+            resMap.put("menuList",userMenuList);
+            log.info("用户:{},获取的菜单数据为：{}",currUserId,userMenuList);
+        }catch (Exception e){
+            log.error("userId:{},获取用户左侧菜单导航栏出现异常，异常信息为:{}",currUserId,e);
+            response = new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
+        }
+        response.setData(resMap);
         return response;
     }
 

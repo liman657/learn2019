@@ -33,6 +33,7 @@ public class NettyWSHandlerInit extends ChannelInitializer<SocketChannel> {
          */
         pipeline.addLast(new WebSocketServerProtocolHandler("/ws"));
 
-        pipeline.addLast(new NettyWebSocketServerHandler());
+//        pipeline.addLast(new NettyWebSocketServerHandler());
+        pipeline.addLast(new ChatHandler());
     }
 }

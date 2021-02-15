@@ -14,4 +14,8 @@ public interface IUserRoleService extends IService<SysUserRoleEntity> {
 
     void deleteBatch(List<Long> roleIds);
 
+    public void saveOrUpdate(Long userId, List<Long> roleIds);
+
+    public List<Long> queryRoleIdList(Long userId);
+
 }

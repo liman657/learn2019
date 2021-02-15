@@ -1,16 +1,15 @@
 package com.learn.netty_im.service.impl;
 
+import com.learn.netty_im.domain.TChatMsg;
 import com.learn.netty_im.domain.TFriendsRequest;
 import com.learn.netty_im.domain.TMyFriends;
 import com.learn.netty_im.domain.TUsers;
 import com.learn.netty_im.dto.FriendRequestVO;
 import com.learn.netty_im.dto.MyFriendsVO;
+import com.learn.netty_im.enums.MsgSignFlagEnum;
 import com.learn.netty_im.enums.SearchFriendsStatusEnum;
 import com.learn.netty_im.idworker.Sid;
-import com.learn.netty_im.mapper.TFriendsRequestMapper;
-import com.learn.netty_im.mapper.TMyFriendsMapper;
-import com.learn.netty_im.mapper.TUsersMapper;
-import com.learn.netty_im.mapper.TUsersMapperConsumer;
+import com.learn.netty_im.mapper.*;
 import com.learn.netty_im.pojo.requsetentity.FriendsRequest;
 import com.learn.netty_im.pojo.requsetentity.MyFriends;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
@@ -36,12 +35,14 @@ import java.util.List;
  * createtime:2020/9/28
  * comment:userService的实现类
  */
-@Service
+@Service("userService")
 @Slf4j
 public class UserServiceImpl implements IUserService {
 
     @Autowired
     private TUsersMapper userMapper;
+    @Autowired
+    private TChatMsgMapper chatMsgMapper;
 
     @Autowired
     private TMyFriendsMapper tMyFriendsMapper;
@@ -228,7 +229,6 @@ public class UserServiceImpl implements IUserService {
         tMyFriendsMapper.insert(myFriends);
     }
 
-
     /**
      * 查询好友列表
      * @param userId
@@ -237,5 +237,27 @@ public class UserServiceImpl implements IUserService {
     @Override
     public List<MyFriendsVO> queryMyFriends(String userId) {
         return usersMapperConsumer.queryMyFriends(userId);
+    }
+
+    /**
+     * 保存消息到数据库
+     * @param chatMsg
+     * @return
+     */
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public String saveMsg(TChatMsg chatMsg) {
+        String msgId = sid.nextShort();
+        chatMsg.setId(msgId);
+        chatMsg.setCreateTime(new Date());
+        chatMsg.setSignFlag(MsgSignFlagEnum.unsign.type);//设置状态为未签收
+        chatMsgMapper.insert(chatMsg);
+        return msgId;
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public void udpateMsgSigned(List<String> msgIds) {
+        chatMsgMapper.batchUpdateMsgSigned(msgIds);
     }
 }

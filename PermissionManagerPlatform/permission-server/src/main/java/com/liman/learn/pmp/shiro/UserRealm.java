@@ -1,26 +1,38 @@
 package com.liman.learn.pmp.shiro;
 
+import com.google.common.collect.Lists;
+import com.google.common.collect.Sets;
+import com.liman.learn.common.utils.Constant;
+import com.liman.learn.pmp.model.entity.SysMenuEntity;
 import com.liman.learn.pmp.model.entity.SysUserEntity;
 import com.liman.learn.pmp.model.mapper.SysUserDao;
+import com.liman.learn.pmp.server.IMenuService;
 import com.liman.learn.pmp.util.ShiroUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 /**
  * autor:liman
  * createtime:2021/1/2
  * comment: 用于认证用户~授权
  * 需要继承至 AuthorizingRealm
- * 这个UserRalm 会交给securityManager去管理（在ShiroConig类中注入进去）
+ * 这个UserRalm 会交给 securityManager 去管理（在ShiroConig类中注入进去）
  */
 @Component
 @Slf4j
@@ -28,6 +40,8 @@ public class UserRealm extends AuthorizingRealm {
 
     @Autowired
     private SysUserDao sysUserDao;
+    @Autowired
+    private IMenuService menuService;
 
     /**
      * 这个是资源的授权
@@ -37,7 +51,37 @@ public class UserRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-        return null;
+        //获取当前登录用户
+        SysUserEntity userEntity = (SysUserEntity) principals.getPrimaryPrincipal();
+        Long userId = userEntity.getUserId();
+
+        //这个就是当前用户得到的认证资源
+        List<String> perms = Lists.newLinkedList();
+
+        //如果是超级管理员，则其拥有最高的权限，不需要发出SQL的查询，直接拥有全部权限
+        if(userId == Constant.SUPER_ADMIN){
+            List<SysMenuEntity> menuList = menuService.list();
+            if(CollectionUtils.isNotEmpty(menuList)){
+                perms = menuList.stream().map(SysMenuEntity::getPerms).collect(Collectors.toList());
+            }
+        }else{
+            perms = sysUserDao.queryAllPerms(userId);
+        }
+
+        //处理perms，生成最终的授权码
+        Set<String> stringPermissions = Sets.newHashSet();
+        if (perms!=null && !perms.isEmpty()){
+            for (String p:perms){
+                if (StringUtils.isNotBlank(p)){
+                    stringPermissions.addAll(Arrays.asList(StringUtils.split(p.trim(),",")));
+                }
+            }
+        }
+
+        //将权限编码设置到SimpleAuthorizationInfo中
+        SimpleAuthorizationInfo info=new SimpleAuthorizationInfo();
+        info.setStringPermissions(stringPermissions);
+        return info;
     }
 
     /**
@@ -110,10 +154,4 @@ public class UserRealm extends AuthorizingRealm {
         shaCredentialsMatcher.setHashIterations(ShiroUtil.hashIterations);//加密次数
         super.setCredentialsMatcher(shaCredentialsMatcher);
     }
-
-//    public static void main(String[] args) {
-//        String password = "root";
-//        String salt = "YzcmCZNvbXocrsz9dm8e";
-//        System.out.println(ShiroUtil.sha256(password, salt));
-//    }
 }

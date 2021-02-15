@@ -85,7 +85,7 @@ var vm = new Vue({
 
         //重置
         reset: function () {
-            window.location.href=baseURL+"modules/sys/post.html";
+            window.location.href=baseURL+"modules/post.html";
         },
 
         //进入新增
@@ -111,7 +111,7 @@ var vm = new Vue({
 
         //获取详情
         getInfo: function(id){
-            $.get(baseURL + "sys/post/info/"+id, function(r){
+            $.get(baseURL + "post/info/"+id, function(r){
                 vm.post = r.data.post;
             });
         },
@@ -127,7 +127,7 @@ var vm = new Vue({
                 var data=JSON.stringify(ids);
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/post/delete",
+                    url: baseURL + "post/delete",
                     contentType: "application/json",
                     data: data,
                     success: function(r){
@@ -145,7 +145,7 @@ var vm = new Vue({
 
         //保存-更新数据
         saveOrUpdate: function () {
-            var url = vm.post.postId == null ? "sys/post/save" : "sys/post/update";
+            var url = vm.post.postId == null ? "post/save" : "post/update";
             $.ajax({
                 type: "POST",
                 url: baseURL + url,

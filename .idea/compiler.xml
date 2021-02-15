@@ -11,6 +11,7 @@
         <module name="dubbo-provider-service" />
         <module name="dubbo-providerapi" />
         <module name="dubbo-springboot" />
+        <module name="feign-learn" />
         <module name="formatSpringbootStarter" />
         <module name="Java-rabbitMq" />
         <module name="Java8-strategy" />

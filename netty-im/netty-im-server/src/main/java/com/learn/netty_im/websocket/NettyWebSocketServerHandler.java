@@ -40,9 +40,9 @@ public class NettyWebSocketServerHandler extends SimpleChannelInboundHandler<Tex
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, TextWebSocketFrame msg) throws Exception {
         String content = msg.text();
-        log.info("接收到客户端的消息为:{}",msg);
+        log.info("接收到客户端的消息为:{}",content);
         clients.writeAndFlush(new TextWebSocketFrame("[服务器在]" + LocalDateTime.now()
-                + "接受到消息, 消息为：" + content));
+                + "接受到客户端的消息消息, 消息为：" + content));
     }
 
     @Override

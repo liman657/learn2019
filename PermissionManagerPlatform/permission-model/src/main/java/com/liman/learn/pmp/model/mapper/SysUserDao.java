@@ -16,9 +16,10 @@ public interface SysUserDao extends BaseMapper<SysUserEntity> {
 	List<String> queryAllPerms(Long userId);
 	
 	//查询用户的所有权限
-	List<Long> queryAllMenuId(Long userId);
+	List<Long> queryAllUserMenuInfoByUserId(Long userId);
 
 	//根据用户id获取部门数据Id列表 ~ 数据权限
+	//sys_user_role 与 sys_role_dept级联查询
 	Set<Long> queryDeptIdsByUserId(Long userId);
 
 	SysUserEntity selectByUserName(@Param("userName") String userName);

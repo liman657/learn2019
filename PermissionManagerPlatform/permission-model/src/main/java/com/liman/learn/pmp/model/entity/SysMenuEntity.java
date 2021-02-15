@@ -33,7 +33,7 @@ public class SysMenuEntity implements Serializable {
 	//菜单链接url
 	private String url;
 
-	//授权(多个用逗号分隔，如：user:list,user:create)
+	//授权(多个用逗号分隔，如：user:subMenuList,user:create)
 	private String perms;
 
 	//类型= 0：目录   1：菜单   2：按钮
@@ -50,5 +50,5 @@ public class SysMenuEntity implements Serializable {
 	private Boolean open;
 
 	@TableField(exist=false)
-	private List<?> list;
+	private List<SysMenuEntity> subMenuList;
 }

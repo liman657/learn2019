@@ -61,8 +61,8 @@ public class NoticeListenerScheduler {
             List<User> list=userMapper.selectList();
 
             //TODO:写法一-java8 stream api触发
-            /*if (list!=null && !list.isEmpty()){
-                list.forEach(user -> emailService.emailUserNotice(notice,user));
+            /*if (subMenuList!=null && !subMenuList.isEmpty()){
+                subMenuList.forEach(user -> emailService.emailUserNotice(notice,user));
             }*/
 
 

@@ -12,6 +12,7 @@ import com.liman.learn.pmp.server.IRoleService;
 import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.asm.Advice;
 import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.validation.BindingResult;
@@ -39,6 +40,7 @@ public class RoleController {
     private IRoleDeptService roleDeptService;
 
     @RequestMapping(value="/list")
+    @RequiresPermissions(value={"sys:role:list"})
     public BaseResponse getRoleList(@RequestParam Map<String,Object> paramMap){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         try {
@@ -55,6 +57,7 @@ public class RoleController {
     }
 
     @RequestMapping(value="/save",method = RequestMethod.POST,consumes=MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:role:save"})
     public BaseResponse saveRoleInfo(@RequestBody @Validated SysRoleEntity roleEntity, BindingResult validateResult){
         String res = ValidatorUtil.checkResult(validateResult);
         if(StringUtils.isNotBlank(res)){
@@ -78,6 +81,7 @@ public class RoleController {
      * @return
      */
     @RequestMapping(value="/info/{id}")
+    @RequiresPermissions(value={"sys:role:list"})
     public BaseResponse getRoleInfo(@PathVariable Long id){
         if (id == null || id <= 0) {
             return new BaseResponse(StatusCode.InvalidParams);
@@ -110,6 +114,7 @@ public class RoleController {
      * @return
      */
     @RequestMapping(value="/update",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:role:update"})
     public BaseResponse updateRoleInfo(@RequestBody @Validated SysRoleEntity roleEntity,BindingResult bindingResult){
         String res=ValidatorUtil.checkResult(bindingResult);
         if (StringUtils.isNotBlank(res)){
@@ -127,6 +132,7 @@ public class RoleController {
     }
 
     @RequestMapping(value="/delete",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:role:delete"})
     public BaseResponse deleteRoleInfo(@RequestBody Long[] roleIds){
         if (roleIds==null || roleIds.length<=0){
             return new BaseResponse(StatusCode.InvalidParams);
@@ -138,6 +144,24 @@ public class RoleController {
             roleService.deleteBatch(roleIds);
         } catch (Exception e) {
             response = new BaseResponse(StatusCode.Fail.getCode(), e.getMessage());
+        }
+        return response;
+    }
+
+    //角色列表-select
+    @RequestMapping("/select")
+    @RequiresPermissions(value={"sys:role:list"})
+    public BaseResponse select(){
+        BaseResponse response=new BaseResponse(StatusCode.Success);
+        try {
+            log.info("角色列表~select..");
+
+            Map<String,Object> resMap=Maps.newHashMap();
+            resMap.put("list",roleService.list());
+
+            response.setData(resMap);
+        }catch (Exception e){
+            response=new BaseResponse(StatusCode.Fail.getCode(),e.getMessage());
         }
         return response;
     }

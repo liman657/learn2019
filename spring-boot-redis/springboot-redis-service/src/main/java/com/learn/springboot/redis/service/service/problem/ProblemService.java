@@ -83,7 +83,7 @@ public class ProblemService {
             //SetOperations<String,Problem> setOperations=redisTemplate.opsForSet();
             //problems=setOperations.members(Constant.RedisSetProblemsKey);
 
-            //List list=Collections.shuffle(redisTemplate.opsForList().range());
+            //List subMenuList=Collections.shuffle(redisTemplate.opsForList().range());
 
         }catch (Exception e){
             log.error("从缓存中获取随机的、乱序的试题列表-发生异常：",e.fillInStackTrace());

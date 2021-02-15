@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.liman.learn.pmp.model.mapper.SysUserDao">
-	
+
 	<!-- 查询用户的所有权限 -->
 	<select id="queryAllPerms" resultType="string">
 		select m.perms from sys_user_role ur 
@@ -10,8 +10,8 @@
 			LEFT JOIN sys_menu m on rm.menu_id = m.menu_id 
 		where ur.user_id = #{userId}
 	</select>
-	
-	<!-- 查询用户的所有菜单ID --> 
+
+	<!-- 查询用户的所有菜单ID -->
 	<!--<select id="queryAllMenuId" resultType="long">
 		SELECT DISTINCT rm.menu_id
 		FROM sys_user_role ur
@@ -19,7 +19,7 @@
 		WHERE ur.user_id = #{userId}
 	</select>-->
 
-	<select id="queryAllMenuId" resultType="long">
+	<select id="queryAllUserMenuInfoByUserId" resultType="long">
 		SELECT
 		  menu.menu_id
 		FROM sys_user_role AS userRole LEFT JOIN sys_role_menu AS roleMenu ON userRole.role_id = roleMenu.role_id
@@ -28,13 +28,16 @@
 			  AND menu.type != 2
 	</select>
 
+	<!--根据用户id找到该用户的部门信息-->
 	<select id="queryDeptIdsByUserId" resultType="java.lang.Long">
-		SELECT roleDept.dept_id
-		FROM sys_role_dept AS roleDept
-		  LEFT JOIN sys_user_role AS userRole ON userRole.role_id = roleDept.role_id
-		WHERE userRole.user_id = #{userId}
+		SELECT
+		  role_dept.dept_id
+		FROM
+		  sys_user_role AS user_role
+		  LEFT JOIN sys_role_dept AS role_dept
+		    ON user_role.role_id = role_dept.role_id
+		WHERE user_role.user_id = #{userId}
 	</select>
-
 
 	<select id="selectByUserName" resultType="com.liman.learn.pmp.model.entity.SysUserEntity">
 		SELECT *

@@ -182,7 +182,7 @@ $(function () {
 // $(function () {
 //     //下框框动态绑定数据
 //     $.get(baseURL + "sys/post/select", function(r){
-//         var dataList=r.data.list;
+//         var dataList=r.data.subMenuList;
 //         for(var key in dataList){
 //             var data=dataList[key];
 //

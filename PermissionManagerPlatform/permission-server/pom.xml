@@ -15,7 +15,7 @@
 
     <properties>
         <quartz.version>2.2.1</quartz.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.7.1</shiro.version>
         <kaptcha.version>0.0.9</kaptcha.version>
         <swagger.version>2.7.0</swagger.version>
 
@@ -160,6 +160,12 @@
             <groupId>com.github.axet</groupId>
             <artifactId>kaptcha</artifactId>
             <version>${kaptcha.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <!--<version>${goolgle.gson.version}</version>-->
         </dependency>
 
         <!--swagger-->

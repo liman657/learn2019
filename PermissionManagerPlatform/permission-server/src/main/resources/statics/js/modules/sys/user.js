@@ -1,7 +1,7 @@
 $(function () {
     //初始化加载数据
     $("#jqGrid").jqGrid({
-        url: baseURL + 'sys/user/list',
+        url: baseURL + 'userManager/list',
         datatype: "json",
         //数据字段一一绑定 <> 根据name
         colModel: [			
@@ -106,7 +106,7 @@ var vm = new Vue({
 
         //重置
         reset: function () {
-            window.location.href=baseURL+"modules/sys/user.html"
+            window.location.href=baseURL+"modules/user.html"
         },
 
         //进入新增
@@ -124,7 +124,7 @@ var vm = new Vue({
 
         //获取角色列表
         getRoleList: function(){
-            $.get(baseURL + "sys/role/select", function(r){
+            $.get(baseURL + "role/select", function(r){
                 vm.roleList = r.data.list;
             });
         },
@@ -132,7 +132,7 @@ var vm = new Vue({
 
         //获取岗位列表
         getPostList: function(){
-            $.get(baseURL + "sys/post/select", function(r){
+            $.get(baseURL + "post/select", function(r){
                 vm.postList = r.data.list;
             });
         },
@@ -140,7 +140,7 @@ var vm = new Vue({
         //获取部门列表
         getDept: function(){
             //加载部门树
-            $.get(baseURL + "sys/dept/list", function(r){
+            $.get(baseURL + "dept/list", function(r){
                 ztree = $.fn.zTree.init($("#deptTree"), setting, r);
                 var node = ztree.getNodeByParam("deptId", vm.user.deptId);
                 if(node != null){
@@ -170,7 +170,7 @@ var vm = new Vue({
 
         //根据userId获取用户信息
         getInfo: function(userId){
-            $.get(baseURL + "sys/user/info/"+userId, function(r){
+            $.get(baseURL + "userManager/info/"+userId, function(r){
                 vm.user = r.data.user;
                 vm.user.password = null;
 
@@ -188,7 +188,7 @@ var vm = new Vue({
             confirm('确定要删除选中的记录？', function(){
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/user/delete",
+                    url: baseURL + "userManager/delete",
                     contentType: "application/json",
                     data: JSON.stringify(userIds),
                     success: function(r){
@@ -206,7 +206,7 @@ var vm = new Vue({
 
         //保存-更新数据
         saveOrUpdate: function () {
-            var url = vm.user.userId == null ? "sys/user/save" : "sys/user/update";
+            var url = vm.user.userId == null ? "userManager/save" : "userManager/update";
             $.ajax({
                 type: "POST",
                 url: baseURL + url,
@@ -257,7 +257,7 @@ var vm = new Vue({
             confirm('确定要重置选中的用户的密码？', function(){
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/user/psd/reset",
+                    url: baseURL + "userManager/psd/reset",
                     contentType: "application/json",
                     data: JSON.stringify(userIds),
                     success: function(r){

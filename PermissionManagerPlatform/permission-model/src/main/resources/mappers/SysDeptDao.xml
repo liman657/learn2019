@@ -12,6 +12,10 @@
 		FROM sys_dept t1
 		WHERE t1.del_flag = 0
 
+		<if test="deptDataIds !=null and deptDataIds!='' ">
+			AND t1.dept_id IN (${deptDataIds})
+		</if>
+
 		<!--做后续的数据权限过滤的-->
 		<if test="sql_filter != null">
 			and ${sql_filter}
@@ -34,13 +38,17 @@
 		
 	</select>
 
-
 	<select id="queryDeptByParentId" resultType="long">
 		SELECT dept_id
 		FROM sys_dept
 		WHERE del_flag = 0 AND parent_id = #{parentId}
 	</select>
 
+	<!--<select id="queryDeptById" resultType="long">-->
+		<!--SELECT dept_id-->
+		<!--FROM sys_dept-->
+		<!--WHERE del_flag = 0 AND dept_id = #{deptId}-->
+	<!--</select>-->
 
 	<select id="queryAllDeptIds" resultType="java.lang.Long">
 		SELECT dept_id

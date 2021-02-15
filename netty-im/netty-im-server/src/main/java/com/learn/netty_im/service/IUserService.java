@@ -1,8 +1,10 @@
 package com.learn.netty_im.service;
 
+import com.learn.netty_im.domain.TChatMsg;
 import com.learn.netty_im.domain.TUsers;
 import com.learn.netty_im.dto.FriendRequestVO;
 import com.learn.netty_im.dto.MyFriendsVO;
+import com.learn.netty_im.websocket.ChatMsg;
 import com.learn.netty_im.pojo.requsetentity.UserRequest;
 
 import java.util.List;
@@ -72,4 +74,18 @@ public interface IUserService {
      * @return
      */
     public List<MyFriendsVO> queryMyFriends(String userId);
+
+    /**
+     * 保存用户发送的消息到数据库
+     * @param chatMsg
+     * @return
+     */
+    public String saveMsg(TChatMsg chatMsg);
+
+    /**
+     * 批量签收消息
+     * @param msgIds
+     * @return
+     */
+    public void udpateMsgSigned(List<String> msgIds);
 }

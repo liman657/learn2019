@@ -10,6 +10,7 @@ import com.liman.learn.pmp.model.entity.SysDeptEntity;
 import com.liman.learn.pmp.server.IDeptService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.validation.BindingResult;
@@ -36,12 +37,14 @@ public class DeptController {
     private IDeptService deptService;
 
     @RequestMapping("/list")
+//    @RequiresPermissions(value={"sys:dept:list"})
     public List<SysDeptEntity> list(){
         return deptService.queryAll(Maps.newHashMap());
     }
 
     //获取一级部门/顶级部门的deptId
     @RequestMapping("/info")
+//    @RequiresPermissions(value={"sys:dept:list"})
     public BaseResponse getDeptInfo(){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         Map<String,Object> resMap=Maps.newHashMap();
@@ -65,6 +68,7 @@ public class DeptController {
      * @return
      */
     @RequestMapping("/select")
+//    @RequiresPermissions(value={"sys:dept:list"})
     public BaseResponse select(){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         Map<String,Object> resMap=Maps.newHashMap();
@@ -88,6 +92,7 @@ public class DeptController {
      * @return
      */
     @RequestMapping(value="/save",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_VALUE)
+    @RequiresPermissions(value={"sys:dept:save"})
     public BaseResponse saveDeptInfo(@RequestBody @Validated SysDeptEntity entity, BindingResult result){
         String res= ValidatorUtil.checkResult(result);
         if (StringUtils.isNotBlank(res)){
@@ -111,6 +116,7 @@ public class DeptController {
      * @return
      */
     @RequestMapping(value = "/delete")
+    @RequiresPermissions(value={"sys:dept:delete"})
     public BaseResponse delete(Long deptId){
         if (deptId==null || deptId<=0){
             return new BaseResponse(StatusCode.InvalidParams);
@@ -139,6 +145,7 @@ public class DeptController {
      * @return
      */
     @RequestMapping("/detail/{deptId}")
+    @RequiresPermissions(value={"sys:dept:list"})
     public BaseResponse detail(@PathVariable Long deptId){
         BaseResponse response=new BaseResponse(StatusCode.Success);
         Map<String,Object> resMap=Maps.newHashMap();
@@ -160,6 +167,7 @@ public class DeptController {
      * @return
      */
     @RequestMapping(value = "/update",method = RequestMethod.POST,consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    @RequiresPermissions(value={"sys:dept:update"})
     public BaseResponse update(@RequestBody @Validated SysDeptEntity entity, BindingResult result){
         String res= ValidatorUtil.checkResult(result);
         if (StringUtils.isNotBlank(res)){

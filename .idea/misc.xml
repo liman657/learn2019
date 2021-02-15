@@ -61,6 +61,7 @@
         <option value="$PROJECT_DIR$/Java8-strategy/pom.xml" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-learn/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

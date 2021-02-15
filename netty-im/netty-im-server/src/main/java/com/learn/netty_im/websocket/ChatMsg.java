@@ -1,4 +1,4 @@
-package com.learn.netty_im.pojo.requsetentity;
+package com.learn.netty_im.websocket;
 
 import lombok.Data;
 
@@ -6,13 +6,13 @@ import java.util.Date;
 
 @Data
 public class ChatMsg {
-    private String id;
+    private String msgId;
 
     private String sendUserId;
 
     private String acceptUserId;
 
-    private String msg;
+    private String msg; //消息内容
 
     /**
      * 消息是否签收状态
@@ -26,18 +26,12 @@ public class ChatMsg {
      */
     private Date createTime;
 
-    /**
-     * @return id
-     */
-    public String getId() {
-        return id;
+    public String getMsgId() {
+        return msgId;
     }
 
-    /**
-     * @param id
-     */
-    public void setId(String id) {
-        this.id = id;
+    public void setMsgId(String msgId) {
+        this.msgId = msgId;
     }
 
     /**

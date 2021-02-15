@@ -1,6 +1,6 @@
 $(function () {
     $("#jqGrid").jqGrid({
-        url: baseURL + 'sys/log/list',
+        url: baseURL + 'log/list',
         datatype: "json",
         colModel: [			
 			{ label: 'id', name: 'id', width: 30,index: "id", key: true },
@@ -63,7 +63,7 @@ var vm = new Vue({
             confirm('骚年，清空了可就没有了哦，确定要清除日志？', function(){
                 $.ajax({
                     type: "POST",
-                    url: baseURL + "sys/log/truncate",
+                    url: baseURL + "log/truncate",
                     success: function(r){
                         if(r.code == 0){
                             alert('操作成功，赶紧跑路吧，骚年！', function(){

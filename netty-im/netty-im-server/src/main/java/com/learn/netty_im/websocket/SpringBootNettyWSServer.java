@@ -26,7 +26,6 @@ import java.net.InetSocketAddress;
  */
 @Component
 public class SpringBootNettyWSServer {
-
     //用内部类的方式构建单例
     private static class SingleSpringBootNettyWSServer{
         static final SpringBootNettyWSServer nettyWSServerInstance = new SpringBootNettyWSServer();
@@ -51,7 +50,7 @@ public class SpringBootNettyWSServer {
     }
 
     public void start() {
-        future = server.bind(9908);
+        future = server.bind(9098);
         System.err.println("netty websocket server 启动完毕...");
     }
 }

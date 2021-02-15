@@ -27,10 +27,10 @@
 
     <!--<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">-->
         <!--<property name="interceptorNames">-->
-            <!--<list>-->
+            <!--<subMenuList>-->
                 <!--<value>logArgsAdvice</value>-->
                 <!--<value>logResultAdvice</value>-->
-            <!--</list>-->
+            <!--</subMenuList>-->
         <!--</property>-->
         <!--<property name="beanNames" value="*ServiceImpl"/>-->
     <!--</bean>-->
