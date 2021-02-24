@@ -51,4 +51,11 @@
 
   </update>
 
+  <!--根据状态和acceptId查询消息记录-->
+  <select id="selectMsgListByAcceptIdAndFlag" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select id, send_user_id, accept_user_id, msg, sign_flag, create_time
+    from t_chat_msg
+    where accept_user_id = #{acceptUserId,jdbcType=VARCHAR} and sign_flag = #{signFlag,jdbcType=VARCHAR}
+  </select>
+
 </mapper>

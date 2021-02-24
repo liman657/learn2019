@@ -6,10 +6,14 @@
 
     <groupId>com.liman.learn</groupId>
     <artifactId>Java8-strategy</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <description>java8的实例，《java攻略:JAVA常见问题的简单解法》的学习总结</description>
     <url>https://blog.csdn.net/liman65727/category_10666242.html</url>
+    <modules>
+        <module>../seckill-learn</module>
+    </modules>
 
     <dependencies>
         <dependency>

@@ -7,6 +7,7 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
+import io.netty.handler.timeout.IdleStateHandler;
 
 /**
  * autor:liman
@@ -35,5 +36,9 @@ public class NettyWSHandlerInit extends ChannelInitializer<SocketChannel> {
 
 //        pipeline.addLast(new NettyWebSocketServerHandler());
         pipeline.addLast(new ChatHandler());
+
+        //加入自定义心跳检测handler
+        pipeline.addLast(new IdleStateHandler(2,4,10));//针对客户端如果在指定时间内没有相关操作，则触发相关空闲事件
+        pipeline.addLast(new HeartBeatHandler());
     }
 }

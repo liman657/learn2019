@@ -6,6 +6,7 @@
 
     <groupId>com.learn</groupId>
     <artifactId>Java_jedis</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -20,6 +21,9 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>seckill-learn</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>redis.clients</groupId>

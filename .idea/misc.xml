@@ -11,6 +11,7 @@
     </session>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/seckill-learn/seckill-learn-server" />
     <file type="web" url="file://$PROJECT_DIR$/spring-websocket" />
     <file type="web" url="file://$PROJECT_DIR$/spring_source_learn_demo" />
   </component>
@@ -62,10 +63,14 @@
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus-learn/pom.xml" />
         <option value="$PROJECT_DIR$/feign-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_jedis/seckill-learn/seckill-learn-module/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/seckill-learn/seckill-learn-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Java_jedis/seckill-learn/pom.xml" />
         <option value="$PROJECT_DIR$/PermissionManagerPlatform/permission.api/pom.xml" />
       </set>
     </option>

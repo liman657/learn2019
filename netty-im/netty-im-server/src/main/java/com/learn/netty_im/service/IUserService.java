@@ -88,4 +88,11 @@ public interface IUserService {
      * @return
      */
     public void udpateMsgSigned(List<String> msgIds);
+
+    /**
+     * 获取未签收的消息列表
+     * @param acceptUserId
+     * @return
+     */
+    public List<ChatMsg> getUnReadMsgList(String acceptUserId);
 }

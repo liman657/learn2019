@@ -29,7 +29,7 @@ import java.util.List;
 public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame> {
 
     //用于记录和管理所有客户端的channel
-    private static ChannelGroup userChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+    public static ChannelGroup userChannels = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
 
     @Override
@@ -105,6 +105,9 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
             //设置chatMsg的消息id
             chatMsg.setMsgId(chatMsgId);
 
+            MsgContent dataMsgContent = new MsgContent();
+            dataMsgContent.setAction(MsgActionEnum.CHAT.type);
+            dataMsgContent.setChatMsg(chatMsg);
             //发送消息到接收方的channel
             Channel receiveChannel = UserChannelRel.getUserChannel(toUserId);
             if (null == receiveChannel) {
@@ -114,7 +117,7 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
                 //如果不为空，则表示channel存在，需要在channelGroup中去查找对应的channel。
                 Channel findChannel = userChannels.find(receiveChannel.id());
                 if (null != findChannel) {//这里表示用户在线
-                    receiveChannel.writeAndFlush(new TextWebSocketFrame(JsonUtils.objectToJson(chatMsg)));
+                    receiveChannel.writeAndFlush(new TextWebSocketFrame(JsonUtils.objectToJson(dataMsgContent)));
                 } else {
                     //用户离线，需要推送
                 }
@@ -133,7 +136,7 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
             }
 
             log.info("准备签收的消息列表为:{}",msgIdList);
-            if(!CollectionUtils.isNotEmpty(msgIdList)){
+            if(CollectionUtils.isNotEmpty(msgIdList)){
                 //开始批量签收
                 userService.udpateMsgSigned(msgIdList);
             }
@@ -141,12 +144,9 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
 
         } else if (msgAction == MsgActionEnum.KEEPALIVE.type) {
             //  2.4  心跳类型的消息
+            log.info("收到来自channel为:{}的心跳包",currentChannel);
 
         }
-        // 2.1 websocket第一次open的时候，初始化channel的时候，把用户的channel和用户id进行关联
-        // 2.2 聊天类型的文本消息，把聊天记录保存到数据库，同时标记聊天消息的签收状态，将其改为[未签收]
-        // 2.3 签收消息，针对具体的消息进行签收，其实就是修改数据库中对应消息的签收状态，将其改为[已签收]
-        // 2.4 心跳类型的消息。
 
     }
 
@@ -161,11 +161,19 @@ public class ChatHandler extends SimpleChannelInboundHandler<TextWebSocketFrame>
         userChannels.add(ctx.channel());
     }
 
+    /**
+     * 客户端因为杀掉进程与服务器断开连接之后会触发这个方法
+     * 但是客户端调整为飞行模式之后，不会触发这个方法。然后在飞行模式下杀掉进程
+     * 之后飞行模式开启，进程开启，原来杀掉进程的channelId还在，
+     * 因此需要采用心跳机制删除调原来的老的channelId
+     * @param ctx
+     * @throws Exception
+     */
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         // 当触发handlerRemoved，ChannelGroup会自动移除对应客户端的channel
         log.info("客户端断开，channel对应的长id为:{}", ctx.channel().id().asLongText());
-        log.info("客户端断开，channel对应的短id为:{}", ctx.channel().id().asLongText());
+        log.info("客户端断开，channel对应的短id为:{}", ctx.channel().id().asShortText());
         //当触发通道移出的时候，调用channel中的remove方法。
         userChannels.remove(ctx.channel());
 

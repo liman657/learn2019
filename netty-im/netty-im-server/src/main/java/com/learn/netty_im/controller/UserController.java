@@ -13,6 +13,7 @@ import com.learn.netty_im.service.IUserService;
 import com.learn.netty_im.utils.FastDFSClient;
 import com.learn.netty_im.utils.FileUtils;
 import com.learn.netty_im.utils.MD5Utils;
+import com.learn.netty_im.websocket.ChatMsg;
 import com.learn.response.BaseResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.beanutils.BeanUtils;
@@ -262,4 +263,29 @@ public class UserController {
         log.info("查询好友列表返回信息为:{}",result);
         return result;
     }
+
+
+    /**
+     * 获取未签收的消息列表
+     * @param acceptUserId
+     * @return
+     */
+    @PostMapping("/getUnreadMsg")
+    public BaseResponse getUnReadMessage(String acceptUserId){
+        log.info("用户:{},开始查询未读消息列表",acceptUserId);
+        BaseResponse result = new BaseResponse(StatusCode.Success);
+        //1、参数校验
+        if (StringUtils.isBlank(acceptUserId)) {
+            result = new BaseResponse(StatusCode.Fail);
+        }
+        try{
+            List<ChatMsg> unReadMsgList = userService.getUnReadMsgList(acceptUserId);
+            result.setData(unReadMsgList);
+        }catch (Exception e){
+            log.error("查询未读消息列表出现异常：{}",e);
+        }
+        log.info("查询未读消息列表返回信息为:{}",result);
+        return result;
+    }
+
 }

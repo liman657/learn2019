@@ -14,10 +14,8 @@
         <module name="feign-learn" />
         <module name="formatSpringbootStarter" />
         <module name="Java-rabbitMq" />
-        <module name="Java8-strategy" />
         <module name="java_distribute" />
         <module name="Java_exam" />
-        <module name="Java_jedis" />
         <module name="java_netty_update" />
         <module name="java_shiro" />
         <module name="java_spi_impl" />
@@ -36,6 +34,10 @@
         <module name="permission-model" />
         <module name="permission-server" />
         <module name="rabbitmq-javaapi" />
+        <module name="seckill-learn-api" />
+        <module name="seckill-learn-common" />
+        <module name="seckill-learn-module" />
+        <module name="seckill-learn-server" />
         <module name="spring-websocket" />
         <module name="spring_aop" />
         <module name="spring_http" />
@@ -59,6 +61,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-learn-api" target="1.8" />
+      <module name="common-learn-module" target="1.8" />
+      <module name="common-learn-server" target="1.8" />
       <module name="dubbo-provider-api" target="11" />
       <module name="java_thread_update" target="1.5" />
       <module name="JavaConcurrent" target="1.8" />
