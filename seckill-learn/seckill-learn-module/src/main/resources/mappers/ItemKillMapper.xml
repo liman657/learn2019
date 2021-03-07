@@ -80,7 +80,25 @@
   </select>
 
 
+  <!--获取秒杀详情,MySQL层面的升级，where中加了一个total>0的条件-->
+  <select id="selectByIdMySQLUpdate" resultType="com.learn.seckill.model.entity.ItemKill">
+    SELECT
+      a.*,
+      b.name AS itemName,
+      (CASE WHEN (now() BETWEEN a.start_time AND a.end_time)
+        THEN 1
+       ELSE 0
+       END)  AS canKill
+    FROM item_kill AS a LEFT JOIN item AS b ON b.id = a.item_id
+    WHERE a.is_active = 1 AND a.id =#{id} AND a.total>0
+  </select>
 
+  <!--抢购商品，剩余数量减一-->
+  <update id="updateKillItemMySQLUpdate">
+    UPDATE item_kill
+    SET total = total - 1
+    WHERE id = #{killId} AND total>0
+  </update>
 
 
 

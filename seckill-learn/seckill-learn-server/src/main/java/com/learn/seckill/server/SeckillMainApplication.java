@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * autor:liman
@@ -15,6 +16,7 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @ImportResource(value = {"classpath:spring/spring-jdbc.xml"})
 @MapperScan(basePackages = "com.learn.seckill.model.mapper")
+//@EnableScheduling
 public class SeckillMainApplication extends SpringBootServletInitializer {
 
     @Override

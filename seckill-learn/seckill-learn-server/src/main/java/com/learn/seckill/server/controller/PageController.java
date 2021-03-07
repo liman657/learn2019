@@ -71,4 +71,16 @@ public class PageController {
         return "error";
     }
 
+    //抢购成功跳转页面
+    @RequestMapping(value = "/rob/success",method = RequestMethod.GET)
+    public String executeSuccess(){
+        return "executeSuccess";
+    }
+
+    //抢购失败跳转页面
+    @RequestMapping(value = "/rob/fail",method = RequestMethod.GET)
+    public String executeFail(){
+        return "executeFail";
+    }
+
 }

@@ -56,14 +56,14 @@
             success: function(res){
                 if (res.code==0) {
                     //alert(res.msg);
-                    window.location.href="${ctx}/rob/execute/success"
+                    window.location.href="${ctx}/page/rob/success"
                 }else{
                     //alert(res.msg);
-                    window.location.href="${ctx}/rob/execute/fail"
+                    window.location.href="${ctx}/page/rob/fail"
                 }
             },
             error: function (message) {
-                alert("提交数据失败！");
+                alert("抢购失败！"+JSON.stringify(message));
                 return;
             }
         });
@@ -73,7 +73,7 @@
         var killId=$("#killId").val();
         var data = {
             "killId":killId,
-            "userId":1
+            "userId":10
         };
         // var data = {
         //     "killId":killId

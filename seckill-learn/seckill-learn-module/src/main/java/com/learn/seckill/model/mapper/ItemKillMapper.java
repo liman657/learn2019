@@ -10,9 +10,11 @@ public interface ItemKillMapper {
 
     ItemKill selectById(@Param("id") Integer id);
 
+    ItemKill selectByIdMySQLUpdate(@Param("id") Integer id);
+
     int updateKillItem(@Param("killId") Integer killId);
 
-
+    int updateKillItemMySQLUpdate(@Param("killId") Integer killId);
 
     ItemKill selectByIdV2(@Param("id") Integer id);
 

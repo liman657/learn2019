@@ -1,7 +1,9 @@
 package com.learn.response;
 
 import com.learn.enums.StatusCode;
+import lombok.ToString;
 
+@ToString
 public class BaseResponse<T> {
 
     private Integer code;
